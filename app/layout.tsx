@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   description: '以公益方式分享中医药文化、本草知识与古籍阅读资料。探索本草堂、医典阁、岐黄论与传统文化故事。本站内容仅供文化学习，不构成医疗建议。',
   applicationName: '御洛平公益本草文化平台',
   openGraph: { title: '御洛平公益本草文化平台', description: '传承本草智慧，分享中医文化。', type: 'website', locale: 'zh_CN' },
+  icons: { icon: '/images/yuluoping-logo.webp' },
   robots: { index: true, follow: true }
 }
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
