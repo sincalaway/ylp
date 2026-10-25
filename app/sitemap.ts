@@ -1,0 +1,4 @@
+import type { MetadataRoute } from 'next'
+import { getArticles, getBooks, getHerbs } from '@/lib/content'
+export const dynamic='force-dynamic'
+export default function sitemap(): MetadataRoute.Sitemap {const base=process.env.NEXT_PUBLIC_SITE_URL||'https://example.org';return [{url:base,lastModified:new Date(),changeFrequency:'weekly',priority:1},...['herbs','books','articles','culture','about'].map((p)=>({url:`${base}/${p}`,lastModified:new Date(),changeFrequency:'weekly' as const,priority:.8})),...getHerbs().map((x)=>({url:`${base}/herbs/${x.slug}`,lastModified:new Date(),changeFrequency:'monthly' as const,priority:.6})),...getBooks().map((x)=>({url:`${base}/books/${x.slug}`,lastModified:new Date(),changeFrequency:'monthly' as const,priority:.7})),...getArticles().map((x)=>({url:`${base}/articles/${x.slug}`,lastModified:new Date(x.date),changeFrequency:'monthly' as const,priority:.6}))]}

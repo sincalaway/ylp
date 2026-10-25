@@ -1,0 +1,11 @@
+import Link from 'next/link'
+import { notFound } from 'next/navigation'
+import type { Metadata } from 'next'
+import { Leaf } from 'lucide-react'
+import { getBooks, getHerbs } from '@/lib/content'
+export const dynamic='force-dynamic'
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> { const { slug }=await params;const h=getHerbs().find((x)=>x.slug===slug);return{title:h?`${h.name}｜本草堂`:'本草详情',description:h?`${h.name}（${h.pinyin}）传统本草知识、性味归经与用法介绍。`:''} }
+export default async function HerbDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+ const {slug}=await params;const herb=getHerbs().find((x)=>x.slug===slug);if(!herb)notFound();const related=getBooks().filter((b)=>b.category==='本草类')
+ return <div className="detail-layout"><div className="detail-top"><span className="eyebrow">HERBAL MONOGRAPH · 本草小志</span><h1>{herb.name}</h1><p className="detail-sub">{herb.pinyin}　·　{herb.category}</p></div><div className="herb-detail-grid"><div><div className="herb-illustration" style={{height:210,marginBottom:17}}><Leaf size={42} color="#416c50"/><span className="herb-chinese" style={{position:'absolute',fontSize:76,opacity:.2}}>{herb.name.slice(0,1)}</span></div><div className="info-table"><div className="info-row"><b>性味</b><span>{herb.flavor}，{herb.nature}</span></div><div className="info-row"><b>归经</b><span>{herb.channels}</span></div><div className="info-row"><b>传统功效</b><span>{herb.effects}</span></div><div className="info-row"><b>常见用法</b><span>{herb.usage}</span></div></div></div><aside><div className="notice-box"><b>本草简介</b><br/>{herb.description}</div><div className="notice-box" style={{marginTop:14}}><b>使用提示</b><br/>{herb.cautions}<br/><br/>本条目为传统文化资料整理，不是医疗建议。药材请由合格专业人员辨识与使用。</div><p style={{fontSize:11,color:'#85877b',marginTop:17}}>分类参考传统本草部类整理。现代药材分类与标准请以权威药典、专业资料为准。</p></aside></div>{related.length>0&&<section style={{marginTop:34}}><h2 style={{font:'21px "Noto Serif SC",serif'}}>相关本草典籍</h2><p style={{fontSize:12,color:'#77796f'}}>以下为平台本草类古籍导读，具体条目出处请以所选校注本核对。</p><div className="filter-list">{related.map((book)=><Link className="filter-chip" href={`/books/${book.slug}`} key={book.slug}>{book.title} →</Link>)}</div></section>}<p style={{marginTop:28,fontSize:12}}><Link className="text-link" href="/herbs">← 返回本草堂</Link></p></div>
+}

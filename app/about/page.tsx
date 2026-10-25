@@ -1,0 +1,6 @@
+import type { Metadata } from 'next'
+import { Heart, BookOpen, ShieldCheck } from 'lucide-react'
+import { PageHeading } from '@/components/content-cards'
+export const metadata: Metadata = { title: '关于我们｜公益说明', description: '了解御洛平公益本草文化平台的内容定位、资料原则与使用说明。' }
+const values=[{icon:Heart,title:'公益分享',text:'以开放阅读和文化传播为目标，降低公众接触中医药传统文化资料的门槛。站点不提供诊疗、处方或药品销售服务。'},{icon:BookOpen,title:'尊重文献',text:'古籍及传统知识尽量标注版本语境与资料性质。示例内容用于展示阅读与整理方式，具体引用应核验所据底本。'},{icon:ShieldCheck,title:'审慎传播',text:'明确区分传统记载与现代医疗建议，不鼓励自行诊断、配药或停用处方药。健康问题应咨询正规医疗机构。'}]
+export default function AboutPage(){return <div className="container"><PageHeading eyebrow="ABOUT · 公益说明" title="关于御洛平" intro="御洛平公益本草文化平台，关注本草知识、中医理论与中医药典籍的整理、阅读与分享。"/><div className="culture-grid">{values.map(({icon:Icon,...v})=><article className="culture-card" key={v.title}><div style={{color:'#477351'}}><Icon size={24}/></div><h2>{v.title}</h2><p>{v.text}</p></article>)}</div><div className="detail-content" style={{marginTop:45}}><h2>公益与使用说明</h2><p>平台提供的文本、分类与导读内容旨在文化学习和知识交流，不构成医疗建议、诊断或治疗方案。药材鉴别、采购与使用涉及专业知识及安全风险，请勿仅凭网站内容自行用药。</p><p>本平台当前不提供付费咨询、药品销售或医疗服务，也不在页面中募集资金。后续内容维护者应核实资料出处、尊重版权与授权，并及时更正发现的问题。</p><h2>内容来源与纠错</h2><p>本项目示例资料为网站模板预置内容。面向公众正式部署前，建议运营者为每条文献补充底本、版本、整理者、授权与审核信息。若发现明显错讹，请由维护者在对应 JSON 或 Markdown 文件中直接更正并重新部署。</p><h2>开源维护</h2><p>内容采用文件系统管理，适合由维护者通过 Markdown、JSON 文件持续更新。具体启动、部署与内容添加方法见项目根目录 README。</p></div></div>}

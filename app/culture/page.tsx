@@ -1,0 +1,9 @@
+import Link from 'next/link'
+import type { Metadata } from 'next'
+import { BookOpenCheck, HeartHandshake, Sprout, ScrollText } from 'lucide-react'
+import { getArticles } from '@/lib/content'
+import { PageHeading } from '@/components/content-cards'
+export const dynamic='force-dynamic'
+export const metadata: Metadata = { title: '文化志｜中医药文化故事', description: '中医药人物故事、古籍传承与公益数字化阅读文化。' }
+const items=[{icon:BookOpenCheck,tag:'典籍整理',title:'让古籍在数字时代继续被阅读',text:'从校注、版本说明到数字化呈现，典籍整理需要耐心，也需要尊重文献来源、版权与历史语境。平台持续补充可公开阅读的文化材料。'},{icon:Sprout,tag:'本草传承',title:'一味药材背后的自然观察',text:'药材知识连接着山川物产、采收时节、加工传统与生活经验。读本草，不只认识药名，也是在理解人与自然的关系。'},{icon:ScrollText,tag:'人物故事',title:'李时珍：在求证中编纂本草',text:'《本草纲目》汇辑前代文献与观察所得，留下分类、辨析与补充资料的工作痕迹。它既是一部本草巨著，也是知识整理的历史见证。'},{icon:HeartHandshake,tag:'公益共享',title:'开放阅读，审慎传播',text:'公益分享意味着降低文化阅读门槛，也意味着清楚标明内容边界。传统记载与现代医疗建议应当区分，健康决策应寻求专业帮助。'}]
+export default function CulturePage(){const articles=getArticles();return <div className="container"><PageHeading eyebrow="CULTURE & HERITAGE · 文化传承" title="文化志" intro="在草木、典籍与人的故事里，读见中医药文化的脉络与温度。"/><div className="culture-grid">{items.map(({icon:Icon,...item})=><article key={item.title} className="culture-card"><span className="eyebrow">{item.tag}</span><div style={{color:'#477351',marginTop:12}}><Icon size={23}/></div><h2>{item.title}</h2><p>{item.text}</p></article>)}</div><section style={{marginTop:58}}><div className="section-heading"><div><span className="eyebrow">PEOPLE & STORIES · 人物与故事</span><h2>从人物故事继续阅读</h2></div></div><div className="feature-list">{articles.filter(a=>a.category==='人物故事'||a.category==='本草文化').map(a=><Link href={`/articles/${a.slug}`} key={a.slug} className="feature-tile"><b>{a.title}</b><p>{a.excerpt}</p></Link>)}</div></section><div className="notice-box" style={{marginTop:26}}><b>内容说明：</b>文化志内容为公开知识与历史材料整理，不代表任何医疗机构或药品服务。我们欢迎对版本、来源和表述提出审慎建议。</div></div>}
