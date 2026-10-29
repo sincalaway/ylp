@@ -190,3 +190,8 @@ pnpm-workspace.yaml      pnpm 安装脚本授权设置
 ## 框架安全基线
 
 项目使用 Next.js 16.4.3（2026-10-25 时已发布的 16.4 补丁版）。版本更新参考 Next.js 官方 2026-10-14 安全公告：[Next.js Security Update for Upstream Vulnerabilities](https://nextjs.org/blog/nextjs-security-update-october-14-2026)。更新依赖时请优先使用仍受支持的稳定补丁版本，并重新运行 `pnpm install && pnpm build && pnpm lint`。
+
+## 图文来源与版权
+
+- 本草插图：清·吴其濬《植物名实图考》（1848）木刻图，取自 [Wikimedia Commons](https://commons.wikimedia.org/)，公有领域。每味药的出处链接记录在 `content/herbs.json` 的 `illustration` 字段，图片存于 `public/images/herbs/`（已转为 webp，国内访问无需外链）。
+- 古籍原文：取自[维基文库](https://zh.wikisource.org/)（PD-old），文件为 `content/books/*-yuanwen.md`，每篇开头注明来源页面与修订版本。重新导入：`python3 scripts/import-wikisource.py`。

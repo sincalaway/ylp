@@ -2,7 +2,8 @@ import fs from 'node:fs'
 import path from 'node:path'
 import matter from 'gray-matter'
 
-export type Herb = { slug: string; name: string; pinyin: string; category: string; nature: string; flavor: string; channels: string; effects: string; usage: string; cautions: string; description: string }
+export type HerbIllustration = { src: string; title: string; source: string; sourceUrl: string; license: string; note?: string }
+export type Herb = { illustration?: HerbIllustration; gangmuEntry?: string; slug: string; name: string; pinyin: string; category: string; nature: string; flavor: string; channels: string; effects: string; usage: string; cautions: string; description: string }
 export type Article = { slug: string; title: string; category: string; date: string; excerpt: string; readTime: string; cover: string; content: string }
 export type HomeConfig = { announcement: string; featuredHerbs: string[]; featuredBooks: string[]; featuredArticles: string[] }
 export type Book = { slug: string; title: string; author: string; dynasty: string; category: string; summary: string; coverLabel: string; featured: boolean; format: 'markdown' | 'pdf'; fileName: string }
