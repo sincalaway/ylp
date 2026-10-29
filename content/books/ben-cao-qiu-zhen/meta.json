@@ -1,0 +1,85 @@
+{
+  "title": "本草求真",
+  "author": "黄宫绣",
+  "dynasty": "清",
+  "category": "本草类",
+  "summary": "黄宫绣撰，按补、涩、散、泻、血、杂、食物分类论药，力求阐明药性真义。",
+  "coverLabel": "本草求真",
+  "featured": false,
+  "wikisource": "本草求真",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "本草求真",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E6%B1%82%E7%9C%9F",
+      "revid": 2187265
+    }
+  ],
+  "chars": 261316,
+  "chapters": [
+    {
+      "slug": "01-fan-li",
+      "title": "凡例",
+      "chars": 1953,
+      "headings": [
+        "上编"
+      ]
+    },
+    {
+      "slug": "02-juan-yi-bu-ji",
+      "title": "卷一补剂",
+      "chars": 40449,
+      "headings": [
+        "上编"
+      ]
+    },
+    {
+      "slug": "03-juan-er-shou-se",
+      "title": "卷二收涩",
+      "chars": 12611,
+      "headings": []
+    },
+    {
+      "slug": "04-juan-san-san-ji",
+      "title": "卷三散剂",
+      "chars": 55245,
+      "headings": []
+    },
+    {
+      "slug": "05-juan-si-xie-ji",
+      "title": "卷四泻剂",
+      "chars": 56116,
+      "headings": []
+    },
+    {
+      "slug": "06-juan-wu-xue-ji",
+      "title": "卷五血剂",
+      "chars": 25307,
+      "headings": []
+    },
+    {
+      "slug": "07-juan-liu-za-ji",
+      "title": "卷六杂剂",
+      "chars": 12405,
+      "headings": []
+    },
+    {
+      "slug": "08-juan-qi-shi-wu",
+      "title": "卷七食物",
+      "chars": 24827,
+      "headings": [
+        "卷七食物"
+      ]
+    },
+    {
+      "slug": "09-xia-bian",
+      "title": "下编",
+      "chars": 32403,
+      "headings": [
+        "卷八主治上",
+        "卷九主治下",
+        "卷十总义"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "十四经发挥",
+  "author": "滑寿",
+  "dynasty": "元",
+  "category": "针灸类",
+  "summary": "滑寿将任、督二脉与十二经并论为十四经，考订经穴循行，三卷。",
+  "coverLabel": "十四经发挥",
+  "featured": false,
+  "wikisource": "十四經發揮",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "十四經發揮",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%81%E5%9B%9B%E7%B6%93%E7%99%BC%E6%8F%AE",
+      "revid": 2391529
+    }
+  ],
+  "chars": 25033,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 25033,
+      "headings": [
+        "序",
+        "十四经发挥序",
+        "十四经发挥序",
+        "自 序",
+        "十四经发挥凡例",
+        "十四经发挥卷上",
+        "十四经发挥卷中"
+      ]
+    }
+  ]
+}

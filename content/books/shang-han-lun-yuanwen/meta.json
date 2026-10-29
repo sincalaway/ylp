@@ -1,0 +1,112 @@
+{
+  "title": "伤寒论",
+  "author": "张仲景 著，晋·王叔和 撰次",
+  "dynasty": "东汉",
+  "category": "伤寒金匮类",
+  "summary": "宋本《伤寒论》十卷二十二篇全文，以六经辨证论治外感热病，载方一百一十三首，为辨证论治之祖。",
+  "coverLabel": "伤寒论",
+  "featured": true,
+  "wikisource": "傷寒論",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "傷寒論",
+      "url": "https://zh.wikisource.org/wiki/%E5%82%B7%E5%AF%92%E8%AB%96",
+      "revid": 2607901
+    }
+  ],
+  "chars": 41338,
+  "chapters": [
+    {
+      "slug": "01-lin-yi-xiao-xu",
+      "title": "林億校序",
+      "chars": 483,
+      "headings": []
+    },
+    {
+      "slug": "02-zhang-zhong-jing-yuan-xu",
+      "title": "張仲景原序",
+      "chars": 761,
+      "headings": []
+    },
+    {
+      "slug": "03-juan-di-yi",
+      "title": "卷第一",
+      "chars": 4273,
+      "headings": [
+        "辨脉法第一",
+        "平脉法第二"
+      ]
+    },
+    {
+      "slug": "04-juan-di-er",
+      "title": "卷第二",
+      "chars": 6360,
+      "headings": [
+        "伤寒例第三",
+        "辨痙濕暍脈證第四",
+        "辨太陽病脈證並治（上）第五"
+      ]
+    },
+    {
+      "slug": "05-juan-di-san",
+      "title": "卷第三",
+      "chars": 7465,
+      "headings": [
+        "辨太陽病脈證並治（中）第六"
+      ]
+    },
+    {
+      "slug": "06-juan-di-si",
+      "title": "卷第四",
+      "chars": 4983,
+      "headings": [
+        "辨太陽病脈證並治（下）第七"
+      ]
+    },
+    {
+      "slug": "07-juan-di-wu",
+      "title": "卷第五",
+      "chars": 5235,
+      "headings": [
+        "辨陽明病脈證並治第八",
+        "辨少陽病脈證並治第九"
+      ]
+    },
+    {
+      "slug": "08-juan-di-liu",
+      "title": "卷第六",
+      "chars": 5940,
+      "headings": [
+        "辨太陰病脈證並治第十",
+        "辨少陰病脈證並治第十一",
+        "辨厥陰病脈證並治第十二"
+      ]
+    },
+    {
+      "slug": "09-juan-di-qi",
+      "title": "卷第七",
+      "chars": 2525,
+      "headings": [
+        "卷第八"
+      ]
+    },
+    {
+      "slug": "10-juan-di-jiu",
+      "title": "卷第九",
+      "chars": 1779,
+      "headings": [
+        "辨不可下病脈證並治第二十",
+        "辨可下病脈證並治第二十一"
+      ]
+    },
+    {
+      "slug": "11-juan-di-shi",
+      "title": "卷第十",
+      "chars": 1534,
+      "headings": [
+        "辨發汗吐下後脈證並治第二十二"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "奇经八脉考",
+  "author": "李时珍",
+  "dynasty": "明",
+  "category": "针灸类",
+  "summary": "李时珍考证阴维、阳维、阴跷、阳跷、冲、任、督、带奇经八脉的循行与病候。",
+  "coverLabel": "奇经八脉考",
+  "featured": false,
+  "wikisource": "奇經八脈考",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "奇經八脈考/全覽",
+      "url": "https://zh.wikisource.org/wiki/%E5%A5%87%E7%B6%93%E5%85%AB%E8%84%88%E8%80%83/%E5%85%A8%E8%A6%BD",
+      "revid": 812805
+    },
+    {
+      "title": "奇經八脈考/釋音",
+      "url": "https://zh.wikisource.org/wiki/%E5%A5%87%E7%B6%93%E5%85%AB%E8%84%88%E8%80%83/%E9%87%8B%E9%9F%B3",
+      "revid": 119714
+    }
+  ],
+  "chars": 14330,
+  "chapters": [
+    {
+      "slug": "01-qi-jing-ba-mai-kao",
+      "title": "奇经八脉考",
+      "chars": 14330,
+      "headings": [
+        "释音"
+      ]
+    }
+  ]
+}

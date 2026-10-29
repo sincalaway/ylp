@@ -1,0 +1,41 @@
+{
+  "title": "诊家枢要",
+  "author": "滑寿",
+  "dynasty": "元",
+  "category": "诊法类",
+  "summary": "滑寿论诊脉之道与三十种脉象，提纲挈领，为脉学要籍。",
+  "coverLabel": "诊家枢要",
+  "featured": false,
+  "wikisource": "診家樞要",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "診家樞要",
+      "url": "https://zh.wikisource.org/wiki/%E8%A8%BA%E5%AE%B6%E6%A8%9E%E8%A6%81",
+      "revid": 2341456
+    }
+  ],
+  "chars": 13209,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 13209,
+      "headings": [
+        "序",
+        "脉象大旨",
+        "左右手配脏腑部位",
+        "五脏平脉",
+        "四时平脉",
+        "呼吸沉浮定五脏脉",
+        "三部所主",
+        "诊脉之道",
+        "脉阴阳类成",
+        "妇人脉法",
+        "小儿脉",
+        "诊家宗法",
+        "附录"
+      ]
+    }
+  ]
+}

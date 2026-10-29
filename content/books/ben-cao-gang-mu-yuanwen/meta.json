@@ -1,0 +1,1027 @@
+{
+  "title": "本草纲目",
+  "author": "李时珍",
+  "dynasty": "明",
+  "category": "本草类",
+  "summary": "明代李时珍历时二十七年编成的本草巨著，五十二卷，载药一千八百九十二种，分十六部六十类，释名、集解、气味、主治、发明、附方俱全。",
+  "coverLabel": "本草纲目",
+  "featured": true,
+  "wikisource": "本草綱目",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "本草綱目/序",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E5%BA%8F",
+      "revid": 2614130
+    },
+    {
+      "title": "本草綱目/凡例",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E5%87%A1%E4%BE%8B",
+      "revid": 368131
+    },
+    {
+      "title": "本草綱目/序例上",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E5%BA%8F%E4%BE%8B%E4%B8%8A",
+      "revid": 7904920
+    },
+    {
+      "title": "本草綱目/序例下",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E5%BA%8F%E4%BE%8B%E4%B8%8B",
+      "revid": 2687454
+    },
+    {
+      "title": "本草綱目/百病主治藥上",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E7%99%BE%E7%97%85%E4%B8%BB%E6%B2%BB%E8%97%A5%E4%B8%8A",
+      "revid": 2613347
+    },
+    {
+      "title": "本草綱目/百病主治藥下",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E7%99%BE%E7%97%85%E4%B8%BB%E6%B2%BB%E8%97%A5%E4%B8%8B",
+      "revid": 2687449
+    },
+    {
+      "title": "本草綱目/水部",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E6%B0%B4%E9%83%A8",
+      "revid": 517883
+    },
+    {
+      "title": "本草綱目/火部",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E7%81%AB%E9%83%A8",
+      "revid": 1315204
+    },
+    {
+      "title": "本草綱目/土部",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E5%9C%9F%E9%83%A8",
+      "revid": 1315328
+    },
+    {
+      "title": "本草綱目/金石之一",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E9%87%91%E7%9F%B3%E4%B9%8B%E4%B8%80",
+      "revid": 2144306
+    },
+    {
+      "title": "本草綱目/金石之二",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E9%87%91%E7%9F%B3%E4%B9%8B%E4%BA%8C",
+      "revid": 2144307
+    },
+    {
+      "title": "本草綱目/金石之三",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E9%87%91%E7%9F%B3%E4%B9%8B%E4%B8%89",
+      "revid": 2256099
+    },
+    {
+      "title": "本草綱目/金石之四",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E9%87%91%E7%9F%B3%E4%B9%8B%E5%9B%9B",
+      "revid": 1315310
+    },
+    {
+      "title": "本草綱目/金石之五",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E9%87%91%E7%9F%B3%E4%B9%8B%E4%BA%94",
+      "revid": 2397518
+    },
+    {
+      "title": "本草綱目/草之一",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E8%8D%89%E4%B9%8B%E4%B8%80",
+      "revid": 2688469
+    },
+    {
+      "title": "本草綱目/草之二",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E8%8D%89%E4%B9%8B%E4%BA%8C",
+      "revid": 2612220
+    },
+    {
+      "title": "本草綱目/草之三",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E8%8D%89%E4%B9%8B%E4%B8%89",
+      "revid": 2645913
+    },
+    {
+      "title": "本草綱目/草之四",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E8%8D%89%E4%B9%8B%E5%9B%9B",
+      "revid": 2616795
+    },
+    {
+      "title": "本草綱目/草之五",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E8%8D%89%E4%B9%8B%E4%BA%94",
+      "revid": 2610123
+    },
+    {
+      "title": "本草綱目/草之六",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E8%8D%89%E4%B9%8B%E5%85%AD",
+      "revid": 4980707
+    },
+    {
+      "title": "本草綱目/草之七",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E8%8D%89%E4%B9%8B%E4%B8%83",
+      "revid": 4979904
+    },
+    {
+      "title": "本草綱目/草之八",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E8%8D%89%E4%B9%8B%E5%85%AB",
+      "revid": 1774199
+    },
+    {
+      "title": "本草綱目/草之九",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E8%8D%89%E4%B9%8B%E4%B9%9D",
+      "revid": 2620346
+    },
+    {
+      "title": "本草綱目/草之十",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E8%8D%89%E4%B9%8B%E5%8D%81",
+      "revid": 1569695
+    },
+    {
+      "title": "本草綱目/雜草",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E9%9B%9C%E8%8D%89",
+      "revid": 446869
+    },
+    {
+      "title": "本草綱目/名醫別錄",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E5%90%8D%E9%86%AB%E5%88%A5%E9%8C%84",
+      "revid": 2688467
+    },
+    {
+      "title": "本草綱目/穀之一",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E7%A9%80%E4%B9%8B%E4%B8%80",
+      "revid": 2009577
+    },
+    {
+      "title": "本草綱目/穀之二",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E7%A9%80%E4%B9%8B%E4%BA%8C",
+      "revid": 2196690
+    },
+    {
+      "title": "本草綱目/穀之三",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E7%A9%80%E4%B9%8B%E4%B8%89",
+      "revid": 2245697
+    },
+    {
+      "title": "本草綱目/穀之四",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E7%A9%80%E4%B9%8B%E5%9B%9B",
+      "revid": 2347216
+    },
+    {
+      "title": "本草綱目/菜之一",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E8%8F%9C%E4%B9%8B%E4%B8%80",
+      "revid": 2636043
+    },
+    {
+      "title": "本草綱目/菜之二",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E8%8F%9C%E4%B9%8B%E4%BA%8C",
+      "revid": 2614413
+    },
+    {
+      "title": "本草綱目/菜之三",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E8%8F%9C%E4%B9%8B%E4%B8%89",
+      "revid": 2144303
+    },
+    {
+      "title": "本草綱目/果之一",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E6%9E%9C%E4%B9%8B%E4%B8%80",
+      "revid": 2710129
+    },
+    {
+      "title": "本草綱目/果之二",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E6%9E%9C%E4%B9%8B%E4%BA%8C",
+      "revid": 1491486
+    },
+    {
+      "title": "本草綱目/果之三",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E6%9E%9C%E4%B9%8B%E4%B8%89",
+      "revid": 2675514
+    },
+    {
+      "title": "本草綱目/果之四",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E6%9E%9C%E4%B9%8B%E5%9B%9B",
+      "revid": 2639626
+    },
+    {
+      "title": "本草綱目/果之五",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E6%9E%9C%E4%B9%8B%E4%BA%94",
+      "revid": 1567827
+    },
+    {
+      "title": "本草綱目/果之六",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E6%9E%9C%E4%B9%8B%E5%85%AD",
+      "revid": 1147810
+    },
+    {
+      "title": "本草綱目/木之一",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E6%9C%A8%E4%B9%8B%E4%B8%80",
+      "revid": 2692639
+    },
+    {
+      "title": "本草綱目/木之二",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E6%9C%A8%E4%B9%8B%E4%BA%8C",
+      "revid": 2666804
+    },
+    {
+      "title": "本草綱目/木之三",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E6%9C%A8%E4%B9%8B%E4%B8%89",
+      "revid": 2350410
+    },
+    {
+      "title": "本草綱目/木之四",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E6%9C%A8%E4%B9%8B%E5%9B%9B",
+      "revid": 2692486
+    },
+    {
+      "title": "本草綱目/木之五",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E6%9C%A8%E4%B9%8B%E4%BA%94",
+      "revid": 1315253
+    },
+    {
+      "title": "本草綱目/木之六",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E6%9C%A8%E4%B9%8B%E5%85%AD",
+      "revid": 1315207
+    },
+    {
+      "title": "本草綱目/服器部",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E6%9C%8D%E5%99%A8%E9%83%A8",
+      "revid": 1162595
+    },
+    {
+      "title": "本草綱目/蟲之一",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E8%9F%B2%E4%B9%8B%E4%B8%80",
+      "revid": 2610604
+    },
+    {
+      "title": "本草綱目/蟲之二",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E8%9F%B2%E4%B9%8B%E4%BA%8C",
+      "revid": 1961252
+    },
+    {
+      "title": "本草綱目/蟲之三",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E8%9F%B2%E4%B9%8B%E4%B8%89",
+      "revid": 1961250
+    },
+    {
+      "title": "本草綱目/蟲之四",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E8%9F%B2%E4%B9%8B%E5%9B%9B",
+      "revid": 1315356
+    },
+    {
+      "title": "本草綱目/鱗之一",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E9%B1%97%E4%B9%8B%E4%B8%80",
+      "revid": 2629538
+    },
+    {
+      "title": "本草綱目/鱗之二",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E9%B1%97%E4%B9%8B%E4%BA%8C",
+      "revid": 1315244
+    },
+    {
+      "title": "本草綱目/鱗之三",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E9%B1%97%E4%B9%8B%E4%B8%89",
+      "revid": 1315319
+    },
+    {
+      "title": "本草綱目/鱗之四",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E9%B1%97%E4%B9%8B%E5%9B%9B",
+      "revid": 1147804
+    },
+    {
+      "title": "本草綱目/介之一",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E4%BB%8B%E4%B9%8B%E4%B8%80",
+      "revid": 1774195
+    },
+    {
+      "title": "本草綱目/介之二",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E4%BB%8B%E4%B9%8B%E4%BA%8C",
+      "revid": 2614450
+    },
+    {
+      "title": "本草綱目/禽之一",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E7%A6%BD%E4%B9%8B%E4%B8%80",
+      "revid": 2306538
+    },
+    {
+      "title": "本草綱目/禽之二",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E7%A6%BD%E4%B9%8B%E4%BA%8C",
+      "revid": 1373658
+    },
+    {
+      "title": "本草綱目/禽之三",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E7%A6%BD%E4%B9%8B%E4%B8%89",
+      "revid": 2201585
+    },
+    {
+      "title": "本草綱目/禽之四",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E7%A6%BD%E4%B9%8B%E5%9B%9B",
+      "revid": 2011965
+    },
+    {
+      "title": "本草綱目/獸之一",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E7%8D%B8%E4%B9%8B%E4%B8%80",
+      "revid": 2629543
+    },
+    {
+      "title": "本草綱目/獸之二",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E7%8D%B8%E4%B9%8B%E4%BA%8C",
+      "revid": 2709764
+    },
+    {
+      "title": "本草綱目/獸之三",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E7%8D%B8%E4%B9%8B%E4%B8%89",
+      "revid": 2358307
+    },
+    {
+      "title": "本草綱目/獸之四",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E7%8D%B8%E4%B9%8B%E5%9B%9B",
+      "revid": 2455958
+    },
+    {
+      "title": "本草綱目/人部",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE/%E4%BA%BA%E9%83%A8",
+      "revid": 1996181
+    }
+  ],
+  "chars": 1791417,
+  "chapters": [
+    {
+      "slug": "01-xu",
+      "title": "序",
+      "chars": 2317,
+      "headings": [
+        "《本草綱目》原序 ［明］王世貞",
+        "進《本草綱目》疏 ［明］李建元"
+      ]
+    },
+    {
+      "slug": "02-fan-li",
+      "title": "凡例",
+      "chars": 882,
+      "headings": [
+        "《本草綱目》凡例"
+      ]
+    },
+    {
+      "slug": "03-xu-li-shang",
+      "title": "序例上",
+      "chars": 46149,
+      "headings": [
+        "歷代諸家本草",
+        "引據古今醫家書目",
+        "引據古今經史百家書目",
+        "采集諸家本草藥品總數",
+        "《神農本經》名例",
+        "陶隱居《名醫別錄》合藥分劑法則",
+        "采藥分六氣歲物",
+        "十劑",
+        "氣味陰陽",
+        "五味宜忌",
+        "五味偏勝",
+        "標本陰陽",
+        "升降浮沉",
+        "四時用藥例",
+        "五運六淫用藥式",
+        "六腑六臟用藥氣味補瀉",
+        "五臟五味補瀉",
+        "臟腑虛實標本用藥式",
+        "引經報使（潔古《珍珠囊》）"
+      ]
+    },
+    {
+      "slug": "04-xu-li-xia",
+      "title": "序例下",
+      "chars": 16598,
+      "headings": [
+        "藥名同異",
+        "相反諸藥（凡三十六種）",
+        "服藥食忌",
+        "妊娠禁忌",
+        "飲食禁忌",
+        "李東垣隨証用藥凡例",
+        "陳藏器諸虛用藥凡例",
+        "張子和汗吐下三法",
+        "病有八要六失六不治",
+        "《藥對》歲物藥品",
+        "《神農本草經》目錄",
+        "宋本草舊目錄"
+      ]
+    },
+    {
+      "slug": "05-bai-bing-zhu-zhi-yao-shang",
+      "title": "百病主治藥上",
+      "chars": 94599,
+      "headings": [
+        "百病主治藥 諸風",
+        "百病主治藥 痙風",
+        "百病主治藥 卒厥",
+        "百病主治藥 傷寒熱病",
+        "百病主治藥 瘟疫",
+        "百病主治藥 暑",
+        "百病主治藥 濕",
+        "百病主治藥 火熱",
+        "百病主治藥 諸氣",
+        "百病主治藥 痰飲",
+        "百病主治藥 脾胃",
+        "百病主治藥 噎膈",
+        "百病主治藥 反胃",
+        "百病主治藥 噦",
+        "百病主治藥 呃逆",
+        "百病主治藥 霍亂",
+        "百病主治藥 痢",
+        "百病主治藥 瘧",
+        "百病主治藥 脹滿",
+        "百病主治藥 諸腫",
+        "百病主治藥 黃疸",
+        "百病主治藥 腳氣",
+        "百病主治藥 痿",
+        "百病主治藥 轉筋",
+        "百病主治藥 喘逆",
+        "百病主治藥 咳嗽",
+        "百病主治藥 肺痿肺癰",
+        "百病主治藥 虛損",
+        "百病主治藥 瘵疰",
+        "百病主治藥 邪𥚢",
+        "百病主治藥 吐血衄血",
+        "百病主治藥 齒衄",
+        "百病主治藥 血汗",
+        "百病主治藥 咳嗽血",
+        "百病主治藥 諸汗",
+        "百病主治藥 怔忡",
+        "百病主治藥 健忘",
+        "百病主治藥 驚悸",
+        "百病主治藥 狂惑",
+        "百病主治藥 煩躁",
+        "百病主治藥 多眠",
+        "百病主治藥 消渴",
+        "百病主治藥 遺精夢泄",
+        "百病主治藥 赤白濁",
+        "百病主治藥 癃淋",
+        "百病主治藥 溲數遺尿",
+        "百病主治藥 小便血",
+        "百病主治藥 陰痿",
+        "百病主治藥 強中",
+        "百病主治藥 大便燥結",
+        "百病主治藥 脫肛",
+        "百病主治藥 痔漏",
+        "百病主治藥 瘀血",
+        "百病主治藥 積聚症瘕",
+        "百病主治藥 諸蟲",
+        "百病主治藥 腸鳴",
+        "百病主治藥 心腹痛",
+        "百病主治藥 脅痛",
+        "百病主治藥 腰痛",
+        "百病主治藥 疝㿉"
+      ]
+    },
+    {
+      "slug": "06-bai-bing-zhu-zhi-yao-xia",
+      "title": "百病主治藥下",
+      "chars": 63083,
+      "headings": [
+        "百病主治藥 痛風",
+        "百病主治藥 頭痛",
+        "百病主治藥 眩運",
+        "百病主治藥 眼目",
+        "百病主治藥 耳",
+        "百病主治藥 面",
+        "百病主治藥 鼻",
+        "百病主治藥 脣",
+        "百病主治藥 口舌",
+        "百病主治藥 咽喉",
+        "百病主治藥 音聲",
+        "百病主治藥 牙",
+        "百病主治藥 鬚髮",
+        "百病主治藥 胡臭",
+        "百病主治藥 丹毒",
+        "百病主治藥 風瘙疹疿",
+        "百病主治藥 癧瘍癜風",
+        "百病主治藥 癭瘤疣痣",
+        "百病主治藥 瘰痣",
+        "百病主治藥 九漏",
+        "百病主治藥 癰疽",
+        "百病主治藥 諸瘡上",
+        "百病主治藥 諸瘡下",
+        "百病主治藥 外傷諸瘡",
+        "百病主治藥 金鏃竹木傷",
+        "百病主治藥 跌仆折傷",
+        "百病主治藥 五絕",
+        "百病主治藥 諸蟲傷",
+        "百病主治藥 諸獸傷",
+        "百病主治藥 諸毒",
+        "百病主治藥 蟲毒",
+        "百病主治藥 諸物哽咽",
+        "百病主治藥 婦人經水",
+        "百病主治藥 帶下",
+        "百病主治藥 崩中漏下",
+        "百病主治藥 胎前",
+        "百病主治藥 產難",
+        "百病主治藥 產後",
+        "百病主治藥 陰病",
+        "百病主治藥 小兒初生諸病",
+        "百病主治藥 驚癎",
+        "百病主治藥 諸疳",
+        "百病主治藥 痘瘡",
+        "百病主治藥 小兒驚癇"
+      ]
+    },
+    {
+      "slug": "07-shui-bu",
+      "title": "水部",
+      "chars": 13584,
+      "headings": [
+        "水之一 天水類一十三種。",
+        "水之二 地水類三十種"
+      ]
+    },
+    {
+      "slug": "08-huo-bu",
+      "title": "火部",
+      "chars": 5639,
+      "headings": [
+        "火之一 凡一十一種"
+      ]
+    },
+    {
+      "slug": "09-tu-bu",
+      "title": "土部",
+      "chars": 16880,
+      "headings": [
+        "土之一 凡六十一種"
+      ]
+    },
+    {
+      "slug": "10-jin-shi-zhi-yi",
+      "title": "金石之一",
+      "chars": 29091,
+      "headings": [
+        "金石之一 金類二十八種"
+      ]
+    },
+    {
+      "slug": "11-jin-shi-zhi-er",
+      "title": "金石之二",
+      "chars": 12997,
+      "headings": [
+        "金石之二 玉類一十四種"
+      ]
+    },
+    {
+      "slug": "12-jin-shi-zhi-san",
+      "title": "金石之三",
+      "chars": 49755,
+      "headings": [
+        "金石之三 石類上三十二種"
+      ]
+    },
+    {
+      "slug": "13-jin-shi-zhi-si",
+      "title": "金石之四",
+      "chars": 29635,
+      "headings": [
+        "金石之四 石類下四十種"
+      ]
+    },
+    {
+      "slug": "14-jin-shi-zhi-wu",
+      "title": "金石之五",
+      "chars": 43021,
+      "headings": [
+        "金石之五 鹵石類二十種，附錄二十七種",
+        "附錄諸石二十七種"
+      ]
+    },
+    {
+      "slug": "15-cao-zhi-yi",
+      "title": "草之一",
+      "chars": 61952,
+      "headings": [
+        "甘草",
+        "黃耆",
+        "人參",
+        "沙參",
+        "薺苨",
+        "桔梗",
+        "長松",
+        "黃精",
+        "萎蕤",
+        "知母",
+        "肉蓯蓉",
+        "列當",
+        "瑣陽",
+        "赤箭天麻",
+        "朮",
+        "狗脊",
+        "貫眾",
+        "巴戟天",
+        "遠志",
+        "百脈根",
+        "淫羊藿",
+        "仙茅",
+        "玄參",
+        "地榆",
+        "丹參",
+        "紫參",
+        "王孫",
+        "紫草",
+        "白頭翁",
+        "白芨",
+        "三七"
+      ]
+    },
+    {
+      "slug": "16-cao-zhi-er",
+      "title": "草之二",
+      "chars": 42649,
+      "headings": [
+        "草之二 山草類下三十九種"
+      ]
+    },
+    {
+      "slug": "17-cao-zhi-san",
+      "title": "草之三",
+      "chars": 67541,
+      "headings": [
+        "草之三 芳草類五十六種"
+      ]
+    },
+    {
+      "slug": "18-cao-zhi-si",
+      "title": "草之四",
+      "chars": 59111,
+      "headings": [
+        "草之四 隰草類上五十三種"
+      ]
+    },
+    {
+      "slug": "19-cao-zhi-wu",
+      "title": "草之五",
+      "chars": 60279,
+      "headings": [
+        "草之五 隰草類下"
+      ]
+    },
+    {
+      "slug": "20-cao-zhi-liu",
+      "title": "草之六",
+      "chars": 80646,
+      "headings": [
+        "草之六 毒草類四十七種"
+      ]
+    },
+    {
+      "slug": "21-cao-zhi-qi",
+      "title": "草之七",
+      "chars": 72633,
+      "headings": [
+        "草之七 蔓草類七十三種，附一十九種"
+      ]
+    },
+    {
+      "slug": "22-cao-zhi-ba",
+      "title": "草之八",
+      "chars": 19716,
+      "headings": [
+        "草之八（水草類二十三種）"
+      ]
+    },
+    {
+      "slug": "23-cao-zhi-jiu",
+      "title": "草之九",
+      "chars": 10435,
+      "headings": [
+        "草之九 （石草類一十九種）"
+      ]
+    },
+    {
+      "slug": "24-cao-zhi-shi",
+      "title": "草之十",
+      "chars": 6302,
+      "headings": [
+        "草之十 （苔類一十六種）"
+      ]
+    },
+    {
+      "slug": "25-cao-zhi-shi-yi",
+      "title": "草之十一",
+      "chars": 888,
+      "headings": [
+        "雜草九種"
+      ]
+    },
+    {
+      "slug": "26-ming-yi-bie-lu",
+      "title": "名醫別錄",
+      "chars": 7532,
+      "headings": [
+        "《名醫別錄》（七十八種）"
+      ]
+    },
+    {
+      "slug": "27-gu-zhi-yi",
+      "title": "穀之一",
+      "chars": 24785,
+      "headings": [
+        "穀之一 （麻麥稻類十二種）"
+      ]
+    },
+    {
+      "slug": "28-gu-zhi-er",
+      "title": "穀之二",
+      "chars": 15203,
+      "headings": [
+        "穀之二 （稷粟類一十八種）"
+      ]
+    },
+    {
+      "slug": "29-gu-zhi-san",
+      "title": "穀之三",
+      "chars": 15372,
+      "headings": [
+        "穀之三 （菽豆類一十四種）"
+      ]
+    },
+    {
+      "slug": "30-gu-zhi-si",
+      "title": "穀之四",
+      "chars": 25746,
+      "headings": [
+        "穀之四 （造釀類二十九種）"
+      ]
+    },
+    {
+      "slug": "31-cai-zhi-yi",
+      "title": "菜之一",
+      "chars": 48666,
+      "headings": [
+        "菜之一 （葷菜類三十二種。）"
+      ]
+    },
+    {
+      "slug": "32-cai-zhi-er",
+      "title": "菜之二",
+      "chars": 29179,
+      "headings": [
+        "菜之二 （柔滑類四十一種 內附五種）"
+      ]
+    },
+    {
+      "slug": "33-cai-zhi-san",
+      "title": "菜之三",
+      "chars": 23974,
+      "headings": [
+        "菜之三 （ 菜類一十一種）",
+        "菜之四 （水菜類六種）",
+        "菜之五 （芝 類一十五種）"
+      ]
+    },
+    {
+      "slug": "34-guo-zhi-yi",
+      "title": "果之一",
+      "chars": 25605,
+      "headings": [
+        "果之一 （五果類一十一種）"
+      ]
+    },
+    {
+      "slug": "35-guo-zhi-er",
+      "title": "果之二",
+      "chars": 37375,
+      "headings": [
+        "果之二 （山果類三十四種）"
+      ]
+    },
+    {
+      "slug": "36-guo-zhi-san",
+      "title": "果之三",
+      "chars": 20548,
+      "headings": [
+        "果之三 （夷果類三十一種）"
+      ]
+    },
+    {
+      "slug": "37-guo-zhi-si",
+      "title": "果之四",
+      "chars": 19020,
+      "headings": [
+        "果之四 （味類一十三種）"
+      ]
+    },
+    {
+      "slug": "38-guo-zhi-wu",
+      "title": "果之五",
+      "chars": 10320,
+      "headings": [
+        "果之五 （ 類九種）"
+      ]
+    },
+    {
+      "slug": "39-guo-zhi-liu",
+      "title": "果之六",
+      "chars": 12076,
+      "headings": [
+        "果之六 （水果類六種）"
+      ]
+    },
+    {
+      "slug": "40-mu-zhi-yi",
+      "title": "木之一",
+      "chars": 43006,
+      "headings": [
+        "木之一 （香木類三十五種）"
+      ]
+    },
+    {
+      "slug": "41-mu-zhi-er",
+      "title": "木之二",
+      "chars": 55463,
+      "headings": [
+        "木之二 （喬木類五十二種）"
+      ]
+    },
+    {
+      "slug": "42-mu-zhi-san",
+      "title": "木之三",
+      "chars": 48785,
+      "headings": [
+        "木之三 （灌木類五十一種）"
+      ]
+    },
+    {
+      "slug": "43-mu-zhi-si",
+      "title": "木之四",
+      "chars": 12059,
+      "headings": [
+        "木之四 （寓木類一十二種）"
+      ]
+    },
+    {
+      "slug": "44-mu-zhi-wu",
+      "title": "木之五",
+      "chars": 5063,
+      "headings": [
+        "木之五 （苞木類四種）"
+      ]
+    },
+    {
+      "slug": "45-mu-zhi-liu",
+      "title": "木之六",
+      "chars": 1992,
+      "headings": [
+        "木之六 （雜木類七種，附錄一十九種）"
+      ]
+    },
+    {
+      "slug": "46-fu-qi-bu",
+      "title": "服器部",
+      "chars": 15707,
+      "headings": [
+        "服器部 （服帛類二十五種）"
+      ]
+    },
+    {
+      "slug": "47-chong-zhi-yi",
+      "title": "蟲之一",
+      "chars": 27248,
+      "headings": [
+        "蟲之一 （卵生類上二十三種）"
+      ]
+    },
+    {
+      "slug": "48-chong-zhi-er",
+      "title": "蟲之二",
+      "chars": 16365,
+      "headings": [
+        "蟲之二 （卵生類下二十二種）"
+      ]
+    },
+    {
+      "slug": "49-chong-zhi-san",
+      "title": "蟲之三",
+      "chars": 17732,
+      "headings": [
+        "蟲之三 （化生類三十一種）"
+      ]
+    },
+    {
+      "slug": "50-chong-zhi-si",
+      "title": "蟲之四",
+      "chars": 18406,
+      "headings": [
+        "蟲之四 （濕生類二十三種，附錄七種）"
+      ]
+    },
+    {
+      "slug": "51-lin-zhi-yi",
+      "title": "鱗之一",
+      "chars": 11036,
+      "headings": [
+        "鱗之一（龍類九種）"
+      ]
+    },
+    {
+      "slug": "52-lin-zhi-er",
+      "title": "鱗之二",
+      "chars": 13822,
+      "headings": [
+        "鱗之二 （蛇類一十七種）"
+      ]
+    },
+    {
+      "slug": "53-lin-zhi-san",
+      "title": "鱗之三",
+      "chars": 12931,
+      "headings": [
+        "鱗之三 （魚類三十一種）"
+      ]
+    },
+    {
+      "slug": "54-lin-zhi-si",
+      "title": "鱗之四",
+      "chars": 18799,
+      "headings": [
+        "鱗之四 （無鱗魚二十八種，附錄九種）"
+      ]
+    },
+    {
+      "slug": "55-jie-zhi-yi",
+      "title": "介之一",
+      "chars": 13889,
+      "headings": [
+        "介之一 （龜鱉類一十七種）"
+      ]
+    },
+    {
+      "slug": "56-jie-zhi-er",
+      "title": "介之二",
+      "chars": 18926,
+      "headings": [
+        "介之二 （蛤蚌類二十九種）"
+      ]
+    },
+    {
+      "slug": "57-qin-zhi-yi",
+      "title": "禽之一",
+      "chars": 12763,
+      "headings": [
+        "禽之一 （水禽類二十三種）"
+      ]
+    },
+    {
+      "slug": "58-qin-zhi-er",
+      "title": "禽之二",
+      "chars": 33714,
+      "headings": [
+        "禽之二 （原禽類二十三種）"
+      ]
+    },
+    {
+      "slug": "59-qin-zhi-san",
+      "title": "禽之三",
+      "chars": 9454,
+      "headings": [
+        "禽之三（林禽類一十七種）"
+      ]
+    },
+    {
+      "slug": "60-qin-zhi-si",
+      "title": "禽之四",
+      "chars": 8234,
+      "headings": [
+        "禽之四 （山禽類一十三種，附一種）"
+      ]
+    },
+    {
+      "slug": "61-shou-zhi-yi",
+      "title": "獸之一",
+      "chars": 60160,
+      "headings": [
+        "獸之一 （畜類二十八種）"
+      ]
+    },
+    {
+      "slug": "62-shou-zhi-er",
+      "title": "獸之二",
+      "chars": 48468,
+      "headings": [
+        "獸之二 （獸類三十八種）"
+      ]
+    },
+    {
+      "slug": "63-shou-zhi-san",
+      "title": "獸之三",
+      "chars": 9361,
+      "headings": [
+        "獸之三 （鼠類一十二種）"
+      ]
+    },
+    {
+      "slug": "64-shou-zhi-si",
+      "title": "獸之四",
+      "chars": 5244,
+      "headings": [
+        "獸之四 （寓類、怪類共八種。內附九種。）"
+      ]
+    },
+    {
+      "slug": "65-ren-bu",
+      "title": "人部",
+      "chars": 31007,
+      "headings": [
+        "人部（凡三十五種，內附二種）"
+      ]
+    }
+  ]
+}

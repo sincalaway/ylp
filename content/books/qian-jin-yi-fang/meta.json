@@ -1,0 +1,620 @@
+{
+  "title": "千金翼方",
+  "author": "孙思邈",
+  "dynasty": "唐",
+  "category": "方书类",
+  "summary": "孙思邈晚年为补《千金要方》之未备而作，三十卷，内有本草、伤寒、妇儿、养性、补益、针灸、禁经等。",
+  "coverLabel": "千金翼方",
+  "featured": false,
+  "wikisource": "千金翼方",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "千金翼方",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9",
+      "revid": 2399584
+    },
+    {
+      "title": "千金翼方/卷01",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B701",
+      "revid": 2199566
+    },
+    {
+      "title": "千金翼方/卷02",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B702",
+      "revid": 2490774
+    },
+    {
+      "title": "千金翼方/卷03",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B703",
+      "revid": 2490773
+    },
+    {
+      "title": "千金翼方/卷04",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B704",
+      "revid": 2490766
+    },
+    {
+      "title": "千金翼方/卷05",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B705",
+      "revid": 2289768
+    },
+    {
+      "title": "千金翼方/卷06",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B706",
+      "revid": 2289769
+    },
+    {
+      "title": "千金翼方/卷07",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B707",
+      "revid": 2289770
+    },
+    {
+      "title": "千金翼方/卷08",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B708",
+      "revid": 2289771
+    },
+    {
+      "title": "千金翼方/卷09",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B709",
+      "revid": 2289772
+    },
+    {
+      "title": "千金翼方/卷10",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B710",
+      "revid": 2289773
+    },
+    {
+      "title": "千金翼方/卷11",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B711",
+      "revid": 2490794
+    },
+    {
+      "title": "千金翼方/卷12",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B712",
+      "revid": 2621397
+    },
+    {
+      "title": "千金翼方/卷13",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B713",
+      "revid": 2621997
+    },
+    {
+      "title": "千金翼方/卷14",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B714",
+      "revid": 2289777
+    },
+    {
+      "title": "千金翼方/卷15",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B715",
+      "revid": 2289778
+    },
+    {
+      "title": "千金翼方/卷16",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B716",
+      "revid": 2289779
+    },
+    {
+      "title": "千金翼方/卷17",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B717",
+      "revid": 2289780
+    },
+    {
+      "title": "千金翼方/卷18",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B718",
+      "revid": 2490834
+    },
+    {
+      "title": "千金翼方/卷19",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B719",
+      "revid": 2490852
+    },
+    {
+      "title": "千金翼方/卷20",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B720",
+      "revid": 2490833
+    },
+    {
+      "title": "千金翼方/卷21",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B721",
+      "revid": 2490829
+    },
+    {
+      "title": "千金翼方/卷22",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B722",
+      "revid": 2289785
+    },
+    {
+      "title": "千金翼方/卷23",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B723",
+      "revid": 2490817
+    },
+    {
+      "title": "千金翼方/卷24",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B724",
+      "revid": 2490760
+    },
+    {
+      "title": "千金翼方/卷25",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B725",
+      "revid": 2289788
+    },
+    {
+      "title": "千金翼方/卷26",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B726",
+      "revid": 2289789
+    },
+    {
+      "title": "千金翼方/卷27",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B727",
+      "revid": 2289790
+    },
+    {
+      "title": "千金翼方/卷28",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B728",
+      "revid": 2289792
+    },
+    {
+      "title": "千金翼方/卷29",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B729",
+      "revid": 2490737
+    },
+    {
+      "title": "千金翼方/卷30",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9/%E5%8D%B730",
+      "revid": 2289794
+    }
+  ],
+  "chars": 372093,
+  "chapters": [
+    {
+      "slug": "01-xu",
+      "title": "序",
+      "chars": 1166,
+      "headings": [
+        "校正千金翼方后序"
+      ]
+    },
+    {
+      "slug": "02-juan-di-yi-yao-lu-zuan",
+      "title": "卷第一·药录纂要",
+      "chars": 10458,
+      "headings": [
+        "采药时节第一",
+        "药名第二",
+        "药出州土第三",
+        "卷第一·药录纂要",
+        "用药处方第四"
+      ]
+    },
+    {
+      "slug": "03-juan-di-er-ben-cao-shang",
+      "title": "卷第二·本草上",
+      "chars": 21039,
+      "headings": [
+        "玉石部上品",
+        "卷第二·本草上",
+        "卷第二",
+        "卷第二·本草上",
+        "卷第二",
+        "卷第二·本草上",
+        "卷第二",
+        "卷第二·本草上",
+        "卷第二",
+        "卷第二·本草上",
+        "卷第二",
+        "卷第二·本草上",
+        "卷第二",
+        "卷第二·本草上"
+      ]
+    },
+    {
+      "slug": "04-juan-di-san-ben-cao-zhong",
+      "title": "卷第三·本草中",
+      "chars": 19045,
+      "headings": [
+        "草部下品之上",
+        "卷第三·本草中",
+        "卷第三",
+        "卷第三·本草中",
+        "卷第三",
+        "卷第三·本草中",
+        "卷第三",
+        "卷第三·本草中",
+        "卷第三",
+        "卷第三·本草中",
+        "卷第三",
+        "卷第三·本草中",
+        "卷第三",
+        "卷第三·本草中"
+      ]
+    },
+    {
+      "slug": "05-juan-di-si-ben-cao-xia",
+      "title": "卷第四·本草下",
+      "chars": 17017,
+      "headings": [
+        "虫鱼部",
+        "卷第四·本草下",
+        "卷第四",
+        "卷第四·本草下",
+        "卷第四",
+        "卷第四·本草下",
+        "卷第四",
+        "卷第四·本草下",
+        "卷第四",
+        "卷第四·本草下",
+        "卷第四",
+        "卷第四·本草下",
+        "卷第四",
+        "卷第四·本草下",
+        "卷第四",
+        "卷第四·本草下",
+        "卷第四",
+        "卷第四·本草下"
+      ]
+    },
+    {
+      "slug": "06-juan-di-wu-fu-ren-yi",
+      "title": "卷第五·妇人一",
+      "chars": 11500,
+      "headings": [
+        "妇人求子第一",
+        "卷第五·妇人一",
+        "卷第五",
+        "卷第五·妇人一",
+        "卷第五",
+        "卷第五·妇人一",
+        "卷第五",
+        "卷第五·妇人一",
+        "卷第五",
+        "卷第五·妇人一",
+        "卷第五",
+        "卷第五·妇人一"
+      ]
+    },
+    {
+      "slug": "07-juan-di-liu-fu-ren-er",
+      "title": "卷第六·妇人二",
+      "chars": 7794,
+      "headings": [
+        "产后心闷第一",
+        "卷第六·妇人二",
+        "卷第六",
+        "卷第六·妇人二",
+        "卷第六",
+        "卷第六·妇人二",
+        "卷第六",
+        "卷第六·妇人二",
+        "卷第六",
+        "卷第六·妇人二",
+        "卷第六",
+        "卷第六·妇人二"
+      ]
+    },
+    {
+      "slug": "08-juan-di-qi-fu-ren-san",
+      "title": "卷第七·妇人三",
+      "chars": 7592,
+      "headings": [
+        "虚乏第一",
+        "卷第七·妇人三",
+        "卷第七",
+        "卷第七·妇人三",
+        "卷第七",
+        "卷第七·妇人三",
+        "卷第七",
+        "卷第七·妇人三",
+        "卷第七",
+        "卷第七·妇人三",
+        "卷第七",
+        "卷第七·妇人三"
+      ]
+    },
+    {
+      "slug": "09-juan-di-ba-fu-ren-si",
+      "title": "卷第八·妇人四",
+      "chars": 8862,
+      "headings": [
+        "崩中第一",
+        "卷第八·妇人四",
+        "卷第八",
+        "卷第八·妇人四",
+        "卷第八",
+        "卷第八·妇人四"
+      ]
+    },
+    {
+      "slug": "10-juan-di-jiu-shang-han-shang",
+      "title": "卷第九·伤寒上",
+      "chars": 15379,
+      "headings": [
+        "太阳病用桂枝汤法第一",
+        "卷第九"
+      ]
+    },
+    {
+      "slug": "11-juan-di-shi-shang-han-xia",
+      "title": "卷第十·伤寒下",
+      "chars": 12348,
+      "headings": [
+        "太阴病状第一",
+        "少阴病状第二",
+        "卷第十",
+        "卷第十·伤寒下",
+        "卷第十"
+      ]
+    },
+    {
+      "slug": "12-juan-di-shi-yi-xiao-er",
+      "title": "卷第十一·小儿",
+      "chars": 17167,
+      "headings": [
+        "养小儿第一",
+        "卷第十一·小儿",
+        "卷第十一",
+        "卷第十一·小儿",
+        "卷第十一",
+        "卷第十一·小儿",
+        "卷第十一",
+        "卷第十一·小儿",
+        "卷第十一"
+      ]
+    },
+    {
+      "slug": "13-juan-di-shi-er-yang-xing",
+      "title": "卷第十二·养性",
+      "chars": 12304,
+      "headings": [
+        "养性禁忌第一",
+        "养性服饵第二",
+        "卷第十二·养性",
+        "卷第十二",
+        "卷第十二·养性"
+      ]
+    },
+    {
+      "slug": "14-juan-di-shi-san-bi-gu",
+      "title": "卷第十三·辟谷",
+      "chars": 9117,
+      "headings": [
+        "服茯苓第一",
+        "服松柏脂第二",
+        "服松柏實第三",
+        "酒膏散第四",
+        "服雲母第五",
+        "服水第六"
+      ]
+    },
+    {
+      "slug": "15-juan-di-shi-si-tui-ju",
+      "title": "卷第十四·退居",
+      "chars": 5459,
+      "headings": [
+        "择地第一",
+        "卷第十四"
+      ]
+    },
+    {
+      "slug": "16-juan-di-shi-wu-bu-yi",
+      "title": "卷第十五·补益",
+      "chars": 15282,
+      "headings": [
+        "叙虚损论第一",
+        "卷第十五",
+        "卷第十五·补益",
+        "卷第十五",
+        "卷第十五·补益",
+        "卷第十五",
+        "卷第十五·补益",
+        "卷第十五",
+        "卷第十五·补益",
+        "卷第十五",
+        "卷第十五·补益"
+      ]
+    },
+    {
+      "slug": "17-juan-di-shi-liu-zhong-feng",
+      "title": "卷第十六·中风上",
+      "chars": 9986,
+      "headings": [
+        "诸酒第一",
+        "卷第十六·中风上",
+        "卷第十六",
+        "卷第十六·中风上",
+        "卷第十六",
+        "卷第十六·中风上",
+        "卷第十六",
+        "卷第十六·中风上",
+        "卷第十六",
+        "卷第十六·中风上",
+        "卷第十六",
+        "卷第十六·中风上"
+      ]
+    },
+    {
+      "slug": "18-juan-di-shi-qi-zhong-feng",
+      "title": "卷第十七·中风下",
+      "chars": 9403,
+      "headings": [
+        "中风第一",
+        "卷第十七·中风下",
+        "卷第十七",
+        "卷第十七·中风下",
+        "卷第十七",
+        "卷第十七·中风下",
+        "卷第十七",
+        "卷第十七·中风下"
+      ]
+    },
+    {
+      "slug": "19-juan-di-shi-ba-za-bing",
+      "title": "卷第十八·杂病上",
+      "chars": 13496,
+      "headings": [
+        "霍乱第一",
+        "卷第十八·杂病上",
+        "卷第十八",
+        "卷第十八·杂病上",
+        "卷第十八",
+        "卷第十八·杂病上",
+        "卷第十八",
+        "卷第十八·杂病上",
+        "卷第十八",
+        "卷第十八·杂病上",
+        "卷第十八",
+        "卷第十八·杂病上"
+      ]
+    },
+    {
+      "slug": "20-juan-di-shi-jiu-za-bing",
+      "title": "卷第十九·杂病中",
+      "chars": 19197,
+      "headings": [
+        "消渴第一",
+        "卷第十九·杂病中",
+        "卷第十九",
+        "卷第十九·杂病中",
+        "卷第十九",
+        "卷第十九·杂病中",
+        "卷第十九",
+        "卷第十九·杂病中",
+        "卷第十九",
+        "卷第十九·杂病中",
+        "卷第十九",
+        "卷第十九·杂病中",
+        "卷第十九",
+        "卷第十九·杂病中",
+        "卷第十九"
+      ]
+    },
+    {
+      "slug": "21-juan-di-er-shi-za-bing",
+      "title": "卷第二十·杂病下",
+      "chars": 13319,
+      "headings": [
+        "备急第一",
+        "卷第二十·杂病下",
+        "卷第二十",
+        "卷第二十·杂病下",
+        "卷第二十",
+        "卷第二十·杂病下",
+        "卷第二十"
+      ]
+    },
+    {
+      "slug": "22-juan-di-er-shi-yi-wan",
+      "title": "卷第二十一·万病",
+      "chars": 11574,
+      "headings": [
+        "总疗万病第一",
+        "卷第二十一·万病",
+        "卷第二十一",
+        "卷第二十一·万病"
+      ]
+    },
+    {
+      "slug": "23-juan-di-er-shi-er-fei",
+      "title": "卷第二十二·飞炼",
+      "chars": 16368,
+      "headings": [
+        "飞炼研煮钟乳及和草药服疗第一",
+        "卷第二十二",
+        "卷第二十二·飞炼",
+        "卷第二十二",
+        "卷第二十二·飞炼"
+      ]
+    },
+    {
+      "slug": "24-juan-di-er-shi-san-chuang",
+      "title": "卷第二十三·疮痈上",
+      "chars": 9951,
+      "headings": [
+        "黄父相痈疽论第一",
+        "卷第二十三",
+        "卷第二十三·疮痈上",
+        "卷第二十三",
+        "卷第二十三·疮痈上"
+      ]
+    },
+    {
+      "slug": "25-juan-di-er-shi-si-chuang",
+      "title": "卷第二十四·疮痈下",
+      "chars": 13184,
+      "headings": [
+        "痈疽发背第一",
+        "卷第二十四·疮痈下",
+        "卷第二十四",
+        "卷第二十四·疮痈下",
+        "卷第二十四",
+        "卷第二十四·疮痈下",
+        "卷第二十四",
+        "卷第二十四·疮痈下",
+        "卷第二十四",
+        "卷第二十四·疮痈下",
+        "卷第二十四",
+        "卷第二十四·疮痈下",
+        "卷第二十四",
+        "卷第二十四·疮痈下",
+        "卷第二十四",
+        "卷第二十四·疮痈下",
+        "卷第二十四"
+      ]
+    },
+    {
+      "slug": "26-juan-di-er-shi-wu-se",
+      "title": "卷第二十五·色脉",
+      "chars": 9824,
+      "headings": [
+        "诊气色法第一",
+        "卷第二十五"
+      ]
+    },
+    {
+      "slug": "27-juan-di-er-shi-liu-zhen",
+      "title": "卷第二十六·针灸上",
+      "chars": 13723,
+      "headings": [
+        "取孔穴法第一",
+        "卷第二十六·针灸上",
+        "卷第二十六"
+      ]
+    },
+    {
+      "slug": "28-juan-di-er-shi-qi-zhen",
+      "title": "卷第二十七·针灸中",
+      "chars": 9603,
+      "headings": [
+        "肝病第一",
+        "卷第二十七"
+      ]
+    },
+    {
+      "slug": "29-juan-di-er-shi-ba-zhen",
+      "title": "卷第二十八·针灸下",
+      "chars": 7201,
+      "headings": [
+        "消渴第一",
+        "卷第二十八"
+      ]
+    },
+    {
+      "slug": "30-juan-di-er-shi-jiu-jin",
+      "title": "卷第二十九·禁经上",
+      "chars": 13919,
+      "headings": [
+        "持禁斋戒法第一",
+        "卷第二十九"
+      ]
+    },
+    {
+      "slug": "31-juan-di-san-shi-jin-jing",
+      "title": "卷第三十·禁经下",
+      "chars": 9816,
+      "headings": [
+        "禁金疮第十二",
+        "卷第三十"
+      ]
+    }
+  ]
+}

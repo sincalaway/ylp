@@ -1,0 +1,186 @@
+{
+  "title": "温病条辨",
+  "author": "吴瑭（鞠通）",
+  "dynasty": "清",
+  "category": "温病类",
+  "summary": "吴鞠通创立三焦辨证，分上、中、下焦论治温病，银翘散、桑菊饮等名方出此书。",
+  "coverLabel": "温病条辨",
+  "featured": false,
+  "wikisource": "溫病條辨",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "溫病條辨/自序",
+      "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E7%97%85%E6%A2%9D%E8%BE%A8/%E8%87%AA%E5%BA%8F",
+      "revid": 1741327
+    },
+    {
+      "title": "溫病條辨/原病篇",
+      "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E7%97%85%E6%A2%9D%E8%BE%A8/%E5%8E%9F%E7%97%85%E7%AF%87",
+      "revid": 2490807
+    },
+    {
+      "title": "溫病條辨/卷一",
+      "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E7%97%85%E6%A2%9D%E8%BE%A8/%E5%8D%B7%E4%B8%80",
+      "revid": 2028998
+    },
+    {
+      "title": "溫病條辨/卷二",
+      "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E7%97%85%E6%A2%9D%E8%BE%A8/%E5%8D%B7%E4%BA%8C",
+      "revid": 2539183
+    },
+    {
+      "title": "溫病條辨/卷三",
+      "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E7%97%85%E6%A2%9D%E8%BE%A8/%E5%8D%B7%E4%B8%89",
+      "revid": 2029295
+    },
+    {
+      "title": "溫病條辨/卷四",
+      "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E7%97%85%E6%A2%9D%E8%BE%A8/%E5%8D%B7%E5%9B%9B",
+      "revid": 1738264
+    },
+    {
+      "title": "溫病條辨/卷五",
+      "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E7%97%85%E6%A2%9D%E8%BE%A8/%E5%8D%B7%E4%BA%94",
+      "revid": 1738449
+    },
+    {
+      "title": "溫病條辨/卷六",
+      "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E7%97%85%E6%A2%9D%E8%BE%A8/%E5%8D%B7%E5%85%AD",
+      "revid": 2490847
+    }
+  ],
+  "chars": 118671,
+  "chapters": [
+    {
+      "slug": "01-zi-xu",
+      "title": "自序",
+      "chars": 729,
+      "headings": []
+    },
+    {
+      "slug": "02-yuan-bing-pian",
+      "title": "原病篇",
+      "chars": 6242,
+      "headings": []
+    },
+    {
+      "slug": "03-juan-yi-shang-jiao-pian",
+      "title": "卷一·上焦篇",
+      "chars": 28005,
+      "headings": [
+        "風溫、溫熱、溫疫、溫毒、冬溫",
+        "暑溫",
+        "伏暑",
+        "濕溫、寒濕",
+        "溫瘧",
+        "秋燥",
+        "補秋燥勝氣論"
+      ]
+    },
+    {
+      "slug": "04-juan-er-zhong-jiao-pian",
+      "title": "卷二·中焦篇",
+      "chars": 31830,
+      "headings": [
+        "風溫、溫熱、溫疫、溫毒、冬溫",
+        "暑溫、伏暑",
+        "寒濕",
+        "濕溫",
+        "秋燥"
+      ]
+    },
+    {
+      "slug": "05-juan-san-xia-jiao-pian",
+      "title": "卷三·下焦篇",
+      "chars": 26489,
+      "headings": [
+        "風溫、溫熱、溫疫、溫毒、冬溫",
+        "暑溫、伏暑",
+        "寒濕",
+        "濕溫",
+        "秋燥"
+      ]
+    },
+    {
+      "slug": "06-juan-si-za-shuo",
+      "title": "卷四·雜說",
+      "chars": 7309,
+      "headings": [
+        "汗論",
+        "方中行先生或問六氣論",
+        "傷寒注論",
+        "風論",
+        "醫書亦有經、子、史、集論",
+        "本論起銀翹散論",
+        "本論粗具規模論",
+        "寒疫論",
+        "偽病名論",
+        "溫病起手太陰論",
+        "燥氣論",
+        "外感總數論",
+        "治病法論",
+        "吳又可溫病禁黃連論",
+        "風溫、溫熱氣復論",
+        "治血論",
+        "九竅論",
+        "形體論"
+      ]
+    },
+    {
+      "slug": "07-juan-wu-jie-chan-nan",
+      "title": "卷五·解產難",
+      "chars": 5501,
+      "headings": [
+        "解產難題詞",
+        "產後總論",
+        "產後三大證論一",
+        "產後三大證論二",
+        "產後三大證論三",
+        "產後瘀血論",
+        "產後宜補宜瀉論",
+        "產後六氣為病論",
+        "產後不可用白芍辨",
+        "產後誤用歸、芎亦能致瘛論",
+        "產後當究奇經論",
+        "下死胎不可拘執論",
+        "催生不可拘執論",
+        "產後當補心氣論",
+        "產後虛寒、虛熱分別論治論",
+        "保胎論一",
+        "保胎論二"
+      ]
+    },
+    {
+      "slug": "08-juan-liu-jie-er-nan",
+      "title": "卷六·解兒難",
+      "chars": 12566,
+      "headings": [
+        "解兒難題詞",
+        "兒科總論",
+        "俗傳兒科為純陽辨",
+        "兒科用藥論",
+        "兒科風藥禁",
+        "痙因質疑",
+        "濕痙或問",
+        "痙有寒、熱、虛、實四大綱論",
+        "小兒痙病、瘛病共有九大綱論",
+        "小兒易痙總論",
+        "痙病、瘛病總論",
+        "六氣當汗、不當汗論",
+        "疳疾論",
+        "痘證總論",
+        "痘證禁表藥論",
+        "痘證初起用藥論",
+        "治痘明家論",
+        "痘瘡稀少不可恃論",
+        "痘證限期論",
+        "行漿務令滿足論",
+        "疹論",
+        "瀉白散不可妄用論",
+        "萬物各有偏勝論",
+        "草木各得一太極論"
+      ]
+    }
+  ]
+}

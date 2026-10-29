@@ -1,0 +1,192 @@
+{
+  "title": "本草从新",
+  "author": "吴仪洛",
+  "dynasty": "清",
+  "category": "本草类",
+  "summary": "吴仪洛据《本草备要》重订增补，十八卷载药七百二十种，详辨真伪、修治与用法。",
+  "coverLabel": "本草从新",
+  "featured": false,
+  "wikisource": "本草從新",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "本草從新/原序",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E5%BE%9E%E6%96%B0/%E5%8E%9F%E5%BA%8F",
+      "revid": 1341403
+    },
+    {
+      "title": "本草從新/凡例",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E5%BE%9E%E6%96%B0/%E5%87%A1%E4%BE%8B",
+      "revid": 1342240
+    },
+    {
+      "title": "本草從新",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E5%BE%9E%E6%96%B0",
+      "revid": 2187252
+    },
+    {
+      "title": "本草從新/卷十八",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E5%BE%9E%E6%96%B0/%E5%8D%B7%E5%8D%81%E5%85%AB",
+      "revid": 1341586
+    }
+  ],
+  "chars": 171103,
+  "chapters": [
+    {
+      "slug": "01-yuan-xu",
+      "title": "原序",
+      "chars": 551,
+      "headings": []
+    },
+    {
+      "slug": "02-fan-li",
+      "title": "凡例",
+      "chars": 975,
+      "headings": []
+    },
+    {
+      "slug": "03-yao-xing-zong-yi",
+      "title": "药性总义",
+      "chars": 21051,
+      "headings": []
+    },
+    {
+      "slug": "04-juan-er",
+      "title": "卷二",
+      "chars": 11353,
+      "headings": [
+        "草部"
+      ]
+    },
+    {
+      "slug": "05-juan-san",
+      "title": "卷三",
+      "chars": 13763,
+      "headings": [
+        "草部"
+      ]
+    },
+    {
+      "slug": "06-juan-si",
+      "title": "卷四",
+      "chars": 12320,
+      "headings": [
+        "草部"
+      ]
+    },
+    {
+      "slug": "07-juan-wu",
+      "title": "卷五",
+      "chars": 7699,
+      "headings": [
+        "草部"
+      ]
+    },
+    {
+      "slug": "08-juan-liu",
+      "title": "卷六",
+      "chars": 2790,
+      "headings": [
+        "草部"
+      ]
+    },
+    {
+      "slug": "09-juan-qi",
+      "title": "卷七",
+      "chars": 6104,
+      "headings": [
+        "木部"
+      ]
+    },
+    {
+      "slug": "10-juan-ba",
+      "title": "卷八",
+      "chars": 6237,
+      "headings": [
+        "木部"
+      ]
+    },
+    {
+      "slug": "11-juan-jiu",
+      "title": "卷九",
+      "chars": 8535,
+      "headings": [
+        "木部"
+      ]
+    },
+    {
+      "slug": "12-juan-shi",
+      "title": "卷十",
+      "chars": 11577,
+      "headings": [
+        "果部"
+      ]
+    },
+    {
+      "slug": "13-juan-shi-yi",
+      "title": "卷十一",
+      "chars": 8358,
+      "headings": [
+        "菜部"
+      ]
+    },
+    {
+      "slug": "14-juan-shi-er",
+      "title": "卷十二",
+      "chars": 9487,
+      "headings": [
+        "穀部"
+      ]
+    },
+    {
+      "slug": "15-juan-shi-san",
+      "title": "卷十三",
+      "chars": 10739,
+      "headings": [
+        "金石部"
+      ]
+    },
+    {
+      "slug": "16-juan-shi-si",
+      "title": "卷十四",
+      "chars": 5112,
+      "headings": [
+        "水部"
+      ]
+    },
+    {
+      "slug": "17-juan-shi-wu",
+      "title": "卷十五",
+      "chars": 5708,
+      "headings": [
+        "火土部"
+      ]
+    },
+    {
+      "slug": "18-juan-shi-liu",
+      "title": "卷十六",
+      "chars": 11700,
+      "headings": [
+        "禽兽部"
+      ]
+    },
+    {
+      "slug": "19-juan-shi-qi",
+      "title": "卷十七",
+      "chars": 16565,
+      "headings": [
+        "跋"
+      ]
+    },
+    {
+      "slug": "20-juan-shi-ba",
+      "title": "卷十八",
+      "chars": 479,
+      "headings": [
+        "髮",
+        "牙齒",
+        "人中黄"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "title": "金匮要略",
+  "author": "张仲景",
+  "dynasty": "东汉",
+  "category": "伤寒金匮类",
+  "summary": "《金匮要略方论》二十五篇全文，论内科杂病及妇人病证治，为杂病辨治之典范。",
+  "coverLabel": "金匮要略",
+  "featured": true,
+  "wikisource": "金匱要略",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "金匱要略",
+      "url": "https://zh.wikisource.org/wiki/%E9%87%91%E5%8C%B1%E8%A6%81%E7%95%A5",
+      "revid": 2598887
+    }
+  ],
+  "chars": 28857,
+  "chapters": [
+    {
+      "slug": "01-zang-fu-jing-luo-xian-hou",
+      "title": "臟腑經絡先後病脈證第一",
+      "chars": 1573,
+      "headings": []
+    },
+    {
+      "slug": "02-jing-shi-ye-bing-mai-zheng",
+      "title": "痙濕暍病脈證並治第二",
+      "chars": 2048,
+      "headings": []
+    },
+    {
+      "slug": "03-bai-he-bing-hu-huo-yin",
+      "title": "百合病狐惑陰陽毒病脈證並治第三",
+      "chars": 1392,
+      "headings": []
+    },
+    {
+      "slug": "04-nve-bing-mai-zheng-bing-zhi",
+      "title": "瘧病脈證並治第四",
+      "chars": 844,
+      "headings": [
+        "附注：《外臺秘要》方"
+      ]
+    },
+    {
+      "slug": "05-zhong-feng-li-jie-bing-mai",
+      "title": "中風歷節病脈證並治第五",
+      "chars": 1674,
+      "headings": [
+        "附方"
+      ]
+    },
+    {
+      "slug": "06-xue-bi-xu-lao-bing-mai",
+      "title": "血痹虛勞病脈證並治第六",
+      "chars": 1508,
+      "headings": [
+        "附方"
+      ]
+    },
+    {
+      "slug": "07-fei-wei-fei-yong-ke-sou",
+      "title": "肺痿肺癰咳嗽上氣病脈證並治第七",
+      "chars": 1167,
+      "headings": [
+        "附方："
+      ]
+    },
+    {
+      "slug": "08-ben-tun-qi-bing-mai-zheng",
+      "title": "奔豚氣病脈證並治第八",
+      "chars": 396,
+      "headings": []
+    },
+    {
+      "slug": "09-xiong-bi-xin-tong-duan-qi",
+      "title": "胸痹心痛短氣病脈證並治第九",
+      "chars": 497,
+      "headings": []
+    },
+    {
+      "slug": "10-fu-man-han-shan-su-shi",
+      "title": "腹滿寒疝宿食病脈證並治第十",
+      "chars": 755,
+      "headings": [
+        "附方"
+      ]
+    },
+    {
+      "slug": "11-wu-zang-feng-han-ji-ju",
+      "title": "五臟風寒積聚病脈證並治第十一",
+      "chars": 974,
+      "headings": []
+    },
+    {
+      "slug": "12-tan-yin-ke-sou-bing-mai",
+      "title": "痰飲咳嗽病脈證並治第十二",
+      "chars": 1252,
+      "headings": [
+        "附方"
+      ]
+    },
+    {
+      "slug": "13-xiao-ke-xiao-bian-bu-li",
+      "title": "消渴小便不利淋病脈證並治第十三",
+      "chars": 439,
+      "headings": []
+    },
+    {
+      "slug": "14-shui-qi-bing-mai-zheng-bing",
+      "title": "水氣病脈證並治第十四",
+      "chars": 2136,
+      "headings": []
+    },
+    {
+      "slug": "15-huang-dan-bing-mai-zheng-bing",
+      "title": "黃疸病脈證並治第十五",
+      "chars": 960,
+      "headings": []
+    },
+    {
+      "slug": "16-jing-ji-tu-nv-xia-xue",
+      "title": "驚悸吐衄下血胸滿瘀血病脈證並治第十六",
+      "chars": 473,
+      "headings": []
+    },
+    {
+      "slug": "17-ou-tu-yue-xia-li-bing",
+      "title": "嘔吐噦下利病脈證並治第十七",
+      "chars": 1356,
+      "headings": []
+    },
+    {
+      "slug": "18-chuang-yong-chang-yong-jin-yin",
+      "title": "瘡癰腸癰浸淫病脈證並治第十八",
+      "chars": 626,
+      "headings": []
+    },
+    {
+      "slug": "19-fu-jue-shou-zhi-bi-zhong",
+      "title": "跗蹶手指臂腫轉筋陰狐疝蚘蟲病脈證並治第十九",
+      "chars": 538,
+      "headings": []
+    },
+    {
+      "slug": "20-fu-ren-ren-shen-bing-mai",
+      "title": "婦人妊娠病脈證並治第二十",
+      "chars": 988,
+      "headings": []
+    },
+    {
+      "slug": "21-fu-ren-chan-hou-bing-mai",
+      "title": "婦人產後病脈證並治第二十一",
+      "chars": 541,
+      "headings": []
+    },
+    {
+      "slug": "22-fu-ren-za-bing-mai-zheng",
+      "title": "婦人雜病脈證並治第二十二",
+      "chars": 1041,
+      "headings": []
+    },
+    {
+      "slug": "23-za-liao-fang-di-er-shi",
+      "title": "雜療方第二十三",
+      "chars": 1769,
+      "headings": []
+    },
+    {
+      "slug": "24-qin-shou-yu-chong-jin-ji",
+      "title": "禽獸魚蟲禁忌並治第二十四",
+      "chars": 2248,
+      "headings": []
+    },
+    {
+      "slug": "25-guo-shi-cai-gu-jin-ji",
+      "title": "果實菜穀禁忌並治第二十五",
+      "chars": 1662,
+      "headings": []
+    }
+  ]
+}

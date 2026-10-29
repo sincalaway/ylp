@@ -1,0 +1,27 @@
+{
+  "title": "湿热条辨",
+  "author": "薛雪（生白）",
+  "dynasty": "清",
+  "category": "温病类",
+  "summary": "薛生白《湿热病篇》，以条文加自注形式论湿热病的病机与辨治。",
+  "coverLabel": "湿热条辨",
+  "featured": false,
+  "wikisource": "濕熱條辨",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "濕熱條辨",
+      "url": "https://zh.wikisource.org/wiki/%E6%BF%95%E7%86%B1%E6%A2%9D%E8%BE%A8",
+      "revid": 2545332
+    }
+  ],
+  "chars": 9187,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 9187,
+      "headings": []
+    }
+  ]
+}

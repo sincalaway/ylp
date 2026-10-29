@@ -1,0 +1,385 @@
+{
+ "title": "黄帝内经·素问",
+ "author": "佚名（托名黄帝、岐伯）",
+ "dynasty": "先秦至汉",
+ "category": "医经类",
+ "summary": "《素问》二十四卷八十一篇全文（繁体原文），以黄帝与岐伯问答阐述阴阳五行、脏腑经络、病机诊法与养生之道，为中医理论之源。",
+ "coverLabel": "素问",
+ "featured": true,
+ "wikisource": "黃帝內經",
+ "license": "PD-old（公有领域）",
+ "sources": [
+  {
+   "title": "黃帝內經/素問第一卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E4%B8%80%E5%8D%B7",
+   "revid": 2083230
+  },
+  {
+   "title": "黃帝內經/素問第二卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E4%BA%8C%E5%8D%B7",
+   "revid": 2627947
+  },
+  {
+   "title": "黃帝內經/素問第三卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E4%B8%89%E5%8D%B7",
+   "revid": 2083377
+  },
+  {
+   "title": "黃帝內經/素問第四卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E5%9B%9B%E5%8D%B7",
+   "revid": 2083507
+  },
+  {
+   "title": "黃帝內經/素問第五卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E4%BA%94%E5%8D%B7",
+   "revid": 2083675
+  },
+  {
+   "title": "黃帝內經/素問第六卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E5%85%AD%E5%8D%B7",
+   "revid": 2083813
+  },
+  {
+   "title": "黃帝內經/素問第七卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E4%B8%83%E5%8D%B7",
+   "revid": 2083821
+  },
+  {
+   "title": "黃帝內經/素問第八卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E5%85%AB%E5%8D%B7",
+   "revid": 2084129
+  },
+  {
+   "title": "黃帝內經/素問第九卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E4%B9%9D%E5%8D%B7",
+   "revid": 2084474
+  },
+  {
+   "title": "黃帝內經/素問第十卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E5%8D%81%E5%8D%B7",
+   "revid": 2084483
+  },
+  {
+   "title": "黃帝內經/素問第十一卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E5%8D%81%E4%B8%80%E5%8D%B7",
+   "revid": 2551001
+  },
+  {
+   "title": "黃帝內經/素問第十二卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E5%8D%81%E4%BA%8C%E5%8D%B7",
+   "revid": 2550991
+  },
+  {
+   "title": "黃帝內經/素問第十三卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E5%8D%81%E4%B8%89%E5%8D%B7",
+   "revid": 2093305
+  },
+  {
+   "title": "黃帝內經/素問第十四卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E5%8D%81%E5%9B%9B%E5%8D%B7",
+   "revid": 2085844
+  },
+  {
+   "title": "黃帝內經/素問第十五卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E5%8D%81%E4%BA%94%E5%8D%B7",
+   "revid": 2085850
+  },
+  {
+   "title": "黃帝內經/素問第十六卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E5%8D%81%E5%85%AD%E5%8D%B7",
+   "revid": 2085908
+  },
+  {
+   "title": "黃帝內經/素問第十七卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E5%8D%81%E4%B8%83%E5%8D%B7",
+   "revid": 2085909
+  },
+  {
+   "title": "黃帝內經/素問第十八卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E5%8D%81%E5%85%AB%E5%8D%B7",
+   "revid": 2085912
+  },
+  {
+   "title": "黃帝內經/素問第十九卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E5%8D%81%E4%B9%9D%E5%8D%B7",
+   "revid": 2086230
+  },
+  {
+   "title": "黃帝內經/素問第二十卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%8D%B7",
+   "revid": 2093934
+  },
+  {
+   "title": "黃帝內經/素問第二十一卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E5%8D%B7",
+   "revid": 2093943
+  },
+  {
+   "title": "黃帝內經/素問第二十二卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%8C%E5%8D%B7",
+   "revid": 2093944
+  },
+  {
+   "title": "黃帝內經/素問第二十三卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%89%E5%8D%B7",
+   "revid": 2093947
+  },
+  {
+   "title": "黃帝內經/素問第二十四卷",
+   "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E5%85%A7%E7%B6%93/%E7%B4%A0%E5%95%8F%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8D%B7",
+   "revid": 2093948
+  }
+ ],
+ "chars": 108258,
+ "chapters": [
+  {
+   "slug": "01-di-yi-juan",
+   "title": "第一卷",
+   "chars": 4076,
+   "headings": [
+    "上古天真論篇第一",
+    "四氣調神大論篇第二",
+    "生氣通天論篇第三",
+    "金匱真言論篇第四"
+   ]
+  },
+  {
+   "slug": "02-di-er-juan",
+   "title": "第二卷",
+   "chars": 3811,
+   "headings": [
+    "陰陽應象大論第五",
+    "陰陽離合論第六",
+    "陰陽別論第七"
+   ]
+  },
+  {
+   "slug": "03-di-san-juan",
+   "title": "第三卷",
+   "chars": 3298,
+   "headings": [
+    "靈蘭秘典論八",
+    "六節藏象論九",
+    "五藏生成篇十",
+    "五藏別論十一"
+   ]
+  },
+  {
+   "slug": "04-di-si-juan",
+   "title": "第四卷",
+   "chars": 2904,
+   "headings": [
+    "異法方宜論十二",
+    "移精變氣論十三",
+    "湯液醪醴論十四",
+    "玉板論要篇十五",
+    "診要經終論十六"
+   ]
+  },
+  {
+   "slug": "05-di-wu-juan",
+   "title": "第五卷",
+   "chars": 3440,
+   "headings": [
+    "脈要精微論十七",
+    "平人氣象論十八"
+   ]
+  },
+  {
+   "slug": "06-di-liu-juan",
+   "title": "第六卷",
+   "chars": 4009,
+   "headings": [
+    "玉機真藏論十九",
+    "三部九候論二十"
+   ]
+  },
+  {
+   "slug": "07-di-qi-juan",
+   "title": "第七卷",
+   "chars": 3016,
+   "headings": [
+    "經脈別論二十一",
+    "藏氣法時論二十二",
+    "宣明五氣篇二十三",
+    "血氣形志篇二十四"
+   ]
+  },
+  {
+   "slug": "08-di-ba-juan",
+   "title": "第八卷",
+   "chars": 5208,
+   "headings": [
+    "寶命全形論二十五",
+    "八正神明論二十六",
+    "離合真邪論二十七",
+    "通評虛實論二十八",
+    "太陰陽明論二十九",
+    "陽明脈解三十"
+   ]
+  },
+  {
+   "slug": "09-di-jiu-juan",
+   "title": "第九卷",
+   "chars": 3283,
+   "headings": [
+    "熱論三十一",
+    "刺熱論三十二",
+    "評熱病論三十三",
+    "逆調論三十四"
+   ]
+  },
+  {
+   "slug": "10-di-shi-juan",
+   "title": "第十卷",
+   "chars": 3771,
+   "headings": [
+    "瘧論三十五",
+    "刺瘧篇三十六",
+    "氣厥論三十七",
+    "欬論三十八"
+   ]
+  },
+  {
+   "slug": "11-di-shi-yi-juan",
+   "title": "第十一卷",
+   "chars": 2985,
+   "headings": [
+    "舉痛論三十九",
+    "腹中論四十",
+    "刺腰論痛四十一"
+   ]
+  },
+  {
+   "slug": "12-di-shi-er-juan",
+   "title": "第十二卷",
+   "chars": 3625,
+   "headings": [
+    "風論四十二",
+    "痺論四十三",
+    "痿論四十四",
+    "厥論四十五"
+   ]
+  },
+  {
+   "slug": "13-di-shi-san-juan",
+   "title": "第十三卷",
+   "chars": 3648,
+   "headings": [
+    "病能論四十六",
+    "奇病論四十七",
+    "大奇論四十八",
+    "脈解篇四十九"
+   ]
+  },
+  {
+   "slug": "14-di-shi-si-juan",
+   "title": "第十四卷",
+   "chars": 2707,
+   "headings": [
+    "刺要論五十",
+    "刺齊論五十一",
+    "刺禁論五十二",
+    "刺志論五十三",
+    "鍼解五十四",
+    "長刺節論五十五"
+   ]
+  },
+  {
+   "slug": "15-di-shi-wu-juan",
+   "title": "第十五卷",
+   "chars": 2598,
+   "headings": [
+    "皮部論五十六",
+    "經絡論五十七",
+    "氣穴論五十八",
+    "氣府論五十九"
+   ]
+  },
+  {
+   "slug": "16-di-shi-liu-juan",
+   "title": "第十六卷",
+   "chars": 2100,
+   "headings": [
+    "骨空論六十",
+    "水熱穴論六十一"
+   ]
+  },
+  {
+   "slug": "17-di-shi-qi-juan",
+   "title": "第十七卷",
+   "chars": 2431,
+   "headings": [
+    "調經論六十二"
+   ]
+  },
+  {
+   "slug": "18-di-shi-ba-juan",
+   "title": "第十八卷",
+   "chars": 3412,
+   "headings": [
+    "繆刺論六十三",
+    "四時刺逆從論六十四",
+    "標本病傳論六十五"
+   ]
+  },
+  {
+   "slug": "19-di-shi-jiu-juan",
+   "title": "第十九卷",
+   "chars": 5933,
+   "headings": [
+    "天元紀大論六十六",
+    "五運行大論六十七",
+    "六微旨大論六十八"
+   ]
+  },
+  {
+   "slug": "20-di-er-shi-juan",
+   "title": "第二十卷",
+   "chars": 8476,
+   "headings": [
+    "氣交變大論六十九",
+    "五常政大論七十"
+   ]
+  },
+  {
+   "slug": "21-di-er-shi-yi-juan",
+   "title": "第二十一卷",
+   "chars": 19620,
+   "headings": [
+    "六元正紀大論七十一",
+    "刺法論七十二",
+    "本病論七十三"
+   ]
+  },
+  {
+   "slug": "22-di-er-shi-er-juan",
+   "title": "第二十二卷",
+   "chars": 8714,
+   "headings": [
+    "至真要大論七十四"
+   ]
+  },
+  {
+   "slug": "23-di-er-shi-san-juan",
+   "title": "第二十三卷",
+   "chars": 2710,
+   "headings": [
+    "著至教論七十五",
+    "示從容論七十六",
+    "疏五過論七十七",
+    "徵四失論七十八"
+   ]
+  },
+  {
+   "slug": "24-di-er-shi-si-juan",
+   "title": "第二十四卷",
+   "chars": 2483,
+   "headings": [
+    "陰陽類論七十九",
+    "方盛衰論八十",
+    "解精微論八十一"
+   ]
+  }
+ ]
+}

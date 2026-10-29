@@ -1,0 +1,157 @@
+{
+ "title": "脉经",
+ "author": "晋·王叔和",
+ "dynasty": "西晋",
+ "category": "诊法类",
+ "summary": "我国现存最早的脉学专著，十卷，确立二十四种脉象，阐述寸口脉诊与脉证关系。",
+ "coverLabel": "脉经",
+ "featured": false,
+ "wikisource": "脈經",
+ "license": "PD-old（公有领域）",
+ "sources": [
+  {
+   "title": "脈經/序",
+   "url": "https://zh.wikisource.org/wiki/%E8%84%88%E7%B6%93/%E5%BA%8F",
+   "revid": 2201059
+  },
+  {
+   "title": "脈經/卷01",
+   "url": "https://zh.wikisource.org/wiki/%E8%84%88%E7%B6%93/%E5%8D%B701",
+   "revid": 2571279
+  },
+  {
+   "title": "脈經/卷02",
+   "url": "https://zh.wikisource.org/wiki/%E8%84%88%E7%B6%93/%E5%8D%B702",
+   "revid": 2201024
+  },
+  {
+   "title": "脈經/卷03",
+   "url": "https://zh.wikisource.org/wiki/%E8%84%88%E7%B6%93/%E5%8D%B703",
+   "revid": 2201025
+  },
+  {
+   "title": "脈經/卷04",
+   "url": "https://zh.wikisource.org/wiki/%E8%84%88%E7%B6%93/%E5%8D%B704",
+   "revid": 2575471
+  },
+  {
+   "title": "脈經/卷05",
+   "url": "https://zh.wikisource.org/wiki/%E8%84%88%E7%B6%93/%E5%8D%B705",
+   "revid": 2201027
+  },
+  {
+   "title": "脈經/卷06",
+   "url": "https://zh.wikisource.org/wiki/%E8%84%88%E7%B6%93/%E5%8D%B706",
+   "revid": 2201022
+  },
+  {
+   "title": "脈經/卷07",
+   "url": "https://zh.wikisource.org/wiki/%E8%84%88%E7%B6%93/%E5%8D%B707",
+   "revid": 2201021
+  },
+  {
+   "title": "脈經/卷08",
+   "url": "https://zh.wikisource.org/wiki/%E8%84%88%E7%B6%93/%E5%8D%B708",
+   "revid": 2201028
+  },
+  {
+   "title": "脈經/卷09",
+   "url": "https://zh.wikisource.org/wiki/%E8%84%88%E7%B6%93/%E5%8D%B709",
+   "revid": 2201030
+  },
+  {
+   "title": "脈經/卷10",
+   "url": "https://zh.wikisource.org/wiki/%E8%84%88%E7%B6%93/%E5%8D%B710",
+   "revid": 2574708
+  }
+ ],
+ "chars": 84604,
+ "chapters": [
+  {
+   "slug": "01-xu",
+   "title": "序",
+   "chars": 274,
+   "headings": []
+  },
+  {
+   "slug": "02-mai-jing-juan-di-yi",
+   "title": "脈經卷第一",
+   "chars": 5355,
+   "headings": [
+    "脈經卷一"
+   ]
+  },
+  {
+   "slug": "03-mai-jing-juan-di-er",
+   "title": "脈經卷第二",
+   "chars": 5948,
+   "headings": [
+    "脈經卷二"
+   ]
+  },
+  {
+   "slug": "04-mai-jing-juan-di-san",
+   "title": "脈經卷第三",
+   "chars": 5802,
+   "headings": [
+    "脈經卷三"
+   ]
+  },
+  {
+   "slug": "05-mai-jing-juan-di-si",
+   "title": "脈經卷第四",
+   "chars": 9724,
+   "headings": [
+    "脈經卷四"
+   ]
+  },
+  {
+   "slug": "06-mai-jing-juan-di-wu",
+   "title": "脈經卷第五",
+   "chars": 5320,
+   "headings": [
+    "脈經卷五"
+   ]
+  },
+  {
+   "slug": "07-mai-jing-juan-di-liu",
+   "title": "脈經卷第六",
+   "chars": 10152,
+   "headings": [
+    "脈經卷六"
+   ]
+  },
+  {
+   "slug": "08-mai-jing-juan-di-qi",
+   "title": "脈經卷第七",
+   "chars": 19388,
+   "headings": [
+    "脈經卷七"
+   ]
+  },
+  {
+   "slug": "09-mai-jing-juan-di-ba",
+   "title": "脈經卷第八",
+   "chars": 12666,
+   "headings": [
+    "脉經卷八"
+   ]
+  },
+  {
+   "slug": "10-mai-jing-juan-di-jiu",
+   "title": "脈經卷第九",
+   "chars": 7417,
+   "headings": [
+    "脉經卷九"
+   ]
+  },
+  {
+   "slug": "11-mai-jing-juan-di-shi",
+   "title": "脈經卷第十",
+   "chars": 2558,
+   "headings": [
+    "卷十"
+   ]
+  }
+ ]
+}

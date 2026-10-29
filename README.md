@@ -162,6 +162,23 @@ sudo certbot --nginx -d example.com -d www.example.com
 
 **Vercel 文件系统限制：** Serverless 部署不提供可靠持久化的本地写入，因此 `/admin` 的文件上传和 JSON 保存会在 Vercel 环境禁用；后台仍可登录查看提示。要在线上传或保存内容，请接入 Vercel Blob、对象存储或数据库，并实现对应存储适配器。不要假设部署实例本地文件写入可跨重启保留。
 
+### 古籍全本（文件夹书籍）
+
+医典阁收录 50 部取自维基文库（PD-old）的中医古籍全本。每部书是 `content/books/<slug>/` 下的一个文件夹：
+
+- `meta.json`：书名、作者、朝代、分类、简介、`featured`，以及 `sources`（维基文库页面 URL 与修订版本号）和 `chapters`（篇目列表、字数、篇内标题）。
+- `NN-<篇名拼音>.md`：每卷/篇一个文件，front matter 含 `title`、`source`、`sourceUrl`、`revid`。
+
+书目由 `scripts/wikisource-books.json` 定义，可复现导入：
+
+```bash
+pip install pypinyin opencc-python-reimplemented   # 篇目文件名拼音、检索繁简映射（可选）
+WS_CACHE=/tmp/wscache python3 scripts/import-wikisource.py              # 全部
+WS_CACHE=/tmp/wscache python3 scripts/import-wikisource.py nan-jing     # 指定书籍
+```
+
+阅读路由：`/books/<slug>` 为目录页，`/books/<slug>/<篇>` 为分篇阅读页（上一篇/下一篇、阅读进度）。单文件 `.md/.mdx/.pdf` 书籍（导读、后台上传）照常支持。本草条目链接《本草纲目》原文时使用 `lib/content.ts` 的 `getGangmuEntryHref(name)`。
+
 ## 目录结构
 
 ```text
@@ -174,7 +191,8 @@ content/
   herbs.json             本草条目
   articles.json          岐黄论文章
   home.json              首页精选配置
-  books/*.md             古籍及书籍 Markdown/MDX/PDF
+  books/*.md             导读及上传书籍 Markdown/MDX/PDF
+  books/<slug>/          古籍全本：meta.json + 分篇 Markdown
 lib/                     内容读取、检索、会话验证
 deploy/                  云服务器 Nginx 配置样例
 public/images/           SVG 本草主题插画
@@ -194,4 +212,4 @@ pnpm-workspace.yaml      pnpm 安装脚本授权设置
 ## 图文来源与版权
 
 - 本草插图：清·吴其濬《植物名实图考》（1848）木刻图，取自 [Wikimedia Commons](https://commons.wikimedia.org/)，公有领域。每味药的出处链接记录在 `content/herbs.json` 的 `illustration` 字段，图片存于 `public/images/herbs/`（已转为 webp，国内访问无需外链）。
-- 古籍原文：取自[维基文库](https://zh.wikisource.org/)（PD-old），文件为 `content/books/*-yuanwen.md`，每篇开头注明来源页面与修订版本。重新导入：`python3 scripts/import-wikisource.py`。
+- 古籍原文：50 部全本取自[维基文库](https://zh.wikisource.org/)（PD-old），位于 `content/books/<slug>/`，`meta.json` 与每篇 front matter 注明来源页面与修订版本。重新导入：`python3 scripts/import-wikisource.py`（书目见 `scripts/wikisource-books.json`）。

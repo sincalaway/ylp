@@ -1,0 +1,61 @@
+{
+ "title": "神农本草经",
+ "author": "佚名（托名神农）",
+ "dynasty": "汉",
+ "category": "本草类",
+ "summary": "现存最早的本草专著，载药三百六十五种，分上、中、下三品，述性味、主治与别名。",
+ "coverLabel": "本经",
+ "featured": true,
+ "wikisource": "神農本草經",
+ "license": "PD-old（公有领域）",
+ "sources": [
+  {
+   "title": "神農本草經",
+   "url": "https://zh.wikisource.org/wiki/%E7%A5%9E%E8%BE%B2%E6%9C%AC%E8%8D%89%E7%B6%93",
+   "revid": 2490492
+  }
+ ],
+ "chars": 17431,
+ "chapters": [
+  {
+   "slug": "01-shang-jing",
+   "title": "上經",
+   "chars": 6886,
+   "headings": [
+    "序",
+    "玉石部上品",
+    "草部上品",
+    "木部上品",
+    "果菜部上品",
+    "米穀部上品",
+    "蟲獸部上品"
+   ]
+  },
+  {
+   "slug": "02-zhong-jing",
+   "title": "中經",
+   "chars": 5391,
+   "headings": [
+    "玉石部中品",
+    "草部中品",
+    "木部中品",
+    "果菜部中品",
+    "米穀部中品",
+    "蟲獸部中品"
+   ]
+  },
+  {
+   "slug": "03-xia-jing",
+   "title": "下經",
+   "chars": 5154,
+   "headings": [
+    "玉石部下品",
+    "草部下品",
+    "木部下品",
+    "果菜部下品",
+    "米穀部下品",
+    "蟲獸部下品"
+   ]
+  }
+ ]
+}

@@ -23,7 +23,8 @@ export async function POST(request: Request) {
   if (file.size === 0) return NextResponse.json({ error: '空文件不能上传。' }, { status: 400 })
   const base = path.basename(file.name, ext).normalize('NFKC').replace(/[^A-Za-z0-9_\u4e00-\u9fa5-]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 80) || 'book'
   let target = `${base}${ext}`; let n = 2
-  while (await fs.access(path.join(root, target)).then(()=>true).catch(()=>false)) { target = `${base}-${n++}${ext}` }
+  const taken = async (name: string) => (await fs.access(path.join(root, name)).then(()=>true).catch(()=>false)) || (await fs.access(path.join(root, name.replace(/\.(md|mdx|pdf)$/i, ''))).then(()=>true).catch(()=>false))
+  while (await taken(target)) { target = `${base}-${n++}${ext}` }
   const buffer = Buffer.from(await file.arrayBuffer())
   if (ext === '.pdf' && buffer.subarray(0,5).toString() !== '%PDF-') return NextResponse.json({ error: `${file.name} 不是有效的 PDF 文件。` }, { status: 400 })
   if (ext !== '.pdf') { try { matter(buffer.toString('utf8')) } catch { return NextResponse.json({ error: `${file.name} 的 Markdown/YAML 头部格式有误。` }, { status: 400 }) } }

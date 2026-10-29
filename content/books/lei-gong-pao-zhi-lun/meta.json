@@ -1,0 +1,34 @@
+{
+ "title": "雷公炮炙论",
+ "author": "南朝宋·雷敩",
+ "dynasty": "南北朝",
+ "category": "本草类",
+ "summary": "我国最早的中药炮制学专著（辑本），记述三百种药物的修治、炮制方法。",
+ "coverLabel": "雷公炮炙",
+ "featured": false,
+ "wikisource": "雷公炮炙論",
+ "license": "PD-old（公有领域）",
+ "sources": [
+  {
+   "title": "雷公炮炙論",
+   "url": "https://zh.wikisource.org/wiki/%E9%9B%B7%E5%85%AC%E7%82%AE%E7%82%99%E8%AB%96",
+   "revid": 2187319
+  }
+ ],
+ "chars": 25603,
+ "chapters": [
+  {
+   "slug": "01-quan-wen",
+   "title": "全文",
+   "chars": 25603,
+   "headings": [
+    "《雷公炮炙论》序",
+    "上卷",
+    "中卷",
+    "下卷",
+    "雷论合药分剂料理法则",
+    "雷论宣剂"
+   ]
+  }
+ ]
+}

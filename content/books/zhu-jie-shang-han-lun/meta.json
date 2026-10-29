@@ -1,0 +1,132 @@
+{
+  "title": "注解伤寒论",
+  "author": "成无己",
+  "dynasty": "金",
+  "category": "伤寒金匮类",
+  "summary": "现存最早的《伤寒论》全注本，成无己以《内经》《难经》之理逐条注释仲景原文。",
+  "coverLabel": "注解伤寒论",
+  "featured": false,
+  "wikisource": "注解傷寒論",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "注解傷寒論",
+      "url": "https://zh.wikisource.org/wiki/%E6%B3%A8%E8%A7%A3%E5%82%B7%E5%AF%92%E8%AB%96",
+      "revid": 2391578
+    }
+  ],
+  "chars": 116147,
+  "chapters": [
+    {
+      "slug": "01-xu",
+      "title": "序",
+      "chars": 527,
+      "headings": []
+    },
+    {
+      "slug": "02-shang-han-zu-bing-lun-ji",
+      "title": "伤寒卒病论集",
+      "chars": 734,
+      "headings": []
+    },
+    {
+      "slug": "03-xu-er",
+      "title": "序（二）",
+      "chars": 452,
+      "headings": [
+        "序"
+      ]
+    },
+    {
+      "slug": "04-juan-yi",
+      "title": "卷一",
+      "chars": 18344,
+      "headings": [
+        "辨脉法第一",
+        "平脉法第二"
+      ]
+    },
+    {
+      "slug": "05-juan-er",
+      "title": "卷二",
+      "chars": 17956,
+      "headings": [
+        "卷二",
+        "卷二"
+      ]
+    },
+    {
+      "slug": "06-juan-san",
+      "title": "卷三",
+      "chars": 20792,
+      "headings": [
+        "辨太阳病脉证并治法第六"
+      ]
+    },
+    {
+      "slug": "07-juan-si",
+      "title": "卷四",
+      "chars": 13129,
+      "headings": [
+        "辨太阳病脉证并治法第七"
+      ]
+    },
+    {
+      "slug": "08-juan-wu",
+      "title": "卷五",
+      "chars": 15033,
+      "headings": [
+        "辨阳明病脉证并治法第八",
+        "辨少阳病脉证并治法第九"
+      ]
+    },
+    {
+      "slug": "09-juan-liu",
+      "title": "卷六",
+      "chars": 15314,
+      "headings": [
+        "辨太阴病脉证并治法第十",
+        "辨少阴病脉证并治法第十一",
+        "辨厥阴病脉证并治法第十二"
+      ]
+    },
+    {
+      "slug": "10-juan-qi",
+      "title": "卷七",
+      "chars": 6045,
+      "headings": [
+        "辨霍乱病脉证并治法第十三",
+        "辨阴阳易瘥后劳复病脉证并治法第十四",
+        "辨不可发汗病脉证并治法第十五",
+        "辨可发汗病脉证并治法第十六"
+      ]
+    },
+    {
+      "slug": "11-juan-ba",
+      "title": "卷八",
+      "chars": 749,
+      "headings": [
+        "辨发汗后病脉证并治法第十七",
+        "辨不可吐第十八",
+        "辨可吐第十九"
+      ]
+    },
+    {
+      "slug": "12-juan-jiu",
+      "title": "卷九",
+      "chars": 5214,
+      "headings": [
+        "辨不可下病脉证并治法第二十",
+        "辨可下病脉证并治法第二十一"
+      ]
+    },
+    {
+      "slug": "13-juan-shi",
+      "title": "卷十",
+      "chars": 1858,
+      "headings": [
+        "辨发汗吐下后病脉证并治法第二十二"
+      ]
+    }
+  ]
+}

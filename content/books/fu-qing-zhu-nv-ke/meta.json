@@ -1,0 +1,89 @@
+{
+  "title": "傅青主女科",
+  "author": "傅山",
+  "dynasty": "清",
+  "category": "临证各科类",
+  "summary": "傅山论带下、血崩、调经、种子、妊娠、小产、难产、正产、产后诸证，附《产后编》，方药平和而效验。",
+  "coverLabel": "傅青主女科",
+  "featured": false,
+  "wikisource": "傅青主女科",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "傅青主女科/序",
+      "url": "https://zh.wikisource.org/wiki/%E5%82%85%E9%9D%92%E4%B8%BB%E5%A5%B3%E7%A7%91/%E5%BA%8F",
+      "revid": 2294182
+    },
+    {
+      "title": "傅青主女科",
+      "url": "https://zh.wikisource.org/wiki/%E5%82%85%E9%9D%92%E4%B8%BB%E5%A5%B3%E7%A7%91",
+      "revid": 2391391
+    }
+  ],
+  "chars": 61459,
+  "chapters": [
+    {
+      "slug": "01-xu",
+      "title": "序",
+      "chars": 1108,
+      "headings": [
+        "張序",
+        "祁序"
+      ]
+    },
+    {
+      "slug": "02-nv-ke-zheng-wen",
+      "title": "女科正文",
+      "chars": 19596,
+      "headings": [
+        "帶下",
+        "血崩",
+        "鬼胎",
+        "調經",
+        "種子"
+      ]
+    },
+    {
+      "slug": "03-nv-ke-xia-juan",
+      "title": "女科下卷",
+      "chars": 19957,
+      "headings": [
+        "妊娠",
+        "小產",
+        "難產",
+        "正產",
+        "產後"
+      ]
+    },
+    {
+      "slug": "04-chan-hou-bian-shang-juan",
+      "title": "產後編（上卷）",
+      "chars": 11481,
+      "headings": [
+        "產後总論",
+        "產前後方症宜忌",
+        "產後諸症治法"
+      ]
+    },
+    {
+      "slug": "05-chan-hou-bian-xia-juan",
+      "title": "產後編下卷",
+      "chars": 8580,
+      "headings": [
+        "產後諸症治法（续上）"
+      ]
+    },
+    {
+      "slug": "06-bu-ji",
+      "title": "補集",
+      "chars": 737,
+      "headings": [
+        "產後大便不通",
+        "治產後鸡爪風",
+        "保產無忧散",
+        "治遍体浮肿",
+        "保產神效方"
+      ]
+    }
+  ]
+}

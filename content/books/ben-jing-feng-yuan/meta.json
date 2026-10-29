@@ -1,0 +1,108 @@
+{
+  "title": "本经逢原",
+  "author": "张璐",
+  "dynasty": "清",
+  "category": "本草类",
+  "summary": "张璐以《本经》为本，参以诸家之说，四卷论药七百余种，重在发明药性、切于临证。",
+  "coverLabel": "本经逢原",
+  "featured": false,
+  "wikisource": "本經逢原",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "本經逢原/小引",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E7%B6%93%E9%80%A2%E5%8E%9F/%E5%B0%8F%E5%BC%95",
+      "revid": 1490731
+    },
+    {
+      "title": "本經逢原",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E7%B6%93%E9%80%A2%E5%8E%9F",
+      "revid": 2187274
+    }
+  ],
+  "chars": 175650,
+  "chapters": [
+    {
+      "slug": "01-xiao-yin",
+      "title": "小引",
+      "chars": 607,
+      "headings": []
+    },
+    {
+      "slug": "02-zheng-wen",
+      "title": "正文",
+      "chars": 2827,
+      "headings": []
+    },
+    {
+      "slug": "03-juan-yi",
+      "title": "卷一",
+      "chars": 32520,
+      "headings": [
+        "金部",
+        "石部",
+        "卤石部",
+        "山草部"
+      ]
+    },
+    {
+      "slug": "04-juan-er",
+      "title": "卷二",
+      "chars": 48428,
+      "headings": [
+        "芳草部",
+        "隰草部",
+        "毒草部",
+        "蔓草部",
+        "水草部",
+        "石草部",
+        "苔草部"
+      ]
+    },
+    {
+      "slug": "05-juan-san",
+      "title": "卷三",
+      "chars": 49590,
+      "headings": [
+        "谷部",
+        "菜部",
+        "果部",
+        "水果部",
+        "味部",
+        "香木部",
+        "喬木部",
+        "灌木部",
+        "寓木部",
+        "苞木部",
+        "藏器部"
+      ]
+    },
+    {
+      "slug": "06-juan-si",
+      "title": "卷四",
+      "chars": 21701,
+      "headings": [
+        "禽部",
+        "卷四"
+      ]
+    },
+    {
+      "slug": "07-qin-bu",
+      "title": "禽部",
+      "chars": 323,
+      "headings": [
+        "即家鸭"
+      ]
+    },
+    {
+      "slug": "08-juan-si-er",
+      "title": "卷四（二）",
+      "chars": 19654,
+      "headings": [
+        "卷四",
+        "禽部",
+        "卷四"
+      ]
+    }
+  ]
+}

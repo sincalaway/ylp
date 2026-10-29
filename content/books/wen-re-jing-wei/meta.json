@@ -1,0 +1,127 @@
+{
+  "title": "温热经纬",
+  "author": "王士雄（孟英）",
+  "dynasty": "清",
+  "category": "温病类",
+  "summary": "王孟英以《内经》、仲景之文为经，叶天士、薛生白、陈平伯、余师愚诸家之说为纬，集温病学之大成。",
+  "coverLabel": "温热经纬",
+  "featured": false,
+  "wikisource": "溫熱經緯",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "溫熱經緯/序文",
+      "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E7%86%B1%E7%B6%93%E7%B7%AF/%E5%BA%8F%E6%96%87",
+      "revid": 1738186
+    },
+    {
+      "title": "溫熱經緯/卷一",
+      "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E7%86%B1%E7%B6%93%E7%B7%AF/%E5%8D%B7%E4%B8%80",
+      "revid": 1699323
+    },
+    {
+      "title": "溫熱經緯/卷二",
+      "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E7%86%B1%E7%B6%93%E7%B7%AF/%E5%8D%B7%E4%BA%8C",
+      "revid": 1699584
+    },
+    {
+      "title": "溫熱經緯/卷三",
+      "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E7%86%B1%E7%B6%93%E7%B7%AF/%E5%8D%B7%E4%B8%89",
+      "revid": 1699694
+    },
+    {
+      "title": "溫熱經緯/卷四",
+      "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E7%86%B1%E7%B6%93%E7%B7%AF/%E5%8D%B7%E5%9B%9B",
+      "revid": 2545330
+    },
+    {
+      "title": "溫熱經緯/卷五",
+      "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E7%86%B1%E7%B6%93%E7%B7%AF/%E5%8D%B7%E4%BA%94",
+      "revid": 1738168
+    },
+    {
+      "title": "溫熱經緯/唐跋",
+      "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E7%86%B1%E7%B6%93%E7%B7%AF/%E5%94%90%E8%B7%8B",
+      "revid": 1710269
+    }
+  ],
+  "chars": 132371,
+  "chapters": [
+    {
+      "slug": "01-xu-wen",
+      "title": "序文",
+      "chars": 2149,
+      "headings": [
+        "趙序",
+        "楊序",
+        "自序"
+      ]
+    },
+    {
+      "slug": "02-juan-yi",
+      "title": "卷一",
+      "chars": 8254,
+      "headings": [
+        "《內經》伏氣溫熱篇"
+      ]
+    },
+    {
+      "slug": "03-juan-er",
+      "title": "卷二",
+      "chars": 21151,
+      "headings": [
+        "仲景伏氣溫病篇",
+        "仲景伏氣熱病篇",
+        "仲景外感熱病篇",
+        "仲景濕溫篇",
+        "仲景疫病篇"
+      ]
+    },
+    {
+      "slug": "04-juan-san",
+      "title": "卷三",
+      "chars": 27372,
+      "headings": [
+        "葉香巖外感溫熱篇",
+        "葉香巖三時伏氣外感篇"
+      ]
+    },
+    {
+      "slug": "05-juan-si",
+      "title": "卷四",
+      "chars": 42487,
+      "headings": [
+        "陳平伯外感溫病篇",
+        "薛生白濕熱病篇",
+        "余師愚疫病篇"
+      ]
+    },
+    {
+      "slug": "06-juan-wu",
+      "title": "卷五",
+      "chars": 30745,
+      "headings": [
+        "甘草湯",
+        "桔梗湯",
+        "豬膚湯",
+        "黃連阿膠湯",
+        "豬苓湯",
+        "大承氣湯",
+        "白虎湯",
+        "白虎加人參湯",
+        "黃芩湯",
+        "黃芩加半夏生薑湯",
+        "梔子豉湯",
+        "一物瓜蒂湯",
+        "炙甘草湯（一名復脈湯）",
+        "瓜蒂散"
+      ]
+    },
+    {
+      "slug": "07-tang-ba",
+      "title": "唐跋",
+      "chars": 213,
+      "headings": []
+    }
+  ]
+}

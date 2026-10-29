@@ -1,0 +1,130 @@
+{
+  "title": "普济本事方",
+  "author": "许叔微",
+  "dynasty": "宋",
+  "category": "方书类",
+  "summary": "许叔微以平生已试之方并记事实而成，十卷，分二十三门，方后多附医案。",
+  "coverLabel": "普济本事方",
+  "featured": false,
+  "wikisource": "普濟本事方",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "普濟本事方",
+      "url": "https://zh.wikisource.org/wiki/%E6%99%AE%E6%BF%9F%E6%9C%AC%E4%BA%8B%E6%96%B9",
+      "revid": 2187363
+    }
+  ],
+  "chars": 58552,
+  "chapters": [
+    {
+      "slug": "01-juan-di-yi",
+      "title": "卷第一",
+      "chars": 8670,
+      "headings": [
+        "普济本事方序",
+        "卷第一",
+        "卷外"
+      ]
+    },
+    {
+      "slug": "02-juan-di-er",
+      "title": "卷第二",
+      "chars": 7733,
+      "headings": [
+        "心小肠脾胃病",
+        "肺肾经病",
+        "补益虚劳方",
+        "头痛头晕方",
+        "治气虚头疼。",
+        "治气虚头疼。"
+      ]
+    },
+    {
+      "slug": "03-juan-di-san",
+      "title": "卷第三",
+      "chars": 7600,
+      "headings": [
+        "卷外"
+      ]
+    },
+    {
+      "slug": "04-juan-di-si",
+      "title": "卷第四",
+      "chars": 7313,
+      "headings": [
+        "翻胃呕吐霍乱",
+        "脏腑泄滑及诸痢",
+        "虚热风壅喉闭清利头目",
+        "肿满水气蛊胀",
+        "肾脏风及足膝腰腿脚气"
+      ]
+    },
+    {
+      "slug": "05-juan-wai",
+      "title": "卷外",
+      "chars": 418,
+      "headings": [
+        "肾脏风及足膝腰腿脚气"
+      ]
+    },
+    {
+      "slug": "06-juan-di-wu",
+      "title": "卷第五",
+      "chars": 4551,
+      "headings": [
+        "卷外"
+      ]
+    },
+    {
+      "slug": "07-juan-di-liu",
+      "title": "卷第六",
+      "chars": 3012,
+      "headings": [
+        "诸嗽虚汗消渴",
+        "金疮痈疽打扑诸疮破伤风"
+      ]
+    },
+    {
+      "slug": "08-juan-di-qi",
+      "title": "卷第七",
+      "chars": 3666,
+      "headings": [
+        "卷外"
+      ]
+    },
+    {
+      "slug": "09-juan-di-ba",
+      "title": "卷第八",
+      "chars": 4698,
+      "headings": [
+        "伤寒时疫（上）",
+        "伤寒时疫（上）"
+      ]
+    },
+    {
+      "slug": "10-juan-di-jiu",
+      "title": "卷第九",
+      "chars": 4655,
+      "headings": [
+        "伤寒时疫（下）"
+      ]
+    },
+    {
+      "slug": "11-juan-di-shi",
+      "title": "卷第十",
+      "chars": 5149,
+      "headings": [
+        "妇人诸疾",
+        "小儿病",
+        "小儿病"
+      ]
+    },
+    {
+      "slug": "12-pu-ji-ben-shi-fang-zhi",
+      "title": "《普济本事方》治药制度例",
+      "chars": 1087,
+      "headings": []
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "title": "伤寒贯珠集",
+  "author": "尤怡",
+  "dynasty": "清",
+  "category": "伤寒金匮类",
+  "summary": "尤怡以治法为纲重新编次《伤寒论》，分正治、权变、斡旋、救逆诸法，条理贯通如珠。",
+  "coverLabel": "伤寒贯珠集",
+  "featured": false,
+  "wikisource": "傷寒貫珠集",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "傷寒貫珠集",
+      "url": "https://zh.wikisource.org/wiki/%E5%82%B7%E5%AF%92%E8%B2%AB%E7%8F%A0%E9%9B%86",
+      "revid": 2186627
+    }
+  ],
+  "chars": 86507,
+  "chapters": [
+    {
+      "slug": "01-juan-yi-tai-yang-pian-shang",
+      "title": "卷一/太阳篇上",
+      "chars": 22219,
+      "headings": [
+        "辨列太阳条例大意",
+        "太阳正治法第一",
+        "太阳权变法第二",
+        "太阳斡旋法第三"
+      ]
+    },
+    {
+      "slug": "02-juan-er-tai-yang-pian-xia",
+      "title": "卷二/太阳篇下",
+      "chars": 21609,
+      "headings": [
+        "太阳救逆法第四",
+        "太阳类病法第五"
+      ]
+    },
+    {
+      "slug": "03-juan-san-yang-ming-pian-shang",
+      "title": "卷三/阳明篇上",
+      "chars": 9001,
+      "headings": [
+        "辨列阳明条例大意",
+        "阳明正治法第一"
+      ]
+    },
+    {
+      "slug": "04-juan-si-yang-ming-pian-xia",
+      "title": "卷四/阳明篇下",
+      "chars": 6666,
+      "headings": [
+        "阳明明辨法第二",
+        "阳明杂治法第三"
+      ]
+    },
+    {
+      "slug": "05-juan-wu-shao-yang-pian",
+      "title": "卷五/少阳篇",
+      "chars": 5569,
+      "headings": [
+        "辨列少阳条例大意",
+        "少阳正治法第一",
+        "少阳权变法第二",
+        "少阳刺法第三"
+      ]
+    },
+    {
+      "slug": "06-juan-liu-tai-yin-pian",
+      "title": "卷六/太阴篇",
+      "chars": 2058,
+      "headings": [
+        "辨列太阴条例大意",
+        "太阴诸法"
+      ]
+    },
+    {
+      "slug": "07-juan-qi-shao-yin-pian",
+      "title": "卷七/少阴篇",
+      "chars": 8674,
+      "headings": [
+        "辨列少阴条例大意",
+        "少阴诸法"
+      ]
+    },
+    {
+      "slug": "08-juan-ba-jue-yin-pian",
+      "title": "卷八/厥阴篇",
+      "chars": 10711,
+      "headings": [
+        "辨列厥阴条例大意",
+        "厥阴诸法"
+      ]
+    }
+  ]
+}

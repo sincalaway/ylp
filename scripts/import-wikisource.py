@@ -1,144 +1,583 @@
 #!/usr/bin/env python3
-"""Import public-domain classic texts from zh.wikisource.org into content/books/.
+"""Import complete public-domain classic texts from zh.wikisource.org into content/books/<slug>/.
 
-Usage: python3 scripts/import-wikisource.py
-Each output file credits its Wikisource page and revision. Texts are {{PD-old}}.
+Driven by the manifest scripts/wikisource-books.json, so the import is reproducible:
+
+    pip install pypinyin            # optional, for readable chapter file names
+    python3 scripts/import-wikisource.py                 # every book in the manifest
+    python3 scripts/import-wikisource.py ben-cao-gang-mu-yuanwen nan-jing   # selected books
+    WS_CACHE=/tmp/wscache python3 scripts/import-wikisource.py   # cache raw wikitext between runs
+
+Output for each book:
+    content/books/<slug>/meta.json        title/author/... + sources [{title,url,revid}] + chapters
+    content/books/<slug>/NN-<pinyin>.md   one file per 卷/篇/subpage, front matter `title:` and source
+
+All texts are {{PD-old}} on Wikisource. Body text keeps the characters as they appear on Wikisource
+(traditional characters in most editions). Wikitext is converted to Markdown: templates are expanded or
+removed, links unwrapped, ctext-style <目录>/<篇名> dumps turned into headings, and hard-wrapped
+transcription lines joined back into paragraphs.
+
+Manifest book fields:
+    slug, page (main Wikisource page), meta {title, author, dynasty, category, summary, coverLabel, featured}
+    items      optional explicit list: "Page", "Page#Section" or {"page":..., "section":..., "title":...}
+    main       "auto" (default) | true | false  - include the main page's own body text
+    filter     optional regex a linked subpage title must match
+    exclude    optional regex of subpage titles to skip
+    split      optional chars threshold above which a page is split at its top-level headings
 """
-import html, json, re, time, urllib.parse, urllib.request
+import hashlib, html, json, os, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request
 from pathlib import Path
 
 API = 'https://zh.wikisource.org/w/api.php'
 UA = {'User-Agent': 'yuluoping-importer/1.0 (https://github.com/sincalaway/ylp)'}
-OUT = Path(__file__).resolve().parent.parent / 'content' / 'books'
+ROOT = Path(__file__).resolve().parent.parent
+OUT = ROOT / 'content' / 'books'
+MANIFEST = Path(__file__).resolve().parent / 'wikisource-books.json'
+CACHE = os.environ.get('WS_CACHE')
 
-def fetch(title):
-    q = urllib.parse.urlencode(dict(action='query', titles=title, prop='revisions', rvprop='content|ids',
-                                    rvslots='main', format='json', formatversion=2))
-    time.sleep(1)
-    pg = json.load(urllib.request.urlopen(urllib.request.Request(f'{API}?{q}', headers=UA)))['query']['pages'][0]
-    rev = pg['revisions'][0]
-    return rev['slots']['main']['content'], rev['revid']
+try:
+    from pypinyin import lazy_pinyin
+except Exception:  # pragma: no cover
+    lazy_pinyin = None
 
-def strip_templates(s):
-    out, depth, i = [], 0, 0
+# ---------------------------------------------------------------- fetching
+
+def api(params):
+    params = dict(params, format='json', formatversion=2)
+    url = f'{API}?{urllib.parse.urlencode(params)}'
+    for attempt in range(8):
+        time.sleep(1.1)  # be polite: at most ~1 request per second
+        try:
+            return json.load(urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60))
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 502, 503):
+                time.sleep(10 * (attempt + 1)); continue
+            raise
+        except Exception:
+            time.sleep(5 * (attempt + 1))
+    raise RuntimeError('request failed: ' + url)
+
+def _cache_path(title):
+    return os.path.join(CACHE, hashlib.md5(title.encode()).hexdigest() + '.json') if CACHE else None
+
+def fetch_many(titles):
+    """title -> {'title','revid','text'} or {'title','missing':True}; follows redirects; cached if WS_CACHE."""
+    out, need = {}, []
+    for t in dict.fromkeys(titles):
+        p = _cache_path(t)
+        if p and os.path.exists(p):
+            out[t] = json.load(open(p, encoding='utf-8'))
+        else:
+            need.append(t)
+    for i in range(0, len(need), 20):
+        chunk = need[i:i + 20]
+        r = api(dict(action='query', titles='|'.join(chunk), prop='revisions', rvprop='content|ids', rvslots='main', redirects=1))
+        q = r['query']
+        norm = {n['from']: n['to'] for n in q.get('normalized', [])}
+        red = {n['from']: n['to'] for n in q.get('redirects', [])}
+        by = {p['title']: p for p in q['pages']}
+        for t in chunk:
+            t2 = norm.get(t, t); t3 = red.get(t2, t2); pg = by.get(t3, {})
+            if 'revisions' not in pg and not pg.get('missing') and not pg.get('invalid'):
+                continue  # response truncated; fetched one by one below
+            if 'revisions' not in pg:
+                d = {'title': t3, 'missing': True}
+            else:
+                rv = pg['revisions'][0]
+                d = {'title': t3, 'revid': rv['revid'], 'text': rv['slots']['main']['content']}
+            _store(t, d); out[t] = d
+    for t in need:
+        if t not in out:
+            r = api(dict(action='query', titles=t, prop='revisions', rvprop='content|ids', rvslots='main', redirects=1))
+            pg = r['query']['pages'][0]
+            if 'revisions' not in pg: d = {'title': pg.get('title', t), 'missing': True}
+            else:
+                rv = pg['revisions'][0]; d = {'title': pg['title'], 'revid': rv['revid'], 'text': rv['slots']['main']['content']}
+            _store(t, d); out[t] = d
+    return out
+
+def _store(t, d):
+    p = _cache_path(t)
+    if p:
+        os.makedirs(CACHE, exist_ok=True)
+        json.dump(d, open(p, 'w', encoding='utf-8'), ensure_ascii=False)
+
+def page_url(t): return 'https://zh.wikisource.org/wiki/' + urllib.parse.quote(t.replace(' ', '_'))
+
+# ---------------------------------------------------------------- wikitext -> text
+
+ANNOT = {'*', '**', '注', '註', '小', '小字', 'small', 'smaller', 'sm', '夾注', '夹注', 'note'}
+FIRST_ARG = {'pua', '另', '!', '僻字', 'yl', '專', '专', '署名', 'ruby', 'font', 'color', 'coloured', 'big', 'larger',
+             '黑體', '粗體', 'bold', 'b', 'center', 'c', 'right', 'r', 'u', 'ul', 'sup', 'sub', 'lang', 'nowrap',
+             '異體', '异体', '僻', '另字', 'ref-label', '加框', 'cjk', 'zh', '補', '补', '改', '衍', 'kai', '楷'}
+
+def _split_args(s):
+    args, depth, sq, cur, i = [], 0, 0, [], 0
     while i < len(s):
-        if s.startswith('{{', i): depth += 1; i += 2; continue
-        if depth and s.startswith('}}', i): depth -= 1; i += 2; continue
-        if not depth: out.append(s[i])
-        i += 1
+        if s.startswith('{{', i): depth += 1; cur.append('{{'); i += 2; continue
+        if s.startswith('}}', i) and depth: depth -= 1; cur.append('}}'); i += 2; continue
+        if s.startswith('[[', i): sq += 1; cur.append('[['); i += 2; continue
+        if s.startswith(']]', i) and sq: sq -= 1; cur.append(']]'); i += 2; continue
+        if s[i] == '|' and not depth and not sq: args.append(''.join(cur)); cur = []; i += 1; continue
+        cur.append(s[i]); i += 1
+    args.append(''.join(cur))
+    return args
+
+def _positional(args):
+    pos, named = [], {}
+    for a in args:
+        m = re.match(r'^\s*([\w-]+)\s*=(.*)$', a, re.S)
+        if m: named[m.group(1)] = m.group(2)
+        else: pos.append(a)
+    for k in ('1', '2', '3'):
+        if k in named: pos.insert(int(k) - 1, named[k])
+    return pos
+
+def expand_templates(s, transclude=None, _depth=0):
+    out, i = [], 0
+    while True:
+        j = s.find('{{', i)
+        if j < 0: out.append(s[i:]); break
+        out.append(s[i:j])
+        depth, k = 0, j
+        while k < len(s):
+            if s.startswith('{{', k): depth += 1; k += 2; continue
+            if s.startswith('}}', k):
+                depth -= 1; k += 2
+                if depth == 0: break
+                continue
+            k += 1
+        inner = s[j + 2:k - 2] if depth == 0 else s[j + 2:]
+        out.append(_template(inner, transclude, _depth))
+        i = k if depth == 0 else len(s)
     return ''.join(out)
 
-def clean(s):
-    s = re.sub(r'<!--.*?-->', '', s, flags=re.S)
-    s = re.sub(r'<ref[^>]*/>|<ref[^>]*>.*?</ref>', '', s, flags=re.S)
-    s = strip_templates(s)
-    s = re.sub(r'-\{(?:[^|}]*\|)?([^}]*)\}-', r'\1', s)
-    s = re.sub(r'\[\[(?:[^\]|]*\|)?([^\]]*)\]\]', r'\1', s)
-    s = re.sub(r"'{2,}", '', s)
-    s = re.sub(r'<br\s*/?>', '\n', s)
-    s = re.sub(r'</?[a-zA-Z][^>]*>', '', s)
-    s = s.replace('__NOTOC__', '')
-    s = html.unescape(s)
+def _template(inner, transclude, depth):
+    args = _split_args(inner)
+    name = args[0].strip()
+    rest = [expand_templates(a, transclude, depth) for a in args[1:]]
+    pos = [p.strip() for p in _positional(rest)]
+    low = name.lower()
+    if name.startswith(':') and transclude and depth < 2:
+        return '\n' + expand_templates(strip_header(transclude(name[1:].strip())), transclude, depth + 1) + '\n'
+    if name in ANNOT or low in ANNOT:
+        if not pos: return ''
+        if name == '**' and len(pos) >= 2: return f'{pos[0]}（{pos[1]}）'
+        t = '，'.join(p for p in pos if p)
+        if not t: return ''
+        return t if t[0] in '（(〔[【' else f'（{t}）'
+    if name == '?': return '□'
+    if low in FIRST_ARG or name in FIRST_ARG:
+        return pos[0] if pos else ''
+    return ''
+
+def strip_header(text):
+    return re.sub(r'^\s*\{\{\s*[Hh]eader2?[\s\S]*?\n\}\}', '', text or '', count=1)
+
+def unlink(s):
+    s = re.sub(r'\[\[\s*:?\s*(?:File|Image|文件|檔案|档案|圖像|图像|Media|Category|分類|分类)\s*:[^\[\]]*(?:\[\[[^\]]*\]\][^\[\]]*)*\]\]', '', s, flags=re.I)
+    def link(m):
+        target, _, label = m.group(1).partition('|')
+        if label.strip(): return label
+        target = re.sub(r'^:?(?:w|wikt|wikipedia|zh|en|ja|s|b|q|n|v)\s*:', '', target.strip(), flags=re.I)
+        return target.split('#')[0].split('/')[-1]
+    s = re.sub(r'\[\[([^\[\]]*)\]\]', link, s)
+    s = re.sub(r'\[(?:https?:)?//[^\s\]]+\s+([^\]]+)\]', r'\1', s)
+    s = re.sub(r'\[(?:https?:)?//[^\s\]]+\]', '', s)
     return s
 
-def to_md(s, levels):
-    """levels maps wikitext heading depth -> markdown prefix ('##', '###', or 'bold')."""
-    lines = []
-    for raw in clean(s).split('\n'):
-        line = raw.strip()
-        m = re.match(r'^(=+)\s*(.+?)\s*=+$', line)
+def clean(s, transclude=None):
+    s = s.replace('\ufeff', '').replace('\r', '')
+    s = re.sub(r'<!--.*?-->', '', s, flags=re.S)
+    s = re.sub(r'<ref[^>/]*/>|<ref[^>]*>.*?</ref>', '', s, flags=re.S | re.I)
+    s = re.sub(r'<references\s*/?>', '', s, flags=re.I)
+    s = expand_templates(s, transclude)
+    s = re.sub(r'-\{(?:[^|}]*\|)?([^}]*)\}-', r'\1', s)
+    s = re.sub(r'__[A-Z]+__', '', s)
+    s = unlink(s)
+    s = re.sub(r'<br\s*/?>', '\n', s, flags=re.I)
+    s = re.sub(r'</?(?:poem|pre|onlyinclude|includeonly|noinclude|center|div|span|font|small|big|sub|sup|b|i|u|s|p|blockquote|nowiki|section|table|tr|td|th|tbody|references)\b[^>]*>', '', s, flags=re.I)
+    s = re.sub(r'</?[a-zA-Z][a-zA-Z0-9]*(?:\s[^<>]*)?/?>', '', s)
+    s = html.unescape(s)
+    s = s.replace('\\x', '')
+    return s
+
+# ---------------------------------------------------------------- text -> markdown
+
+HEAD = re.compile(r'^(=+)\s*(.+?)\s*\1\s*$')
+JUAN = re.compile(r'^(卷[第]?[之]?[一二三四五六七八九十百零〇\d]+[上中下]?(?:之[一二三四五六七八九十]+)?)\s*[\\／/]?\s*(.*)$')
+CLOSE = re.compile(r'[。」』）)？！；：︰”’」〕】]$')
+
+def _label_parts(label):
+    label = label.strip().strip('\\').strip()
+    if not label: return []
+    if '\\' in label:
+        return [p.strip() for p in label.split('\\') if p.strip()][:2]
+    m = JUAN.match(label)
+    if m and m.group(2).strip(): return [m.group(1), m.group(2).strip()]
+    if m: return [m.group(1)]
+    m = re.match(r'^(.{1,8}?[门門])(.+)$', label)
+    if m: return [m.group(1), m.group(2)]
+    return [label]
+
+def heading_text(t):
+    t = re.sub(r"'{2,}", '', t).strip().strip('【】').strip()
+    return re.sub(r'\s+', ' ', t)
+
+def to_lines(wikitext, transclude=None, main_book=None, label_re=None):
+    """Return a list of markdown lines (headings as '## x', paragraphs as raw lines)."""
+    text = strip_header(wikitext)
+    if main_book:
+        # main page: drop table-of-contents lines that link to the book's own subpages
+        keep = []
+        for line in text.split('\n'):
+            if re.search(r'\[\[\s*(?:/|\.\./|' + re.escape(main_book) + r'/)', line) and len(unlink(clean(line)).strip(' *#:　')) < 60:
+                continue
+            keep.append(line)
+        text = '\n'.join(keep)
+    text = clean(text, transclude)
+    raw = [l.rstrip() for l in text.split('\n')]
+    # ctext/zysj dump without tags: a short label line repeated before every entry
+    counts = {}
+    for l in raw:
+        s = l.strip()
+        if 0 < len(s) <= 24 and not CLOSE.search(s): counts[s] = counts.get(s, 0) + 1
+    has_tags = any(l.strip().startswith(('<目录>', '<目錄>', '<篇名>')) for l in raw)
+    labels = set()
+    if not has_tags:
+        labels = {s for s, c in counts.items() if c >= 3 and (JUAN.match(s) or re.search(r'[门門部]', s))}
+        if label_re:
+            labels |= {s for s, c in counts.items() if c >= 2 and re.search(label_re, s)}
+        if sum(counts[s] for s in labels) < 10: labels = set()
+    lines, cur, expect_entry, skip_section = [], [], False, None
+    for raw_line in raw:
+        line = raw_line.strip().replace('\u3000\u3000', '\u3000')
+        m = HEAD.match(line)
         if m:
-            lv = levels.get(len(m.group(1)), 'bold')
-            title = m.group(2).strip().strip('【】')
-            lines += ['', f'**【{title}】**' if lv == 'bold' else f'{lv} {title}', '']
+            level = len(m.group(1)); title = heading_text(m.group(2))
+            if skip_section is not None and level <= skip_section: skip_section = None
+            if title in ('目錄', '目录', '目次', '總目', '总目') and main_book is not None:
+                skip_section = level; continue
+            if skip_section is not None or not title: continue
+            lines += ['', '#' * min(max(level, 2), 5) + ' ' + title, '']
+            expect_entry = False; continue
+        if skip_section is not None: continue
+        if re.match(r'^(?:https?://|www\.)\S+$', line): continue
+        tag = re.match(r'^<(目录|目錄|篇名)>\s*(.*)$', line)
+        if tag or (line in labels):
+            if tag and tag.group(1) == '篇名':
+                name = heading_text(tag.group(2))
+                if name: lines += ['', '#' * min(len(cur) + 2, 4) + ' ' + name, '']
+                continue
+            parts = _label_parts(tag.group(2) if tag else line)
+            if parts and parts != cur[:len(parts)] or len(parts) != len(cur):
+                for d, p in enumerate(parts):
+                    if d >= len(cur) or cur[d] != p or any(cur[x] != parts[x] for x in range(d)):
+                        lines += ['', '#' * (d + 2) + ' ' + p, '']
+                cur = parts
+            expect_entry = not tag
             continue
-        if re.fullmatch(r'【[^】]+】', line):
-            lines += ['', f'**{line}**', '']; continue
-        line = re.sub(r'^[*#:;]+\s*', '', line)       # list/indent markup
-        line = re.sub(r'^(\d+)\.', r'\1\\.', line)     # avoid accidental ordered lists
+        if expect_entry and line:
+            expect_entry = False
+            if len(line) <= 20 and not re.search(r'[。，：︰∶]', line):
+                lines += ['', '#' * min(len(cur) + 2, 4) + ' ' + heading_text(line), '']
+                continue
+        line = re.sub(r'^(?:内容|內容|属性|屬性)[：:]\s*', '', line)
+        line = re.sub(r'^[*#:;]+\s*', '', line)
+        if re.fullmatch(r"'''(.+?)'''", line):
+            line = '**' + re.sub(r"'{2,}", '', line) + '**'
+        else:
+            line = re.sub(r"'{2,}", '', line)
+        if line.startswith(('{|', '|}', '|-', '|+')): continue
+        if line.startswith(('|', '!')): line = re.sub(r'\s*(?:\|\||!!)\s*', '　', line.lstrip('|!').strip())
+        if re.fullmatch(r'【[^】]{1,12}】', line): lines += ['', f'**{line}**', '']; continue
+        line = line.replace('\\', '\\\\')
+        line = re.sub(r'^(\d+)\.', r'\1\\.', line)
+        line = re.sub(r'^([>+\-|])', r'\\\1', line)
         lines.append(line)
-    # Join source lines: a short line without closing punctuation (a recipe name, an
-    # ingredient list) keeps its own line; a long line that breaks mid-sentence is a
-    # transcription wrap and is joined directly (no space between Chinese characters).
-    out = []
+    return join_lines(lines)
+
+def join_lines(lines):
+    """Join hard-wrapped transcription lines back into paragraphs.
+
+    Wikisource paragraphs are normally one source line each. Some editions (ctext/zysj dumps) are
+    hard-wrapped at a fixed width; that width is detected and lines that fill it are joined. Otherwise a
+    long line (>=30 chars) that does not end in closing punctuation is a wrap and is joined directly
+    (no space between Chinese characters); short lines (recipe names, ingredient lists) keep their own line.
+    """
+    lens = [len(l) for l in lines if len(l) > 20 and not l.startswith(('#', '**'))]
+    width = None
+    if len(lens) > 30:
+        hist = {}
+        for n in lens: hist[n] = hist.get(n, 0) + 1
+        n, c = max(hist.items(), key=lambda kv: kv[1])
+        if c >= 0.12 * len(lens): width = n
+    out, last, frag = [], 0, False
     for line in lines:
         prev = out[-1] if out else ''
-        if line and prev and not prev.startswith(('#', '**', '>')) and not line.startswith(('#', '**')):
-            if re.search(r'[。」』）)？！；：︰]$', prev) or len(prev) < 30:
-                out.append('')
-            else:
-                out[-1] = prev + line; continue
-        out.append(line)
+        if line and prev and not prev.startswith(('#', '**')) and not line.startswith(('#', '**')):
+            # frag: the previous source line was itself a continuation of a wrapped paragraph
+            join = not CLOSE.search(prev) and (last >= 30 or (frag and last <= 8))
+            if width and not join:
+                join = last >= width - 2 or (len(line) <= 3 and not CLOSE.search(prev))
+            if join:
+                out[-1] = prev + line; last = len(line); frag = True; continue
+            out.append('')
+        out.append(line); last = len(line); frag = False
     md = '\n'.join(out)
-    md = re.sub(r'\n{3,}', '\n\n', md).strip()
-    return md
+    return re.sub(r'\n{3,}', '\n\n', md).strip()
 
-def section(text, start, end=None):
-    i = text.find(start)
-    if i < 0: raise SystemExit(f'missing section start: {start}')
-    j = text.find(end, i + len(start)) if end else -1
-    return text[i: j if j > 0 else None]
+def sections(md, level):
+    """Split md at headings of exactly `level`; returns [(title|None, text)]."""
+    parts, title, buf = [], None, []
+    prefix = '#' * level + ' '
+    for line in md.split('\n'):
+        if line.startswith(prefix):
+            if buf and ''.join(buf).strip(): parts.append((title, '\n'.join(buf).strip()))
+            title, buf = line[len(prefix):].strip(), [line]
+        else:
+            buf.append(line)
+    if buf and ''.join(buf).strip(): parts.append((title, '\n'.join(buf).strip()))
+    return parts
 
-def page_url(t): return 'https://zh.wikisource.org/wiki/' + urllib.parse.quote(t)
+def top_level(md, minlv=2):
+    for lv in range(minlv, 6):
+        if re.search(rf'^{"#" * lv} ', md, re.M): return lv
+    return None
 
-def write(slug, meta, intro, body):
-    fm = '\n'.join(f'{k}: {v}' for k, v in meta.items())
-    (OUT / f'{slug}.md').write_text(f'---\n{fm}\n---\n\n{intro}\n\n{body}\n', encoding='utf-8')
-    print('wrote', slug, len(body))
+def split_big(title, md, threshold, target=60000, minlv=2):
+    """Split one converted page into chapters when it is larger than threshold."""
+    if len(md) <= threshold: return [(title, md)]
+    lv, secs = None, []
+    for cand in range(minlv, 6):
+        if re.search(rf'^{"#" * cand} ', md, re.M):
+            secs = sections(md, cand)
+            if len([t for t, _ in secs if t]) > 1: lv = cand; break
+    if not lv:
+        return chunk_plain(title, md, target)
+    sizes = sorted(len(b) for _, b in secs)
+    if len(secs) > 20 and sizes[len(sizes) // 2] < 3000 and target > 1:
+        # many small entries (herbs, formulas): group them into chapters of roughly `target` chars
+        return group_secs(title, secs, target)
+    merged = []
+    for t, body in secs:
+        bare = len(re.sub(r'^#+ .*$|\s', '', body, flags=re.M))
+        if merged and (bare < 300 or (t and t == merged[-1][0])):
+            pt, pb = merged[-1]; merged[-1] = (pt, pb + '\n\n' + body)
+        else:
+            merged.append((t or title, body))
+    if len(merged) > 1 and len(re.sub(r'^#+ .*$|\s', '', merged[0][1], flags=re.M)) < 300:
+        (t0, b0), (t1, b1) = merged[0], merged[1]; merged[0:2] = [(t1, b0 + '\n\n' + b1)]
+    out = []
+    for t, body in merged:
+        if len(body) > 150000:
+            out += split_big(t, body, 150000, target, lv + 1)
+        else:
+            out.append((t, body))
+    return out
 
-def credit(pages):
-    src = '；'.join(f'[《{t}》]({page_url(t)})（修訂版本 {r}）' for t, r in pages)
-    return (f'> 原文來源：維基文庫 {src}。古籍原文屬公有領域（PD-old），本站僅轉換格式，保留繁體原字。'
-            '\n>\n> 閱讀提示：此為歷史文獻原文，不同版本文字、斷句互有出入；所載方藥與主治不構成現代醫療建議，健康問題請諮詢專業醫師。')
+def group_secs(title, secs, target):
+    groups, buf, n = [], [], 0
+    for t, body in secs:
+        buf.append((t, body)); n += len(body)
+        if n >= target:
+            groups.append(buf); buf, n = [], 0
+    if buf:
+        if groups and n < target / 4: groups[-1] += buf
+        else: groups.append(buf)
+    if len(groups) == 1: return [(title, '\n\n'.join(b for _, b in groups[0]))]
+    out = []
+    for g in groups:
+        names = [t for t, _ in g if t]
+        if len(names) == 1: out.append((names[0], '\n\n'.join(b for _, b in g))); continue
+        label = f'{names[0]}—{names[-1]}' if len(names) > 1 else title
+        generic = title in ('全文', '正文') or not title
+        out.append((label if generic or title in label else f'{title}·{label}', '\n\n'.join(b for _, b in g)))
+    return out
 
-def main():
-    # 1. 神農本草經 (full)
-    t, r = fetch('神農本草經')
-    write('shen-nong-ben-cao-jing-yuanwen', dict(title='神农本草经（原文）', author='佚名（托名神农）', dynasty='漢', category='本草类',
-          summary='维基文库通行辑本全文（繁体原文），分上、中、下三经，按玉石、草、木、果菜、米谷、虫兽各部收药。', coverLabel='本经原文', featured='false'),
-          credit([('神農本草經', r)]), to_md(t, {2: '##', 3: '###'}))
+def chunk_plain(title, md, target):
+    paras = md.split('\n\n'); out, buf, n = [], [], 0
+    for p in paras:
+        buf.append(p); n += len(p)
+        if n >= target: out.append('\n\n'.join(buf)); buf, n = [], 0
+    if buf: out.append('\n\n'.join(buf))
+    nums = '一二三四五六七八九十'
+    return [(f'{title}（{nums[i] if i < 10 else i + 1}）' if len(out) > 1 else title, b) for i, b in enumerate(out)]
 
-    # 2. 黃帝內經·素問 卷一至卷三
-    parts, mds = [], []
-    for vol in ['第一卷', '第二卷', '第三卷']:
-        title = f'黃帝內經/素問{vol}'
-        tx, rv = fetch(title); parts.append((title, rv)); mds.append(to_md(tx, {2: '##', 3: '###'}))
-    write('huang-di-nei-jing-su-wen-yuanwen', dict(title='黄帝内经·素问（原文·卷一至卷三）', author='佚名', dynasty='先秦至漢', category='医经类',
-          summary='《素问》前三卷原文十一篇（繁体）：上古天真论、四气调神大论、生气通天论、阴阳应象大论、灵兰秘典论等。', coverLabel='素问原文', featured='false'),
-          credit(parts), '\n\n'.join(mds))
+# ---------------------------------------------------------------- books
 
-    # 3. 傷寒論（宋本）: 張仲景原序 + 已校訂的第五至第十四篇
-    t, r = fetch('傷寒論')
-    body = section(t, '== 張仲景原序 ==', '==  卷第一 ==') + '\n' + section(t, '=== 辨太陽病脈證並治（上）第五 ===', '=== 辨不可發汗病脈證並治第十五 ===')
-    write('shang-han-lun-yuanwen', dict(title='伤寒论（原文·宋本选）', author='东汉·张仲景', dynasty='东汉', category='方书类',
-          summary='宋本《伤寒论》张仲景原序及六经病篇（第五至第十四篇）繁体原文，取维基文库已校订部分。', coverLabel='傷寒原文', featured='false'),
-          credit([('傷寒論', r)]) + '\n>\n> 維基文庫註明：序及第五至十四篇條文已校訂，方劑部分尚未校訂。',
-          to_md(body, {2: '##', 3: '##'}))
+def main_links(title, text):
+    links, labels = [], {}
+    for m in re.finditer(r'\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|([^\]]*))?\]\]', text):
+        l = m.group(1).strip().replace('_', ' ')
+        if l.startswith('/'): l = title + l.rstrip('/')
+        if l.startswith('../'): l = title + '/' + l[3:]
+        if l.startswith(title + '/') and l not in links:
+            links.append(l)
+            lab = re.sub(r"'{2,}|\s+", '', unlink(clean(m.group(2) or ''))).strip()
+            if lab: labels[l] = lab
+    return links, labels
 
-    # 4. 本草綱目：本站十二味藥條目（至【附方】前）
-    entries = [('本草綱目/草之一', '人參'), ('本草綱目/草之一', '甘草'), ('本草綱目/草之一', '黃耆'), ('本草綱目/草之三', '當歸'),
-               ('本草綱目/木之三', '枸杞地骨皮'), ('本草綱目/草之四', '菊'), ('本草綱目/草之七', '忍冬'), ('本草綱目/果之二', '橘'),
-               ('本草綱目/木之四', '茯苓'), ('本草綱目/草之一', '朮'), ('本草綱目/菜之一', '生薑'), ('本草綱目/草之三', '薄荷')]
-    cache, parts, mds = {}, {}, []
-    for page, name in entries:
-        if page not in cache: cache[page] = fetch(page); parts[page] = cache[page][1]
-        tx = cache[page][0]
-        m = re.search(rf'^(=+)\s*{re.escape(name)}\s*=+\s*$', tx, re.M)
-        if not m: raise SystemExit(f'missing {name}')
-        lvl = len(m.group(1)); rest = tx[m.end():]
-        # stop at next herb heading of same/higher level, but keep sub-sections
-        stop = None
-        for h in re.finditer(r'^(=+)[^=\n]+=+\s*$', rest, re.M):
-            if len(h.group(1)) <= lvl: stop = h.start(); break
-        chunk = rest[:stop]
-        cut = re.search(r'^(=+\s*)?【?附方】?|^=+\s*附方\s*=+', chunk, re.M)
-        if cut: chunk = chunk[:cut.start()]
-        mds.append(f'## {name.replace("枸杞地骨皮", "枸杞（地骨皮）")}\n\n' + to_md(chunk, {}))
-    write('ben-cao-gang-mu-yuanwen', dict(title='本草纲目（原文·本草堂十二味）', author='明·李时珍', dynasty='明', category='本草类',
-          summary='《本草纲目》中人参、甘草、黄芪、当归、枸杞、菊、忍冬、橘、茯苓、术、生姜、薄荷十二条繁体原文（释名、集解、气味、主治、发明，附方从略）。',
-          coverLabel='纲目原文', featured='false'),
-          credit(list(parts.items())) + '\n>\n> 各條目「附方」部分篇幅浩繁，且多為古代經驗方，本站從略。',
-          '\n\n'.join(mds))
+def slugify(title):
+    t = unicodedata.normalize('NFKC', title)
+    if lazy_pinyin:
+        syl = [s for s in lazy_pinyin(t, errors='ignore') if re.fullmatch(r'[a-z]+', s)]
+        s = '-'.join(syl[:6])
+    else:
+        s = re.sub(r'[^a-z0-9]+', '-', t.lower()).strip('-')
+    return s or 'pian'
+
+def import_book(spec):
+    slug, main = spec['slug'], spec['page']
+    pages = fetch_many([main])
+    mp = pages[main]
+    if mp.get('missing'): raise SystemExit(f'{slug}: main page missing: {main}')
+    main_title = mp['title']
+    links, labels = main_links(main_title, mp['text'])
+    sources, chapters_raw, used = [], [], set()
+    transclude_cache = {}
+
+    def transclude(t):
+        if t not in transclude_cache:
+            d = fetch_many([t])[t]
+            transclude_cache[t] = d.get('text', '')
+            if not d.get('missing'): sources.append((d['title'], d['revid']))
+        return transclude_cache[t]
+
+    items = spec.get('items')
+    if items is None:
+        flt = re.compile(spec['filter']) if spec.get('filter') else None
+        exc = re.compile(spec['exclude']) if spec.get('exclude') else None
+        subs = [l for l in links if (not flt or flt.search(l)) and not (exc and exc.search(l))]
+        items = [{'page': s} for s in subs]
+        include_main = spec.get('main', 'auto')
+        if include_main is True or include_main == 'auto':
+            it = {'page': main_title, 'auto': include_main == 'auto'}
+            if spec.get('mainItemTitle'): it['title'] = spec['mainItemTitle']
+            items = items + [it] if spec.get('mainLast') else [it] + items
+    norm_items = []
+    for it in items:
+        if isinstance(it, str):
+            p, _, sec = it.partition('#'); it = {'page': p, 'section': sec or None}
+        norm_items.append(it)
+    fetched = fetch_many([it['page'] for it in norm_items])
+    threshold_single = spec.get('split', 60000)
+    for it in norm_items:
+        d = fetched[it['page']]
+        if d.get('missing'):
+            print(f'  ! {slug}: missing page skipped: {it["page"]}', file=sys.stderr); continue
+        is_main = d['title'] == main_title
+        text = d['text']
+        md = to_lines(text, transclude, main_book=main_title if is_main else None, label_re=spec.get('labelRegex'))
+        if it.get('section'):
+            lv = top_level(md) or 2
+            secs = [b for t, b in sections(md, lv) if t == it['section']]
+            if not secs: raise SystemExit(f'{slug}: section not found: {it}')
+            md = secs[0]
+        body = re.sub(r'\s+', '', re.sub(r'^#+ .*$', '', md, flags=re.M))
+        if it.get('auto') and len(body) < 300:
+            continue
+        if not body:
+            continue
+        if (d['title'], d['revid']) not in sources: sources.append((d['title'], d['revid']))
+        if it.get('title'): title = it['title']
+        elif it.get('section'): title = it['section']
+        elif is_main: title = spec.get('mainTitle', '全文')
+        else: title = labels.get(it['page']) or d['title'].split('/', 1)[-1]
+        title = re.sub(r'\s+', ' ', title).strip()
+        if spec.get('combine'):
+            chapters_raw.append((title, md, d['title'], d['revid'])); continue
+        thr = threshold_single if is_main or it.get('section') else spec.get('splitSub', 150000)
+        for t, part in split_big(title, md, thr, spec.get('target', 60000)):
+            chapters_raw.append((t or title, part, d['title'], d['revid']))
+    if spec.get('combine') and chapters_raw:
+        # many tiny subpages: join them (each under its own heading) and re-split by size
+        md = '\n\n'.join(('## ' + t + '\n\n' + re.sub(r'^(#+) ', lambda m: '#' + m.group(1) + ' ', b, flags=re.M)) for t, b, _, _ in chapters_raw)
+        first_src = chapters_raw[0]
+        chapters_raw = [(t, part, first_src[2], first_src[3]) for t, part in split_big(spec.get('mainTitle', '全文'), md, spec.get('split', 60000), spec.get('target', 60000))]
+    if not chapters_raw: raise SystemExit(f'{slug}: no text')
+    # strip a leading heading identical to the chapter title (the reader shows it as h1)
+    folder = OUT / slug
+    folder.mkdir(parents=True, exist_ok=True)
+    for f in folder.glob('*.md'): f.unlink()
+    width = 3 if len(chapters_raw) > 99 else 2
+    nums, seen_titles = '一二三四五六七八九十', {}
+    for i, (t, md, src, rev) in enumerate(chapters_raw):
+        seen_titles[t] = seen_titles.get(t, 0) + 1
+        if seen_titles[t] > 1:
+            n = seen_titles[t]; chapters_raw[i] = (f'{t}（{nums[n - 1] if n <= 10 else n}）', md, src, rev)
+    meta_chapters, seen, total = [], set(), 0
+    for i, (title, md, src, rev) in enumerate(chapters_raw, 1):
+        md = re.sub(r'^##+ ' + re.escape(title) + r'\s*\n+', '', md.strip(), count=1).strip()
+        md = drop_empty_headings(md)
+        base = f'{i:0{width}d}-{slugify(title)}'
+        while base in seen: base += '-x'
+        seen.add(base)
+        heads = [h for h in re.findall(r'^##+ (.+)$', md, re.M)]
+        top = [h for h in re.findall(r'^## (.+)$', md, re.M)] or [h for h in re.findall(r'^### (.+)$', md, re.M)]
+        chars = len(re.sub(r'\s', '', md))
+        total += chars
+        fm = {'title': title, 'source': src, 'sourceUrl': page_url(src), 'revid': rev, 'license': 'PD-old'}
+        front = '\n'.join(f'{k}: {json.dumps(v, ensure_ascii=False)}' for k, v in fm.items())
+        (folder / f'{base}.md').write_text(f'---\n{front}\n---\n\n{md}\n', encoding='utf-8')
+        meta_chapters.append({'slug': base, 'title': title, 'chars': chars, 'headings': top[:400] if len(top) <= 400 else top[:400]})
+    meta = dict(spec['meta'])
+    meta.update({
+        'wikisource': main_title,
+        'license': 'PD-old（公有领域）',
+        'sources': [{'title': t, 'url': page_url(t), 'revid': r} for t, r in sources],
+        'chars': total,
+        'chapters': meta_chapters,
+    })
+    (folder / 'meta.json').write_text(json.dumps(meta, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+    print(f'wrote {slug}: {len(meta_chapters)} chapters, {total} chars')
+    return meta
+
+def drop_empty_headings(md):
+    lines = md.split('\n'); keep = []
+    heads = [(i, len(m.group(1))) for i, l in enumerate(lines) for m in [re.match(r'^(#+) ', l)] if m]
+    nxt = {}
+    for k, (i, lv) in enumerate(heads):
+        nxt[i] = heads[k + 1] if k + 1 < len(heads) else None
+    for i, l in enumerate(lines):
+        if i in nxt:
+            lv = len(re.match(r'^(#+)', l).group(1)); n = nxt[i]
+            between = ''.join(lines[i + 1:(n[0] if n else len(lines))]).strip()
+            if not between and (n is None or n[1] <= lv): continue
+        keep.append(l)
+    return re.sub(r'\n{3,}', '\n\n', '\n'.join(keep)).strip()
+
+def main(argv):
+    manifest = json.loads(MANIFEST.read_text(encoding='utf-8'))
+    if '--t2s' in argv: write_t2s_map(); return
+    want = set(a for a in argv if not a.startswith('-'))
+    books = [b for b in manifest['books'] if not want or b['slug'] in want]
+    if want - {b['slug'] for b in books}: raise SystemExit(f'unknown slugs: {want - {b["slug"] for b in books}}')
+    for b in books:
+        import_book(b)
+    write_t2s_map()
+
+def write_t2s_map():
+    """content/books/_t2s.json: traditional->simplified map for the characters used in book/chapter titles and
+    headings, so site search can match a simplified query (人参) against traditional text (人參)."""
+    try:
+        import opencc  # pip install opencc-python-reimplemented
+    except Exception:
+        print('opencc not installed; _t2s.json not refreshed', file=sys.stderr); return
+    conv = opencc.OpenCC('t2s')
+    chars = set()
+    for meta_file in OUT.glob('*/meta.json'):
+        meta = json.loads(meta_file.read_text(encoding='utf-8'))
+        for c in meta.get('chapters', []):
+            chars.update(c.get('title', '')); [chars.update(h) for h in c.get('headings', [])]
+        chars.update(meta.get('title', '')); chars.update(meta.get('author', ''))
+    mapping = {}
+    for ch in sorted(chars):
+        if '\u3400' <= ch <= '\u9fff' or '\uf900' <= ch <= '\ufaff':
+            sc = conv.convert(ch)
+            if sc != ch and len(sc) == 1: mapping[ch] = sc
+    (OUT / '_t2s.json').write_text(json.dumps(mapping, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    print(f'wrote _t2s.json ({len(mapping)} characters)')
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv[1:])

@@ -1,0 +1,32 @@
+{
+ "title": "养老奉亲书",
+ "author": "宋·陈直",
+ "dynasty": "北宋",
+ "category": "养生类",
+ "summary": "我国现存最早的老年养生专著，论老人饮食调治、四时摄养、起居与食疗方。",
+ "coverLabel": "养老奉亲书",
+ "featured": false,
+ "wikisource": "養老奉親書",
+ "license": "PD-old（公有领域）",
+ "sources": [
+  {
+   "title": "養老奉親書",
+   "url": "https://zh.wikisource.org/wiki/%E9%A4%8A%E8%80%81%E5%A5%89%E8%A6%AA%E6%9B%B8",
+   "revid": 2490504
+  }
+ ],
+ "chars": 30423,
+ "chapters": [
+  {
+   "slug": "01-quan-wen",
+   "title": "全文",
+   "chars": 30423,
+   "headings": [
+    "序",
+    "上籍",
+    "下籍",
+    "附篇"
+   ]
+  }
+ ]
+}

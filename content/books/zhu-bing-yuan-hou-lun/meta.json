@@ -1,0 +1,462 @@
+{
+  "title": "诸病源候论",
+  "author": "巢元方 等",
+  "dynasty": "隋",
+  "category": "医经类",
+  "summary": "我国现存第一部病因证候学专著，五十卷分六十七门、一千七百余候，论诸病源流与证候。",
+  "coverLabel": "病源候论",
+  "featured": false,
+  "wikisource": "諸病源候論",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "諸病源候論",
+      "url": "https://zh.wikisource.org/wiki/%E8%AB%B8%E7%97%85%E6%BA%90%E5%80%99%E8%AB%96",
+      "revid": 2490520
+    }
+  ],
+  "chars": 221783,
+  "chapters": [
+    {
+      "slug": "01-xu",
+      "title": "序",
+      "chars": 731,
+      "headings": []
+    },
+    {
+      "slug": "02-juan-zhi-yi",
+      "title": "卷之一",
+      "chars": 5775,
+      "headings": [
+        "风病诸候上（凡二十九论）"
+      ]
+    },
+    {
+      "slug": "03-juan-zhi-er",
+      "title": "卷之二",
+      "chars": 8458,
+      "headings": [
+        "风病诸候下（凡三十论）"
+      ]
+    },
+    {
+      "slug": "04-juan-zhi-san",
+      "title": "卷之三",
+      "chars": 5410,
+      "headings": [
+        "虚劳病诸候上（凡三十九论）"
+      ]
+    },
+    {
+      "slug": "05-juan-zhi-si",
+      "title": "卷之四",
+      "chars": 4323,
+      "headings": [
+        "虚劳病诸候下（凡三十六论）"
+      ]
+    },
+    {
+      "slug": "06-juan-zhi-wu",
+      "title": "卷之五",
+      "chars": 3048,
+      "headings": [
+        "腰背病诸候（凡十论）",
+        "消渴病诸候（凡八论）"
+      ]
+    },
+    {
+      "slug": "07-juan-zhi-liu",
+      "title": "卷之六",
+      "chars": 8464,
+      "headings": [
+        "解散病诸候（凡二十六论）"
+      ]
+    },
+    {
+      "slug": "08-juan-zhi-qi",
+      "title": "卷之七",
+      "chars": 5474,
+      "headings": [
+        "伤寒病诸候上（凡三十三论）"
+      ]
+    },
+    {
+      "slug": "09-juan-zhi-ba",
+      "title": "卷之八",
+      "chars": 4988,
+      "headings": [
+        "伤寒病诸候下（凡四十四论）"
+      ]
+    },
+    {
+      "slug": "10-juan-zhi-jiu",
+      "title": "卷之九",
+      "chars": 6088,
+      "headings": [
+        "时气病诸候（凡四十三论）",
+        "热病诸候（凡二十八论）"
+      ]
+    },
+    {
+      "slug": "11-juan-zhi-shi",
+      "title": "卷之十",
+      "chars": 3829,
+      "headings": [
+        "温病诸候（凡三十四论）",
+        "疫疠病诸候（凡三论）"
+      ]
+    },
+    {
+      "slug": "12-juan-zhi-shi-yi",
+      "title": "卷之十一",
+      "chars": 2923,
+      "headings": [
+        "疟病诸候（凡十四论）"
+      ]
+    },
+    {
+      "slug": "13-juan-zhi-shi-er",
+      "title": "卷之十二",
+      "chars": 4182,
+      "headings": [
+        "黄病诸候（凡二十八论）",
+        "冷热病诸候（凡七论）"
+      ]
+    },
+    {
+      "slug": "14-juan-zhi-shi-san",
+      "title": "卷之十三",
+      "chars": 5412,
+      "headings": [
+        "气病诸候（凡二十五论）",
+        "脚氣病诸候（凡八论）"
+      ]
+    },
+    {
+      "slug": "15-juan-zhi-shi-si",
+      "title": "卷之十四",
+      "chars": 5561,
+      "headings": [
+        "咳嗽病诸候（凡十五论）",
+        "淋病诸候（凡八论）",
+        "小便病诸候（凡八论）",
+        "大便病诸候（凡五论）"
+      ]
+    },
+    {
+      "slug": "16-juan-zhi-shi-wu",
+      "title": "卷之十五",
+      "chars": 5046,
+      "headings": [
+        "五脏六腑病诸候（凡十三论）"
+      ]
+    },
+    {
+      "slug": "17-juan-zhi-shi-liu",
+      "title": "卷之十六",
+      "chars": 3583,
+      "headings": [
+        "心痛病诸候（凡五论）",
+        "腹痛病诸候（凡四论）",
+        "心腹痛病诸候（凡七论）"
+      ]
+    },
+    {
+      "slug": "18-juan-zhi-shi-qi",
+      "title": "卷之十七",
+      "chars": 4702,
+      "headings": [
+        "痢病诸候（凡四十论）"
+      ]
+    },
+    {
+      "slug": "19-juan-zhi-shi-ba",
+      "title": "卷之十八",
+      "chars": 2187,
+      "headings": [
+        "湿病诸候（凡三论）",
+        "九虫病诸候（凡五论）"
+      ]
+    },
+    {
+      "slug": "20-juan-zhi-shi-jiu",
+      "title": "卷之十九",
+      "chars": 3789,
+      "headings": [
+        "积聚病诸候（凡六论）",
+        "瘕病诸候（凡十八论）"
+      ]
+    },
+    {
+      "slug": "21-juan-zhi-er-shi",
+      "title": "卷之二十",
+      "chars": 4535,
+      "headings": [
+        "疝病诸候（凡十一论）",
+        "痰饮病诸候（凡十六论）",
+        "癖病诸候（凡十一论）",
+        "痞噎病诸候（凡八论）"
+      ]
+    },
+    {
+      "slug": "22-juan-zhi-er-shi-yi",
+      "title": "卷之二十一",
+      "chars": 4414,
+      "headings": [
+        "脾胃病诸候（凡五论）",
+        "呕哕病诸候（凡六论）",
+        "宿食不消病诸候（凡四论）",
+        "水肿病诸候（凡二十二论）"
+      ]
+    },
+    {
+      "slug": "23-juan-zhi-er-shi-er",
+      "title": "卷之二十二",
+      "chars": 3788,
+      "headings": [
+        "霍乱病诸候（凡二十四论）"
+      ]
+    },
+    {
+      "slug": "24-juan-zhi-er-shi-san",
+      "title": "卷之二十三",
+      "chars": 2999,
+      "headings": [
+        "中恶病诸候（凡十四论）",
+        "尸病诸候（凡十二论）"
+      ]
+    },
+    {
+      "slug": "25-juan-zhi-er-shi-si",
+      "title": "卷之二十四",
+      "chars": 4366,
+      "headings": [
+        "注病诸候（凡三十四论）"
+      ]
+    },
+    {
+      "slug": "26-juan-zhi-er-shi-wu",
+      "title": "卷之二十五",
+      "chars": 3241,
+      "headings": [
+        "蛊毒病诸候（上凡九论）"
+      ]
+    },
+    {
+      "slug": "27-juan-zhi-er-shi-liu",
+      "title": "卷之二十六",
+      "chars": 2936,
+      "headings": [
+        "蛊毒病诸候（下凡二十七论）"
+      ]
+    },
+    {
+      "slug": "28-juan-zhi-er-shi-qi",
+      "title": "卷之二十七",
+      "chars": 3146,
+      "headings": [
+        "血病诸候（凡九论）",
+        "毛发病诸候（凡十三论）",
+        "面体病诸候（凡五论）"
+      ]
+    },
+    {
+      "slug": "29-juan-zhi-er-shi-ba",
+      "title": "卷之二十八",
+      "chars": 3524,
+      "headings": [
+        "目病诸候（凡三十八论）"
+      ]
+    },
+    {
+      "slug": "30-juan-zhi-er-shi-jiu",
+      "title": "卷之二十九",
+      "chars": 4500,
+      "headings": [
+        "鼻病诸候（凡十一论）",
+        "耳病诸候（凡九论）",
+        "牙齿病诸候（凡二十一论）"
+      ]
+    },
+    {
+      "slug": "31-juan-zhi-san-shi",
+      "title": "卷之三十",
+      "chars": 3528,
+      "headings": [
+        "唇口病诸候（凡十七论）",
+        "咽喉心胸病诸候（凡十一论）",
+        "四肢病诸候（凡十四论）"
+      ]
+    },
+    {
+      "slug": "32-juan-zhi-san-shi-yi",
+      "title": "卷之三十一",
+      "chars": 4080,
+      "headings": [
+        "瘿瘤等病诸候（凡一十五论）",
+        "丹毒病诸候（凡一十三论）",
+        "肿病诸候（凡一十七论）",
+        "疔疮病诸候（凡一十三论）"
+      ]
+    },
+    {
+      "slug": "33-juan-zhi-san-shi-er",
+      "title": "卷之三十二",
+      "chars": 5139,
+      "headings": [
+        "痈疽病诸候上（凡一十六论）"
+      ]
+    },
+    {
+      "slug": "34-juan-zhi-san-shi-san",
+      "title": "卷之三十三",
+      "chars": 4476,
+      "headings": [
+        "痈疽病诸候下（凡二十九论）"
+      ]
+    },
+    {
+      "slug": "35-juan-zhi-san-shi-si",
+      "title": "卷之三十四",
+      "chars": 4098,
+      "headings": [
+        "病诸候（凡三十五论）",
+        "痔病诸候（凡六论）"
+      ]
+    },
+    {
+      "slug": "36-juan-zhi-san-shi-wu",
+      "title": "卷之三十五",
+      "chars": 5185,
+      "headings": [
+        "疮病诸候（凡六十五论）",
+        "伤疮病诸候（凡四论）"
+      ]
+    },
+    {
+      "slug": "37-juan-zhi-san-shi-liu",
+      "title": "卷之三十六",
+      "chars": 5458,
+      "headings": [
+        "兽毒病诸候（凡四论）",
+        "蛇毒病诸候（凡五论）",
+        "杂毒病诸候（凡十四论）",
+        "金疮病诸候（凡二十三论）",
+        "腕伤病诸候（凡九论）"
+      ]
+    },
+    {
+      "slug": "38-juan-zhi-san-shi-qi",
+      "title": "卷之三十七",
+      "chars": 5318,
+      "headings": [
+        "妇人杂病诸候一（凡三十二论）"
+      ]
+    },
+    {
+      "slug": "39-juan-zhi-san-shi-ba",
+      "title": "卷之三十八",
+      "chars": 5002,
+      "headings": [
+        "妇人杂病诸候二（凡一十九论）"
+      ]
+    },
+    {
+      "slug": "40-juan-zhi-san-shi-jiu",
+      "title": "卷之三十九",
+      "chars": 3618,
+      "headings": [
+        "妇人杂病诸候三（凡四十论）"
+      ]
+    },
+    {
+      "slug": "41-juan-zhi-si-shi",
+      "title": "卷之四十",
+      "chars": 4599,
+      "headings": [
+        "妇人杂病诸候四（凡五十论）"
+      ]
+    },
+    {
+      "slug": "42-juan-zhi-si-shi-yi",
+      "title": "卷之四十一",
+      "chars": 3873,
+      "headings": [
+        "妇人妊娠病诸候上（凡二十论）"
+      ]
+    },
+    {
+      "slug": "43-juan-zhi-si-shi-er",
+      "title": "卷之四十二",
+      "chars": 4133,
+      "headings": [
+        "妇人妊娠诸候下（凡四十一论）"
+      ]
+    },
+    {
+      "slug": "44-juan-zhi-si-shi-san",
+      "title": "卷之四十三",
+      "chars": 4534,
+      "headings": [
+        "妇人将产病诸候（凡三论）",
+        "妇人产后病诸候上（凡三十论）"
+      ]
+    },
+    {
+      "slug": "45-juan-zhi-si-shi-si",
+      "title": "卷之四十四",
+      "chars": 3273,
+      "headings": [
+        "妇人产后病诸候下（凡四十一论）"
+      ]
+    },
+    {
+      "slug": "46-juan-zhi-si-shi-wu",
+      "title": "卷之四十五",
+      "chars": 5386,
+      "headings": [
+        "小儿杂病诸候一（凡二十九论）"
+      ]
+    },
+    {
+      "slug": "47-juan-zhi-si-shi-liu",
+      "title": "卷之四十六",
+      "chars": 3910,
+      "headings": [
+        "小儿杂病诸候二（凡三十四论）"
+      ]
+    },
+    {
+      "slug": "48-juan-zhi-si-shi-qi",
+      "title": "卷之四十七",
+      "chars": 3970,
+      "headings": [
+        "小儿杂病诸候三（凡四十五论）"
+      ]
+    },
+    {
+      "slug": "49-juan-zhi-si-shi-ba",
+      "title": "卷之四十八",
+      "chars": 4231,
+      "headings": [
+        "小儿杂病诸候四（凡四十六论）"
+      ]
+    },
+    {
+      "slug": "50-juan-zhi-si-shi-jiu",
+      "title": "卷之四十九",
+      "chars": 2769,
+      "headings": [
+        "小儿杂病诸候五（凡五十论）"
+      ]
+    },
+    {
+      "slug": "51-juan-zhi-wu-shi",
+      "title": "卷之五十",
+      "chars": 3781,
+      "headings": [
+        "小儿杂病诸候六（凡五十一论）"
+      ]
+    }
+  ]
+}
