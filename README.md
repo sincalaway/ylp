@@ -27,10 +27,13 @@ pnpm build
 pnpm start
 ```
 
+`pnpm start` 会先将 `.next/static` 和 `public/` 复制到 `.next/standalone/` 中对应位置，再启动生产服务。Next.js 的 standalone 产物默认不包含这两类资源，直接运行 `server.js` 而未补齐它们，会导致 CSS、JavaScript 和图片 404，页面显示为无样式状态。此步骤不会覆盖或清理运行目录中的 `content/`。Docker 部署仍由 Dockerfile 复制这些资源。
+
 运行检查：
 
 ```bash
 pnpm lint
+pnpm test:standalone
 ```
 
 ### 配置后台

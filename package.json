@@ -7,8 +7,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node .next/standalone/server.js",
-    "lint": "eslint ."
+    "start": "node scripts/prepare-standalone.mjs && node .next/standalone/server.js",
+    "lint": "eslint .",
+    "test:standalone": "node --test scripts/prepare-standalone.test.mjs"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
