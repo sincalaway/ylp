@@ -1,0 +1,34 @@
+{
+  "title": "珍珠囊补遗药性赋",
+  "author": "李杲（旧题）",
+  "dynasty": "金元",
+  "category": "本草类",
+  "summary": "旧题李东垣撰，以寒、热、温、平四赋概括常用药物功用，附用药法象，为流传甚广的药性启蒙读物。",
+  "coverLabel": "药性赋",
+  "featured": false,
+  "wikisource": "珍珠囊補遺藥性賦",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "珍珠囊補遺藥性賦",
+      "url": "https://zh.wikisource.org/wiki/%E7%8F%8D%E7%8F%A0%E5%9B%8A%E8%A3%9C%E9%81%BA%E8%97%A5%E6%80%A7%E8%B3%A6",
+      "revid": 2490573
+    }
+  ],
+  "chars": 33697,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 33697,
+      "headings": [
+        "序",
+        "卷一\\总赋",
+        "卷二",
+        "卷二\\用药须知",
+        "卷三",
+        "卷四"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "title": "侣山堂类辩",
+  "author": "张志聪",
+  "dynasty": "清",
+  "category": "医论类",
+  "summary": "张志聪就医理、病证与药性诸问题撰写辩论短文，凡二卷。",
+  "coverLabel": "侣山堂类辩",
+  "featured": false,
+  "wikisource": "侶山堂類辯",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "侶山堂類辯",
+      "url": "https://zh.wikisource.org/wiki/%E4%BE%B6%E5%B1%B1%E5%A0%82%E9%A1%9E%E8%BE%AF",
+      "revid": 2187338
+    }
+  ],
+  "chars": 47286,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 47286,
+      "headings": [
+        "序",
+        "卷上",
+        "卷下",
+        "跋"
+      ]
+    }
+  ]
+}

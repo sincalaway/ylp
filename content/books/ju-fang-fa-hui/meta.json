@@ -1,0 +1,27 @@
+{
+  "title": "局方发挥",
+  "author": "朱震亨",
+  "dynasty": "元",
+  "category": "医论类",
+  "summary": "朱丹溪批评《太平惠民和剂局方》滥用温燥香窜之弊，倡导辨证论治、慎用燥热。",
+  "coverLabel": "局方发挥",
+  "featured": false,
+  "wikisource": "局方發揮 (四庫全書本)",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "局方發揮 (四庫全書本)",
+      "url": "https://zh.wikisource.org/wiki/%E5%B1%80%E6%96%B9%E7%99%BC%E6%8F%AE_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29",
+      "revid": 633888
+    }
+  ],
+  "chars": 12968,
+  "chapters": [
+    {
+      "slug": "01-ti-yao",
+      "title": "提要",
+      "chars": 12968,
+      "headings": []
+    }
+  ]
+}

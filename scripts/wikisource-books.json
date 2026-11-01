@@ -50,7 +50,7 @@
    "page": "中藏經",
    "meta": {
     "title": "中藏经",
-    "author": "旧题东汉·华佗",
+    "author": "旧题华佗",
     "dynasty": "汉（托名）",
     "category": "医经类",
     "summary": "旧题华佗所撰，卷上、卷中论脏腑虚实寒热生死逆顺，卷下载疗诸病药方，附原序与序。",
@@ -71,7 +71,7 @@
    "page": "諸病源候論",
    "meta": {
     "title": "诸病源候论",
-    "author": "隋·巢元方 等",
+    "author": "巢元方 等",
     "dynasty": "隋",
     "category": "医经类",
     "summary": "我国现存第一部病因证候学专著，五十卷分六十七门、一千七百余候，论诸病源流与证候。",
@@ -98,7 +98,7 @@
    "page": "本草綱目",
    "meta": {
     "title": "本草纲目",
-    "author": "明·李时珍",
+    "author": "李时珍",
     "dynasty": "明",
     "category": "本草类",
     "summary": "明代李时珍历时二十七年编成的本草巨著，五十二卷，载药一千八百九十二种，分十六部六十类，释名、集解、气味、主治、发明、附方俱全。",
@@ -112,7 +112,7 @@
    "page": "本草備要",
    "meta": {
     "title": "本草备要",
-    "author": "清·汪昂",
+    "author": "汪昂",
     "dynasty": "清",
     "category": "本草类",
     "summary": "清代汪昂撰，选常用药四百余味，简明论述性味归经、功用与宜忌，为普及性本草名著。",
@@ -125,7 +125,7 @@
    "page": "本草從新",
    "meta": {
     "title": "本草从新",
-    "author": "清·吴仪洛",
+    "author": "吴仪洛",
     "dynasty": "清",
     "category": "本草类",
     "summary": "吴仪洛据《本草备要》重订增补，十八卷载药七百二十种，详辨真伪、修治与用法。",
@@ -148,7 +148,7 @@
    "page": "本草求真",
    "meta": {
     "title": "本草求真",
-    "author": "清·黄宫绣",
+    "author": "黄宫绣",
     "dynasty": "清",
     "category": "本草类",
     "summary": "黄宫绣撰，按补、涩、散、泻、血、杂、食物分类论药，力求阐明药性真义。",
@@ -161,7 +161,7 @@
    "page": "本經逢原",
    "meta": {
     "title": "本经逢原",
-    "author": "清·张璐",
+    "author": "张璐",
     "dynasty": "清",
     "category": "本草类",
     "summary": "张璐以《本经》为本，参以诸家之说，四卷论药七百余种，重在发明药性、切于临证。",
@@ -182,7 +182,7 @@
    "page": "雷公炮炙論",
    "meta": {
     "title": "雷公炮炙论",
-    "author": "南朝宋·雷敩",
+    "author": "雷敩",
     "dynasty": "南北朝",
     "category": "本草类",
     "summary": "我国最早的中药炮制学专著（辑本），记述三百种药物的修治、炮制方法。",
@@ -195,7 +195,7 @@
    "page": "本草衍義",
    "meta": {
     "title": "本草衍义",
-    "author": "宋·寇宗奭",
+    "author": "寇宗奭",
     "dynasty": "北宋",
     "category": "本草类",
     "summary": "寇宗奭撰，二十卷，就《嘉祐本草》《图经本草》所载药物辨析考订，多出亲身验证。",
@@ -215,7 +215,7 @@
    "page": "新修本草",
    "meta": {
     "title": "新修本草",
-    "author": "唐·苏敬 等",
+    "author": "苏敬 等",
     "dynasty": "唐",
     "category": "本草类",
     "summary": "唐显庆四年官修，世界上最早由国家颁行的药典，此为传世辑存本。",
@@ -228,7 +228,7 @@
    "page": "滇南本草",
    "meta": {
     "title": "滇南本草",
-    "author": "明·兰茂",
+    "author": "兰茂",
     "dynasty": "明",
     "category": "本草类",
     "summary": "明代兰茂所撰的云南地方本草，记载滇地药物性味、功用及民间验方。",
@@ -241,7 +241,7 @@
    "page": "備急千金要方",
    "meta": {
     "title": "备急千金要方",
-    "author": "唐·孙思邈",
+    "author": "孙思邈",
     "dynasty": "唐",
     "category": "方书类",
     "summary": "孙思邈撰，三十卷，载方五千三百余首，首论“大医精诚”，兼及妇儿、五脏、伤寒、食治、养性、针灸，被誉为我国最早的临床百科全书。",
@@ -255,7 +255,7 @@
    "page": "千金翼方",
    "meta": {
     "title": "千金翼方",
-    "author": "唐·孙思邈",
+    "author": "孙思邈",
     "dynasty": "唐",
     "category": "方书类",
     "summary": "孙思邈晚年为补《千金要方》之未备而作，三十卷，内有本草、伤寒、妇儿、养性、补益、针灸、禁经等。",
@@ -271,7 +271,7 @@
    "page": "肘後備急方",
    "meta": {
     "title": "肘后备急方",
-    "author": "晋·葛洪（梁·陶弘景、金·杨用道增补）",
+    "author": "葛洪（陶弘景、杨用道增补）",
     "dynasty": "东晋",
     "category": "方书类",
     "summary": "葛洪辑录简便易得的急救验方，八卷七十三篇，所载青蒿治疟等法影响深远。",
@@ -286,7 +286,7 @@
    "page": "太平惠民和劑局方",
    "meta": {
     "title": "太平惠民和剂局方",
-    "author": "宋·太平惠民和剂局 编",
+    "author": "太平惠民和剂局 编",
     "dynasty": "宋",
     "category": "方书类",
     "summary": "宋代官修成药方典，十卷分诸风、伤寒、诸气、痰饮等十四门，载方七百八十八首，如至宝丹、四物汤、逍遥散。",
@@ -307,7 +307,7 @@
    "page": "普濟本事方",
    "meta": {
     "title": "普济本事方",
-    "author": "宋·许叔微",
+    "author": "许叔微",
     "dynasty": "宋",
     "category": "方书类",
     "summary": "许叔微以平生已试之方并记事实而成，十卷，分二十三门，方后多附医案。",
@@ -320,7 +320,7 @@
    "page": "醫方考",
    "meta": {
     "title": "医方考",
-    "author": "明·吴昆",
+    "author": "吴昆",
     "dynasty": "明",
     "category": "方书类",
     "summary": "吴昆选古今良方七百余首，按病分门，考其方义、药性与配伍，为最早的方论专著之一。",
@@ -333,7 +333,7 @@
    "page": "濟生方",
    "meta": {
     "title": "济生方",
-    "author": "宋·严用和",
+    "author": "严用和",
     "dynasty": "南宋",
     "category": "方书类",
     "summary": "严用和撰，以脏腑门类论治，载方四百余首，归脾汤、济生肾气丸等名方出此书。",
@@ -346,7 +346,7 @@
    "page": "傷寒論",
    "meta": {
     "title": "伤寒论",
-    "author": "东汉·张仲景 著，晋·王叔和 撰次",
+    "author": "张仲景 著，王叔和 撰次",
     "dynasty": "东汉",
     "category": "伤寒金匮类",
     "summary": "宋本《伤寒论》十卷二十二篇全文，以六经辨证论治外感热病，载方一百一十三首，为辨证论治之祖。",
@@ -360,7 +360,7 @@
    "page": "金匱要略",
    "meta": {
     "title": "金匮要略",
-    "author": "东汉·张仲景",
+    "author": "张仲景",
     "dynasty": "东汉",
     "category": "伤寒金匮类",
     "summary": "《金匮要略方论》二十五篇全文，论内科杂病及妇人病证治，为杂病辨治之典范。",
@@ -375,7 +375,7 @@
    "page": "注解傷寒論",
    "meta": {
     "title": "注解伤寒论",
-    "author": "金·成无己",
+    "author": "成无己",
     "dynasty": "金",
     "category": "伤寒金匮类",
     "summary": "现存最早的《伤寒论》全注本，成无己以《内经》《难经》之理逐条注释仲景原文。",
@@ -388,7 +388,7 @@
    "page": "傷寒明理論",
    "meta": {
     "title": "伤寒明理论",
-    "author": "金·成无己",
+    "author": "成无己",
     "dynasty": "金",
     "category": "伤寒金匮类",
     "summary": "成无己辨析伤寒发热、恶寒等五十证之异同，并论二十首仲景方的方义。",
@@ -406,7 +406,7 @@
    "page": "傷寒貫珠集",
    "meta": {
     "title": "伤寒贯珠集",
-    "author": "清·尤怡",
+    "author": "尤怡",
     "dynasty": "清",
     "category": "伤寒金匮类",
     "summary": "尤怡以治法为纲重新编次《伤寒论》，分正治、权变、斡旋、救逆诸法，条理贯通如珠。",
@@ -419,7 +419,7 @@
    "page": "金匱要略心典",
    "meta": {
     "title": "金匮要略心典",
-    "author": "清·尤怡",
+    "author": "尤怡",
     "dynasty": "清",
     "category": "伤寒金匮类",
     "summary": "尤怡注释《金匮要略》之作，删繁就简、深入浅出，为《金匮》注本中之佳构。",
@@ -432,7 +432,7 @@
    "page": "傷寒總病論",
    "meta": {
     "title": "伤寒总病论",
-    "author": "宋·庞安时",
+    "author": "庞安时",
     "dynasty": "北宋",
     "category": "伤寒金匮类",
     "summary": "庞安时发挥仲景之学，六卷论伤寒及温病、暑病、时行寒疫，附苏轼、黄庭坚题跋。",
@@ -452,7 +452,7 @@
    "page": "溫病條辨",
    "meta": {
     "title": "温病条辨",
-    "author": "清·吴瑭（鞠通）",
+    "author": "吴瑭（鞠通）",
     "dynasty": "清",
     "category": "温病类",
     "summary": "吴鞠通创立三焦辨证，分上、中、下焦论治温病，银翘散、桑菊饮等名方出此书。",
@@ -466,7 +466,7 @@
    "page": "溫疫論",
    "meta": {
     "title": "温疫论",
-    "author": "明·吴有性（又可）",
+    "author": "吴有性（又可）",
     "dynasty": "明",
     "category": "温病类",
     "summary": "吴又可创“戾气”学说，论温疫由口鼻而入、邪伏膜原，制达原饮，为我国第一部瘟疫专著。",
@@ -480,7 +480,7 @@
    "page": "溫熱經緯",
    "meta": {
     "title": "温热经纬",
-    "author": "清·王士雄（孟英）",
+    "author": "王士雄（孟英）",
     "dynasty": "清",
     "category": "温病类",
     "summary": "王孟英以《内经》、仲景之文为经，叶天士、薛生白、陈平伯、余师愚诸家之说为纬，集温病学之大成。",
@@ -494,7 +494,7 @@
    "page": "時病論",
    "meta": {
     "title": "时病论",
-    "author": "清·雷丰",
+    "author": "雷丰",
     "dynasty": "清",
     "category": "温病类",
     "summary": "雷丰按四时节气论述时令病，八卷，立法而不拘泥成方，附有医案。",
@@ -507,7 +507,7 @@
    "page": "濕熱條辨",
    "meta": {
     "title": "湿热条辨",
-    "author": "清·薛雪（生白）",
+    "author": "薛雪（生白）",
     "dynasty": "清",
     "category": "温病类",
     "summary": "薛生白《湿热病篇》，以条文加自注形式论湿热病的病机与辨治。",
@@ -520,7 +520,7 @@
    "page": "脈經",
    "meta": {
     "title": "脉经",
-    "author": "晋·王叔和",
+    "author": "王叔和",
     "dynasty": "西晋",
     "category": "诊法类",
     "summary": "我国现存最早的脉学专著，十卷，确立二十四种脉象，阐述寸口脉诊与脉证关系。",
@@ -535,7 +535,7 @@
    "page": "瀕湖脈學",
    "meta": {
     "title": "濒湖脉学",
-    "author": "明·李时珍",
+    "author": "李时珍",
     "dynasty": "明",
     "category": "诊法类",
     "summary": "李时珍撰，以七言歌诀阐述二十七种脉象的体状、相类与主病，便于诵记。",
@@ -551,7 +551,7 @@
    "page": "診家樞要",
    "meta": {
     "title": "诊家枢要",
-    "author": "元·滑寿",
+    "author": "滑寿",
     "dynasty": "元",
     "category": "诊法类",
     "summary": "滑寿论诊脉之道与三十种脉象，提纲挈领，为脉学要籍。",
@@ -564,7 +564,7 @@
    "page": "望診遵經",
    "meta": {
     "title": "望诊遵经",
-    "author": "清·汪宏",
+    "author": "汪宏",
     "dynasty": "清",
     "category": "诊法类",
     "summary": "汪宏汇集历代望诊资料，系统论述望形色、望部位、望舌等望诊之法，为望诊专著。",
@@ -577,7 +577,7 @@
    "page": "鍼灸甲乙經",
    "meta": {
     "title": "针灸甲乙经",
-    "author": "晋·皇甫谧",
+    "author": "皇甫谧",
     "dynasty": "西晋",
     "category": "针灸类",
     "summary": "皇甫谧撷《素问》《针经》《明堂孔穴针灸治要》三书精要而成，十二卷，为现存最早的针灸学专著。",
@@ -592,7 +592,7 @@
    "page": "針灸大成",
    "meta": {
     "title": "针灸大成",
-    "author": "明·杨继洲",
+    "author": "杨继洲",
     "dynasty": "明",
     "category": "针灸类",
     "summary": "杨继洲在家传《卫生针灸玄机秘要》基础上汇集历代针灸文献而成，十卷，为明以前针灸学之总结。",
@@ -606,7 +606,7 @@
    "page": "十四經發揮",
    "meta": {
     "title": "十四经发挥",
-    "author": "元·滑寿",
+    "author": "滑寿",
     "dynasty": "元",
     "category": "针灸类",
     "summary": "滑寿将任、督二脉与十二经并论为十四经，考订经穴循行，三卷。",
@@ -619,7 +619,7 @@
    "page": "奇經八脈考",
    "meta": {
     "title": "奇经八脉考",
-    "author": "明·李时珍",
+    "author": "李时珍",
     "dynasty": "明",
     "category": "针灸类",
     "summary": "李时珍考证阴维、阳维、阴跷、阳跷、冲、任、督、带奇经八脉的循行与病候。",
@@ -645,7 +645,7 @@
    "page": "傅青主女科",
    "meta": {
     "title": "傅青主女科",
-    "author": "清·傅山",
+    "author": "傅山",
     "dynasty": "清",
     "category": "临证各科类",
     "summary": "傅山论带下、血崩、调经、种子、妊娠、小产、难产、正产、产后诸证，附《产后编》，方药平和而效验。",
@@ -666,7 +666,7 @@
    "page": "小兒藥證真訣",
    "meta": {
     "title": "小儿药证直诀",
-    "author": "宋·钱乙 撰，阎孝忠 编集",
+    "author": "钱乙 撰，阎孝忠 编集",
     "dynasty": "北宋",
     "category": "临证各科类",
     "summary": "儿科奠基之作，上卷论小儿脉证，中卷记钱乙治验二十三证，下卷载方，六味地黄丸、泻白散等出此书。",
@@ -688,7 +688,7 @@
    "page": "脾胃論",
    "meta": {
     "title": "脾胃论",
-    "author": "金·李杲（东垣）",
+    "author": "李杲（东垣）",
     "dynasty": "金",
     "category": "临证各科类",
     "summary": "李东垣倡“内伤脾胃，百病由生”，创补中益气汤、升阳益胃汤等，为补土派代表作。",
@@ -702,7 +702,7 @@
    "page": "丹溪心法",
    "meta": {
     "title": "丹溪心法",
-    "author": "元·朱震亨 述，明·程充 校订",
+    "author": "朱震亨 述，程充 校订",
     "dynasty": "元",
     "category": "临证各科类",
     "summary": "朱丹溪学术经验的整理本，论内、外、妇、儿各科病证一百篇，倡“阳常有余，阴常不足”。",
@@ -715,7 +715,7 @@
    "page": "血證論",
    "meta": {
     "title": "血证论",
-    "author": "清·唐宗海（容川）",
+    "author": "唐宗海（容川）",
     "dynasty": "清",
     "category": "临证各科类",
     "summary": "唐容川论吐血、衄血、便血、瘀血等血证，立止血、消瘀、宁血、补血四法，为血证专著。",
@@ -729,7 +729,7 @@
    "page": "醫林改錯",
    "meta": {
     "title": "医林改错",
-    "author": "清·王清任",
+    "author": "王清任",
     "dynasty": "清",
     "category": "临证各科类",
     "summary": "王清任据观察改正古书脏腑记载之误，创血府逐瘀汤、补阳还五汤等活血化瘀名方。",
@@ -743,7 +743,7 @@
    "page": "格致餘論",
    "meta": {
     "title": "格致余论",
-    "author": "元·朱震亨",
+    "author": "朱震亨",
     "dynasty": "元",
     "category": "医论类",
     "summary": "朱丹溪医论集，四十余篇，阐发“阳有余阴不足论”“相火论”等学说。",
@@ -756,11 +756,1987 @@
    "page": "養老奉親書",
    "meta": {
     "title": "养老奉亲书",
-    "author": "宋·陈直",
+    "author": "陈直",
     "dynasty": "北宋",
     "category": "养生类",
     "summary": "我国现存最早的老年养生专著，论老人饮食调治、四时摄养、起居与食疗方。",
     "coverLabel": "养老奉亲书",
+    "featured": false
+   }
+  },
+  {
+   "slug": "huang-di-nei-jing-su-wen-ji-zhu",
+   "page": "黃帝內經素問集注",
+   "meta": {
+    "title": "黄帝内经素问集注",
+    "author": "张志聪",
+    "dynasty": "清",
+    "category": "医经类",
+    "summary": "张志聪集同学门人共注《素问》，以经解经，阐发阴阳运气、脏腑经络之理，为清代《内经》注本的代表作。",
+    "coverLabel": "素问集注",
+    "featured": false
+   }
+  },
+  {
+   "slug": "huang-di-nei-jing-ling-shu-ji-zhu",
+   "page": "黃帝內經靈樞集注",
+   "meta": {
+    "title": "黄帝内经灵枢集注",
+    "author": "张志聪",
+    "dynasty": "清",
+    "category": "医经类",
+    "summary": "张志聪集众注释《灵枢》，详论经络气血与针刺之义，与《素问集注》并为清人注解《内经》的重要全注本。",
+    "coverLabel": "灵枢集注",
+    "featured": false
+   }
+  },
+  {
+   "slug": "su-wen-shi",
+   "page": "素問識",
+   "meta": {
+    "title": "素问识",
+    "author": "丹波元简",
+    "dynasty": "日本江户时代",
+    "category": "医经类",
+    "summary": "日本汉方医家丹波元简汇考历代注家，逐条辨析《素问》字义训诂，为考据学派研究《内经》的名著。",
+    "coverLabel": "素问识",
+    "featured": false
+   }
+  },
+  {
+   "slug": "ling-shu-shi",
+   "page": "靈樞識",
+   "meta": {
+    "title": "灵枢识",
+    "author": "丹波元简",
+    "dynasty": "日本江户时代",
+    "category": "医经类",
+    "summary": "丹波元简考证《灵枢》经文与诸家注解，与《素问识》相辅相成，长于文字校勘与训诂。",
+    "coverLabel": "灵枢识",
+    "featured": false
+   }
+  },
+  {
+   "slug": "lei-jing",
+   "page": "類經 (四庫全書本)",
+   "meta": {
+    "title": "类经",
+    "author": "张介宾",
+    "dynasty": "明",
+    "category": "医经类",
+    "summary": "张介宾将《素问》《灵枢》全文拆分为摄生、阴阳、藏象、脉色等十二类重新编次并逐条注释，凡三十二卷（四库全书本，图翼、附翼另见《类经图翼》）。",
+    "coverLabel": "类经",
+    "featured": false
+   },
+   "mainTitle": "提要",
+   "exclude": "/(圖翼|附翼)"
+  },
+  {
+   "slug": "lei-jing-tu-yi",
+   "page": "類經圖翼",
+   "meta": {
+    "title": "类经图翼",
+    "author": "张介宾",
+    "dynasty": "明",
+    "category": "医经类",
+    "summary": "张介宾以图解补《类经》之未尽，论运气、经络与针灸，附《类经附翼》论医易、律原、求正录及针灸诸赋。",
+    "coverLabel": "类经图翼",
+    "featured": false
+   }
+  },
+  {
+   "slug": "nei-jing-zhi-yao",
+   "page": "內經知要",
+   "meta": {
+    "title": "内经知要",
+    "author": "李中梓",
+    "dynasty": "明",
+    "category": "医经类",
+    "summary": "李中梓节取《内经》要文，分道生、阴阳、色诊、脉诊、藏象、经络、治则、病能八类简要注释，为历来学习《内经》的入门读本。",
+    "coverLabel": "内经知要",
+    "featured": false
+   }
+  },
+  {
+   "slug": "su-wen-ling-shu-lei-zuan-yue-zhu",
+   "page": "素問靈樞類纂約注",
+   "meta": {
+    "title": "素问灵枢类纂约注",
+    "author": "汪昂",
+    "dynasty": "清",
+    "category": "医经类",
+    "summary": "汪昂选取《素问》《灵枢》中切于实用的经文，分藏象、经络、病机、脉要、诊候等九类，删繁就简加以约注。",
+    "coverLabel": "类纂约注",
+    "featured": false
+   }
+  },
+  {
+   "slug": "nan-jing-ji-zhu",
+   "page": "難經集注",
+   "meta": {
+    "title": "难经集注",
+    "author": "王九思 等辑",
+    "dynasty": "明",
+    "category": "医经类",
+    "summary": "汇辑三国吕广，唐杨玄操，宋丁德用、虞庶、杨康侯五家注释的《难经》集注本，保存了早期《难经》注文。",
+    "coverLabel": "难经集注",
+    "featured": false
+   }
+  },
+  {
+   "slug": "nan-jing-jing-shi",
+   "page": "難經經釋",
+   "meta": {
+    "title": "难经经释",
+    "author": "徐大椿",
+    "dynasty": "清",
+    "category": "医经类",
+    "summary": "徐大椿以《内经》之理诠释《难经》八十一难，辨其与经旨之异同，见解精当。",
+    "coverLabel": "难经经释",
+    "featured": false
+   }
+  },
+  {
+   "slug": "nan-jing-ben-yi",
+   "page": "難經本義 (四庫全書本)",
+   "meta": {
+    "title": "难经本义",
+    "author": "滑寿",
+    "dynasty": "元",
+    "category": "医经类",
+    "summary": "滑寿参考诸家注本校订、注释《难经》，阐明本义，并附汇考、阙误总类与图说，为元代《难经》注本的代表。",
+    "coverLabel": "难经本义",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "zheng-lei-ben-cao",
+   "page": "證類本草 (四庫全書本)",
+   "meta": {
+    "title": "证类本草",
+    "author": "唐慎微",
+    "dynasty": "北宋",
+    "category": "本草类",
+    "summary": "全称《经史证类备急本草》，唐慎微在《嘉祐本草》《本草图经》基础上广采经史方书，收药一千七百余种，保存了大量宋以前本草文献。",
+    "coverLabel": "证类本草",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "ben-cao-cheng-ya-ban-ji",
+   "page": "本草乘雅半偈 (四庫全書本)",
+   "meta": {
+    "title": "本草乘雅半偈",
+    "author": "卢之颐",
+    "dynasty": "明",
+    "category": "本草类",
+    "summary": "卢之颐以《神农本草经》药物为主，每药分核、参、衍、断诸项考证阐发，因原稿散佚仅存其半，故名“半偈”。",
+    "coverLabel": "本草乘雅",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "ben-cao-chong-yuan",
+   "page": "本草崇原",
+   "meta": {
+    "title": "本草崇原",
+    "author": "张志聪 撰，高世栻 编订",
+    "dynasty": "清",
+    "category": "本草类",
+    "summary": "张志聪注释《神农本草经》药物，以五运六气、阴阳五行推究药性本原，为首部注释《本经》的专著。",
+    "coverLabel": "本草崇原",
+    "featured": false
+   }
+  },
+  {
+   "slug": "shen-nong-ben-cao-jing-bai-zhong-lu",
+   "page": "神農本草經百種錄",
+   "meta": {
+    "title": "神农本草经百种录",
+    "author": "徐大椿",
+    "dynasty": "清",
+    "category": "本草类",
+    "summary": "徐大椿从《神农本草经》中选取百种药物逐条注释，阐明药性之所以然，文简义精。",
+    "coverLabel": "本草百种录",
+    "featured": false
+   }
+  },
+  {
+   "slug": "ben-jing-xu-shu",
+   "page": "本經續疏",
+   "meta": {
+    "title": "本经续疏",
+    "author": "邹澍",
+    "dynasty": "清",
+    "category": "本草类",
+    "summary": "邹澍续《本经疏证》之作，以《伤寒论》《金匮要略》用药实例疏证《神农本草经》药性。",
+    "coverLabel": "本经续疏",
+    "featured": false
+   }
+  },
+  {
+   "slug": "de-pei-ben-cao",
+   "page": "得配本草",
+   "meta": {
+    "title": "得配本草",
+    "author": "严洁、施雯、洪炜",
+    "dynasty": "清",
+    "category": "本草类",
+    "summary": "以药物“得”何药而功效相成、“配”何药而相互为用为纲，论述六百余种药物的配伍应用，附奇经药考。",
+    "coverLabel": "得配本草",
+    "featured": false
+   }
+  },
+  {
+   "slug": "yao-yao-fen-ji",
+   "page": "要藥分劑",
+   "meta": {
+    "title": "要药分剂",
+    "author": "沈金鳌",
+    "dynasty": "清",
+    "category": "本草类",
+    "summary": "沈金鳌按徐之才“十剂”宣、通、补、泄等分类论述四百余种常用药物的性味、主治与归经。",
+    "coverLabel": "要药分剂",
+    "featured": false
+   }
+  },
+  {
+   "slug": "ben-cao-si-bian-lu",
+   "page": "本草思辨錄",
+   "meta": {
+    "title": "本草思辨录",
+    "author": "周岩",
+    "dynasty": "清",
+    "category": "本草类",
+    "summary": "周岩结合《伤寒论》《金匮要略》用药，辨析一百二十余种药物的功用异同，多有心得。",
+    "coverLabel": "本草思辨录",
+    "featured": false
+   }
+  },
+  {
+   "slug": "ben-cao-wen-da",
+   "page": "本草問答",
+   "meta": {
+    "title": "本草问答",
+    "author": "唐宗海",
+    "dynasty": "清",
+    "category": "本草类",
+    "summary": "唐宗海与门人张士让以问答形式讨论药性原理、气味形色与功用的关系，兼及中西药学比较。",
+    "coverLabel": "本草问答",
+    "featured": false
+   }
+  },
+  {
+   "slug": "tang-ye-ben-cao",
+   "page": "湯液本草 (四庫全書本)",
+   "meta": {
+    "title": "汤液本草",
+    "author": "王好古",
+    "dynasty": "元",
+    "category": "本草类",
+    "summary": "王好古辑录张元素、李杲用药心法，论药物气味、归经与升降浮沉，为易水学派药学代表作。",
+    "coverLabel": "汤液本草",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "pao-zhi-da-fa",
+   "page": "炮炙大法",
+   "meta": {
+    "title": "炮炙大法",
+    "author": "缪希雍",
+    "dynasty": "明",
+    "category": "本草类",
+    "summary": "缪希雍论述四百余种药物的炮制方法及畏恶宜忌，为明代重要的中药炮制专著。",
+    "coverLabel": "炮炙大法",
+    "featured": false
+   }
+  },
+  {
+   "slug": "zhen-zhu-nang-bu-yi-yao-xing-fu",
+   "page": "珍珠囊補遺藥性賦",
+   "meta": {
+    "title": "珍珠囊补遗药性赋",
+    "author": "李杲（旧题）",
+    "dynasty": "金元",
+    "category": "本草类",
+    "summary": "旧题李东垣撰，以寒、热、温、平四赋概括常用药物功用，附用药法象，为流传甚广的药性启蒙读物。",
+    "coverLabel": "药性赋",
+    "featured": false
+   }
+  },
+  {
+   "slug": "shang-han-lei-zheng-huo-ren-shu",
+   "page": "傷寒類證活人書",
+   "meta": {
+    "title": "伤寒类证活人书",
+    "author": "朱肱",
+    "dynasty": "北宋",
+    "category": "伤寒金匮类",
+    "summary": "朱肱以问答体阐发《伤寒论》，按经络辨病、以类证分析，凡二十二卷，对宋以后伤寒学影响深远。",
+    "coverLabel": "活人书",
+    "featured": false
+   }
+  },
+  {
+   "slug": "shang-han-jiu-shi-lun",
+   "page": "傷寒九十論",
+   "meta": {
+    "title": "伤寒九十论",
+    "author": "许叔微",
+    "dynasty": "南宋",
+    "category": "伤寒金匮类",
+    "summary": "许叔微记述运用仲景方治验的九十则伤寒病案并加论说，为现存最早的伤寒医案专著。",
+    "coverLabel": "伤寒九十论",
+    "featured": false
+   }
+  },
+  {
+   "slug": "shang-han-lun-tiao-bian",
+   "page": "傷寒論條辨",
+   "meta": {
+    "title": "伤寒论条辨",
+    "author": "方有执",
+    "dynasty": "明",
+    "category": "伤寒金匮类",
+    "summary": "方有执认为《伤寒论》经王叔和编次已有错简，遂重订条文次序并逐条辨注，开“错简重订”一派。",
+    "coverLabel": "伤寒论条辨",
+    "featured": false
+   }
+  },
+  {
+   "slug": "shang-lun-pian",
+   "page": "尚論篇 (四庫全書本)",
+   "meta": {
+    "title": "尚论篇",
+    "author": "喻昌",
+    "dynasty": "清",
+    "category": "伤寒金匮类",
+    "summary": "喻昌承方有执之说，以三纲鼎立重编《伤寒论》条文并加阐发，全称《尚论张仲景伤寒论重编三百九十七法》。",
+    "coverLabel": "尚论篇",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "shang-han-lun-zhu",
+   "page": "傷寒論注",
+   "meta": {
+    "title": "伤寒论注",
+    "author": "柯琴",
+    "dynasty": "清",
+    "category": "伤寒金匮类",
+    "summary": "柯琴《伤寒来苏集》之一，以方名证、以证类条重编《伤寒论》并加注释。",
+    "coverLabel": "伤寒论注",
+    "featured": false
+   }
+  },
+  {
+   "slug": "shang-han-lun-yi",
+   "page": "傷寒論翼",
+   "meta": {
+    "title": "伤寒论翼",
+    "author": "柯琴",
+    "dynasty": "清",
+    "category": "伤寒金匮类",
+    "summary": "柯琴《伤寒来苏集》之一，总论六经大旨与各经病解，阐发六经为百病立法之说。",
+    "coverLabel": "伤寒论翼",
+    "featured": false
+   }
+  },
+  {
+   "slug": "shang-han-lun-lei-fang",
+   "page": "傷寒論類方",
+   "meta": {
+    "title": "伤寒论类方",
+    "author": "徐大椿",
+    "dynasty": "清",
+    "category": "伤寒金匮类",
+    "summary": "徐大椿不拘六经次序，将《伤寒论》一百一十三方归为桂枝汤、麻黄汤等十二类，类方以析证。",
+    "coverLabel": "伤寒类方",
+    "featured": false
+   }
+  },
+  {
+   "slug": "shang-han-lun-ji-yi",
+   "page": "傷寒論輯義",
+   "meta": {
+    "title": "伤寒论辑义",
+    "author": "丹波元简",
+    "dynasty": "日本江户时代",
+    "category": "伤寒金匮类",
+    "summary": "丹波元简以成无己本为底本，广辑中日数十家注释，择善而从，附以按语。",
+    "coverLabel": "伤寒论辑义",
+    "featured": false
+   }
+  },
+  {
+   "slug": "zhang-qing-zi-shang-han-lun",
+   "page": "張卿子傷寒論",
+   "meta": {
+    "title": "张卿子伤寒论",
+    "author": "张遂辰",
+    "dynasty": "明",
+    "category": "伤寒金匮类",
+    "summary": "张遂辰（字卿子）以成无己注本为主，参以诸家之说集注《伤寒论》，维护旧本编次。",
+    "coverLabel": "张卿子伤寒论",
+    "featured": false
+   }
+  },
+  {
+   "slug": "shang-han-liu-shu",
+   "page": "傷寒六書",
+   "meta": {
+    "title": "伤寒六书",
+    "author": "陶华",
+    "dynasty": "明",
+    "category": "伤寒金匮类",
+    "summary": "陶华所撰《伤寒琐言》《伤寒家秘的本》《杀车槌法》《伤寒一提金》《截江网》《明理续论》六种伤寒论著合编。",
+    "coverLabel": "伤寒六书",
+    "featured": false
+   }
+  },
+  {
+   "slug": "shang-han-jian-zheng-xi-yi",
+   "page": "傷寒兼證析義 (四庫全書本)",
+   "meta": {
+    "title": "伤寒兼证析义",
+    "author": "张倬",
+    "dynasty": "清",
+    "category": "伤寒金匮类",
+    "summary": "张倬以问答形式论述伤寒兼挟中风、虚劳、噎膈、胎产等十七种杂病时的证治。",
+    "coverLabel": "伤寒兼证",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "jin-gui-yao-lue-qian-zhu",
+   "page": "金匱要略淺注",
+   "meta": {
+    "title": "金匮要略浅注",
+    "author": "陈念祖",
+    "dynasty": "清",
+    "category": "伤寒金匮类",
+    "summary": "陈修园逐篇注释《金匮要略》，注文浅显明白，便于初学。",
+    "coverLabel": "金匮浅注",
+    "featured": false
+   }
+  },
+  {
+   "slug": "jin-gui-yu-han-yao-lue-ji-yi",
+   "page": "金匱玉函要略輯義",
+   "meta": {
+    "title": "金匮玉函要略辑义",
+    "author": "丹波元简",
+    "dynasty": "日本江户时代",
+    "category": "伤寒金匮类",
+    "summary": "丹波元简汇辑诸家注释《金匮要略》，考证精详，与《伤寒论辑义》为姊妹篇。",
+    "coverLabel": "金匮辑义",
+    "featured": false
+   }
+  },
+  {
+   "slug": "gao-zhu-jin-gui-yao-lue",
+   "page": "金匱要略 (高學山)",
+   "meta": {
+    "title": "高注金匮要略",
+    "author": "高学山",
+    "dynasty": "清",
+    "category": "伤寒金匮类",
+    "summary": "高学山逐篇注解《金匮要略》二十余篇，析其病机与方义。",
+    "coverLabel": "高注金匮",
+    "featured": false
+   }
+  },
+  {
+   "slug": "yi-lei-yuan-rong",
+   "page": "醫壘元戎 (四庫全書本)",
+   "meta": {
+    "title": "医垒元戎",
+    "author": "王好古",
+    "dynasty": "元",
+    "category": "伤寒金匮类",
+    "summary": "王好古以伤寒六经为纲论治杂病，阐发张元素、李杲之学，兼载诸家方论。",
+    "coverLabel": "医垒元戎",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "yin-zheng-lue-li",
+   "page": "陰證略例",
+   "meta": {
+    "title": "阴证略例",
+    "author": "王好古",
+    "dynasty": "元",
+    "category": "伤寒金匮类",
+    "summary": "王好古专论阴证的辨识与治疗，集录诸家阴证论述及温补方药，附验案。",
+    "coverLabel": "阴证略例",
+    "featured": false
+   }
+  },
+  {
+   "slug": "wen-re-lun",
+   "page": "溫熱論",
+   "meta": {
+    "title": "温热论",
+    "author": "叶桂",
+    "dynasty": "清",
+    "category": "温病类",
+    "summary": "叶天士口授、门人笔录的温病学奠基之作，提出“温邪上受，首先犯肺，逆传心包”及卫气营血辨证。",
+    "coverLabel": "温热论",
+    "featured": false
+   }
+  },
+  {
+   "slug": "san-shi-fu-qi-wai-gan-pian",
+   "page": "三時伏氣外感篇",
+   "meta": {
+    "title": "三时伏气外感篇",
+    "author": "叶桂",
+    "dynasty": "清",
+    "category": "温病类",
+    "summary": "叶天士论春温、风温、暑、湿、秋燥等四时外感与伏气为病的证治。",
+    "coverLabel": "三时伏气",
+    "featured": false
+   }
+  },
+  {
+   "slug": "wen-re-feng-yuan",
+   "page": "溫熱逢源",
+   "meta": {
+    "title": "温热逢源",
+    "author": "柳宝诒",
+    "dynasty": "清",
+    "category": "温病类",
+    "summary": "柳宝诒详论伏气温病，辨析《内经》《伤寒论》有关温病条文及诸家学说。",
+    "coverLabel": "温热逢源",
+    "featured": false
+   }
+  },
+  {
+   "slug": "wen-re-shu-yi-quan-shu",
+   "page": "溫熱暑疫全書",
+   "meta": {
+    "title": "温热暑疫全书",
+    "author": "周扬俊",
+    "dynasty": "清",
+    "category": "温病类",
+    "summary": "周扬俊分温病、热病、暑病、疫病四卷，辑录诸家论述并加阐发。",
+    "coverLabel": "温热暑疫",
+    "featured": false
+   }
+  },
+  {
+   "slug": "yi-zhen-yi-de",
+   "page": "疫疹一得",
+   "meta": {
+    "title": "疫疹一得",
+    "author": "余霖",
+    "dynasty": "清",
+    "category": "温病类",
+    "summary": "余霖论疫疹的病因、辨证与治法，创清瘟败毒饮，为温疫学重要专著。",
+    "coverLabel": "疫疹一得",
+    "featured": false
+   }
+  },
+  {
+   "slug": "sui-xi-ju-zhong-ding-huo-luan-lun",
+   "page": "隨息居重訂霍亂論",
+   "meta": {
+    "title": "随息居重订霍乱论",
+    "author": "王士雄",
+    "dynasty": "清",
+    "category": "温病类",
+    "summary": "王士雄论霍乱的病情、治法，附医案与药方，分寒热两途辨治。",
+    "coverLabel": "霍乱论",
+    "featured": false
+   }
+  },
+  {
+   "slug": "sha-zhang-yu-heng",
+   "page": "痧脹玉衡",
+   "meta": {
+    "title": "痧胀玉衡",
+    "author": "郭志邃",
+    "dynasty": "清",
+    "category": "温病类",
+    "summary": "郭志邃论痧证的病因、脉证与刮痧、放痧、药治诸法，为痧证专书。",
+    "coverLabel": "痧胀玉衡",
+    "featured": false
+   }
+  },
+  {
+   "slug": "jie-nue-lun-shu",
+   "page": "痎瘧論疏 (四庫全書本)",
+   "meta": {
+    "title": "痎疟论疏",
+    "author": "卢之颐",
+    "dynasty": "明",
+    "category": "温病类",
+    "summary": "卢之颐疏证《内经》疟论，详述痎疟的虚实寒热辨治。",
+    "coverLabel": "痎疟论疏",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "zhen-jia-zheng-yan",
+   "page": "診家正眼",
+   "meta": {
+    "title": "诊家正眼",
+    "author": "李中梓",
+    "dynasty": "明",
+    "category": "诊法类",
+    "summary": "李中梓论述诊脉方法与二十八脉的体状、主病，兼论四诊，为明代脉学要籍。",
+    "coverLabel": "诊家正眼",
+    "featured": false
+   }
+  },
+  {
+   "slug": "mai-jue-hui-bian",
+   "page": "脈訣匯辨",
+   "meta": {
+    "title": "脉诀汇辨",
+    "author": "李延昰",
+    "dynasty": "清",
+    "category": "诊法类",
+    "summary": "李延昰汇辑诸家脉学论述，辨正《脉诀》之谬，兼论望闻问诊与运气。",
+    "coverLabel": "脉诀汇辨",
+    "featured": false
+   }
+  },
+  {
+   "slug": "mai-jue-kan-wu",
+   "page": "脈訣刊誤",
+   "meta": {
+    "title": "脉诀刊误",
+    "author": "戴启宗",
+    "dynasty": "元",
+    "category": "诊法类",
+    "summary": "戴启宗以《内经》《难经》《脉经》为据，逐句考订高阳生《脉诀》的谬误。",
+    "coverLabel": "脉诀刊误",
+    "featured": false
+   }
+  },
+  {
+   "slug": "cha-bing-zhi-nan",
+   "page": "察病指南",
+   "meta": {
+    "title": "察病指南",
+    "author": "施发",
+    "dynasty": "南宋",
+    "category": "诊法类",
+    "summary": "施发论述诊脉、察色、听声诸诊法，绘有脉影图，为现存较早的诊断学专书。",
+    "coverLabel": "察病指南",
+    "featured": false
+   }
+  },
+  {
+   "slug": "san-zhi-chan",
+   "page": "三指禪",
+   "meta": {
+    "title": "三指禅",
+    "author": "周学霆",
+    "dynasty": "清",
+    "category": "诊法类",
+    "summary": "周学霆以缓脉为平脉之准，对举二十七种病脉，结合病证论脉理。",
+    "coverLabel": "三指禅",
+    "featured": false
+   }
+  },
+  {
+   "slug": "ao-shi-shang-han-jin-jing-lu",
+   "page": "敖氏傷寒金鏡錄",
+   "meta": {
+    "title": "敖氏伤寒金镜录",
+    "author": "敖氏 原撰，杜清碧 增订",
+    "dynasty": "元",
+    "category": "诊法类",
+    "summary": "我国现存第一部舌诊专著，载伤寒舌象三十六种（原附舌图，今缺）及相应治法。",
+    "coverLabel": "金镜录",
+    "featured": false
+   }
+  },
+  {
+   "slug": "zhen-jiu-zi-sheng-jing",
+   "page": "針灸資生經",
+   "meta": {
+    "title": "针灸资生经",
+    "author": "王执中",
+    "dynasty": "南宋",
+    "category": "针灸类",
+    "summary": "王执中考订腧穴并按病证列举针灸取穴，多附个人经验，凡七卷。",
+    "coverLabel": "针灸资生经",
+    "featured": false
+   }
+  },
+  {
+   "slug": "zhen-jiu-da-quan",
+   "page": "針灸大全",
+   "meta": {
+    "title": "针灸大全",
+    "author": "徐凤",
+    "dynasty": "明",
+    "category": "针灸类",
+    "summary": "徐凤汇集针灸歌赋、经穴、灵龟八法、子午流注与灸法，流传甚广。",
+    "coverLabel": "针灸大全",
+    "featured": false
+   }
+  },
+  {
+   "slug": "zi-wu-liu-zhu-zhen-jing",
+   "page": "子午流注鍼經",
+   "meta": {
+    "title": "子午流注针经",
+    "author": "何若愚 撰，阎明广 注",
+    "dynasty": "金",
+    "category": "针灸类",
+    "summary": "现存最早的子午流注专著，论按时开穴的针刺方法。",
+    "coverLabel": "子午流注",
+    "featured": false
+   }
+  },
+  {
+   "slug": "bian-que-shen-ying-zhen-jiu-yu-long-jing",
+   "page": "扁鵲神應針灸玉龍經",
+   "meta": {
+    "title": "扁鹊神应针灸玉龙经",
+    "author": "王国瑞",
+    "dynasty": "元",
+    "category": "针灸类",
+    "summary": "王国瑞以《玉龙歌》一百二十穴为核心，论针灸取穴与手法，并载注解、歌诀。",
+    "coverLabel": "玉龙经",
+    "featured": false
+   }
+  },
+  {
+   "slug": "ming-tang-jiu-jing",
+   "page": "明堂灸經",
+   "meta": {
+    "title": "明堂灸经",
+    "author": "西方子",
+    "dynasty": "宋",
+    "category": "针灸类",
+    "summary": "专论灸法的腧穴书，按正人、伏人、侧人分部列穴并述主治。",
+    "coverLabel": "明堂灸经",
+    "featured": false
+   }
+  },
+  {
+   "slug": "bei-ji-jiu-fa",
+   "page": "備急灸法",
+   "meta": {
+    "title": "备急灸法",
+    "author": "闻人耆年",
+    "dynasty": "南宋",
+    "category": "针灸类",
+    "summary": "闻人耆年辑录二十余种急症的灸治方法，附骑竹马灸法等（原附图今缺）。",
+    "coverLabel": "备急灸法",
+    "featured": false
+   }
+  },
+  {
+   "slug": "zhen-jiu-feng-yuan",
+   "page": "鍼灸逢源",
+   "meta": {
+    "title": "针灸逢源",
+    "author": "李学川",
+    "dynasty": "清",
+    "category": "针灸类",
+    "summary": "李学川汇辑《内经》针灸经文、历代歌赋与经穴考证，并列证治。",
+    "coverLabel": "针灸逢源",
+    "featured": false
+   }
+  },
+  {
+   "slug": "ci-jiu-xin-fa-yao-jue",
+   "page": "刺灸心法要訣",
+   "meta": {
+    "title": "刺灸心法要诀",
+    "author": "吴谦 等",
+    "dynasty": "清",
+    "category": "针灸类",
+    "summary": "《医宗金鉴》之一部，以歌诀阐述经络腧穴与刺灸方法。",
+    "coverLabel": "刺灸心法",
+    "featured": false
+   }
+  },
+  {
+   "slug": "zhen-jiu-wen-dui",
+   "page": "針灸問對 (四庫全書本)",
+   "meta": {
+    "title": "针灸问对",
+    "author": "汪机",
+    "dynasty": "明",
+    "category": "针灸类",
+    "summary": "汪机以问答形式论述针法、灸法与经络腧穴，批评时弊，凡三卷。",
+    "coverLabel": "针灸问对",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "san-yin-ji-yi-bing-zheng-fang-lun",
+   "page": "三因極一病症方論 (四庫全書本)",
+   "meta": {
+    "title": "三因极一病证方论",
+    "author": "陈言",
+    "dynasty": "南宋",
+    "category": "方书类",
+    "summary": "陈言将病因归为内因、外因、不内外因三类，据因论治，载方一千余首。",
+    "coverLabel": "三因方",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "bo-ji-fang",
+   "page": "博濟方 (四庫全書本)",
+   "meta": {
+    "title": "博济方",
+    "author": "王衮",
+    "dynasty": "北宋",
+    "category": "方书类",
+    "summary": "王衮集录经验良方五百余首，分门编排（四库全书本，五卷）。",
+    "coverLabel": "博济方",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "su-shen-liang-fang",
+   "page": "蘇沈良方",
+   "meta": {
+    "title": "苏沈良方",
+    "author": "沈括、苏轼",
+    "dynasty": "北宋",
+    "category": "方书类",
+    "summary": "后人将沈括《良方》与苏轼医药杂说合编而成，载方剂、医论与养生之说。",
+    "coverLabel": "苏沈良方",
+    "featured": false
+   }
+  },
+  {
+   "slug": "yang-shi-jia-cang-fang",
+   "page": "楊氏家藏方",
+   "meta": {
+    "title": "杨氏家藏方",
+    "author": "杨倓",
+    "dynasty": "南宋",
+    "category": "方书类",
+    "summary": "杨倓辑录家藏经验方一千余首，分四十九门，凡二十卷。",
+    "coverLabel": "杨氏家藏方",
+    "featured": false
+   }
+  },
+  {
+   "slug": "hong-shi-ji-yan-fang",
+   "page": "洪氏集驗方",
+   "meta": {
+    "title": "洪氏集验方",
+    "author": "洪遵",
+    "dynasty": "南宋",
+    "category": "方书类",
+    "summary": "洪遵辑录亲验有效的方剂一百六十余首。",
+    "coverLabel": "洪氏集验方",
+    "featured": false
+   }
+  },
+  {
+   "slug": "wei-sheng-bao-jian",
+   "page": "衛生寶鑒",
+   "meta": {
+    "title": "卫生宝鉴",
+    "author": "罗天益",
+    "dynasty": "元",
+    "category": "方书类",
+    "summary": "罗天益传李杲之学，分药误永鉴、名方类集、药类法象、医验纪述四部，凡二十四卷。",
+    "coverLabel": "卫生宝鉴",
+    "featured": false
+   }
+  },
+  {
+   "slug": "wei-sheng-yi-jian-fang",
+   "page": "衛生易簡方",
+   "meta": {
+    "title": "卫生易简方",
+    "author": "胡濙",
+    "dynasty": "明",
+    "category": "方书类",
+    "summary": "胡濙收集各地简便验方，按病证分门编列，凡十二卷。",
+    "coverLabel": "卫生易简方",
+    "featured": false
+   }
+  },
+  {
+   "slug": "yi-fang-ji-yi",
+   "page": "醫方集宜",
+   "meta": {
+    "title": "医方集宜",
+    "author": "丁毅",
+    "dynasty": "明",
+    "category": "方书类",
+    "summary": "丁毅按病证论述病机、脉法与治法，集录相应方剂。",
+    "coverLabel": "医方集宜",
+    "featured": false
+   }
+  },
+  {
+   "slug": "cheng-fang-qie-yong",
+   "page": "成方切用",
+   "meta": {
+    "title": "成方切用",
+    "author": "吴仪洛",
+    "dynasty": "清",
+    "category": "方书类",
+    "summary": "吴仪洛选录古今成方一千余首，分二十四门，阐述方义与加减运用。",
+    "coverLabel": "成方切用",
+    "featured": false
+   }
+  },
+  {
+   "slug": "shan-bu-ming-yi-fang-lun",
+   "page": "刪補名醫方論",
+   "meta": {
+    "title": "删补名医方论",
+    "author": "吴谦 等",
+    "dynasty": "清",
+    "category": "方书类",
+    "summary": "《医宗金鉴》之一部，选录历代名方二百余首并辑诸家方论。",
+    "coverLabel": "名医方论",
+    "featured": false
+   }
+  },
+  {
+   "slug": "shi-fang-miao-yong",
+   "page": "時方妙用",
+   "meta": {
+    "title": "时方妙用",
+    "author": "陈念祖",
+    "dynasty": "清",
+    "category": "方书类",
+    "summary": "陈修园按病证论述常用时方的运用，切于临床。",
+    "coverLabel": "时方妙用",
+    "featured": false
+   }
+  },
+  {
+   "slug": "zhong-fu-tang-gong-xuan-liang-fang",
+   "page": "種福堂公選良方",
+   "meta": {
+    "title": "种福堂公选良方",
+    "author": "叶桂 原著，华岫云 编",
+    "dynasty": "清",
+    "category": "方书类",
+    "summary": "华岫云辑叶天士温热论、医案及公选良方而成，以方剂为主。",
+    "coverLabel": "种福堂方",
+    "featured": false
+   }
+  },
+  {
+   "slug": "huang-di-su-wen-xuan-ming-lun-fang",
+   "page": "黃帝素問宣明論方",
+   "meta": {
+    "title": "黄帝素问宣明论方",
+    "author": "刘完素",
+    "dynasty": "金",
+    "category": "方书类",
+    "summary": "刘完素据《素问》所载病证逐一制方，凡十五卷，体现河间学派的学术思想。",
+    "coverLabel": "宣明论方",
+    "featured": false
+   }
+  },
+  {
+   "slug": "lan-tai-gui-fan",
+   "page": "蘭臺軌範 (四庫全書本)",
+   "meta": {
+    "title": "兰台轨范",
+    "author": "徐大椿",
+    "dynasty": "清",
+    "category": "方书类",
+    "summary": "徐大椿首列通治方，再按病证列《内经》《金匮》论述及古方，以古法为规范。",
+    "coverLabel": "兰台轨范",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "yi-xue-zheng-chuan",
+   "page": "醫學正傳",
+   "meta": {
+    "title": "医学正传",
+    "author": "虞抟",
+    "dynasty": "明",
+    "category": "临证各科类",
+    "summary": "虞抟宗朱丹溪之学，按病证论述内、妇、儿诸科证治，凡八卷。",
+    "coverLabel": "医学正传",
+    "featured": false
+   }
+  },
+  {
+   "slug": "yi-xue-gang-mu",
+   "page": "醫學綱目",
+   "meta": {
+    "title": "医学纲目",
+    "author": "楼英",
+    "dynasty": "明",
+    "category": "临证各科类",
+    "summary": "楼英以阴阳脏腑分病为纲，汇集《内经》以下历代医论方药，凡四十卷，为明代大型综合医书。",
+    "coverLabel": "医学纲目",
+    "featured": false
+   }
+  },
+  {
+   "slug": "zheng-zhi-hui-bu",
+   "page": "證治匯補",
+   "meta": {
+    "title": "证治汇补",
+    "author": "李用粹",
+    "dynasty": "清",
+    "category": "临证各科类",
+    "summary": "李用粹汇集前人论述，按提纲、内因、外体、上窍、胸膈、腹胁、腰膝、下窍八门论述内科杂病证治。",
+    "coverLabel": "证治汇补",
+    "featured": false
+   }
+  },
+  {
+   "slug": "lei-zheng-zhi-cai",
+   "page": "類證治裁",
+   "meta": {
+    "title": "类证治裁",
+    "author": "林佩琴",
+    "dynasty": "清",
+    "category": "临证各科类",
+    "summary": "林佩琴分类论述内科杂病及妇科、外科病证的病因、脉证与治法，附医案。",
+    "coverLabel": "类证治裁",
+    "featured": false
+   }
+  },
+  {
+   "slug": "zheng-yin-mai-zhi",
+   "page": "症因脈治",
+   "meta": {
+    "title": "症因脉治",
+    "author": "秦景明",
+    "dynasty": "明",
+    "category": "临证各科类",
+    "summary": "秦景明按症、因、脉、治四项论述内科病证，条理分明。",
+    "coverLabel": "症因脉治",
+    "featured": false
+   }
+  },
+  {
+   "slug": "chi-shui-xuan-zhu",
+   "page": "赤水元珠 (四庫全書本)",
+   "meta": {
+    "title": "赤水玄珠",
+    "author": "孙一奎",
+    "dynasty": "明",
+    "category": "临证各科类",
+    "summary": "孙一奎分七十门论述内、外、妇、儿各科病证与方治，凡三十卷。",
+    "coverLabel": "赤水玄珠",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "ru-men-shi-qin",
+   "page": "儒門事親 (四庫全書本)",
+   "meta": {
+    "title": "儒门事亲",
+    "author": "张从正",
+    "dynasty": "金",
+    "category": "临证各科类",
+    "summary": "张从正倡“攻邪论”，善用汗、吐、下三法，为攻下派代表作。",
+    "coverLabel": "儒门事亲",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "lan-shi-mi-cang",
+   "page": "蘭室秘藏 (四庫全書本)",
+   "meta": {
+    "title": "兰室秘藏",
+    "author": "李杲",
+    "dynasty": "金",
+    "category": "临证各科类",
+    "summary": "李杲按饮食劳倦、中满腹胀、眼耳鼻等二十一门论述病证与方剂，体现补土思想。",
+    "coverLabel": "兰室秘藏",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "su-wen-bing-ji-qi-yi-bao-ming-ji",
+   "page": "素問病機氣宜保命集",
+   "meta": {
+    "title": "素问病机气宜保命集",
+    "author": "刘完素",
+    "dynasty": "金",
+    "category": "临证各科类",
+    "summary": "刘完素阐发《素问》病机与运气学说，论述各科病证治法。",
+    "coverLabel": "保命集",
+    "featured": false
+   }
+  },
+  {
+   "slug": "yi-xue-qi-yuan",
+   "page": "醫學啟源",
+   "meta": {
+    "title": "医学启源",
+    "author": "张元素",
+    "dynasty": "金",
+    "category": "临证各科类",
+    "summary": "张元素论脏腑辨证、五运六气与用药法象，为易水学派的奠基之作。",
+    "coverLabel": "医学启源",
+    "featured": false
+   }
+  },
+  {
+   "slug": "nei-wai-shang-bian-huo-lun",
+   "page": "內外傷辨惑論",
+   "meta": {
+    "title": "内外伤辨惑论",
+    "author": "李杲",
+    "dynasty": "金",
+    "category": "临证各科类",
+    "summary": "李杲辨析内伤饮食劳倦与外感风寒的区别，创补中益气汤等方。",
+    "coverLabel": "辨惑论",
+    "featured": false
+   }
+  },
+  {
+   "slug": "dan-xi-shou-jing",
+   "page": "丹溪手鏡",
+   "meta": {
+    "title": "丹溪手镜",
+    "author": "朱震亨",
+    "dynasty": "元",
+    "category": "临证各科类",
+    "summary": "朱丹溪论脉法、病机及内外各科证治的随身手册，凡三卷。",
+    "coverLabel": "丹溪手镜",
+    "featured": false
+   }
+  },
+  {
+   "slug": "jin-gui-gou-xuan",
+   "page": "金匱鈎玄",
+   "meta": {
+    "title": "金匮钩玄",
+    "author": "朱震亨 撰，戴思恭 校补",
+    "dynasty": "元",
+    "category": "临证各科类",
+    "summary": "朱丹溪论内、妇、儿科病证治法，戴思恭校补，附火岂君相五志俱有论等六篇。",
+    "coverLabel": "金匮钩玄",
+    "featured": false
+   }
+  },
+  {
+   "slug": "ming-yi-za-zhu",
+   "page": "明醫雜著",
+   "meta": {
+    "title": "明医杂著",
+    "author": "王纶 撰，薛己 注",
+    "dynasty": "明",
+    "category": "临证各科类",
+    "summary": "王纶论医理及内科杂病证治，薛己加注并附己见。",
+    "coverLabel": "明医杂著",
+    "featured": false
+   }
+  },
+  {
+   "slug": "nei-ke-zhai-yao",
+   "page": "內科摘要",
+   "meta": {
+    "title": "内科摘要",
+    "author": "薛己",
+    "dynasty": "明",
+    "category": "临证各科类",
+    "summary": "薛己以医案形式论述内科杂病，重视脾肾，为我国最早以“内科”命名的医书。",
+    "coverLabel": "内科摘要",
+    "featured": false
+   }
+  },
+  {
+   "slug": "li-xu-yuan-jian",
+   "page": "理虛元鑒",
+   "meta": {
+    "title": "理虚元鉴",
+    "author": "汪绮石",
+    "dynasty": "明",
+    "category": "临证各科类",
+    "summary": "汪绮石专论虚劳，提出治虚三本（肺、脾、肾）与知防等说。",
+    "coverLabel": "理虚元鉴",
+    "featured": false
+   }
+  },
+  {
+   "slug": "wai-ke-jing-yi",
+   "page": "外科精義",
+   "meta": {
+    "title": "外科精义",
+    "author": "齐德之",
+    "dynasty": "元",
+    "category": "临证各科类",
+    "summary": "齐德之论疮疡的诊治，先论后方，重视脉诊与内外兼治。",
+    "coverLabel": "外科精义",
+    "featured": false
+   }
+  },
+  {
+   "slug": "wai-ke-jing-yao",
+   "page": "外科精要",
+   "meta": {
+    "title": "外科精要",
+    "author": "陈自明",
+    "dynasty": "南宋",
+    "category": "临证各科类",
+    "summary": "陈自明论痈疽的病因、诊治与方药，明薛己校注。",
+    "coverLabel": "外科精要",
+    "featured": false
+   }
+  },
+  {
+   "slug": "wai-ke-da-cheng",
+   "page": "外科大成",
+   "meta": {
+    "title": "外科大成",
+    "author": "祁坤",
+    "dynasty": "清",
+    "category": "临证各科类",
+    "summary": "祁坤总论外科诊治并按部位分论痈疽、小疵与小儿疮疡，凡四卷。",
+    "coverLabel": "外科大成",
+    "featured": false
+   }
+  },
+  {
+   "slug": "wai-ke-xin-fa-yao-jue",
+   "page": "外科心法要訣",
+   "meta": {
+    "title": "外科心法要诀",
+    "author": "吴谦 等",
+    "dynasty": "清",
+    "category": "临证各科类",
+    "summary": "《医宗金鉴》之一部，以歌诀论述外科各部痈疽疮疡的证治，凡十六卷（原附图今缺）。",
+    "coverLabel": "外科心法",
+    "featured": false
+   }
+  },
+  {
+   "slug": "wai-ke-shu-yao",
+   "page": "外科樞要",
+   "meta": {
+    "title": "外科枢要",
+    "author": "薛己",
+    "dynasty": "明",
+    "category": "临证各科类",
+    "summary": "薛己论疮疡的脉证与治法，附治验与方剂，凡四卷。",
+    "coverLabel": "外科枢要",
+    "featured": false
+   }
+  },
+  {
+   "slug": "yang-ke-xin-de-ji",
+   "page": "瘍科心得集",
+   "meta": {
+    "title": "疡科心得集",
+    "author": "高秉钧",
+    "dynasty": "清",
+    "category": "临证各科类",
+    "summary": "高秉钧以温病理论论治外科疮疡，二病并列对举辨析。",
+    "coverLabel": "疡科心得集",
+    "featured": false
+   }
+  },
+  {
+   "slug": "xian-shou-li-shang-xu-duan-mi-fang",
+   "page": "仙授理傷續斷秘方",
+   "meta": {
+    "title": "仙授理伤续断秘方",
+    "author": "蔺道人",
+    "dynasty": "唐",
+    "category": "临证各科类",
+    "summary": "现存最早的骨伤科专著，论骨折脱位的整复、固定与用药。",
+    "coverLabel": "理伤续断方",
+    "featured": false
+   }
+  },
+  {
+   "slug": "zheng-ti-lei-yao",
+   "page": "正體類要",
+   "meta": {
+    "title": "正体类要",
+    "author": "薛己",
+    "dynasty": "明",
+    "category": "临证各科类",
+    "summary": "薛己论跌仆损伤的内治与外治，附治验与方药。",
+    "coverLabel": "正体类要",
+    "featured": false
+   }
+  },
+  {
+   "slug": "zheng-gu-xin-fa-yao-zhi",
+   "page": "正骨心法要旨",
+   "meta": {
+    "title": "正骨心法要旨",
+    "author": "吴谦 等",
+    "dynasty": "清",
+    "category": "临证各科类",
+    "summary": "《医宗金鉴》之一部，论正骨手法、器具与各部骨伤证治（原附图今缺）。",
+    "coverLabel": "正骨心法",
+    "featured": false
+   }
+  },
+  {
+   "slug": "nv-ke-zheng-zhi-zhun-sheng",
+   "page": "女科證治准繩",
+   "meta": {
+    "title": "女科证治准绳",
+    "author": "王肯堂",
+    "dynasty": "明",
+    "category": "临证各科类",
+    "summary": "《证治准绳》之女科部分，分调经、杂证、胎前、产后诸门，凡五卷。",
+    "coverLabel": "女科准绳",
+    "featured": false
+   }
+  },
+  {
+   "slug": "ji-yin-gang-mu",
+   "page": "濟陰綱目",
+   "meta": {
+    "title": "济阴纲目",
+    "author": "武之望",
+    "dynasty": "明",
+    "category": "临证各科类",
+    "summary": "武之望以王肯堂《女科证治准绳》为基础，分门论述妇科经、带、胎、产诸病，凡十四卷。",
+    "coverLabel": "济阴纲目",
+    "featured": false
+   }
+  },
+  {
+   "slug": "nv-ke-bai-wen",
+   "page": "女科百問",
+   "meta": {
+    "title": "女科百问",
+    "author": "齐仲甫",
+    "dynasty": "南宋",
+    "category": "临证各科类",
+    "summary": "齐仲甫以一百问答论述妇女经、带、胎、产诸病的证治。",
+    "coverLabel": "女科百问",
+    "featured": false
+   }
+  },
+  {
+   "slug": "tai-chan-xin-fa",
+   "page": "胎產心法",
+   "meta": {
+    "title": "胎产心法",
+    "author": "阎纯玺",
+    "dynasty": "清",
+    "category": "临证各科类",
+    "summary": "阎纯玺论胎前、临产、产后诸证的调治，凡三卷。",
+    "coverLabel": "胎产心法",
+    "featured": false
+   }
+  },
+  {
+   "slug": "nv-ke-jing-lun",
+   "page": "女科經綸",
+   "meta": {
+    "title": "女科经纶",
+    "author": "萧埙",
+    "dynasty": "清",
+    "category": "临证各科类",
+    "summary": "萧埙汇集历代医家论述，分月经、嗣育、胎前、产后、崩带、杂证诸门并加按语。",
+    "coverLabel": "女科经纶",
+    "featured": false
+   },
+   "main": false
+  },
+  {
+   "slug": "zhu-lin-nv-ke-zheng-zhi",
+   "page": "竹林女科證治",
+   "meta": {
+    "title": "竹林女科证治",
+    "author": "竹林寺僧",
+    "dynasty": "清",
+    "category": "临证各科类",
+    "summary": "浙江萧山竹林寺僧世传的妇科证治，分调经、安胎、保产、求嗣四卷。",
+    "coverLabel": "竹林女科",
+    "featured": false
+   }
+  },
+  {
+   "slug": "da-sheng-bian",
+   "page": "達生編",
+   "meta": {
+    "title": "达生编",
+    "author": "亟斋居士",
+    "dynasty": "清",
+    "category": "临证各科类",
+    "summary": "亟斋居士以通俗文字讲述临产、保胎与产后调护，倡“睡、忍痛、慢临盆”六字诀。",
+    "coverLabel": "达生编",
+    "featured": false
+   }
+  },
+  {
+   "slug": "you-you-xin-shu",
+   "page": "幼幼新書",
+   "meta": {
+    "title": "幼幼新书",
+    "author": "刘昉",
+    "dynasty": "南宋",
+    "category": "临证各科类",
+    "summary": "刘昉汇集宋以前儿科文献，分五百四十七门，凡四十卷，为宋代儿科集大成之作。",
+    "coverLabel": "幼幼新书",
+    "featured": false
+   }
+  },
+  {
+   "slug": "you-you-ji-cheng",
+   "page": "幼幼集成",
+   "meta": {
+    "title": "幼幼集成",
+    "author": "陈复正",
+    "dynasty": "清",
+    "category": "临证各科类",
+    "summary": "陈复正论小儿指纹诊法与儿科诸病证治，后两卷辑录万全痘麻之论。",
+    "coverLabel": "幼幼集成",
+    "featured": false
+   }
+  },
+  {
+   "slug": "bao-ying-cuo-yao",
+   "page": "保嬰撮要",
+   "meta": {
+    "title": "保婴撮要",
+    "author": "薛铠、薛己",
+    "dynasty": "明",
+    "category": "临证各科类",
+    "summary": "薛铠撰、薛己增补，论小儿内科、外科及痘疹诸证，附大量医案，凡二十卷。",
+    "coverLabel": "保婴撮要",
+    "featured": false
+   }
+  },
+  {
+   "slug": "ying-tong-bai-wen",
+   "page": "嬰童百問",
+   "meta": {
+    "title": "婴童百问",
+    "author": "鲁伯嗣",
+    "dynasty": "明",
+    "category": "临证各科类",
+    "summary": "鲁伯嗣以一百问论述小儿初生护养及各种疾病的证治，凡十卷。",
+    "coverLabel": "婴童百问",
+    "featured": false
+   }
+  },
+  {
+   "slug": "you-ke-fa-hui",
+   "page": "幼科發揮",
+   "meta": {
+    "title": "幼科发挥",
+    "author": "万全",
+    "dynasty": "明",
+    "category": "临证各科类",
+    "summary": "万全以五脏为纲论述小儿病证，重视调理脾胃，附验案。",
+    "coverLabel": "幼科发挥",
+    "featured": false
+   }
+  },
+  {
+   "slug": "huo-you-xin-shu",
+   "page": "活幼心書",
+   "meta": {
+    "title": "活幼心书",
+    "author": "曾世荣",
+    "dynasty": "元",
+    "category": "临证各科类",
+    "summary": "曾世荣以歌诀论儿科诸证，并有明本论与信效方。",
+    "coverLabel": "活幼心书",
+    "featured": false
+   }
+  },
+  {
+   "slug": "xiao-er-wei-sheng-zong-wei-lun-fang",
+   "page": "小兒衛生總微論方",
+   "meta": {
+    "title": "小儿卫生总微论方",
+    "author": "佚名",
+    "dynasty": "南宋",
+    "category": "临证各科类",
+    "summary": "宋代儿科专著，论小儿初生至成童的各种疾病，凡论一百条，附方。",
+    "coverLabel": "总微论方",
+    "featured": false
+   }
+  },
+  {
+   "slug": "xiao-er-dou-zhen-fang-lun",
+   "page": "小兒痘疹方論",
+   "meta": {
+    "title": "小儿痘疹方论",
+    "author": "陈文中",
+    "dynasty": "南宋",
+    "category": "临证各科类",
+    "summary": "陈文中论痘疹的证治，主张温补托里，为痘疹温补派的代表。",
+    "coverLabel": "痘疹方论",
+    "featured": false
+   }
+  },
+  {
+   "slug": "li-zheng-an-mo-yao-shu",
+   "page": "厘正按摩要術",
+   "meta": {
+    "title": "厘正按摩要术",
+    "author": "张振鋆",
+    "dynasty": "清",
+    "category": "临证各科类",
+    "summary": "张振鋆据《小儿推拿秘诀》增订，论辨证、立法、取穴与列证，为儿科推拿名著。",
+    "coverLabel": "按摩要术",
+    "featured": false
+   }
+  },
+  {
+   "slug": "lu-xin-jing",
+   "page": "顱𩕄經 (四庫全書本)",
+   "meta": {
+    "title": "颅囟经",
+    "author": "佚名（旧题师巫）",
+    "dynasty": "唐",
+    "category": "临证各科类",
+    "summary": "现存最早的儿科专著之一，论小儿脉法、惊痫、疳痢、火丹等证治。",
+    "coverLabel": "颅囟经",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "mi-chuan-yan-ke-long-mu-lun",
+   "page": "秘傳眼科龍木論",
+   "meta": {
+    "title": "秘传眼科龙木论",
+    "author": "佚名",
+    "dynasty": "宋元",
+    "category": "临证各科类",
+    "summary": "托名龙树菩萨的眼科专书，论七十二种眼病的证治及针灸、诸家方论。",
+    "coverLabel": "龙木论",
+    "featured": false
+   }
+  },
+  {
+   "slug": "yuan-ji-qi-wei",
+   "page": "原機啟微",
+   "meta": {
+    "title": "原机启微",
+    "author": "倪维德",
+    "dynasty": "元",
+    "category": "临证各科类",
+    "summary": "倪维德论眼病的病因与治法，分十八类，附方剂。",
+    "coverLabel": "原机启微",
+    "featured": false
+   }
+  },
+  {
+   "slug": "yin-hai-jing-wei",
+   "page": "銀海精微 (四庫全書本)",
+   "meta": {
+    "title": "银海精微",
+    "author": "孙思邈（旧题）",
+    "dynasty": "宋元",
+    "category": "临证各科类",
+    "summary": "旧题孙思邈撰的眼科专书，论五轮八廓与八十余种眼病的证治。",
+    "coverLabel": "银海精微",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "mu-jing-da-cheng",
+   "page": "目經大成",
+   "meta": {
+    "title": "目经大成",
+    "author": "黄庭镜",
+    "dynasty": "清",
+    "category": "临证各科类",
+    "summary": "黄庭镜论眼科生理、病证八十一种与针拨内障等治法。",
+    "coverLabel": "目经大成",
+    "featured": false
+   }
+  },
+  {
+   "slug": "chong-lou-yu-yue",
+   "page": "重樓玉鑰",
+   "meta": {
+    "title": "重楼玉钥",
+    "author": "郑梅涧",
+    "dynasty": "清",
+    "category": "临证各科类",
+    "summary": "郑梅涧论咽喉口齿诸病与针灸治法，首创养阴清肺汤治白喉。",
+    "coverLabel": "重楼玉钥",
+    "featured": false
+   }
+  },
+  {
+   "slug": "kou-chi-lei-yao",
+   "page": "口齒類要",
+   "meta": {
+    "title": "口齿类要",
+    "author": "薛己",
+    "dynasty": "明",
+    "category": "临证各科类",
+    "summary": "薛己论口舌、齿、唇、喉诸病的证治，附验案与方剂。",
+    "coverLabel": "口齿类要",
+    "featured": false
+   }
+  },
+  {
+   "slug": "yi-jing-su-hui-ji",
+   "page": "醫經溯洄集",
+   "meta": {
+    "title": "医经溯洄集",
+    "author": "王履",
+    "dynasty": "元",
+    "category": "医论类",
+    "summary": "王履就《内经》《伤寒论》及前人学说撰论二十一篇，多有独到见解。",
+    "coverLabel": "溯洄集",
+    "featured": false
+   }
+  },
+  {
+   "slug": "ju-fang-fa-hui",
+   "page": "局方發揮 (四庫全書本)",
+   "meta": {
+    "title": "局方发挥",
+    "author": "朱震亨",
+    "dynasty": "元",
+    "category": "医论类",
+    "summary": "朱丹溪批评《太平惠民和剂局方》滥用温燥香窜之弊，倡导辨证论治、慎用燥热。",
+    "coverLabel": "局方发挥",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "ci-shi-nan-zhi",
+   "page": "此事難知",
+   "meta": {
+    "title": "此事难知",
+    "author": "王好古",
+    "dynasty": "元",
+    "category": "医论类",
+    "summary": "王好古辑述其师李杲的医论，尤详于伤寒六经证治。",
+    "coverLabel": "此事难知",
+    "featured": false
+   },
+   "main": false
+  },
+  {
+   "slug": "yi-zhi-xu-yu",
+   "page": "醫旨緒餘",
+   "meta": {
+    "title": "医旨绪余",
+    "author": "孙一奎",
+    "dynasty": "明",
+    "category": "医论类",
+    "summary": "孙一奎论太极、命门、三焦、相火等医理，并辨析诸家学说。",
+    "coverLabel": "医旨绪余",
+    "featured": false
+   }
+  },
+  {
+   "slug": "yi-men-fa-lv",
+   "page": "醫門法律 (四庫全書本)",
+   "meta": {
+    "title": "医门法律",
+    "author": "喻昌",
+    "dynasty": "清",
+    "category": "医论类",
+    "summary": "喻昌为医者立“法”与“律”，论四诊与风、寒、暑、湿、燥、火诸门证治，并订正医者常犯之过失。",
+    "coverLabel": "医门法律",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "yi-xue-yuan-liu-lun",
+   "page": "醫學源流論",
+   "meta": {
+    "title": "医学源流论",
+    "author": "徐大椿",
+    "dynasty": "清",
+    "category": "医论类",
+    "summary": "徐大椿医论九十余篇，论经络脏腑、脉、病、方药、治法与古今学术源流，议论精辟。",
+    "coverLabel": "医学源流论",
+    "featured": false
+   }
+  },
+  {
+   "slug": "lv-shan-tang-lei-bian",
+   "page": "侶山堂類辯",
+   "meta": {
+    "title": "侣山堂类辩",
+    "author": "张志聪",
+    "dynasty": "清",
+    "category": "医论类",
+    "summary": "张志聪就医理、病证与药性诸问题撰写辩论短文，凡二卷。",
+    "coverLabel": "侣山堂类辩",
+    "featured": false
+   }
+  },
+  {
+   "slug": "du-yi-sui-bi",
+   "page": "讀醫隨筆",
+   "meta": {
+    "title": "读医随笔",
+    "author": "周学海",
+    "dynasty": "清",
+    "category": "医论类",
+    "summary": "周学海读书临证的札记，论形气、脉法、证治与方药，多有创见。",
+    "coverLabel": "读医随笔",
+    "featured": false
+   }
+  },
+  {
+   "slug": "yi-yuan",
+   "page": "醫原",
+   "meta": {
+    "title": "医原",
+    "author": "石寿棠",
+    "dynasty": "清",
+    "category": "医论类",
+    "summary": "石寿棠以燥湿为纲论述病机，兼论望、闻、问、切与用药大法。",
+    "coverLabel": "医原",
+    "featured": false
+   }
+  },
+  {
+   "slug": "yi-guan",
+   "page": "醫貫",
+   "meta": {
+    "title": "医贯",
+    "author": "赵献可",
+    "dynasty": "明",
+    "category": "医论类",
+    "summary": "赵献可倡命门学说，以六味丸、八味丸为治病要方，为温补学派代表作。",
+    "coverLabel": "医贯",
+    "featured": false
+   }
+  },
+  {
+   "slug": "yi-xue-du-shu-ji",
+   "page": "醫學讀書記",
+   "meta": {
+    "title": "医学读书记",
+    "author": "尤怡",
+    "dynasty": "清",
+    "category": "医论类",
+    "summary": "尤怡读书心得札记，辨析《内经》《伤寒论》及诸家学说，附《静香楼医案》三十一条。",
+    "coverLabel": "医学读书记",
+    "featured": false
+   }
+  },
+  {
+   "slug": "chu-shi-yi-shu",
+   "page": "褚氏遺書",
+   "meta": {
+    "title": "褚氏遗书",
+    "author": "褚澄",
+    "dynasty": "南齐",
+    "category": "医论类",
+    "summary": "旧题南齐褚澄撰，论受形、本气、平脉、津润、分体、精血等十篇。",
+    "coverLabel": "褚氏遗书",
+    "featured": false
+   }
+  },
+  {
+   "slug": "zhi-yi-lu",
+   "page": "質疑錄",
+   "meta": {
+    "title": "质疑录",
+    "author": "张介宾",
+    "dynasty": "明",
+    "category": "医论类",
+    "summary": "张介宾晚年对金元诸家学说及自己早年观点提出质疑辨正的医论四十五篇。",
+    "coverLabel": "质疑录",
+    "featured": false
+   }
+  },
+  {
+   "slug": "yi-shuo",
+   "page": "醫説 (四庫全書本)",
+   "meta": {
+    "title": "医说",
+    "author": "张杲",
+    "dynasty": "南宋",
+    "category": "医论类",
+    "summary": "张杲辑录宋以前医家故事、医学史料与医论，分四十七门，为现存最早的医史传记类著作之一。",
+    "coverLabel": "医说",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "ming-yi-lei-an",
+   "page": "名醫類案 (四庫全書本)",
+   "meta": {
+    "title": "名医类案",
+    "author": "江瓘",
+    "dynasty": "明",
+    "category": "医案类",
+    "summary": "江瓘及其子江应宿辑录明以前历代名医医案，按病证分二百余门，为我国第一部类编医案。",
+    "coverLabel": "名医类案",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "gu-jin-yi-an-an",
+   "page": "古今醫案按",
+   "meta": {
+    "title": "古今医案按",
+    "author": "俞震",
+    "dynasty": "清",
+    "category": "医案类",
+    "summary": "俞震选辑历代名医医案并加按语评析，凡十卷。",
+    "coverLabel": "古今医案按",
+    "featured": false
+   }
+  },
+  {
+   "slug": "sun-wen-yuan-yi-an",
+   "page": "孫文垣醫案",
+   "meta": {
+    "title": "孙文垣医案",
+    "author": "孙一奎",
+    "dynasty": "明",
+    "category": "医案类",
+    "summary": "孙一奎在三吴、新都、宜兴等地的临证医案，凡五卷。",
+    "coverLabel": "孙文垣医案",
+    "featured": false
+   }
+  },
+  {
+   "slug": "hui-xi-yi-an",
+   "page": "洄溪醫案",
+   "meta": {
+    "title": "洄溪医案",
+    "author": "徐大椿",
+    "dynasty": "清",
+    "category": "医案类",
+    "summary": "徐大椿的医案，王士雄编次加按，多疑难重症治验。",
+    "coverLabel": "洄溪医案",
+    "featured": false
+   }
+  },
+  {
+   "slug": "wang-xu-gao-lin-zheng-yi-an",
+   "page": "王旭高臨證醫案",
+   "meta": {
+    "title": "王旭高临证医案",
+    "author": "王泰林",
+    "dynasty": "清",
+    "category": "医案类",
+    "summary": "王旭高的临证医案，按病证分类，论治细致。",
+    "coverLabel": "王旭高医案",
+    "featured": false
+   }
+  },
+  {
+   "slug": "zhang-yu-qing-yi-an",
+   "page": "張聿青醫案",
+   "meta": {
+    "title": "张聿青医案",
+    "author": "张乃修",
+    "dynasty": "清",
+    "category": "医案类",
+    "summary": "张聿青（乃修）的医案，按病证分类，凡二十卷，末附论著。",
+    "coverLabel": "张聿青医案",
+    "featured": false
+   }
+  },
+  {
+   "slug": "wu-ju-tong-yi-an",
+   "page": "吳鞠通醫案",
+   "meta": {
+    "title": "吴鞠通医案",
+    "author": "吴瑭",
+    "dynasty": "清",
+    "category": "医案类",
+    "summary": "吴鞠通的医案，分温病、伤寒、杂病、妇科、儿科五卷。",
+    "coverLabel": "吴鞠通医案",
+    "featured": false
+   }
+  },
+  {
+   "slug": "shi-shan-yi-an",
+   "page": "石山醫案 (四庫全書本)",
+   "meta": {
+    "title": "石山医案",
+    "author": "汪机 述，陈桷 编",
+    "dynasty": "明",
+    "category": "医案类",
+    "summary": "汪机弟子陈桷汇集其师治验而成的医案，凡三卷，附录。",
+    "coverLabel": "石山医案",
+    "featured": false
+   },
+   "mainTitle": "提要"
+  },
+  {
+   "slug": "xing-xuan-yi-an",
+   "page": "杏軒醫案",
+   "meta": {
+    "title": "杏轩医案",
+    "author": "程文囿",
+    "dynasty": "清",
+    "category": "医案类",
+    "summary": "程文囿的医案，分初集、续录、辑录三部分。",
+    "coverLabel": "杏轩医案",
+    "featured": false
+   }
+  },
+  {
+   "slug": "yu-yi-cao",
+   "page": "寓意草",
+   "meta": {
+    "title": "寓意草",
+    "author": "喻昌",
+    "dynasty": "清",
+    "category": "医案类",
+    "summary": "喻昌的医案，首倡“先议病后用药”，详述病机与治疗经过。",
+    "coverLabel": "寓意草",
+    "featured": false
+   }
+  },
+  {
+   "slug": "yang-sheng-lei-yao",
+   "page": "養生類要",
+   "meta": {
+    "title": "养生类要",
+    "author": "吴正伦",
+    "dynasty": "明",
+    "category": "养生类",
+    "summary": "吴正伦辑录养生导引、饮食起居与四时调摄之法，附诸病方药。",
+    "coverLabel": "养生类要",
+    "featured": false
+   }
+  },
+  {
+   "slug": "shou-shi-chuan-zhen",
+   "page": "壽世傳真",
+   "meta": {
+    "title": "寿世传真",
+    "author": "徐文弼",
+    "dynasty": "清",
+    "category": "养生类",
+    "summary": "徐文弼论修养宜行外功、内功、宝精、保气、慎食等养生方法，附十二段锦（原附图今缺）。",
+    "coverLabel": "寿世传真",
     "featured": false
    }
   }

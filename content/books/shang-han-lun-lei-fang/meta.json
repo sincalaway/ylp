@@ -1,0 +1,33 @@
+{
+  "title": "伤寒论类方",
+  "author": "徐大椿",
+  "dynasty": "清",
+  "category": "伤寒金匮类",
+  "summary": "徐大椿不拘六经次序，将《伤寒论》一百一十三方归为桂枝汤、麻黄汤等十二类，类方以析证。",
+  "coverLabel": "伤寒类方",
+  "featured": false,
+  "wikisource": "傷寒論類方",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "傷寒論類方",
+      "url": "https://zh.wikisource.org/wiki/%E5%82%B7%E5%AF%92%E8%AB%96%E9%A1%9E%E6%96%B9",
+      "revid": 1315827
+    }
+  ],
+  "chars": 42577,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 42577,
+      "headings": [
+        "伤寒论类方",
+        "卷一",
+        "卷二",
+        "卷三",
+        "卷四"
+      ]
+    }
+  ]
+}

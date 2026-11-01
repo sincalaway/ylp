@@ -1,0 +1,33 @@
+{
+  "title": "金匮钩玄",
+  "author": "朱震亨 撰，戴思恭 校补",
+  "dynasty": "元",
+  "category": "临证各科类",
+  "summary": "朱丹溪论内、妇、儿科病证治法，戴思恭校补，附火岂君相五志俱有论等六篇。",
+  "coverLabel": "金匮钩玄",
+  "featured": false,
+  "wikisource": "金匱鈎玄",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "金匱鈎玄",
+      "url": "https://zh.wikisource.org/wiki/%E9%87%91%E5%8C%B1%E9%88%8E%E7%8E%84",
+      "revid": 2490629
+    }
+  ],
+  "chars": 29529,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 29529,
+      "headings": [
+        "卷第一",
+        "卷第二",
+        "卷之三\\妇人科",
+        "卷之三\\小儿科",
+        "附录"
+      ]
+    }
+  ]
+}

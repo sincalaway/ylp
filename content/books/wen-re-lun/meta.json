@@ -1,0 +1,40 @@
+{
+  "title": "温热论",
+  "author": "叶桂",
+  "dynasty": "清",
+  "category": "温病类",
+  "summary": "叶天士口授、门人笔录的温病学奠基之作，提出“温邪上受，首先犯肺，逆传心包”及卫气营血辨证。",
+  "coverLabel": "温热论",
+  "featured": false,
+  "wikisource": "溫熱論",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "溫熱論",
+      "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E7%86%B1%E8%AB%96",
+      "revid": 2264169
+    }
+  ],
+  "chars": 5370,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 5370,
+      "headings": [
+        "总论",
+        "温病大纲",
+        "逆传入营",
+        "流连气分",
+        "邪留三焦",
+        "里结阳明",
+        "卫、气、营、血看法",
+        "论湿邪",
+        "验齿",
+        "辨斑疹",
+        "辨白疹",
+        "论妇人温病"
+      ]
+    }
+  ]
+}

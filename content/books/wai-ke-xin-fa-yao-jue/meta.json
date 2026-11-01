@@ -1,0 +1,174 @@
+{
+  "title": "外科心法要诀",
+  "author": "吴谦 等",
+  "dynasty": "清",
+  "category": "临证各科类",
+  "summary": "《医宗金鉴》之一部，以歌诀论述外科各部痈疽疮疡的证治，凡十六卷（原附图今缺）。",
+  "coverLabel": "外科心法",
+  "featured": false,
+  "wikisource": "外科心法要訣",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "外科心法要訣",
+      "url": "https://zh.wikisource.org/wiki/%E5%A4%96%E7%A7%91%E5%BF%83%E6%B3%95%E8%A6%81%E8%A8%A3",
+      "revid": 2490671
+    }
+  ],
+  "chars": 182008,
+  "chapters": [
+    {
+      "slug": "01-juan-yi",
+      "title": "卷一",
+      "chars": 18085,
+      "headings": [
+        "十二经循行部位歌",
+        "脉诀",
+        "十二经气血多少歌",
+        "痈疽总论歌",
+        "痈疽总论治法歌"
+      ]
+    },
+    {
+      "slug": "02-juan-er",
+      "title": "卷二",
+      "chars": 19374,
+      "headings": [
+        "肿疡主治类方",
+        "肿疡敷贴类方",
+        "溃疡主治类方",
+        "洗涤类方",
+        "膏药类方",
+        "麻药类方",
+        "去腐类方",
+        "生肌类方"
+      ]
+    },
+    {
+      "slug": "03-juan-san",
+      "title": "卷三",
+      "chars": 13110,
+      "headings": [
+        "卷三"
+      ]
+    },
+    {
+      "slug": "04-juan-si",
+      "title": "卷四",
+      "chars": 14431,
+      "headings": [
+        "项部",
+        "背部",
+        "腰部"
+      ]
+    },
+    {
+      "slug": "05-juan-wu",
+      "title": "卷五",
+      "chars": 13130,
+      "headings": [
+        "卷五",
+        "卷五"
+      ]
+    },
+    {
+      "slug": "06-juan-liu",
+      "title": "卷六",
+      "chars": 13139,
+      "headings": [
+        "舌部",
+        "喉部",
+        "胸乳部"
+      ]
+    },
+    {
+      "slug": "07-juan-qi",
+      "title": "卷七",
+      "chars": 8995,
+      "headings": [
+        "腹部",
+        "腋部",
+        "肋部",
+        "内痈部"
+      ]
+    },
+    {
+      "slug": "08-juan-ba",
+      "title": "卷八",
+      "chars": 7185,
+      "headings": [
+        "肩部",
+        "肱部（自肩至肘曰 ）",
+        "臂部",
+        "手部"
+      ]
+    },
+    {
+      "slug": "09-juan-jiu",
+      "title": "卷九",
+      "chars": 11497,
+      "headings": [
+        "下部",
+        "臀部"
+      ]
+    },
+    {
+      "slug": "10-juan-shi",
+      "title": "卷十",
+      "chars": 7604,
+      "headings": [
+        "股部",
+        "膝部"
+      ]
+    },
+    {
+      "slug": "11-juan-shi-yi",
+      "title": "卷十一",
+      "chars": 10020,
+      "headings": [
+        "胫部",
+        "足部"
+      ]
+    },
+    {
+      "slug": "12-juan-shi-er",
+      "title": "卷十二",
+      "chars": 9766,
+      "headings": [
+        "发无定处（上）"
+      ]
+    },
+    {
+      "slug": "13-juan-shi-san",
+      "title": "卷十三",
+      "chars": 9006,
+      "headings": [
+        "发无定处（中）"
+      ]
+    },
+    {
+      "slug": "14-juan-shi-si",
+      "title": "卷十四",
+      "chars": 7827,
+      "headings": [
+        "发无定处（下）"
+      ]
+    },
+    {
+      "slug": "15-juan-shi-wu",
+      "title": "卷十五",
+      "chars": 9840,
+      "headings": [
+        "杂证部"
+      ]
+    },
+    {
+      "slug": "16-juan-shi-liu",
+      "title": "卷十六",
+      "chars": 8999,
+      "headings": [
+        "婴儿部"
+      ]
+    }
+  ]
+}

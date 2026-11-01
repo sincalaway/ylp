@@ -1,0 +1,27 @@
+{
+  "title": "洄溪医案",
+  "author": "徐大椿",
+  "dynasty": "清",
+  "category": "医案类",
+  "summary": "徐大椿的医案，王士雄编次加按，多疑难重症治验。",
+  "coverLabel": "洄溪医案",
+  "featured": false,
+  "wikisource": "洄溪醫案",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "洄溪醫案",
+      "url": "https://zh.wikisource.org/wiki/%E6%B4%84%E6%BA%AA%E9%86%AB%E6%A1%88",
+      "revid": 2541951
+    }
+  ],
+  "chars": 27457,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 27457,
+      "headings": []
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "时方妙用",
+  "author": "陈念祖",
+  "dynasty": "清",
+  "category": "方书类",
+  "summary": "陈修园按病证论述常用时方的运用，切于临床。",
+  "coverLabel": "时方妙用",
+  "featured": false,
+  "wikisource": "時方妙用",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "時方妙用",
+      "url": "https://zh.wikisource.org/wiki/%E6%99%82%E6%96%B9%E5%A6%99%E7%94%A8",
+      "revid": 2490582
+    }
+  ],
+  "chars": 51075,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 51075,
+      "headings": [
+        "序",
+        "小引",
+        "卷一",
+        "卷二",
+        "卷三",
+        "卷四"
+      ]
+    }
+  ]
+}

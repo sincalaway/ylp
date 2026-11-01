@@ -1,0 +1,31 @@
+{
+  "title": "仙授理伤续断秘方",
+  "author": "蔺道人",
+  "dynasty": "唐",
+  "category": "临证各科类",
+  "summary": "现存最早的骨伤科专著，论骨折脱位的整复、固定与用药。",
+  "coverLabel": "理伤续断方",
+  "featured": false,
+  "wikisource": "仙授理傷續斷秘方",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "仙授理傷續斷秘方",
+      "url": "https://zh.wikisource.org/wiki/%E4%BB%99%E6%8E%88%E7%90%86%E5%82%B7%E7%BA%8C%E6%96%B7%E7%A7%98%E6%96%B9",
+      "revid": 2115417
+    }
+  ],
+  "chars": 8835,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 8835,
+      "headings": [
+        "序",
+        "医治整理补接次第口诀",
+        "又治伤损方论"
+      ]
+    }
+  ]
+}

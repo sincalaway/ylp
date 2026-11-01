@@ -1,0 +1,66 @@
+{
+  "title": "素问灵枢类纂约注",
+  "author": "汪昂",
+  "dynasty": "清",
+  "category": "医经类",
+  "summary": "汪昂选取《素问》《灵枢》中切于实用的经文，分藏象、经络、病机、脉要、诊候等九类，删繁就简加以约注。",
+  "coverLabel": "类纂约注",
+  "featured": false,
+  "wikisource": "素問靈樞類纂約注",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "素問靈樞類纂約注",
+      "url": "https://zh.wikisource.org/wiki/%E7%B4%A0%E5%95%8F%E9%9D%88%E6%A8%9E%E9%A1%9E%E7%BA%82%E7%B4%84%E6%B3%A8",
+      "revid": 1316044
+    }
+  ],
+  "chars": 97916,
+  "chapters": [
+    {
+      "slug": "01-zi-xu",
+      "title": "自序",
+      "chars": 647,
+      "headings": [
+        "素问灵枢类纂约注",
+        "自序"
+      ]
+    },
+    {
+      "slug": "02-fan-li",
+      "title": "凡例",
+      "chars": 785,
+      "headings": []
+    },
+    {
+      "slug": "03-juan-shang",
+      "title": "卷上",
+      "chars": 19851,
+      "headings": [
+        "藏象第一",
+        "经络第二"
+      ]
+    },
+    {
+      "slug": "04-juan-zhong",
+      "title": "卷中",
+      "chars": 37877,
+      "headings": [
+        "病机第三"
+      ]
+    },
+    {
+      "slug": "05-juan-xia",
+      "title": "卷下",
+      "chars": 38756,
+      "headings": [
+        "脉要第四",
+        "诊候第五",
+        "运气第六",
+        "审治第七",
+        "生死第八",
+        "杂论第九"
+      ]
+    }
+  ]
+}

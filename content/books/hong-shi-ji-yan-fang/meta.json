@@ -1,0 +1,36 @@
+{
+  "title": "洪氏集验方",
+  "author": "洪遵",
+  "dynasty": "南宋",
+  "category": "方书类",
+  "summary": "洪遵辑录亲验有效的方剂一百六十余首。",
+  "coverLabel": "洪氏集验方",
+  "featured": false,
+  "wikisource": "洪氏集驗方",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "洪氏集驗方",
+      "url": "https://zh.wikisource.org/wiki/%E6%B4%AA%E6%B0%8F%E9%9B%86%E9%A9%97%E6%96%B9",
+      "revid": 2490508
+    }
+  ],
+  "chars": 26358,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 26358,
+      "headings": [
+        "重刊宋本洪氏集验方序",
+        "重刊宋本洪氏集验方后叙",
+        "卷第一",
+        "卷第二（痈疽）",
+        "卷第三",
+        "卷第四",
+        "卷第五(妇人小儿)",
+        "后记"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "title": "医学启源",
+  "author": "张元素",
+  "dynasty": "金",
+  "category": "临证各科类",
+  "summary": "张元素论脏腑辨证、五运六气与用药法象，为易水学派的奠基之作。",
+  "coverLabel": "医学启源",
+  "featured": false,
+  "wikisource": "醫學啟源",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "醫學啟源",
+      "url": "https://zh.wikisource.org/wiki/%E9%86%AB%E5%AD%B8%E5%95%9F%E6%BA%90",
+      "revid": 2490645
+    }
+  ],
+  "chars": 52358,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 52358,
+      "headings": [
+        "张序",
+        "卷之上",
+        "卷之中",
+        "卷之下\\十二、〔用药备旨〕"
+      ]
+    }
+  ]
+}

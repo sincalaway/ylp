@@ -1,0 +1,37 @@
+{
+  "title": "明堂灸经",
+  "author": "西方子",
+  "dynasty": "宋",
+  "category": "针灸类",
+  "summary": "专论灸法的腧穴书，按正人、伏人、侧人分部列穴并述主治。",
+  "coverLabel": "明堂灸经",
+  "featured": false,
+  "wikisource": "明堂灸經",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "明堂灸經",
+      "url": "https://zh.wikisource.org/wiki/%E6%98%8E%E5%A0%82%E7%81%B8%E7%B6%93",
+      "revid": 1315634
+    }
+  ],
+  "chars": 28517,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 28517,
+      "headings": [
+        "西方子明堂灸经",
+        "卷一",
+        "卷二",
+        "卷三",
+        "卷四",
+        "卷五",
+        "卷六",
+        "卷七",
+        "卷八"
+      ]
+    }
+  ]
+}

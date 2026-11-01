@@ -1,0 +1,271 @@
+{
+  "title": "张聿青医案",
+  "author": "张乃修",
+  "dynasty": "清",
+  "category": "医案类",
+  "summary": "张聿青（乃修）的医案，按病证分类，凡二十卷，末附论著。",
+  "coverLabel": "张聿青医案",
+  "featured": false,
+  "wikisource": "張聿青醫案",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "張聿青醫案",
+      "url": "https://zh.wikisource.org/wiki/%E5%BC%B5%E8%81%BF%E9%9D%92%E9%86%AB%E6%A1%88",
+      "revid": 2490708
+    }
+  ],
+  "chars": 291571,
+  "chapters": [
+    {
+      "slug": "01-li-yan",
+      "title": "例言",
+      "chars": 385,
+      "headings": []
+    },
+    {
+      "slug": "02-zhang-yu-qing-xian-sheng-chuan",
+      "title": "张聿青先生传",
+      "chars": 2035,
+      "headings": []
+    },
+    {
+      "slug": "03-juan-yi",
+      "title": "卷一",
+      "chars": 19107,
+      "headings": [
+        "中风",
+        "风温"
+      ]
+    },
+    {
+      "slug": "04-juan-er",
+      "title": "卷二",
+      "chars": 14094,
+      "headings": [
+        "湿温",
+        "温疫说（补）"
+      ]
+    },
+    {
+      "slug": "05-juan-san",
+      "title": "卷三",
+      "chars": 19405,
+      "headings": [
+        "伏暑",
+        "疟",
+        "诸寒热",
+        "霍乱",
+        "丹痧"
+      ]
+    },
+    {
+      "slug": "06-juan-si",
+      "title": "卷四",
+      "chars": 11809,
+      "headings": [
+        "虚损",
+        "内伤劳倦"
+      ]
+    },
+    {
+      "slug": "07-juan-wu",
+      "title": "卷五",
+      "chars": 16114,
+      "headings": [
+        "咳嗽",
+        "肺痿肺痈",
+        "喘"
+      ]
+    },
+    {
+      "slug": "08-juan-liu",
+      "title": "卷六",
+      "chars": 16344,
+      "headings": [
+        "吐血",
+        "衄血",
+        "蓄血",
+        "便血",
+        "溲血"
+      ]
+    },
+    {
+      "slug": "09-juan-qi",
+      "title": "卷七",
+      "chars": 15190,
+      "headings": [
+        "痰饮",
+        "痰湿痰气",
+        "气郁"
+      ]
+    },
+    {
+      "slug": "10-juan-ba",
+      "title": "卷八",
+      "chars": 22281,
+      "headings": [
+        "肝火肝阳",
+        "肝风",
+        "眩晕",
+        "痉厥",
+        "痰火"
+      ]
+    },
+    {
+      "slug": "11-juan-jiu",
+      "title": "卷九",
+      "chars": 9578,
+      "headings": [
+        "头痛",
+        "脘痛",
+        "胸胁痛",
+        "腹痛",
+        "腰痛",
+        "身痛"
+      ]
+    },
+    {
+      "slug": "12-juan-shi",
+      "title": "卷十",
+      "chars": 22218,
+      "headings": [
+        "呕吐",
+        "噎膈",
+        "泄泻",
+        "痢",
+        "便闭"
+      ]
+    },
+    {
+      "slug": "13-juan-shi-yi",
+      "title": "卷十一",
+      "chars": 13513,
+      "headings": [
+        "肿胀",
+        "黄瘅",
+        "痞气",
+        "积聚"
+      ]
+    },
+    {
+      "slug": "14-juan-shi-er",
+      "title": "卷十二",
+      "chars": 10452,
+      "headings": [
+        "痿",
+        "风痹",
+        "麻木",
+        "消渴"
+      ]
+    },
+    {
+      "slug": "15-juan-shi-san",
+      "title": "卷十三",
+      "chars": 15219,
+      "headings": [
+        "遗精",
+        "淋浊",
+        "癃闭",
+        "溲数",
+        "阳痿",
+        "疝气",
+        "痔"
+      ]
+    },
+    {
+      "slug": "16-juan-shi-si",
+      "title": "卷十四",
+      "chars": 13078,
+      "headings": [
+        "惊悸",
+        "不寐",
+        "汗",
+        "杂",
+        "癫痫",
+        "呃忒"
+      ]
+    },
+    {
+      "slug": "17-juan-shi-wu",
+      "title": "卷十五",
+      "chars": 9199,
+      "headings": [
+        "咽喉",
+        "目疾",
+        "牙痛",
+        "耳鸣",
+        "鼻渊"
+      ]
+    },
+    {
+      "slug": "18-juan-shi-liu",
+      "title": "卷十六",
+      "chars": 7242,
+      "headings": [
+        "肩臂背痛",
+        "腿膝痛",
+        "脚氣",
+        "风疹",
+        "岚瘴",
+        "虫",
+        "童损",
+        "内痈",
+        "梅毒",
+        "瘰"
+      ]
+    },
+    {
+      "slug": "19-juan-shi-qi",
+      "title": "卷十七",
+      "chars": 19110,
+      "headings": [
+        "调经",
+        "带下",
+        "崩漏",
+        "胎前",
+        "产后",
+        "乳症"
+      ]
+    },
+    {
+      "slug": "20-juan-shi-ba",
+      "title": "卷十八",
+      "chars": 12632,
+      "headings": [
+        "丸方"
+      ]
+    },
+    {
+      "slug": "21-juan-shi-jiu",
+      "title": "卷十九",
+      "chars": 9785,
+      "headings": [
+        "膏方"
+      ]
+    },
+    {
+      "slug": "22-juan-er-shi-lun-zhe",
+      "title": "卷二十·论着",
+      "chars": 11800,
+      "headings": [
+        "质疑篇",
+        "左肝右肺说",
+        "费若卿都督病源问答",
+        "述都督夫人病原",
+        "覆夏楫甫二尹示救时要略",
+        "阴阳离决精气乃绝论",
+        "人身脏腑布置饮食溲便呼吸说",
+        "阳气发泄民病温者为温病夹湿者为湿温温热湿温何者为分别何者为证据试详其说",
+        "其二",
+        "痉论"
+      ]
+    },
+    {
+      "slug": "23-ba",
+      "title": "跋",
+      "chars": 981,
+      "headings": []
+    }
+  ]
+}

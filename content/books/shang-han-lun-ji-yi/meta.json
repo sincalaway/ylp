@@ -1,0 +1,101 @@
+{
+  "title": "伤寒论辑义",
+  "author": "丹波元简",
+  "dynasty": "日本江户时代",
+  "category": "伤寒金匮类",
+  "summary": "丹波元简以成无己本为底本，广辑中日数十家注释，择善而从，附以按语。",
+  "coverLabel": "伤寒论辑义",
+  "featured": false,
+  "wikisource": "傷寒論輯義",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "傷寒論輯義",
+      "url": "https://zh.wikisource.org/wiki/%E5%82%B7%E5%AF%92%E8%AB%96%E8%BC%AF%E7%BE%A9",
+      "revid": 1316051
+    }
+  ],
+  "chars": 247773,
+  "chapters": [
+    {
+      "slug": "01-xu",
+      "title": "序",
+      "chars": 567,
+      "headings": [
+        "伤寒论辑义",
+        "序"
+      ]
+    },
+    {
+      "slug": "02-shang-han-zu-bing-lun-ji",
+      "title": "伤寒卒病论集原序",
+      "chars": 3071,
+      "headings": []
+    },
+    {
+      "slug": "03-fan-li",
+      "title": "凡例",
+      "chars": 1185,
+      "headings": []
+    },
+    {
+      "slug": "04-juan-yi",
+      "title": "卷一",
+      "chars": 26458,
+      "headings": [
+        "辨太阳病脉证并治上"
+      ]
+    },
+    {
+      "slug": "05-juan-er",
+      "title": "卷二",
+      "chars": 72329,
+      "headings": [
+        "辨太阳病脉证并治中"
+      ]
+    },
+    {
+      "slug": "06-juan-san",
+      "title": "卷三",
+      "chars": 42984,
+      "headings": [
+        "辨太阳病脉证并治下"
+      ]
+    },
+    {
+      "slug": "07-juan-si",
+      "title": "卷四",
+      "chars": 43564,
+      "headings": [
+        "辨阳明病脉证并治",
+        "辨少阳病脉证并治"
+      ]
+    },
+    {
+      "slug": "08-juan-wu",
+      "title": "卷五",
+      "chars": 27451,
+      "headings": [
+        "辨太阴病脉证并治",
+        "辨少阴病脉证并治"
+      ]
+    },
+    {
+      "slug": "09-juan-liu",
+      "title": "卷六",
+      "chars": 19385,
+      "headings": [
+        "辨厥阴病脉证并治"
+      ]
+    },
+    {
+      "slug": "10-juan-qi",
+      "title": "卷七",
+      "chars": 10779,
+      "headings": [
+        "辨霍乱病脉证并治",
+        "辨阴阳易瘥后劳复病脉证并治"
+      ]
+    }
+  ]
+}

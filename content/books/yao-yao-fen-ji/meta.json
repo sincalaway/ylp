@@ -1,0 +1,110 @@
+{
+  "title": "要药分剂",
+  "author": "沈金鳌",
+  "dynasty": "清",
+  "category": "本草类",
+  "summary": "沈金鳌按徐之才“十剂”宣、通、补、泄等分类论述四百余种常用药物的性味、主治与归经。",
+  "coverLabel": "要药分剂",
+  "featured": false,
+  "wikisource": "要藥分劑",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "要藥分劑",
+      "url": "https://zh.wikisource.org/wiki/%E8%A6%81%E8%97%A5%E5%88%86%E5%8A%91",
+      "revid": 2093473
+    }
+  ],
+  "chars": 80400,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 1012,
+      "headings": []
+    },
+    {
+      "slug": "02-juan-yi",
+      "title": "卷一",
+      "chars": 9436,
+      "headings": [
+        "宣劑上"
+      ]
+    },
+    {
+      "slug": "03-juan-er",
+      "title": "卷二",
+      "chars": 10837,
+      "headings": [
+        "宣劑下"
+      ]
+    },
+    {
+      "slug": "04-juan-san",
+      "title": "卷三",
+      "chars": 7172,
+      "headings": [
+        "通劑"
+      ]
+    },
+    {
+      "slug": "05-juan-si",
+      "title": "卷四",
+      "chars": 7524,
+      "headings": [
+        "補劑上"
+      ]
+    },
+    {
+      "slug": "06-juan-wu",
+      "title": "卷五",
+      "chars": 6896,
+      "headings": [
+        "補劑下"
+      ]
+    },
+    {
+      "slug": "07-juan-liu",
+      "title": "卷六",
+      "chars": 11673,
+      "headings": [
+        "瀉劑上"
+      ]
+    },
+    {
+      "slug": "08-juan-qi",
+      "title": "卷七",
+      "chars": 5384,
+      "headings": [
+        "瀉劑下"
+      ]
+    },
+    {
+      "slug": "09-juan-ba",
+      "title": "卷八",
+      "chars": 6211,
+      "headings": [
+        "輕劑",
+        "重劑"
+      ]
+    },
+    {
+      "slug": "10-juan-jiu",
+      "title": "卷九",
+      "chars": 7821,
+      "headings": [
+        "滑劑",
+        "澀劑"
+      ]
+    },
+    {
+      "slug": "11-juan-shi",
+      "title": "卷十",
+      "chars": 6434,
+      "headings": [
+        "燥劑",
+        "溼劑"
+      ]
+    }
+  ]
+}

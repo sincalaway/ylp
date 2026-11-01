@@ -1,0 +1,75 @@
+{
+  "title": "随息居重订霍乱论",
+  "author": "王士雄",
+  "dynasty": "清",
+  "category": "温病类",
+  "summary": "王士雄论霍乱的病情、治法，附医案与药方，分寒热两途辨治。",
+  "coverLabel": "霍乱论",
+  "featured": false,
+  "wikisource": "隨息居重訂霍亂論",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "隨息居重訂霍亂論",
+      "url": "https://zh.wikisource.org/wiki/%E9%9A%A8%E6%81%AF%E5%B1%85%E9%87%8D%E8%A8%82%E9%9C%8D%E4%BA%82%E8%AB%96",
+      "revid": 2490695
+    }
+  ],
+  "chars": 58630,
+  "chapters": [
+    {
+      "slug": "01-zi-xu",
+      "title": "自序",
+      "chars": 714,
+      "headings": [
+        "汪序",
+        "自序"
+      ]
+    },
+    {
+      "slug": "02-juan-shang-bing-qing-pian-di",
+      "title": "卷上\\病情篇第一",
+      "chars": 11110,
+      "headings": [
+        "总义",
+        "热证",
+        "寒证"
+      ]
+    },
+    {
+      "slug": "03-juan-shang-zhi-fa-pian-di",
+      "title": "卷上\\治法篇第二",
+      "chars": 12302,
+      "headings": [
+        "伐毛",
+        "取嚏",
+        "刮法",
+        "淬法",
+        "刺法",
+        "拓洗",
+        "熨灸",
+        "侦探",
+        "策应",
+        "纪律",
+        "守险"
+      ]
+    },
+    {
+      "slug": "04-juan-xia-yi-an-pian-di",
+      "title": "卷下\\医案篇第三",
+      "chars": 21843,
+      "headings": [
+        "南针",
+        "梦影"
+      ]
+    },
+    {
+      "slug": "05-juan-xia-yao-fang-pian-di",
+      "title": "卷下\\药方篇第四",
+      "chars": 12661,
+      "headings": [
+        "跋"
+      ]
+    }
+  ]
+}

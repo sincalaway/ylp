@@ -1,0 +1,193 @@
+{
+  "title": "类经图翼",
+  "author": "张介宾",
+  "dynasty": "明",
+  "category": "医经类",
+  "summary": "张介宾以图解补《类经》之未尽，论运气、经络与针灸，附《类经附翼》论医易、律原、求正录及针灸诸赋。",
+  "coverLabel": "类经图翼",
+  "featured": false,
+  "wikisource": "類經圖翼",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "類經圖翼",
+      "url": "https://zh.wikisource.org/wiki/%E9%A1%9E%E7%B6%93%E5%9C%96%E7%BF%BC",
+      "revid": 2490541
+    }
+  ],
+  "chars": 176437,
+  "chapters": [
+    {
+      "slug": "01-xu-yi",
+      "title": "序一",
+      "chars": 1851,
+      "headings": []
+    },
+    {
+      "slug": "02-xu-er",
+      "title": "序二",
+      "chars": 550,
+      "headings": []
+    },
+    {
+      "slug": "03-juan-yi-yun-qi-shang",
+      "title": "卷一\\运气（上）",
+      "chars": 16620,
+      "headings": [
+        "太极图论",
+        "阴阳体象",
+        "五行生成数解",
+        "五行统论",
+        "每日气数百刻六千分解",
+        "四季日躔宿度昼夜长短刻数",
+        "二十四气七十二候",
+        "斗纲解",
+        "十二辰次六合解",
+        "二十八宿过宫歌",
+        "二十八宿说",
+        "中星岁差考",
+        "奎壁角轸天地之门户说",
+        "气数统论",
+        "附∶元会运世总数",
+        "禹贡丸州分野"
+      ]
+    },
+    {
+      "slug": "04-juan-er",
+      "title": "卷二",
+      "chars": 15355,
+      "headings": [
+        "运气（下）"
+      ]
+    },
+    {
+      "slug": "05-juan-san",
+      "title": "卷三",
+      "chars": 11104,
+      "headings": [
+        "经络（一）"
+      ]
+    },
+    {
+      "slug": "06-juan-si",
+      "title": "卷四",
+      "chars": 5762,
+      "headings": [
+        "经络（二）"
+      ]
+    },
+    {
+      "slug": "07-juan-wu-jing-luo-san",
+      "title": "卷五\\经络（三）",
+      "chars": 9427,
+      "headings": [
+        "诸部经络发明"
+      ]
+    },
+    {
+      "slug": "08-juan-liu-jing-luo-si",
+      "title": "卷六\\经络（四）",
+      "chars": 18497,
+      "headings": [
+        "手太阴肺经穴",
+        "手阳明大肠经穴",
+        "足阳明胃经穴",
+        "足太阴脾经穴",
+        "手少阴心经穴",
+        "手太阳小肠经穴"
+      ]
+    },
+    {
+      "slug": "09-juan-qi-jing-luo-wu",
+      "title": "卷七\\经络（五）",
+      "chars": 17749,
+      "headings": [
+        "足太阳膀胱经穴",
+        "足少阴肾经穴",
+        "手厥阴心包络经穴",
+        "手少阳三焦经穴"
+      ]
+    },
+    {
+      "slug": "10-juan-ba-jing-luo-liu",
+      "title": "卷八\\经络（六）",
+      "chars": 17808,
+      "headings": [
+        "足少阳胆经穴",
+        "足厥阴肝经穴",
+        "任脉穴",
+        "督脉穴"
+      ]
+    },
+    {
+      "slug": "11-juan-jiu-jing-luo-qi",
+      "title": "卷九\\经络（七）",
+      "chars": 3321,
+      "headings": [
+        "奇经八脉"
+      ]
+    },
+    {
+      "slug": "12-juan-shi-jing-luo-ba",
+      "title": "卷十\\经络（八）",
+      "chars": 6245,
+      "headings": [
+        "奇俞类集"
+      ]
+    },
+    {
+      "slug": "13-juan-shi-yi-zhen-jiu-yao",
+      "title": "卷十一\\针灸要览",
+      "chars": 11957,
+      "headings": [
+        "十四经针灸要穴歌",
+        "诸证灸法要穴"
+      ]
+    },
+    {
+      "slug": "14-lei-jing-fu-yi-juan-yi",
+      "title": "类经附翼卷一",
+      "chars": 9385,
+      "headings": [
+        "医易"
+      ]
+    },
+    {
+      "slug": "15-lei-jing-fu-yi-juan-er",
+      "title": "类经附翼卷二",
+      "chars": 11590,
+      "headings": [
+        "律原"
+      ]
+    },
+    {
+      "slug": "16-lei-jing-fu-yi-juan-san",
+      "title": "类经附翼卷三\\求正录",
+      "chars": 11693,
+      "headings": [
+        "三焦包络命门辨",
+        "大宝论",
+        "真阴论",
+        "十二脏脉候部位论"
+      ]
+    },
+    {
+      "slug": "17-lei-jing-fu-ji-juan-si",
+      "title": "类经附冀卷四\\附针灸诸赋",
+      "chars": 7523,
+      "headings": [
+        "天元太乙歌",
+        "玉龙赋",
+        "标幽赋",
+        "通玄指要赋",
+        "灵光赋",
+        "席弘赋",
+        "百证赋",
+        "长桑君天星秘诀",
+        "四总穴",
+        "千金十一穴",
+        "马丹阳天星十二穴"
+      ]
+    }
+  ]
+}

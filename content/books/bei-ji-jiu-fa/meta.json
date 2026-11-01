@@ -1,0 +1,34 @@
+{
+  "title": "备急灸法",
+  "author": "闻人耆年",
+  "dynasty": "南宋",
+  "category": "针灸类",
+  "summary": "闻人耆年辑录二十余种急症的灸治方法，附骑竹马灸法等（原附图今缺）。",
+  "coverLabel": "备急灸法",
+  "featured": false,
+  "wikisource": "備急灸法",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "備急灸法",
+      "url": "https://zh.wikisource.org/wiki/%E5%82%99%E6%80%A5%E7%81%B8%E6%B3%95",
+      "revid": 2490624
+    }
+  ],
+  "chars": 13570,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 13570,
+      "headings": [
+        "序一",
+        "序二",
+        "备急灸法",
+        "屈指量法例",
+        "诸发等证",
+        "竹阁经验备急药方"
+      ]
+    }
+  ]
+}

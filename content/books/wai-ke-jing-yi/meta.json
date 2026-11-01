@@ -1,0 +1,30 @@
+{
+  "title": "外科精义",
+  "author": "齐德之",
+  "dynasty": "元",
+  "category": "临证各科类",
+  "summary": "齐德之论疮疡的诊治，先论后方，重视脉诊与内外兼治。",
+  "coverLabel": "外科精义",
+  "featured": false,
+  "wikisource": "外科精義",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "外科精義",
+      "url": "https://zh.wikisource.org/wiki/%E5%A4%96%E7%A7%91%E7%B2%BE%E7%BE%A9",
+      "revid": 2187219
+    }
+  ],
+  "chars": 35714,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 35714,
+      "headings": [
+        "卷上",
+        "卷下"
+      ]
+    }
+  ]
+}

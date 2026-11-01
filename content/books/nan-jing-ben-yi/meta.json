@@ -1,0 +1,73 @@
+{
+  "title": "难经本义",
+  "author": "滑寿",
+  "dynasty": "元",
+  "category": "医经类",
+  "summary": "滑寿参考诸家注本校订、注释《难经》，阐明本义，并附汇考、阙误总类与图说，为元代《难经》注本的代表。",
+  "coverLabel": "难经本义",
+  "featured": false,
+  "wikisource": "難經本義 (四庫全書本)",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "難經本義 (四庫全書本)",
+      "url": "https://zh.wikisource.org/wiki/%E9%9B%A3%E7%B6%93%E6%9C%AC%E7%BE%A9_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29",
+      "revid": 640542
+    },
+    {
+      "title": "難經本義 (四庫全書本)/卷上",
+      "url": "https://zh.wikisource.org/wiki/%E9%9B%A3%E7%B6%93%E6%9C%AC%E7%BE%A9_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B7%E4%B8%8A",
+      "revid": 794313
+    },
+    {
+      "title": "難經本義 (四庫全書本)/卷下",
+      "url": "https://zh.wikisource.org/wiki/%E9%9B%A3%E7%B6%93%E6%9C%AC%E7%BE%A9_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B7%E4%B8%8B",
+      "revid": 794315
+    }
+  ],
+  "chars": 42928,
+  "chapters": [
+    {
+      "slug": "01-ti-yao",
+      "title": "提要",
+      "chars": 6344,
+      "headings": []
+    },
+    {
+      "slug": "02-juan-shang",
+      "title": "卷上",
+      "chars": 17463,
+      "headings": [
+        "難經本義卷上",
+        "故分寸為尺分尺為寸",
+        "故曰覆溢",
+        "是其真藏之脈人不病而死也",
+        "六者之王說見下文",
+        "如有變奈何",
+        "然是其病有内外證",
+        "其病為之奈何",
+        "病實而脈虚也",
+        "脫血脈實相反也",
+        "陽病見隂脈相反也",
+        "其外痼疾同法耶将異也",
+        "反者男得女脈女得男脈也",
+        "其為病何如",
+        "此五十九難之文錯簡在此"
+      ]
+    },
+    {
+      "slug": "03-juan-xia",
+      "title": "卷下",
+      "chars": 19121,
+      "headings": [
+        "難經本義卷下",
+        "三十五難曰五藏各有所",
+        "伏梁伏而不動如梁木然",
+        "此五泄之目下文詳之",
+        "小腸泄者溲而便膿血少腹痛",
+        "詳見靈樞二十四篇厥逆也",
+        "其五藏氣相干名厥心痛"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "伤寒论翼",
+  "author": "柯琴",
+  "dynasty": "清",
+  "category": "伤寒金匮类",
+  "summary": "柯琴《伤寒来苏集》之一，总论六经大旨与各经病解，阐发六经为百病立法之说。",
+  "coverLabel": "伤寒论翼",
+  "featured": false,
+  "wikisource": "傷寒論翼",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "傷寒論翼",
+      "url": "https://zh.wikisource.org/wiki/%E5%82%B7%E5%AF%92%E8%AB%96%E7%BF%BC",
+      "revid": 2492550
+    }
+  ],
+  "chars": 41724,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 41724,
+      "headings": [
+        "自序",
+        "卷上",
+        "卷下"
+      ]
+    }
+  ]
+}

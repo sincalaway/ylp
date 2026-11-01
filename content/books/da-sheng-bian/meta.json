@@ -1,0 +1,42 @@
+{
+  "title": "达生编",
+  "author": "亟斋居士",
+  "dynasty": "清",
+  "category": "临证各科类",
+  "summary": "亟斋居士以通俗文字讲述临产、保胎与产后调护，倡“睡、忍痛、慢临盆”六字诀。",
+  "coverLabel": "达生编",
+  "featured": false,
+  "wikisource": "達生編",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "達生編",
+      "url": "https://zh.wikisource.org/wiki/%E9%81%94%E7%94%9F%E7%B7%A8",
+      "revid": 2490890
+    }
+  ],
+  "chars": 27682,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 27682,
+      "headings": [
+        "重印达生福幼二编序",
+        "删节广布序",
+        "原引",
+        "大意",
+        "卷上",
+        "卷中",
+        "卷下",
+        "补遗",
+        "保产心法",
+        "全婴心法",
+        "保赤编弁言",
+        "劝戒杀吃素文",
+        "劝妇女戒杀文",
+        "节欲保身要义"
+      ]
+    }
+  ]
+}

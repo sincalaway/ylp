@@ -1,0 +1,65 @@
+{
+  "title": "伤寒论条辨",
+  "author": "方有执",
+  "dynasty": "明",
+  "category": "伤寒金匮类",
+  "summary": "方有执认为《伤寒论》经王叔和编次已有错简，遂重订条文次序并逐条辨注，开“错简重订”一派。",
+  "coverLabel": "伤寒论条辨",
+  "featured": false,
+  "wikisource": "傷寒論條辨",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "傷寒論條辨",
+      "url": "https://zh.wikisource.org/wiki/%E5%82%B7%E5%AF%92%E8%AB%96%E6%A2%9D%E8%BE%A8",
+      "revid": 1315972
+    }
+  ],
+  "chars": 145025,
+  "chapters": [
+    {
+      "slug": "01-shang-han-lun-tiao-bian-juan",
+      "title": "伤寒论条辨—卷之四",
+      "chars": 62477,
+      "headings": [
+        "伤寒论条辨",
+        "序",
+        "伤寒论条辨引",
+        "阳病在表之图",
+        "阴病在里之图",
+        "阳病阴病图说",
+        "卷之一",
+        "卷之二",
+        "卷之三",
+        "卷之四"
+      ]
+    },
+    {
+      "slug": "02-juan-zhi-wu-shang-han-lun",
+      "title": "卷之五—伤寒论条辨本草钞",
+      "chars": 61520,
+      "headings": [
+        "卷之五",
+        "卷之六",
+        "卷之七",
+        "卷之八",
+        "削伤寒例",
+        "跋",
+        "伤寒论条辨本草钞"
+      ]
+    },
+    {
+      "slug": "03-shang-han-lun-tiao-bian-huo",
+      "title": "伤寒论条辨或问—后序",
+      "chars": 21028,
+      "headings": [
+        "伤寒论条辨或问",
+        "痉书叙",
+        "痉书",
+        "痉书或问",
+        "痉书跋",
+        "后序"
+      ]
+    }
+  ]
+}

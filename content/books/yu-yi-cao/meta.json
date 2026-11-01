@@ -1,0 +1,753 @@
+{
+  "title": "寓意草",
+  "author": "喻昌",
+  "dynasty": "清",
+  "category": "医案类",
+  "summary": "喻昌的医案，首倡“先议病后用药”，详述病机与治疗经过。",
+  "coverLabel": "寓意草",
+  "featured": false,
+  "wikisource": "寓意草",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "寓意草/序",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E5%BA%8F",
+      "revid": 853266
+    },
+    {
+      "title": "寓意草/先議病後用藥",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E5%85%88%E8%AD%B0%E7%97%85%E5%BE%8C%E7%94%A8%E8%97%A5",
+      "revid": 853267
+    },
+    {
+      "title": "寓意草/極閘人定議病式",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E6%A5%B5%E9%96%98%E4%BA%BA%E5%AE%9A%E8%AD%B0%E7%97%85%E5%BC%8F",
+      "revid": 853268
+    },
+    {
+      "title": "寓意草/論金道賓真陽上脫之症",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E9%87%91%E9%81%93%E8%B3%93%E7%9C%9F%E9%99%BD%E4%B8%8A%E8%84%AB%E4%B9%8B%E7%97%87",
+      "revid": 853269
+    },
+    {
+      "title": "寓意草/金道賓後案",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E9%87%91%E9%81%93%E8%B3%93%E5%BE%8C%E6%A1%88",
+      "revid": 853270
+    },
+    {
+      "title": "寓意草/辨袁仲卿小男死證再生奇驗並詳誨門人",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%BE%A8%E8%A2%81%E4%BB%B2%E5%8D%BF%E5%B0%8F%E7%94%B7%E6%AD%BB%E8%AD%89%E5%86%8D%E7%94%9F%E5%A5%87%E9%A9%97%E4%B8%A6%E8%A9%B3%E8%AA%A8%E9%96%80%E4%BA%BA",
+      "revid": 853271
+    },
+    {
+      "title": "寓意草/辨黃長人傷寒疑難危證治驗並詳誨門人",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%BE%A8%E9%BB%83%E9%95%B7%E4%BA%BA%E5%82%B7%E5%AF%92%E7%96%91%E9%9B%A3%E5%8D%B1%E8%AD%89%E6%B2%BB%E9%A9%97%E4%B8%A6%E8%A9%B3%E8%AA%A8%E9%96%80%E4%BA%BA",
+      "revid": 853272
+    },
+    {
+      "title": "寓意草/治金鑒傷寒死證奇驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E6%B2%BB%E9%87%91%E9%91%92%E5%82%B7%E5%AF%92%E6%AD%BB%E8%AD%89%E5%A5%87%E9%A9%97",
+      "revid": 853273
+    },
+    {
+      "title": "寓意草/辨徐國禎傷寒疑難急證治驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%BE%A8%E5%BE%90%E5%9C%8B%E7%A6%8E%E5%82%B7%E5%AF%92%E7%96%91%E9%9B%A3%E6%80%A5%E8%AD%89%E6%B2%BB%E9%A9%97",
+      "revid": 853274
+    },
+    {
+      "title": "寓意草/治錢仲昭傷寒發危證奇驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E6%B2%BB%E9%8C%A2%E4%BB%B2%E6%98%AD%E5%82%B7%E5%AF%92%E7%99%BC%E5%8D%B1%E8%AD%89%E5%A5%87%E9%A9%97",
+      "revid": 853275
+    },
+    {
+      "title": "寓意草/治傷寒壞證兩腰僂廢奇驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E6%B2%BB%E5%82%B7%E5%AF%92%E5%A3%9E%E8%AD%89%E5%85%A9%E8%85%B0%E5%83%82%E5%BB%A2%E5%A5%87%E9%A9%97",
+      "revid": 853276
+    },
+    {
+      "title": "寓意草/辨黃起潛曙修時氣傷寒治各不同",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%BE%A8%E9%BB%83%E8%B5%B7%E6%BD%9B%E6%9B%99%E4%BF%AE%E6%99%82%E6%B0%A3%E5%82%B7%E5%AF%92%E6%B2%BB%E5%90%84%E4%B8%8D%E5%90%8C",
+      "revid": 853277
+    },
+    {
+      "title": "寓意草/辨王玉原傷寒後余熱並永定善後要法",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%BE%A8%E7%8E%8B%E7%8E%89%E5%8E%9F%E5%82%B7%E5%AF%92%E5%BE%8C%E4%BD%99%E7%86%B1%E4%B8%A6%E6%B0%B8%E5%AE%9A%E5%96%84%E5%BE%8C%E8%A6%81%E6%B3%95",
+      "revid": 853278
+    },
+    {
+      "title": "寓意草/答門人問蔣中尊受病致死之因",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E7%AD%94%E9%96%80%E4%BA%BA%E5%95%8F%E8%94%A3%E4%B8%AD%E5%B0%8A%E5%8F%97%E7%97%85%E8%87%B4%E6%AD%BB%E4%B9%8B%E5%9B%A0",
+      "revid": 853279
+    },
+    {
+      "title": "寓意草/論內傷轉瘧宜防虛脫並治驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E5%85%A7%E5%82%B7%E8%BD%89%E7%98%A7%E5%AE%9C%E9%98%B2%E8%99%9B%E8%84%AB%E4%B8%A6%E6%B2%BB%E9%A9%97",
+      "revid": 853280
+    },
+    {
+      "title": "寓意草/推原陸中尊瘧患病機及善後法",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E6%8E%A8%E5%8E%9F%E9%99%B8%E4%B8%AD%E5%B0%8A%E7%98%A7%E6%82%A3%E7%97%85%E6%A9%9F%E5%8F%8A%E5%96%84%E5%BE%8C%E6%B3%95",
+      "revid": 853281
+    },
+    {
+      "title": "寓意草/力爭截瘧成脹臨危救安奇驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E5%8A%9B%E7%88%AD%E6%88%AA%E7%98%A7%E6%88%90%E8%84%B9%E8%87%A8%E5%8D%B1%E6%95%91%E5%AE%89%E5%A5%87%E9%A9%97",
+      "revid": 853282
+    },
+    {
+      "title": "寓意草/詳述陸平叔傷寒危證治驗並釋門人之疑",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%A9%B3%E8%BF%B0%E9%99%B8%E5%B9%B3%E5%8F%94%E5%82%B7%E5%AF%92%E5%8D%B1%E8%AD%89%E6%B2%BB%E9%A9%97%E4%B8%A6%E9%87%8B%E9%96%80%E4%BA%BA%E4%B9%8B%E7%96%91",
+      "revid": 853283
+    },
+    {
+      "title": "寓意草/面議何茂倩令嬡病單腹脹脾虛將絕之候",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E9%9D%A2%E8%AD%B0%E4%BD%95%E8%8C%82%E5%80%A9%E4%BB%A4%E5%AC%A1%E7%97%85%E5%96%AE%E8%85%B9%E8%84%B9%E8%84%BE%E8%99%9B%E5%B0%87%E7%B5%95%E4%B9%8B%E5%80%99",
+      "revid": 853284
+    },
+    {
+      "title": "寓意草/辨痢疾種種受證不同隨證治驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%BE%A8%E7%97%A2%E7%96%BE%E7%A8%AE%E7%A8%AE%E5%8F%97%E8%AD%89%E4%B8%8D%E5%90%8C%E9%9A%A8%E8%AD%89%E6%B2%BB%E9%A9%97",
+      "revid": 853285
+    },
+    {
+      "title": "寓意草/面議少司馬李萍槎先生誤治宜用急療之法",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E9%9D%A2%E8%AD%B0%E5%B0%91%E5%8F%B8%E9%A6%AC%E6%9D%8E%E8%90%8D%E6%A7%8E%E5%85%88%E7%94%9F%E8%AA%A4%E6%B2%BB%E5%AE%9C%E7%94%A8%E6%80%A5%E7%99%82%E4%B9%8B%E6%B3%95",
+      "revid": 853286
+    },
+    {
+      "title": "寓意草/面議陳彥質臨危之證有五可治",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E9%9D%A2%E8%AD%B0%E9%99%B3%E5%BD%A5%E8%B3%AA%E8%87%A8%E5%8D%B1%E4%B9%8B%E8%AD%89%E6%9C%89%E4%BA%94%E5%8F%AF%E6%B2%BB",
+      "revid": 853288
+    },
+    {
+      "title": "寓意草/論黃湛侯吐血暴證治驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E9%BB%83%E6%B9%9B%E4%BE%AF%E5%90%90%E8%A1%80%E6%9A%B4%E8%AD%89%E6%B2%BB%E9%A9%97",
+      "revid": 853289
+    },
+    {
+      "title": "寓意草/論聞君求血證兼痰證治法",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E8%81%9E%E5%90%9B%E6%B1%82%E8%A1%80%E8%AD%89%E5%85%BC%E7%97%B0%E8%AD%89%E6%B2%BB%E6%B3%95",
+      "revid": 853290
+    },
+    {
+      "title": "寓意草/為顧枚先議失血證治並論病機",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E7%82%BA%E9%A1%A7%E6%9E%9A%E5%85%88%E8%AD%B0%E5%A4%B1%E8%A1%80%E8%AD%89%E6%B2%BB%E4%B8%A6%E8%AB%96%E7%97%85%E6%A9%9F",
+      "revid": 853291
+    },
+    {
+      "title": "寓意草/面論顧季掖乃室奇證治之奇驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E9%9D%A2%E8%AB%96%E9%A1%A7%E5%AD%A3%E6%8E%96%E4%B9%83%E5%AE%A4%E5%A5%87%E8%AD%89%E6%B2%BB%E4%B9%8B%E5%A5%87%E9%A9%97",
+      "revid": 853292
+    },
+    {
+      "title": "寓意草/面論姜宜人奇證與交腸不同治法迥異",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E9%9D%A2%E8%AB%96%E5%A7%9C%E5%AE%9C%E4%BA%BA%E5%A5%87%E8%AD%89%E8%88%87%E4%BA%A4%E8%85%B8%E4%B8%8D%E5%90%8C%E6%B2%BB%E6%B3%95%E8%BF%A5%E7%95%B0",
+      "revid": 853293
+    },
+    {
+      "title": "寓意草/治陸令儀尊堂肺癰奇驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E6%B2%BB%E9%99%B8%E4%BB%A4%E5%84%80%E5%B0%8A%E5%A0%82%E8%82%BA%E7%99%B0%E5%A5%87%E9%A9%97",
+      "revid": 853294
+    },
+    {
+      "title": "寓意草/議郭台尹將成血蠱之病",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AD%B0%E9%83%AD%E5%8F%B0%E5%B0%B9%E5%B0%87%E6%88%90%E8%A1%80%E8%A0%B1%E4%B9%8B%E7%97%85",
+      "revid": 853295
+    },
+    {
+      "title": "寓意草/答門人問州守錢希聲先生吐血治法",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E7%AD%94%E9%96%80%E4%BA%BA%E5%95%8F%E5%B7%9E%E5%AE%88%E9%8C%A2%E5%B8%8C%E8%81%B2%E5%85%88%E7%94%9F%E5%90%90%E8%A1%80%E6%B2%BB%E6%B3%95",
+      "revid": 853296
+    },
+    {
+      "title": "寓意草/李思萱乃室膈氣危症治驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E6%9D%8E%E6%80%9D%E8%90%B1%E4%B9%83%E5%AE%A4%E8%86%88%E6%B0%A3%E5%8D%B1%E7%97%87%E6%B2%BB%E9%A9%97",
+      "revid": 853297
+    },
+    {
+      "title": "寓意草/辨黃咫旭乃室膈氣危症宜用緩治法果驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%BE%A8%E9%BB%83%E5%92%AB%E6%97%AD%E4%B9%83%E5%AE%A4%E8%86%88%E6%B0%A3%E5%8D%B1%E7%97%87%E5%AE%9C%E7%94%A8%E7%B7%A9%E6%B2%BB%E6%B3%95%E6%9E%9C%E9%A9%97",
+      "revid": 853298
+    },
+    {
+      "title": "寓意草/面議倪慶雲危症再生治驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E9%9D%A2%E8%AD%B0%E5%80%AA%E6%85%B6%E9%9B%B2%E5%8D%B1%E7%97%87%E5%86%8D%E7%94%9F%E6%B2%BB%E9%A9%97",
+      "revid": 853299
+    },
+    {
+      "title": "寓意草/論吳聖符單腹脹治法",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E5%90%B3%E8%81%96%E7%AC%A6%E5%96%AE%E8%85%B9%E8%84%B9%E6%B2%BB%E6%B3%95",
+      "revid": 1545844
+    },
+    {
+      "title": "寓意草/論吳叔寶無病而得死脈",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E5%90%B3%E5%8F%94%E5%AF%B6%E7%84%A1%E7%97%85%E8%80%8C%E5%BE%97%E6%AD%BB%E8%84%88",
+      "revid": 853301
+    },
+    {
+      "title": "寓意草/面論大司馬王岵翁公祖耳鳴用方大意",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E9%9D%A2%E8%AB%96%E5%A4%A7%E5%8F%B8%E9%A6%AC%E7%8E%8B%E5%B2%B5%E7%BF%81%E5%85%AC%E7%A5%96%E8%80%B3%E9%B3%B4%E7%94%A8%E6%96%B9%E5%A4%A7%E6%84%8F",
+      "revid": 853302
+    },
+    {
+      "title": "寓意草/直敘王岵翁公祖病中垂危復安始末",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E7%9B%B4%E6%95%98%E7%8E%8B%E5%B2%B5%E7%BF%81%E5%85%AC%E7%A5%96%E7%97%85%E4%B8%AD%E5%9E%82%E5%8D%B1%E5%BE%A9%E5%AE%89%E5%A7%8B%E6%9C%AB",
+      "revid": 853303
+    },
+    {
+      "title": "寓意草/直推王岵翁公祖病後再誤貽患",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E7%9B%B4%E6%8E%A8%E7%8E%8B%E5%B2%B5%E7%BF%81%E5%85%AC%E7%A5%96%E7%97%85%E5%BE%8C%E5%86%8D%E8%AA%A4%E8%B2%BD%E6%82%A3",
+      "revid": 853304
+    },
+    {
+      "title": "寓意草/直敘立刻救蘇劉筠枝不終其用之故",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E7%9B%B4%E6%95%98%E7%AB%8B%E5%88%BB%E6%95%91%E8%98%87%E5%8A%89%E7%AD%A0%E6%9E%9D%E4%B8%8D%E7%B5%82%E5%85%B6%E7%94%A8%E4%B9%8B%E6%95%85",
+      "revid": 853305
+    },
+    {
+      "title": "寓意草/論徐岳生將成痿痺之證",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E5%BE%90%E5%B2%B3%E7%94%9F%E5%B0%87%E6%88%90%E7%97%BF%E7%97%BA%E4%B9%8B%E8%AD%89",
+      "revid": 853306
+    },
+    {
+      "title": "寓意草/論江衝寰先生足患治法",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E6%B1%9F%E8%A1%9D%E5%AF%B0%E5%85%88%E7%94%9F%E8%B6%B3%E6%82%A3%E6%B2%BB%E6%B3%95",
+      "revid": 853307
+    },
+    {
+      "title": "寓意草/論錢太封翁足患不宜用熱藥再誤",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E9%8C%A2%E5%A4%AA%E5%B0%81%E7%BF%81%E8%B6%B3%E6%82%A3%E4%B8%8D%E5%AE%9C%E7%94%A8%E7%86%B1%E8%97%A5%E5%86%8D%E8%AA%A4",
+      "revid": 853308
+    },
+    {
+      "title": "寓意草/論浦君藝喘病證治之法",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E6%B5%A6%E5%90%9B%E8%97%9D%E5%96%98%E7%97%85%E8%AD%89%E6%B2%BB%E4%B9%8B%E6%B3%95",
+      "revid": 853309
+    },
+    {
+      "title": "寓意草/論吳吉長乃室及王氏婦誤藥之治驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E5%90%B3%E5%90%89%E9%95%B7%E4%B9%83%E5%AE%A4%E5%8F%8A%E7%8E%8B%E6%B0%8F%E5%A9%A6%E8%AA%A4%E8%97%A5%E4%B9%8B%E6%B2%BB%E9%A9%97",
+      "revid": 853310
+    },
+    {
+      "title": "寓意草/辨鼎翁公祖頤養天和宜用之藥",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%BE%A8%E9%BC%8E%E7%BF%81%E5%85%AC%E7%A5%96%E9%A0%A4%E9%A4%8A%E5%A4%A9%E5%92%8C%E5%AE%9C%E7%94%A8%E4%B9%8B%E8%97%A5",
+      "revid": 853311
+    },
+    {
+      "title": "寓意草/論張受先先生漏證善後之宜",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E5%BC%B5%E5%8F%97%E5%85%88%E5%85%88%E7%94%9F%E6%BC%8F%E8%AD%89%E5%96%84%E5%BE%8C%E4%B9%8B%E5%AE%9C",
+      "revid": 853312
+    },
+    {
+      "title": "寓意草/詳胡太封翁疝證治法並及運會之理剿寇之事",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%A9%B3%E8%83%A1%E5%A4%AA%E5%B0%81%E7%BF%81%E7%96%9D%E8%AD%89%E6%B2%BB%E6%B3%95%E4%B8%A6%E5%8F%8A%E9%81%8B%E6%9C%83%E4%B9%8B%E7%90%86%E5%89%BF%E5%AF%87%E4%B9%8B%E4%BA%8B",
+      "revid": 853313
+    },
+    {
+      "title": "寓意草/詳辯諫議胡老先生痰飲小恙並答明問",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%A9%B3%E8%BE%AF%E8%AB%AB%E8%AD%B0%E8%83%A1%E8%80%81%E5%85%88%E7%94%9F%E7%97%B0%E9%A3%B2%E5%B0%8F%E6%81%99%E4%B8%A6%E7%AD%94%E6%98%8E%E5%95%8F",
+      "revid": 853314
+    },
+    {
+      "title": "寓意草/論顧鳴仲痞塊錮疾根源及治法",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E9%A1%A7%E9%B3%B4%E4%BB%B2%E7%97%9E%E5%A1%8A%E9%8C%AE%E7%96%BE%E6%A0%B9%E6%BA%90%E5%8F%8A%E6%B2%BB%E6%B3%95",
+      "revid": 853315
+    },
+    {
+      "title": "寓意草/袁聚東痞塊危證治驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%A2%81%E8%81%9A%E6%9D%B1%E7%97%9E%E5%A1%8A%E5%8D%B1%E8%AD%89%E6%B2%BB%E9%A9%97",
+      "revid": 853316
+    },
+    {
+      "title": "寓意草/論楊季蘅風廢之證並答門人四問",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E6%A5%8A%E5%AD%A3%E8%98%85%E9%A2%A8%E5%BB%A2%E4%B9%8B%E8%AD%89%E4%B8%A6%E7%AD%94%E9%96%80%E4%BA%BA%E5%9B%9B%E5%95%8F",
+      "revid": 853317
+    },
+    {
+      "title": "寓意草/治葉茂卿小男奇證效驗並詳誨門人",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E6%B2%BB%E8%91%89%E8%8C%82%E5%8D%BF%E5%B0%8F%E7%94%B7%E5%A5%87%E8%AD%89%E6%95%88%E9%A9%97%E4%B8%A6%E8%A9%B3%E8%AA%A8%E9%96%80%E4%BA%BA",
+      "revid": 853318
+    },
+    {
+      "title": "寓意草/議沈若茲乃郎腸危證並治驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AD%B0%E6%B2%88%E8%8B%A5%E8%8C%B2%E4%B9%83%E9%83%8E%E8%85%B8%E5%8D%B1%E8%AD%89%E4%B8%A6%E6%B2%BB%E9%A9%97",
+      "revid": 853319
+    },
+    {
+      "title": "寓意草/辨治楊季登二女奇證奇驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%BE%A8%E6%B2%BB%E6%A5%8A%E5%AD%A3%E7%99%BB%E4%BA%8C%E5%A5%B3%E5%A5%87%E8%AD%89%E5%A5%87%E9%A9%97",
+      "revid": 853320
+    },
+    {
+      "title": "寓意草/直敘顧明二郎三郎布痘為宵小所誤",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E7%9B%B4%E6%95%98%E9%A1%A7%E6%98%8E%E4%BA%8C%E9%83%8E%E4%B8%89%E9%83%8E%E5%B8%83%E7%97%98%E7%82%BA%E5%AE%B5%E5%B0%8F%E6%89%80%E8%AA%A4",
+      "revid": 853321
+    },
+    {
+      "title": "寓意草/論劉筠枝長郎失血之證",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E5%8A%89%E7%AD%A0%E6%9E%9D%E9%95%B7%E9%83%8E%E5%A4%B1%E8%A1%80%E4%B9%8B%E8%AD%89",
+      "revid": 853322
+    },
+    {
+      "title": "寓意草/論錢小魯嗜酒積熱之證",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E9%8C%A2%E5%B0%8F%E9%AD%AF%E5%97%9C%E9%85%92%E7%A9%8D%E7%86%B1%E4%B9%8B%E8%AD%89",
+      "revid": 853323
+    },
+    {
+      "title": "寓意草/面論李繼江痰病奇證",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E9%9D%A2%E8%AB%96%E6%9D%8E%E7%B9%BC%E6%B1%9F%E7%97%B0%E7%97%85%E5%A5%87%E8%AD%89",
+      "revid": 853324
+    },
+    {
+      "title": "寓意草/吳添官乃母厥巔疾及自病真火脫出治驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E5%90%B3%E6%B7%BB%E5%AE%98%E4%B9%83%E6%AF%8D%E5%8E%A5%E5%B7%94%E7%96%BE%E5%8F%8A%E8%87%AA%E7%97%85%E7%9C%9F%E7%81%AB%E8%84%AB%E5%87%BA%E6%B2%BB%E9%A9%97",
+      "revid": 853325
+    },
+    {
+      "title": "寓意草/論體盛絕孕治法",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E9%AB%94%E7%9B%9B%E7%B5%95%E5%AD%95%E6%B2%BB%E6%B3%95",
+      "revid": 853326
+    },
+    {
+      "title": "寓意草/華太夫人餌術方論",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%8F%AF%E5%A4%AA%E5%A4%AB%E4%BA%BA%E9%A4%8C%E8%A1%93%E6%96%B9%E8%AB%96",
+      "revid": 853327
+    },
+    {
+      "title": "寓意草/陸子堅調攝方論",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E9%99%B8%E5%AD%90%E5%A0%85%E8%AA%BF%E6%94%9D%E6%96%B9%E8%AB%96",
+      "revid": 853328
+    },
+    {
+      "title": "寓意草/與黃我兼世兄書",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%88%87%E9%BB%83%E6%88%91%E5%85%BC%E4%B8%96%E5%85%84%E6%9B%B8",
+      "revid": 853329
+    },
+    {
+      "title": "寓意草/辨黃鴻軒臂生癰癤之證並治驗",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%BE%A8%E9%BB%83%E9%B4%BB%E8%BB%92%E8%87%82%E7%94%9F%E7%99%B0%E7%99%A4%E4%B9%8B%E8%AD%89%E4%B8%A6%E6%B2%BB%E9%A9%97",
+      "revid": 853331
+    },
+    {
+      "title": "寓意草/論士大夫喜服種子壯陽熱藥之誤",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E5%A3%AB%E5%A4%A7%E5%A4%AB%E5%96%9C%E6%9C%8D%E7%A8%AE%E5%AD%90%E5%A3%AF%E9%99%BD%E7%86%B1%E8%97%A5%E4%B9%8B%E8%AA%A4",
+      "revid": 853332
+    },
+    {
+      "title": "寓意草/論治傷寒藥中宜用人蔘之法以解世俗之惑",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%AB%96%E6%B2%BB%E5%82%B7%E5%AF%92%E8%97%A5%E4%B8%AD%E5%AE%9C%E7%94%A8%E4%BA%BA%E8%94%98%E4%B9%8B%E6%B3%95%E4%BB%A5%E8%A7%A3%E4%B8%96%E4%BF%97%E4%B9%8B%E6%83%91",
+      "revid": 1555168
+    },
+    {
+      "title": "寓意草/詳論趙三公郎令室傷寒危症始末並傳誨門人",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%93%E6%84%8F%E8%8D%89/%E8%A9%B3%E8%AB%96%E8%B6%99%E4%B8%89%E5%85%AC%E9%83%8E%E4%BB%A4%E5%AE%A4%E5%82%B7%E5%AF%92%E5%8D%B1%E7%97%87%E5%A7%8B%E6%9C%AB%E4%B8%A6%E5%82%B3%E8%AA%A8%E9%96%80%E4%BA%BA",
+      "revid": 853334
+    }
+  ],
+  "chars": 68577,
+  "chapters": [
+    {
+      "slug": "01-xu",
+      "title": "序",
+      "chars": 828,
+      "headings": []
+    },
+    {
+      "slug": "02-xian-yi-bing-hou-yong-yao",
+      "title": "先議病後用藥",
+      "chars": 741,
+      "headings": []
+    },
+    {
+      "slug": "03-ji-zha-ren-ding-yi-bing",
+      "title": "極閘人定議病式",
+      "chars": 660,
+      "headings": []
+    },
+    {
+      "slug": "04-lun-jin-dao-bin-zhen-yang",
+      "title": "論金道賓真陽上脫之症",
+      "chars": 909,
+      "headings": []
+    },
+    {
+      "slug": "05-jin-dao-bin-hou-an",
+      "title": "金道賓後案",
+      "chars": 1038,
+      "headings": []
+    },
+    {
+      "slug": "06-bian-yuan-zhong-qing-xiao-nan",
+      "title": "辨袁仲卿小男死證再生奇驗並詳誨門人",
+      "chars": 3154,
+      "headings": []
+    },
+    {
+      "slug": "07-bian-huang-zhang-ren-shang-han",
+      "title": "辨黃長人傷寒疑難危證治驗並詳誨門人",
+      "chars": 1218,
+      "headings": []
+    },
+    {
+      "slug": "08-zhi-jin-jian-shang-han-si",
+      "title": "治金鑒傷寒死證奇驗",
+      "chars": 401,
+      "headings": []
+    },
+    {
+      "slug": "09-bian-xu-guo-zhen-shang-han",
+      "title": "辨徐國禎傷寒疑難急證治驗",
+      "chars": 394,
+      "headings": []
+    },
+    {
+      "slug": "10-zhi-qian-zhong-zhao-shang-han",
+      "title": "治錢仲昭傷寒發危證奇驗",
+      "chars": 395,
+      "headings": []
+    },
+    {
+      "slug": "11-zhi-shang-han-huai-zheng-liang",
+      "title": "治傷寒壞證兩腰僂廢奇驗",
+      "chars": 393,
+      "headings": []
+    },
+    {
+      "slug": "12-bian-huang-qi-qian-shu-xiu",
+      "title": "辨黃起潛曙修時氣傷寒治各不同",
+      "chars": 786,
+      "headings": []
+    },
+    {
+      "slug": "13-bian-wang-yu-yuan-shang-han",
+      "title": "辨王玉原傷寒後余熱並永定善後要法",
+      "chars": 813,
+      "headings": []
+    },
+    {
+      "slug": "14-da-men-ren-wen-jiang-zhong",
+      "title": "答門人問蔣中尊受病致死之因",
+      "chars": 800,
+      "headings": []
+    },
+    {
+      "slug": "15-lun-nei-shang-zhuan-nve-yi",
+      "title": "論內傷轉瘧宜防虛脫並治驗",
+      "chars": 392,
+      "headings": []
+    },
+    {
+      "slug": "16-tui-yuan-lu-zhong-zun-nve",
+      "title": "推原陸中尊瘧患病機及善後法",
+      "chars": 1022,
+      "headings": []
+    },
+    {
+      "slug": "17-li-zheng-jie-nve-cheng-zhang",
+      "title": "力爭截瘧成脹臨危救安奇驗",
+      "chars": 1179,
+      "headings": []
+    },
+    {
+      "slug": "18-xiang-shu-lu-ping-shu-shang",
+      "title": "詳述陸平叔傷寒危證治驗並釋門人之疑",
+      "chars": 1523,
+      "headings": []
+    },
+    {
+      "slug": "19-mian-yi-he-mao-qian-ling",
+      "title": "面議何茂倩令嬡病單腹脹脾虛將絕之候",
+      "chars": 686,
+      "headings": []
+    },
+    {
+      "slug": "20-bian-li-ji-zhong-zhong-shou",
+      "title": "辨痢疾種種受證不同隨證治驗",
+      "chars": 2399,
+      "headings": []
+    },
+    {
+      "slug": "21-mian-yi-shao-si-ma-li",
+      "title": "面議少司馬李萍槎先生誤治宜用急療之法",
+      "chars": 1659,
+      "headings": []
+    },
+    {
+      "slug": "22-mian-yi-chen-yan-zhi-lin",
+      "title": "面議陳彥質臨危之證有五可治",
+      "chars": 819,
+      "headings": []
+    },
+    {
+      "slug": "23-lun-huang-zhan-hou-tu-xie",
+      "title": "論黃湛侯吐血暴證治驗",
+      "chars": 386,
+      "headings": []
+    },
+    {
+      "slug": "24-lun-wen-jun-qiu-xue-zheng",
+      "title": "論聞君求血證兼痰證治法",
+      "chars": 753,
+      "headings": []
+    },
+    {
+      "slug": "25-wei-gu-mei-xian-yi-shi",
+      "title": "為顧枚先議失血證治並論病機",
+      "chars": 1553,
+      "headings": []
+    },
+    {
+      "slug": "26-mian-lun-gu-ji-ye-nai",
+      "title": "面論顧季掖乃室奇證治之奇驗",
+      "chars": 754,
+      "headings": []
+    },
+    {
+      "slug": "27-mian-lun-jiang-yi-ren-qi",
+      "title": "面論姜宜人奇證與交腸不同治法迥異",
+      "chars": 763,
+      "headings": []
+    },
+    {
+      "slug": "28-zhi-lu-ling-yi-zun-tang",
+      "title": "治陸令儀尊堂肺癰奇驗",
+      "chars": 687,
+      "headings": []
+    },
+    {
+      "slug": "29-yi-guo-tai-yin-jiang-cheng",
+      "title": "議郭台尹將成血蠱之病",
+      "chars": 751,
+      "headings": []
+    },
+    {
+      "slug": "30-da-men-ren-wen-zhou-shou",
+      "title": "答門人問州守錢希聲先生吐血治法",
+      "chars": 1497,
+      "headings": []
+    },
+    {
+      "slug": "31-li-si-xuan-nai-shi-ge",
+      "title": "李思萱乃室膈氣危症治驗",
+      "chars": 751,
+      "headings": []
+    },
+    {
+      "slug": "32-bian-huang-zhi-xu-nai-shi",
+      "title": "辨黃咫旭乃室膈氣危症宜用緩治法果驗",
+      "chars": 705,
+      "headings": []
+    },
+    {
+      "slug": "33-mian-yi-ni-qing-yun-wei",
+      "title": "面議倪慶雲危症再生治驗",
+      "chars": 825,
+      "headings": []
+    },
+    {
+      "slug": "34-lun-wu-sheng-fu-dan-fu",
+      "title": "論吳聖符單腹脹治法",
+      "chars": 2176,
+      "headings": []
+    },
+    {
+      "slug": "35-lun-wu-shu-bao-wu-bing",
+      "title": "論吳叔寶無病而得死脈",
+      "chars": 1148,
+      "headings": []
+    },
+    {
+      "slug": "36-mian-lun-da-si-ma-wang",
+      "title": "面論大司馬王岵翁公祖耳鳴用方大意",
+      "chars": 1349,
+      "headings": []
+    },
+    {
+      "slug": "37-zhi-xu-wang-hu-weng-gong",
+      "title": "直敘王岵翁公祖病中垂危復安始末",
+      "chars": 1129,
+      "headings": []
+    },
+    {
+      "slug": "38-zhi-tui-wang-hu-weng-gong",
+      "title": "直推王岵翁公祖病後再誤貽患",
+      "chars": 1041,
+      "headings": []
+    },
+    {
+      "slug": "39-zhi-xu-li-ke-jiu-su",
+      "title": "直敘立刻救蘇劉筠枝不終其用之故",
+      "chars": 694,
+      "headings": []
+    },
+    {
+      "slug": "40-lun-xu-yue-sheng-jiang-cheng",
+      "title": "論徐岳生將成痿痺之證",
+      "chars": 771,
+      "headings": []
+    },
+    {
+      "slug": "41-lun-jiang-chong-huan-xian-sheng",
+      "title": "論江衝寰先生足患治法",
+      "chars": 813,
+      "headings": []
+    },
+    {
+      "slug": "42-lun-qian-tai-feng-weng-zu",
+      "title": "論錢太封翁足患不宜用熱藥再誤",
+      "chars": 771,
+      "headings": []
+    },
+    {
+      "slug": "43-lun-pu-jun-yi-chuan-bing",
+      "title": "論浦君藝喘病證治之法",
+      "chars": 1420,
+      "headings": []
+    },
+    {
+      "slug": "44-lun-wu-ji-zhang-nai-shi",
+      "title": "論吳吉長乃室及王氏婦誤藥之治驗",
+      "chars": 661,
+      "headings": []
+    },
+    {
+      "slug": "45-bian-ding-weng-gong-zu-yi",
+      "title": "辨鼎翁公祖頤養天和宜用之藥",
+      "chars": 731,
+      "headings": []
+    },
+    {
+      "slug": "46-lun-zhang-shou-xian-xian-sheng",
+      "title": "論張受先先生漏證善後之宜",
+      "chars": 758,
+      "headings": []
+    },
+    {
+      "slug": "47-xiang-hu-tai-feng-weng-shan",
+      "title": "詳胡太封翁疝證治法並及運會之理剿寇之事",
+      "chars": 2299,
+      "headings": []
+    },
+    {
+      "slug": "48-xiang-bian-jian-yi-hu-lao",
+      "title": "詳辯諫議胡老先生痰飲小恙並答明問",
+      "chars": 2402,
+      "headings": []
+    },
+    {
+      "slug": "49-lun-gu-ming-zhong-pi-kuai",
+      "title": "論顧鳴仲痞塊錮疾根源及治法",
+      "chars": 753,
+      "headings": []
+    },
+    {
+      "slug": "50-yuan-ju-dong-pi-kuai-wei",
+      "title": "袁聚東痞塊危證治驗",
+      "chars": 727,
+      "headings": []
+    },
+    {
+      "slug": "51-lun-yang-ji-heng-feng-fei",
+      "title": "論楊季蘅風廢之證並答門人四問",
+      "chars": 3093,
+      "headings": []
+    },
+    {
+      "slug": "52-zhi-ye-mao-qing-xiao-nan",
+      "title": "治葉茂卿小男奇證效驗並詳誨門人",
+      "chars": 710,
+      "headings": []
+    },
+    {
+      "slug": "53-yi-shen-ruo-zi-nai-lang",
+      "title": "議沈若茲乃郎腸危證並治驗",
+      "chars": 759,
+      "headings": []
+    },
+    {
+      "slug": "54-bian-zhi-yang-ji-deng-er",
+      "title": "辨治楊季登二女奇證奇驗",
+      "chars": 790,
+      "headings": []
+    },
+    {
+      "slug": "55-zhi-xu-gu-ming-er-lang",
+      "title": "直敘顧明二郎三郎布痘為宵小所誤",
+      "chars": 801,
+      "headings": []
+    },
+    {
+      "slug": "56-lun-liu-yun-zhi-zhang-lang",
+      "title": "論劉筠枝長郎失血之證",
+      "chars": 780,
+      "headings": []
+    },
+    {
+      "slug": "57-lun-qian-xiao-lu-shi-jiu",
+      "title": "論錢小魯嗜酒積熱之證",
+      "chars": 1148,
+      "headings": []
+    },
+    {
+      "slug": "58-mian-lun-li-ji-jiang-tan",
+      "title": "面論李繼江痰病奇證",
+      "chars": 764,
+      "headings": []
+    },
+    {
+      "slug": "59-wu-tian-guan-nai-mu-jue",
+      "title": "吳添官乃母厥巔疾及自病真火脫出治驗",
+      "chars": 757,
+      "headings": []
+    },
+    {
+      "slug": "60-lun-ti-sheng-jue-yun-zhi",
+      "title": "論體盛絕孕治法",
+      "chars": 660,
+      "headings": []
+    },
+    {
+      "slug": "61-hua-tai-fu-ren-er-shu",
+      "title": "華太夫人餌術方論",
+      "chars": 711,
+      "headings": []
+    },
+    {
+      "slug": "62-lu-zi-jian-diao-she-fang",
+      "title": "陸子堅調攝方論",
+      "chars": 565,
+      "headings": []
+    },
+    {
+      "slug": "63-yu-huang-wo-jian-shi-xiong",
+      "title": "與黃我兼世兄書",
+      "chars": 714,
+      "headings": []
+    },
+    {
+      "slug": "64-bian-huang-hong-xuan-bi-sheng",
+      "title": "辨黃鴻軒臂生癰癤之證並治驗",
+      "chars": 785,
+      "headings": []
+    },
+    {
+      "slug": "65-lun-shi-da-fu-xi-fu",
+      "title": "論士大夫喜服種子壯陽熱藥之誤",
+      "chars": 1430,
+      "headings": []
+    },
+    {
+      "slug": "66-lun-zhi-shang-han-yao-zhong",
+      "title": "論治傷寒藥中宜用人蔘之法以解世俗之惑",
+      "chars": 1400,
+      "headings": []
+    },
+    {
+      "slug": "67-xiang-lun-zhao-san-gong-lang",
+      "title": "詳論趙三公郎令室傷寒危症始末並傳誨門人",
+      "chars": 1433,
+      "headings": []
+    }
+  ]
+}

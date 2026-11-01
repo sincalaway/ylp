@@ -1,0 +1,32 @@
+{
+  "title": "子午流注针经",
+  "author": "何若愚 撰，阎明广 注",
+  "dynasty": "金",
+  "category": "针灸类",
+  "summary": "现存最早的子午流注专著，论按时开穴的针刺方法。",
+  "coverLabel": "子午流注",
+  "featured": false,
+  "wikisource": "子午流注鍼經",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "子午流注鍼經",
+      "url": "https://zh.wikisource.org/wiki/%E5%AD%90%E5%8D%88%E6%B5%81%E6%B3%A8%E9%8D%BC%E7%B6%93",
+      "revid": 2490682
+    }
+  ],
+  "chars": 16422,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 16422,
+      "headings": [
+        "序",
+        "卷上",
+        "卷中",
+        "卷下"
+      ]
+    }
+  ]
+}

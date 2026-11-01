@@ -1,164 +1,164 @@
 {
- "title": "伤寒总病论",
- "author": "宋·庞安时",
- "dynasty": "北宋",
- "category": "伤寒金匮类",
- "summary": "庞安时发挥仲景之学，六卷论伤寒及温病、暑病、时行寒疫，附苏轼、黄庭坚题跋。",
- "coverLabel": "伤寒总病论",
- "featured": false,
- "wikisource": "傷寒總病論",
- "license": "PD-old（公有领域）",
- "sources": [
-  {
-   "title": "傷寒總病論",
-   "url": "https://zh.wikisource.org/wiki/%E5%82%B7%E5%AF%92%E7%B8%BD%E7%97%85%E8%AB%96",
-   "revid": 2375003
-  }
- ],
- "chars": 66537,
- "chapters": [
-  {
-   "slug": "01-shang-han-zong-bing-lun",
-   "title": "伤寒总病论",
-   "chars": 3819,
-   "headings": []
-  },
-  {
-   "slug": "02-juan-di-yi",
-   "title": "卷第一",
-   "chars": 5857,
-   "headings": [
-    "陽明證",
-    "少陽證",
-    "太陰證",
-    "少陰證",
-    "厥陰證",
-    "兩感證",
-    "三陰三陽傳病證"
-   ]
-  },
-  {
-   "slug": "03-juan-di-er",
-   "title": "卷第二",
-   "chars": 10520,
-   "headings": [
-    "可發汗證",
-    "不可發汗證",
-    "四逆證",
-    "和表證",
-    "可下證（血證附）",
-    "不可下證",
-    "可水不可水證",
-    "可吐不可吐證",
-    "可灸不可灸證",
-    "可火不可火證",
-    "可溫證",
-    "火邪證"
-   ]
-  },
-  {
-   "slug": "04-juan-di-san",
-   "title": "卷第三",
-   "chars": 13056,
-   "headings": [
-    "結胸證",
-    "心下痞證",
-    "陽毒證",
-    "陰毒證",
-    "狐惑證",
-    "百合證",
-    "溼證",
-    "溼證",
-    "發汗吐下後杂病證",
-    "傷寒勞復證",
-    "陰陽易證"
-   ]
-  },
-  {
-   "slug": "05-juan-di-si",
-   "title": "卷第四",
-   "chars": 6107,
-   "headings": [
-    "暑病論",
-    "時行寒疫論",
-    "斑豆疮論"
-   ]
-  },
-  {
-   "slug": "06-juan-di-wu",
-   "title": "卷第五",
-   "chars": 7384,
-   "headings": [
-    "天行溫病論",
-    "天行溫病論",
-    "小儿傷寒證"
-   ]
-  },
-  {
-   "slug": "07-juan-di-liu",
-   "title": "卷第六",
-   "chars": 11123,
-   "headings": [
-    "傷寒杂方",
-    "妊娠杂方",
-    "傷寒暑病通用刺法",
-    "傷寒死生候",
-    "熱病死生候",
-    "溫病死生候",
-    "天行瘥後禁忌",
-    "解仲景脈说",
-    "解華佗内外實说",
-    "辨論",
-    "上蘇子瞻端明辨傷寒論书"
-   ]
-  },
-  {
-   "slug": "08-juan-di-yi-er",
-   "title": "卷第一（二）",
-   "chars": 896,
-   "headings": [
-    "卷第一"
-   ]
-  },
-  {
-   "slug": "09-juan-di-er-er",
-   "title": "卷第二（二）",
-   "chars": 984,
-   "headings": [
-    "卷第二"
-   ]
-  },
-  {
-   "slug": "10-juan-di-san-er",
-   "title": "卷第三（二）",
-   "chars": 1839,
-   "headings": [
-    "卷第三"
-   ]
-  },
-  {
-   "slug": "11-juan-di-si-er",
-   "title": "卷第四（二）",
-   "chars": 849,
-   "headings": [
-    "卷第四"
-   ]
-  },
-  {
-   "slug": "12-juan-di-wu-er",
-   "title": "卷第五（二）",
-   "chars": 1553,
-   "headings": [
-    "卷第五"
-   ]
-  },
-  {
-   "slug": "13-juan-di-liu-er",
-   "title": "卷第六（二）",
-   "chars": 2550,
-   "headings": [
-    "卷第六"
-   ]
-  }
- ]
+  "title": "伤寒总病论",
+  "author": "庞安时",
+  "dynasty": "北宋",
+  "category": "伤寒金匮类",
+  "summary": "庞安时发挥仲景之学，六卷论伤寒及温病、暑病、时行寒疫，附苏轼、黄庭坚题跋。",
+  "coverLabel": "伤寒总病论",
+  "featured": false,
+  "wikisource": "傷寒總病論",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "傷寒總病論",
+      "url": "https://zh.wikisource.org/wiki/%E5%82%B7%E5%AF%92%E7%B8%BD%E7%97%85%E8%AB%96",
+      "revid": 2375003
+    }
+  ],
+  "chars": 66537,
+  "chapters": [
+    {
+      "slug": "01-shang-han-zong-bing-lun",
+      "title": "伤寒总病论",
+      "chars": 3819,
+      "headings": []
+    },
+    {
+      "slug": "02-juan-di-yi",
+      "title": "卷第一",
+      "chars": 5857,
+      "headings": [
+        "陽明證",
+        "少陽證",
+        "太陰證",
+        "少陰證",
+        "厥陰證",
+        "兩感證",
+        "三陰三陽傳病證"
+      ]
+    },
+    {
+      "slug": "03-juan-di-er",
+      "title": "卷第二",
+      "chars": 10520,
+      "headings": [
+        "可發汗證",
+        "不可發汗證",
+        "四逆證",
+        "和表證",
+        "可下證（血證附）",
+        "不可下證",
+        "可水不可水證",
+        "可吐不可吐證",
+        "可灸不可灸證",
+        "可火不可火證",
+        "可溫證",
+        "火邪證"
+      ]
+    },
+    {
+      "slug": "04-juan-di-san",
+      "title": "卷第三",
+      "chars": 13056,
+      "headings": [
+        "結胸證",
+        "心下痞證",
+        "陽毒證",
+        "陰毒證",
+        "狐惑證",
+        "百合證",
+        "溼證",
+        "溼證",
+        "發汗吐下後杂病證",
+        "傷寒勞復證",
+        "陰陽易證"
+      ]
+    },
+    {
+      "slug": "05-juan-di-si",
+      "title": "卷第四",
+      "chars": 6107,
+      "headings": [
+        "暑病論",
+        "時行寒疫論",
+        "斑豆疮論"
+      ]
+    },
+    {
+      "slug": "06-juan-di-wu",
+      "title": "卷第五",
+      "chars": 7384,
+      "headings": [
+        "天行溫病論",
+        "天行溫病論",
+        "小儿傷寒證"
+      ]
+    },
+    {
+      "slug": "07-juan-di-liu",
+      "title": "卷第六",
+      "chars": 11123,
+      "headings": [
+        "傷寒杂方",
+        "妊娠杂方",
+        "傷寒暑病通用刺法",
+        "傷寒死生候",
+        "熱病死生候",
+        "溫病死生候",
+        "天行瘥後禁忌",
+        "解仲景脈说",
+        "解華佗内外實说",
+        "辨論",
+        "上蘇子瞻端明辨傷寒論书"
+      ]
+    },
+    {
+      "slug": "08-juan-di-yi-er",
+      "title": "卷第一（二）",
+      "chars": 896,
+      "headings": [
+        "卷第一"
+      ]
+    },
+    {
+      "slug": "09-juan-di-er-er",
+      "title": "卷第二（二）",
+      "chars": 984,
+      "headings": [
+        "卷第二"
+      ]
+    },
+    {
+      "slug": "10-juan-di-san-er",
+      "title": "卷第三（二）",
+      "chars": 1839,
+      "headings": [
+        "卷第三"
+      ]
+    },
+    {
+      "slug": "11-juan-di-si-er",
+      "title": "卷第四（二）",
+      "chars": 849,
+      "headings": [
+        "卷第四"
+      ]
+    },
+    {
+      "slug": "12-juan-di-wu-er",
+      "title": "卷第五（二）",
+      "chars": 1553,
+      "headings": [
+        "卷第五"
+      ]
+    },
+    {
+      "slug": "13-juan-di-liu-er",
+      "title": "卷第六（二）",
+      "chars": 2550,
+      "headings": [
+        "卷第六"
+      ]
+    }
+  ]
 }

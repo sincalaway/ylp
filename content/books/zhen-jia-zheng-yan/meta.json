@@ -1,0 +1,30 @@
+{
+  "title": "诊家正眼",
+  "author": "李中梓",
+  "dynasty": "明",
+  "category": "诊法类",
+  "summary": "李中梓论述诊脉方法与二十八脉的体状、主病，兼论四诊，为明代脉学要籍。",
+  "coverLabel": "诊家正眼",
+  "featured": false,
+  "wikisource": "診家正眼",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "診家正眼",
+      "url": "https://zh.wikisource.org/wiki/%E8%A8%BA%E5%AE%B6%E6%AD%A3%E7%9C%BC",
+      "revid": 2186348
+    }
+  ],
+  "chars": 45844,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 45844,
+      "headings": [
+        "卷一",
+        "卷二"
+      ]
+    }
+  ]
+}

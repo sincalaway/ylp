@@ -1,0 +1,33 @@
+{
+  "title": "养生类要",
+  "author": "吴正伦",
+  "dynasty": "明",
+  "category": "养生类",
+  "summary": "吴正伦辑录养生导引、饮食起居与四时调摄之法，附诸病方药。",
+  "coverLabel": "养生类要",
+  "featured": false,
+  "wikisource": "養生類要",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "養生類要",
+      "url": "https://zh.wikisource.org/wiki/%E9%A4%8A%E7%94%9F%E9%A1%9E%E8%A6%81",
+      "revid": 2578680
+    }
+  ],
+  "chars": 64681,
+  "chapters": [
+    {
+      "slug": "01-quan-wen-yi",
+      "title": "全文（一）",
+      "chars": 60184,
+      "headings": []
+    },
+    {
+      "slug": "02-quan-wen-er",
+      "title": "全文（二）",
+      "chars": 4497,
+      "headings": []
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "title": "难经集注",
+  "author": "王九思 等辑",
+  "dynasty": "明",
+  "category": "医经类",
+  "summary": "汇辑三国吕广，唐杨玄操，宋丁德用、虞庶、杨康侯五家注释的《难经》集注本，保存了早期《难经》注文。",
+  "coverLabel": "难经集注",
+  "featured": false,
+  "wikisource": "難經集注",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "難經集注",
+      "url": "https://zh.wikisource.org/wiki/%E9%9B%A3%E7%B6%93%E9%9B%86%E6%B3%A8",
+      "revid": 1753329
+    }
+  ],
+  "chars": 73084,
+  "chapters": [
+    {
+      "slug": "01-xu",
+      "title": "序",
+      "chars": 531,
+      "headings": []
+    },
+    {
+      "slug": "02-juan-zhi-yi",
+      "title": "卷之一",
+      "chars": 12197,
+      "headings": [
+        "经脉诊候第一(凡二十四首)",
+        "二难画图",
+        "三难画图"
+      ]
+    },
+    {
+      "slug": "03-juan-zhi-er",
+      "title": "卷之二",
+      "chars": 16380,
+      "headings": [
+        "十九难图"
+      ]
+    },
+    {
+      "slug": "04-juan-zhi-san",
+      "title": "卷之三",
+      "chars": 12922,
+      "headings": [
+        "经络大数第二（凡二首）",
+        "奇经八脉第三（凡三首）",
+        "荣卫三焦第四（凡二首）"
+      ]
+    },
+    {
+      "slug": "05-zang-fu-pei-xiang-di-wu",
+      "title": "脏腑配像第五（凡六首）",
+      "chars": 4167,
+      "headings": [
+        "脏腑度数第六（凡十首）"
+      ]
+    },
+    {
+      "slug": "06-juan-zhi-si",
+      "title": "卷之四",
+      "chars": 16386,
+      "headings": [
+        "虚实邪正第七（凡五首）",
+        "脏腑传病第八（凡二首）",
+        "脏腑积聚第九（凡二首）",
+        "五泄伤寒第十（凡四首）",
+        "神圣工巧第十一（凡一首）",
+        "脏腑井俞第十二（凡七首）"
+      ]
+    },
+    {
+      "slug": "07-juan-zhi-wu",
+      "title": "卷之五",
+      "chars": 1855,
+      "headings": []
+    },
+    {
+      "slug": "08-jing-xing-yu-jing-he-tu",
+      "title": "井荥俞经合图",
+      "chars": 8274,
+      "headings": [
+        "用针补泻第十三（凡十三首）"
+      ]
+    },
+    {
+      "slug": "09-ba",
+      "title": "跋",
+      "chars": 372,
+      "headings": []
+    }
+  ]
+}

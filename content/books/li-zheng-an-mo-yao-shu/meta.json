@@ -1,0 +1,86 @@
+{
+  "title": "厘正按摩要术",
+  "author": "张振鋆",
+  "dynasty": "清",
+  "category": "临证各科类",
+  "summary": "张振鋆据《小儿推拿秘诀》增订，论辨证、立法、取穴与列证，为儿科推拿名著。",
+  "coverLabel": "按摩要术",
+  "featured": false,
+  "wikisource": "厘正按摩要術",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "厘正按摩要術",
+      "url": "https://zh.wikisource.org/wiki/%E5%8E%98%E6%AD%A3%E6%8C%89%E6%91%A9%E8%A6%81%E8%A1%93",
+      "revid": 2187322
+    }
+  ],
+  "chars": 61329,
+  "chapters": [
+    {
+      "slug": "01-xu-er",
+      "title": "叙二",
+      "chars": 779,
+      "headings": [
+        "述古斋医书叙",
+        "叙二"
+      ]
+    },
+    {
+      "slug": "02-xu-san",
+      "title": "叙三",
+      "chars": 327,
+      "headings": []
+    },
+    {
+      "slug": "03-xu-si",
+      "title": "叙四",
+      "chars": 600,
+      "headings": []
+    },
+    {
+      "slug": "04-xu-wu",
+      "title": "叙五",
+      "chars": 874,
+      "headings": []
+    },
+    {
+      "slug": "05-fan-li",
+      "title": "凡例",
+      "chars": 712,
+      "headings": []
+    },
+    {
+      "slug": "06-juan-yi",
+      "title": "卷一",
+      "chars": 18812,
+      "headings": [
+        "·辨证"
+      ]
+    },
+    {
+      "slug": "07-juan-er",
+      "title": "卷二",
+      "chars": 15569,
+      "headings": [
+        "卷三·取穴"
+      ]
+    },
+    {
+      "slug": "08-juan-san",
+      "title": "卷三",
+      "chars": 7348,
+      "headings": [
+        "·取穴"
+      ]
+    },
+    {
+      "slug": "09-juan-si",
+      "title": "卷四",
+      "chars": 16308,
+      "headings": [
+        "·列证"
+      ]
+    }
+  ]
+}

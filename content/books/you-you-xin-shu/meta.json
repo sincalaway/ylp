@@ -1,0 +1,549 @@
+{
+  "title": "幼幼新书",
+  "author": "刘昉",
+  "dynasty": "南宋",
+  "category": "临证各科类",
+  "summary": "刘昉汇集宋以前儿科文献，分五百四十七门，凡四十卷，为宋代儿科集大成之作。",
+  "coverLabel": "幼幼新书",
+  "featured": false,
+  "wikisource": "幼幼新書",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "幼幼新書",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8",
+      "revid": 2186433
+    },
+    {
+      "title": "幼幼新書/1",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/1",
+      "revid": 2183433
+    },
+    {
+      "title": "幼幼新書/2",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/2",
+      "revid": 2183434
+    },
+    {
+      "title": "幼幼新書/3",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/3",
+      "revid": 2490810
+    },
+    {
+      "title": "幼幼新書/4",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/4",
+      "revid": 2183446
+    },
+    {
+      "title": "幼幼新書/5",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/5",
+      "revid": 2490844
+    },
+    {
+      "title": "幼幼新書/6",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/6",
+      "revid": 2183449
+    },
+    {
+      "title": "幼幼新書/7",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/7",
+      "revid": 2183450
+    },
+    {
+      "title": "幼幼新書/8",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/8",
+      "revid": 2490892
+    },
+    {
+      "title": "幼幼新書/9",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/9",
+      "revid": 2490691
+    },
+    {
+      "title": "幼幼新書/10",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/10",
+      "revid": 2490822
+    },
+    {
+      "title": "幼幼新書/11",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/11",
+      "revid": 2183454
+    },
+    {
+      "title": "幼幼新書/12",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/12",
+      "revid": 2490612
+    },
+    {
+      "title": "幼幼新書/13",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/13",
+      "revid": 2183456
+    },
+    {
+      "title": "幼幼新書/14",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/14",
+      "revid": 2490802
+    },
+    {
+      "title": "幼幼新書/15",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/15",
+      "revid": 2490657
+    },
+    {
+      "title": "幼幼新書/16",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/16",
+      "revid": 2183462
+    },
+    {
+      "title": "幼幼新書/17",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/17",
+      "revid": 2490874
+    },
+    {
+      "title": "幼幼新書/18",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/18",
+      "revid": 2490685
+    },
+    {
+      "title": "幼幼新書/19",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/19",
+      "revid": 2490627
+    },
+    {
+      "title": "幼幼新書/20",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/20",
+      "revid": 2183467
+    },
+    {
+      "title": "幼幼新書/21",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/21",
+      "revid": 2490672
+    },
+    {
+      "title": "幼幼新書/22",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/22",
+      "revid": 2490690
+    },
+    {
+      "title": "幼幼新書/23",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/23",
+      "revid": 2490675
+    },
+    {
+      "title": "幼幼新書/24",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/24",
+      "revid": 2490684
+    },
+    {
+      "title": "幼幼新書/25",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/25",
+      "revid": 2183472
+    },
+    {
+      "title": "幼幼新書/26",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/26",
+      "revid": 2183473
+    },
+    {
+      "title": "幼幼新書/27",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/27",
+      "revid": 2490751
+    },
+    {
+      "title": "幼幼新書/28",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/28",
+      "revid": 2183475
+    },
+    {
+      "title": "幼幼新書/29",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/29",
+      "revid": 2490820
+    },
+    {
+      "title": "幼幼新書/30",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/30",
+      "revid": 2490797
+    },
+    {
+      "title": "幼幼新書/31",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/31",
+      "revid": 2183478
+    },
+    {
+      "title": "幼幼新書/32",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/32",
+      "revid": 2183479
+    },
+    {
+      "title": "幼幼新書/33",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/33",
+      "revid": 2490819
+    },
+    {
+      "title": "幼幼新書/34",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/34",
+      "revid": 2490747
+    },
+    {
+      "title": "幼幼新書/35",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/35",
+      "revid": 2490764
+    },
+    {
+      "title": "幼幼新書/36",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/36",
+      "revid": 2490769
+    },
+    {
+      "title": "幼幼新書/37",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/37",
+      "revid": 2490770
+    },
+    {
+      "title": "幼幼新書/38",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/38",
+      "revid": 2490813
+    },
+    {
+      "title": "幼幼新書/39",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/39",
+      "revid": 2490578
+    },
+    {
+      "title": "幼幼新書/40",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E5%B9%BC%E6%96%B0%E6%9B%B8/40",
+      "revid": 2183487
+    }
+  ],
+  "chars": 896934,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 857,
+      "headings": [
+        "后序"
+      ]
+    },
+    {
+      "slug": "02-juan-di-yi",
+      "title": "卷第一",
+      "chars": 10534,
+      "headings": [
+        "卷第一（求端探本）凡一门"
+      ]
+    },
+    {
+      "slug": "03-juan-di-er",
+      "title": "卷第二",
+      "chars": 14562,
+      "headings": [
+        "卷第二（方书叙例）凡十三门"
+      ]
+    },
+    {
+      "slug": "04-juan-di-san",
+      "title": "卷第三",
+      "chars": 24340,
+      "headings": [
+        "卷第三（病源形色） 凡一十门"
+      ]
+    },
+    {
+      "slug": "05-juan-di-si",
+      "title": "卷第四",
+      "chars": 14087,
+      "headings": [
+        "卷第四（形初保者）凡二十二门"
+      ]
+    },
+    {
+      "slug": "06-juan-di-wu",
+      "title": "卷第五",
+      "chars": 13578,
+      "headings": [
+        "卷第五（初生有病）凡十七门"
+      ]
+    },
+    {
+      "slug": "07-juan-di-liu",
+      "title": "卷第六",
+      "chars": 12474,
+      "headings": [
+        "卷第六（禀受诸疾）凡十九门"
+      ]
+    },
+    {
+      "slug": "08-juan-di-qi",
+      "title": "卷第七",
+      "chars": 22291,
+      "headings": [
+        "卷第七（蒸忤 啼哭） 凡九门"
+      ]
+    },
+    {
+      "slug": "09-juan-di-ba",
+      "title": "卷第八",
+      "chars": 33029,
+      "headings": [
+        "卷第八（惊疾潮发）凡九门"
+      ]
+    },
+    {
+      "slug": "10-juan-di-jiu",
+      "title": "卷第九",
+      "chars": 40471,
+      "headings": [
+        "卷第九（惊风急慢）凡三门"
+      ]
+    },
+    {
+      "slug": "11-juan-di-shi",
+      "title": "卷第十",
+      "chars": 27058,
+      "headings": [
+        "卷第十（惊 噤病）凡十二门"
+      ]
+    },
+    {
+      "slug": "12-juan-di-shi-yi",
+      "title": "卷第十一",
+      "chars": 24815,
+      "headings": [
+        "卷第十一（痫论候法）凡十二门"
+      ]
+    },
+    {
+      "slug": "13-juan-di-shi-er",
+      "title": "卷第十二",
+      "chars": 22649,
+      "headings": [
+        "卷第十二（五痫异治）凡五门"
+      ]
+    },
+    {
+      "slug": "14-juan-di-shi-san",
+      "title": "卷第十三",
+      "chars": 22958,
+      "headings": [
+        "卷第十三（胎风中风） 凡十门"
+      ]
+    },
+    {
+      "slug": "15-juan-di-shi-si",
+      "title": "卷第十四",
+      "chars": 31935,
+      "headings": [
+        "卷第十四（身热等病）凡十一门"
+      ]
+    },
+    {
+      "slug": "16-juan-di-shi-wu",
+      "title": "卷第十五",
+      "chars": 35869,
+      "headings": [
+        "卷第十五（伤寒变动）凡二十门"
+      ]
+    },
+    {
+      "slug": "17-juan-di-shi-liu",
+      "title": "卷第十六",
+      "chars": 24679,
+      "headings": [
+        "卷第十六（咳嗽诸疾） 凡十一门"
+      ]
+    },
+    {
+      "slug": "18-juan-di-shi-qi",
+      "title": "卷第十七",
+      "chars": 20332,
+      "headings": [
+        "卷第十七（寒热疟瘴）凡二十二门"
+      ]
+    },
+    {
+      "slug": "19-juan-di-shi-ba",
+      "title": "卷第十八",
+      "chars": 29130,
+      "headings": [
+        "卷第十八（斑疹麻痘）凡十六门"
+      ]
+    },
+    {
+      "slug": "20-juan-di-shi-jiu",
+      "title": "卷第十九",
+      "chars": 24302,
+      "headings": [
+        "卷第十九（诸热痰涎）凡十门"
+      ]
+    },
+    {
+      "slug": "21-juan-di-er-shi",
+      "title": "卷第二十",
+      "chars": 18586,
+      "headings": [
+        "卷第二十（虚热蒸疸） 凡九门"
+      ]
+    },
+    {
+      "slug": "22-juan-di-er-shi-yi",
+      "title": "卷第二十一",
+      "chars": 22759,
+      "headings": [
+        "卷第二十一（诸寒羸瘦）凡十六门"
+      ]
+    },
+    {
+      "slug": "23-juan-di-er-shi-er",
+      "title": "卷第二十二",
+      "chars": 36778,
+      "headings": [
+        "卷第二十二（ 瘕积聚）凡十门"
+      ]
+    },
+    {
+      "slug": "24-juan-di-er-shi-san",
+      "title": "卷第二十三",
+      "chars": 24856,
+      "headings": [
+        "卷第二十三（五疳辨治）凡九门"
+      ]
+    },
+    {
+      "slug": "25-juan-di-er-shi-si",
+      "title": "卷第二十四",
+      "chars": 32496,
+      "headings": [
+        "卷第二十四（无辜疳）凡五门"
+      ]
+    },
+    {
+      "slug": "26-juan-di-er-shi-wu",
+      "title": "卷第二十五",
+      "chars": 23351,
+      "headings": [
+        "卷第二十五（诸疳异证）凡十一门"
+      ]
+    },
+    {
+      "slug": "27-juan-di-er-shi-liu",
+      "title": "卷第二十六",
+      "chars": 15194,
+      "headings": [
+        "卷第二十六（诸疳余证） 凡十五门"
+      ]
+    },
+    {
+      "slug": "28-juan-di-er-shi-qi",
+      "title": "卷第二十七",
+      "chars": 30262,
+      "headings": [
+        "卷第二十七（吐哕霍乱 凡十二门）"
+      ]
+    },
+    {
+      "slug": "29-juan-di-er-shi-ba",
+      "title": "卷第二十八",
+      "chars": 26530,
+      "headings": [
+        "卷第二十八（泄泻羸肿） 凡十五门"
+      ]
+    },
+    {
+      "slug": "30-juan-di-er-shi-jiu",
+      "title": "卷第二十九",
+      "chars": 29716,
+      "headings": [
+        "卷第二十九（滞痢赤白）凡十二门"
+      ]
+    },
+    {
+      "slug": "31-juan-di-san-shi",
+      "title": "卷第三十",
+      "chars": 21561,
+      "headings": [
+        "卷第三十（血疾淋痔） 凡十九门"
+      ]
+    },
+    {
+      "slug": "32-juan-di-san-shi-yi",
+      "title": "卷第三十一",
+      "chars": 18136,
+      "headings": [
+        "卷第三十一（三虫 疝） 凡九门"
+      ]
+    },
+    {
+      "slug": "33-juan-di-san-shi-er",
+      "title": "卷第三十二",
+      "chars": 11565,
+      "headings": [
+        "卷第三十二（水痰鬼持） 凡九门"
+      ]
+    },
+    {
+      "slug": "34-juan-di-san-shi-san",
+      "title": "卷第三十三",
+      "chars": 28608,
+      "headings": [
+        "卷第三十三（眼目耳鼻）凡二十四门"
+      ]
+    },
+    {
+      "slug": "35-juan-di-san-shi-si",
+      "title": "卷第三十四",
+      "chars": 15703,
+      "headings": [
+        "卷第三十四（口唇喉齿） 凡二十四门"
+      ]
+    },
+    {
+      "slug": "36-juan-di-san-shi-wu",
+      "title": "卷第三十五",
+      "chars": 15021,
+      "headings": [
+        "卷第三十五（一切丹毒） （凡三十八门）"
+      ]
+    },
+    {
+      "slug": "37-juan-di-san-shi-liu",
+      "title": "卷第三十六",
+      "chars": 18673,
+      "headings": [
+        "卷第三十六（痈疽瘰 ）凡十一门"
+      ]
+    },
+    {
+      "slug": "38-juan-di-san-shi-qi",
+      "title": "卷第三十七",
+      "chars": 17063,
+      "headings": [
+        "卷第三十七（疮 疥癣）凡十七门"
+      ]
+    },
+    {
+      "slug": "39-juan-di-san-shi-ba",
+      "title": "卷第三十八",
+      "chars": 15418,
+      "headings": [
+        "卷第三十八（头疮冻痱）凡十八门"
+      ]
+    },
+    {
+      "slug": "40-juan-di-san-shi-jiu",
+      "title": "卷第三十九",
+      "chars": 19915,
+      "headings": [
+        "卷第三十九（鲠刺虫毒）凡十七门"
+      ]
+    },
+    {
+      "slug": "41-juan-di-si-shi",
+      "title": "卷第四十",
+      "chars": 4793,
+      "headings": [
+        "卷第四十（论药叙方） 凡十五门"
+      ]
+    }
+  ]
+}

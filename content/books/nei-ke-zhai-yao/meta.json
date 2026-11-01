@@ -1,0 +1,30 @@
+{
+  "title": "内科摘要",
+  "author": "薛己",
+  "dynasty": "明",
+  "category": "临证各科类",
+  "summary": "薛己以医案形式论述内科杂病，重视脾肾，为我国最早以“内科”命名的医书。",
+  "coverLabel": "内科摘要",
+  "featured": false,
+  "wikisource": "內科摘要",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "內科摘要",
+      "url": "https://zh.wikisource.org/wiki/%E5%85%A7%E7%A7%91%E6%91%98%E8%A6%81",
+      "revid": 2186530
+    }
+  ],
+  "chars": 34623,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 34623,
+      "headings": [
+        "卷上",
+        "卷下"
+      ]
+    }
+  ]
+}

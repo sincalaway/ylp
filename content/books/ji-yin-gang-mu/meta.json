@@ -1,0 +1,167 @@
+{
+  "title": "济阴纲目",
+  "author": "武之望",
+  "dynasty": "明",
+  "category": "临证各科类",
+  "summary": "武之望以王肯堂《女科证治准绳》为基础，分门论述妇科经、带、胎、产诸病，凡十四卷。",
+  "coverLabel": "济阴纲目",
+  "featured": false,
+  "wikisource": "濟陰綱目",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "濟陰綱目",
+      "url": "https://zh.wikisource.org/wiki/%E6%BF%9F%E9%99%B0%E7%B6%B1%E7%9B%AE",
+      "revid": 2597860
+    }
+  ],
+  "chars": 277725,
+  "chapters": [
+    {
+      "slug": "01-xu",
+      "title": "序",
+      "chars": 604,
+      "headings": []
+    },
+    {
+      "slug": "02-zi-xu",
+      "title": "自序",
+      "chars": 494,
+      "headings": []
+    },
+    {
+      "slug": "03-fan-li",
+      "title": "凡例",
+      "chars": 695,
+      "headings": []
+    },
+    {
+      "slug": "04-juan-zhi-yi",
+      "title": "卷之一",
+      "chars": 22702,
+      "headings": [
+        "调经门"
+      ]
+    },
+    {
+      "slug": "05-juan-zhi-er",
+      "title": "卷之二",
+      "chars": 24597,
+      "headings": [
+        "经闭门",
+        "血崩门"
+      ]
+    },
+    {
+      "slug": "06-juan-zhi-san",
+      "title": "卷之三",
+      "chars": 17158,
+      "headings": [
+        "赤白带下门"
+      ]
+    },
+    {
+      "slug": "07-juan-zhi-si",
+      "title": "卷之四",
+      "chars": 15294,
+      "headings": [
+        "虚劳门"
+      ]
+    },
+    {
+      "slug": "08-juan-zhi-wu",
+      "title": "卷之五",
+      "chars": 14693,
+      "headings": [
+        "积聚瘕门"
+      ]
+    },
+    {
+      "slug": "09-juan-zhi-liu",
+      "title": "卷之六",
+      "chars": 15788,
+      "headings": [
+        "求子门"
+      ]
+    },
+    {
+      "slug": "10-juan-zhi-qi",
+      "title": "卷之七",
+      "chars": 9651,
+      "headings": [
+        "浮肿门",
+        "前阴诸疾门"
+      ]
+    },
+    {
+      "slug": "11-juan-zhi-ba",
+      "title": "卷之八",
+      "chars": 23341,
+      "headings": [
+        "胎前门·上"
+      ]
+    },
+    {
+      "slug": "12-juan-zhi-jiu",
+      "title": "卷之九",
+      "chars": 26892,
+      "headings": [
+        "胎前门·下",
+        "胎前门·下",
+        "胎前门·下"
+      ]
+    },
+    {
+      "slug": "13-juan-zhi-shi",
+      "title": "卷之十",
+      "chars": 12251,
+      "headings": [
+        "临产门"
+      ]
+    },
+    {
+      "slug": "14-juan-zhi-shi-yi",
+      "title": "卷之十一",
+      "chars": 20003,
+      "headings": [
+        "产后门·上"
+      ]
+    },
+    {
+      "slug": "15-juan-zhi-shi-er",
+      "title": "卷之十二",
+      "chars": 14741,
+      "headings": [
+        "产后门·中",
+        "产后门·中",
+        "产后门·中"
+      ]
+    },
+    {
+      "slug": "16-juan-zhi-shi-san",
+      "title": "卷之十三",
+      "chars": 30536,
+      "headings": [
+        "产后门·下"
+      ]
+    },
+    {
+      "slug": "17-juan-zhi-shi-si",
+      "title": "卷之十四",
+      "chars": 24124,
+      "headings": [
+        "产后门·下",
+        "乳病门"
+      ]
+    },
+    {
+      "slug": "18-fu",
+      "title": "附",
+      "chars": 4161,
+      "headings": [
+        "保生碎事",
+        "保婴经验方"
+      ]
+    }
+  ]
+}

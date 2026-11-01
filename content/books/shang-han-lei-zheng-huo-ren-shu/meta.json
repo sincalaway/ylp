@@ -1,0 +1,165 @@
+{
+  "title": "伤寒类证活人书",
+  "author": "朱肱",
+  "dynasty": "北宋",
+  "category": "伤寒金匮类",
+  "summary": "朱肱以问答体阐发《伤寒论》，按经络辨病、以类证分析，凡二十二卷，对宋以后伤寒学影响深远。",
+  "coverLabel": "活人书",
+  "featured": false,
+  "wikisource": "傷寒類證活人書",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "傷寒類證活人書",
+      "url": "https://zh.wikisource.org/wiki/%E5%82%B7%E5%AF%92%E9%A1%9E%E8%AD%89%E6%B4%BB%E4%BA%BA%E6%9B%B8",
+      "revid": 2187320
+    }
+  ],
+  "chars": 105305,
+  "chapters": [
+    {
+      "slug": "01-xu",
+      "title": "序",
+      "chars": 2676,
+      "headings": [
+        "序"
+      ]
+    },
+    {
+      "slug": "02-juan-di-yi",
+      "title": "卷第一",
+      "chars": 4721,
+      "headings": [
+        "卷第一"
+      ]
+    },
+    {
+      "slug": "03-juan-di-er",
+      "title": "卷第二",
+      "chars": 4020,
+      "headings": [
+        "卷第二"
+      ]
+    },
+    {
+      "slug": "04-juan-di-san",
+      "title": "卷第三",
+      "chars": 4812,
+      "headings": []
+    },
+    {
+      "slug": "05-juan-di-si",
+      "title": "卷第四",
+      "chars": 5366,
+      "headings": []
+    },
+    {
+      "slug": "06-juan-di-wu",
+      "title": "卷第五",
+      "chars": 3093,
+      "headings": []
+    },
+    {
+      "slug": "07-juan-di-liu",
+      "title": "卷第六",
+      "chars": 5558,
+      "headings": []
+    },
+    {
+      "slug": "08-juan-di-qi",
+      "title": "卷第七",
+      "chars": 1453,
+      "headings": []
+    },
+    {
+      "slug": "09-juan-di-ba",
+      "title": "卷第八",
+      "chars": 3873,
+      "headings": []
+    },
+    {
+      "slug": "10-juan-di-jiu",
+      "title": "卷第九",
+      "chars": 6629,
+      "headings": []
+    },
+    {
+      "slug": "11-juan-di-shi",
+      "title": "卷第十",
+      "chars": 5491,
+      "headings": []
+    },
+    {
+      "slug": "12-juan-di-shi-yi",
+      "title": "卷第十一",
+      "chars": 7863,
+      "headings": []
+    },
+    {
+      "slug": "13-juan-di-shi-er",
+      "title": "卷第十二",
+      "chars": 6778,
+      "headings": []
+    },
+    {
+      "slug": "14-juan-di-shi-san",
+      "title": "卷第十三",
+      "chars": 6129,
+      "headings": []
+    },
+    {
+      "slug": "15-juan-di-shi-si",
+      "title": "卷第十四",
+      "chars": 4870,
+      "headings": []
+    },
+    {
+      "slug": "16-juan-di-shi-wu",
+      "title": "卷第十五",
+      "chars": 4564,
+      "headings": []
+    },
+    {
+      "slug": "17-juan-di-shi-liu",
+      "title": "卷第十六",
+      "chars": 5136,
+      "headings": []
+    },
+    {
+      "slug": "18-juan-di-shi-qi",
+      "title": "卷第十七",
+      "chars": 5382,
+      "headings": []
+    },
+    {
+      "slug": "19-juan-di-shi-ba",
+      "title": "卷第十八",
+      "chars": 6829,
+      "headings": []
+    },
+    {
+      "slug": "20-juan-di-shi-jiu",
+      "title": "卷第十九",
+      "chars": 4707,
+      "headings": []
+    },
+    {
+      "slug": "21-juan-di-er-shi",
+      "title": "卷第二十",
+      "chars": 2208,
+      "headings": []
+    },
+    {
+      "slug": "22-juan-di-er-shi-yi",
+      "title": "卷第二十一",
+      "chars": 1830,
+      "headings": []
+    },
+    {
+      "slug": "23-juan-di-er-shi-er",
+      "title": "卷第二十二",
+      "chars": 1317,
+      "headings": []
+    }
+  ]
+}

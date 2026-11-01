@@ -1,0 +1,41 @@
+{
+  "title": "苏沈良方",
+  "author": "沈括、苏轼",
+  "dynasty": "北宋",
+  "category": "方书类",
+  "summary": "后人将沈括《良方》与苏轼医药杂说合编而成，载方剂、医论与养生之说。",
+  "coverLabel": "苏沈良方",
+  "featured": false,
+  "wikisource": "蘇沈良方",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "蘇沈良方",
+      "url": "https://zh.wikisource.org/wiki/%E8%98%87%E6%B2%88%E8%89%AF%E6%96%B9",
+      "revid": 12386064
+    }
+  ],
+  "chars": 54203,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 54203,
+      "headings": [
+        "原序",
+        "蘇沈内翰良方序一",
+        "蘇沈内翰良方序",
+        "卷第一",
+        "卷第二",
+        "卷三",
+        "卷第四",
+        "卷第五",
+        "卷第六",
+        "卷第七",
+        "卷第八",
+        "卷第九",
+        "卷第十"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "title": "活幼心书",
+  "author": "曾世荣",
+  "dynasty": "元",
+  "category": "临证各科类",
+  "summary": "曾世荣以歌诀论儿科诸证，并有明本论与信效方。",
+  "coverLabel": "活幼心书",
+  "featured": false,
+  "wikisource": "活幼心書",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "活幼心書",
+      "url": "https://zh.wikisource.org/wiki/%E6%B4%BB%E5%B9%BC%E5%BF%83%E6%9B%B8",
+      "revid": 2515073
+    }
+  ],
+  "chars": 72201,
+  "chapters": [
+    {
+      "slug": "01-he-xu",
+      "title": "和序",
+      "chars": 898,
+      "headings": [
+        "廉序"
+      ]
+    },
+    {
+      "slug": "02-wu-xu",
+      "title": "吴序",
+      "chars": 761,
+      "headings": []
+    },
+    {
+      "slug": "03-luo-xu",
+      "title": "罗序",
+      "chars": 487,
+      "headings": []
+    },
+    {
+      "slug": "04-zi-xu",
+      "title": "自序",
+      "chars": 643,
+      "headings": []
+    },
+    {
+      "slug": "05-juan-shang",
+      "title": "卷上",
+      "chars": 6230,
+      "headings": [
+        "决证诗赋"
+      ]
+    },
+    {
+      "slug": "06-juan-zhong-ming-ben-lun",
+      "title": "卷中/明本论",
+      "chars": 32597,
+      "headings": [
+        "胎寒",
+        "胎热",
+        "脐风撮口",
+        "夜啼",
+        "急惊",
+        "慢惊",
+        "风毒",
+        "伤积",
+        "热证",
+        "伤寒",
+        "咳嗽",
+        "吐泻",
+        "诸吐",
+        "诸泻",
+        "赤白痢",
+        "肿证",
+        "疳证",
+        "走马疳",
+        "脱肛",
+        "痫证",
+        "疟疾",
+        "癖证",
+        "疝症",
+        "龟胸",
+        "惊丹",
+        "疮疹",
+        "阴囊肿",
+        "惊瘫鹤膝",
+        "瘰",
+        "五淋",
+        "腹痛",
+        "腹痛",
+        "腹痛",
+        "腹痛",
+        "目疾",
+        "丹毒",
+        "重舌",
+        "五软",
+        "诸汗",
+        "黄证",
+        "失血",
+        "不内外因",
+        "小兒常安",
+        "拾遗"
+      ]
+    },
+    {
+      "slug": "07-juan-xia-xin-xiao-fang",
+      "title": "卷下\\信效方",
+      "chars": 30585,
+      "headings": [
+        "跋一",
+        "跋二"
+      ]
+    }
+  ]
+}

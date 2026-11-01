@@ -1,0 +1,38 @@
+{
+  "title": "寿世传真",
+  "author": "徐文弼",
+  "dynasty": "清",
+  "category": "养生类",
+  "summary": "徐文弼论修养宜行外功、内功、宝精、保气、慎食等养生方法，附十二段锦（原附图今缺）。",
+  "coverLabel": "寿世传真",
+  "featured": false,
+  "wikisource": "壽世傳真",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "壽世傳真",
+      "url": "https://zh.wikisource.org/wiki/%E5%A3%BD%E4%B8%96%E5%82%B3%E7%9C%9F",
+      "revid": 2490538
+    }
+  ],
+  "chars": 28692,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 28692,
+      "headings": [
+        "序",
+        "总述",
+        "修养宜行外功第一",
+        "修养宜内联功第二",
+        "修养宜宝精宝气宝神第三",
+        "修养宜知要知忌知伤第四",
+        "修养宜四时调理第五",
+        "修养宜饮食调理第六",
+        "修养宜堤防疾病第七",
+        "修养宜护持药物第八"
+      ]
+    }
+  ]
+}

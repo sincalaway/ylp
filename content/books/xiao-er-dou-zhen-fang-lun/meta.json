@@ -1,0 +1,34 @@
+{
+  "title": "小儿痘疹方论",
+  "author": "陈文中",
+  "dynasty": "南宋",
+  "category": "临证各科类",
+  "summary": "陈文中论痘疹的证治，主张温补托里，为痘疹温补派的代表。",
+  "coverLabel": "痘疹方论",
+  "featured": false,
+  "wikisource": "小兒痘疹方論",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "小兒痘疹方論",
+      "url": "https://zh.wikisource.org/wiki/%E5%B0%8F%E5%85%92%E7%97%98%E7%96%B9%E6%96%B9%E8%AB%96",
+      "revid": 2490790
+    }
+  ],
+  "chars": 19559,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 19559,
+      "headings": [
+        "序",
+        "论痘疹受病之由",
+        "论痘疹治法",
+        "类集痘疹已效名方",
+        "附方",
+        "附："
+      ]
+    }
+  ]
+}

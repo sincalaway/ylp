@@ -1,0 +1,34 @@
+{
+  "title": "外科精要",
+  "author": "陈自明",
+  "dynasty": "南宋",
+  "category": "临证各科类",
+  "summary": "陈自明论痈疽的病因、诊治与方药，明薛己校注。",
+  "coverLabel": "外科精要",
+  "featured": false,
+  "wikisource": "外科精要",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "外科精要",
+      "url": "https://zh.wikisource.org/wiki/%E5%A4%96%E7%A7%91%E7%B2%BE%E8%A6%81",
+      "revid": 2490676
+    }
+  ],
+  "chars": 38192,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 38192,
+      "headings": [
+        "序一",
+        "序二",
+        "卷上",
+        "卷中",
+        "卷下",
+        "附录"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "title": "竹林女科证治",
+  "author": "竹林寺僧",
+  "dynasty": "清",
+  "category": "临证各科类",
+  "summary": "浙江萧山竹林寺僧世传的妇科证治，分调经、安胎、保产、求嗣四卷。",
+  "coverLabel": "竹林女科",
+  "featured": false,
+  "wikisource": "竹林女科證治",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "竹林女科證治",
+      "url": "https://zh.wikisource.org/wiki/%E7%AB%B9%E6%9E%97%E5%A5%B3%E7%A7%91%E8%AD%89%E6%B2%BB",
+      "revid": 2490929
+    }
+  ],
+  "chars": 110860,
+  "chapters": [
+    {
+      "slug": "01-xu",
+      "title": "序",
+      "chars": 835,
+      "headings": [
+        "原序"
+      ]
+    },
+    {
+      "slug": "02-juan-yi",
+      "title": "卷一",
+      "chars": 22700,
+      "headings": [
+        "调经上",
+        "调经下"
+      ]
+    },
+    {
+      "slug": "03-juan-er",
+      "title": "卷二",
+      "chars": 34704,
+      "headings": [
+        "安胎上",
+        "安胎下"
+      ]
+    },
+    {
+      "slug": "04-juan-san",
+      "title": "卷三",
+      "chars": 31217,
+      "headings": [
+        "保产上",
+        "保产下"
+      ]
+    },
+    {
+      "slug": "05-juan-si",
+      "title": "卷四",
+      "chars": 20787,
+      "headings": [
+        "求嗣上",
+        "求嗣下"
+      ]
+    },
+    {
+      "slug": "06-ba",
+      "title": "跋",
+      "chars": 617,
+      "headings": []
+    }
+  ]
+}

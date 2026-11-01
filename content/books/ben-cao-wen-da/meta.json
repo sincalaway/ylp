@@ -1,0 +1,31 @@
+{
+  "title": "本草问答",
+  "author": "唐宗海",
+  "dynasty": "清",
+  "category": "本草类",
+  "summary": "唐宗海与门人张士让以问答形式讨论药性原理、气味形色与功用的关系，兼及中西药学比较。",
+  "coverLabel": "本草问答",
+  "featured": false,
+  "wikisource": "本草問答",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "本草問答",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E5%95%8F%E7%AD%94",
+      "revid": 2490587
+    }
+  ],
+  "chars": 38852,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 38852,
+      "headings": [
+        "叙",
+        "卷上",
+        "卷下"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "title": "黄帝素问宣明论方",
+  "author": "刘完素",
+  "dynasty": "金",
+  "category": "方书类",
+  "summary": "刘完素据《素问》所载病证逐一制方，凡十五卷，体现河间学派的学术思想。",
+  "coverLabel": "宣明论方",
+  "featured": false,
+  "wikisource": "黃帝素問宣明論方",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "黃帝素問宣明論方",
+      "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B8%9D%E7%B4%A0%E5%95%8F%E5%AE%A3%E6%98%8E%E8%AB%96%E6%96%B9",
+      "revid": 1315889
+    }
+  ],
+  "chars": 62703,
+  "chapters": [
+    {
+      "slug": "01-zhong-ke-liu-shou-zhen-xian",
+      "title": "重刻刘守真先生宣明论方序",
+      "chars": 1178,
+      "headings": [
+        "黄帝素问宣明论方",
+        "重刻刘守真先生宣明论方序"
+      ]
+    },
+    {
+      "slug": "02-juan-yi",
+      "title": "卷一",
+      "chars": 5154,
+      "headings": [
+        "诸证门"
+      ]
+    },
+    {
+      "slug": "03-juan-er",
+      "title": "卷二",
+      "chars": 5814,
+      "headings": [
+        "诸证门"
+      ]
+    },
+    {
+      "slug": "04-juan-san",
+      "title": "卷三",
+      "chars": 4523,
+      "headings": [
+        "风门"
+      ]
+    },
+    {
+      "slug": "05-juan-si",
+      "title": "卷四",
+      "chars": 3461,
+      "headings": [
+        "热门"
+      ]
+    },
+    {
+      "slug": "06-juan-wu",
+      "title": "卷五",
+      "chars": 3649,
+      "headings": [
+        "伤寒门"
+      ]
+    },
+    {
+      "slug": "07-juan-liu",
+      "title": "卷六",
+      "chars": 4883,
+      "headings": [
+        "伤寒门"
+      ]
+    },
+    {
+      "slug": "08-juan-qi",
+      "title": "卷七",
+      "chars": 5199,
+      "headings": [
+        "积聚门"
+      ]
+    },
+    {
+      "slug": "09-juan-ba",
+      "title": "卷八",
+      "chars": 2424,
+      "headings": [
+        "水湿门"
+      ]
+    },
+    {
+      "slug": "10-juan-jiu",
+      "title": "卷九",
+      "chars": 4689,
+      "headings": [
+        "痰饮门",
+        "劳门"
+      ]
+    },
+    {
+      "slug": "11-juan-shi",
+      "title": "卷十",
+      "chars": 4165,
+      "headings": [
+        "燥门",
+        "痢门"
+      ]
+    },
+    {
+      "slug": "12-juan-shi-yi",
+      "title": "卷十一",
+      "chars": 3271,
+      "headings": [
+        "妇人门"
+      ]
+    },
+    {
+      "slug": "13-juan-shi-er",
+      "title": "卷十二",
+      "chars": 3591,
+      "headings": [
+        "补养门"
+      ]
+    },
+    {
+      "slug": "14-juan-shi-san",
+      "title": "卷十三",
+      "chars": 3462,
+      "headings": [
+        "诸痛门",
+        "痔门",
+        "疟疾门"
+      ]
+    },
+    {
+      "slug": "15-juan-shi-si",
+      "title": "卷十四",
+      "chars": 3943,
+      "headings": [
+        "眼目门",
+        "小儿门"
+      ]
+    },
+    {
+      "slug": "16-juan-shi-wu",
+      "title": "卷十五",
+      "chars": 3297,
+      "headings": [
+        "杂病门"
+      ]
+    }
+  ]
+}

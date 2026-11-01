@@ -1,53 +1,53 @@
 {
- "title": "小儿药证直诀",
- "author": "宋·钱乙 撰，阎孝忠 编集",
- "dynasty": "北宋",
- "category": "临证各科类",
- "summary": "儿科奠基之作，上卷论小儿脉证，中卷记钱乙治验二十三证，下卷载方，六味地黄丸、泻白散等出此书。",
- "coverLabel": "小儿药证直诀",
- "featured": false,
- "wikisource": "小兒藥證真訣",
- "license": "PD-old（公有领域）",
- "sources": [
-  {
-   "title": "小兒藥證真訣/序",
-   "url": "https://zh.wikisource.org/wiki/%E5%B0%8F%E5%85%92%E8%97%A5%E8%AD%89%E7%9C%9F%E8%A8%A3/%E5%BA%8F",
-   "revid": 2650895
-  },
-  {
-   "title": "小兒藥證真訣/錢仲陽傳",
-   "url": "https://zh.wikisource.org/wiki/%E5%B0%8F%E5%85%92%E8%97%A5%E8%AD%89%E7%9C%9F%E8%A8%A3/%E9%8C%A2%E4%BB%B2%E9%99%BD%E5%82%B3",
-   "revid": 2650903
-  },
-  {
-   "title": "小兒藥證真訣",
-   "url": "https://zh.wikisource.org/wiki/%E5%B0%8F%E5%85%92%E8%97%A5%E8%AD%89%E7%9C%9F%E8%A8%A3",
-   "revid": 2651253
-  }
- ],
- "chars": 33065,
- "chapters": [
-  {
-   "slug": "01-xu",
-   "title": "序",
-   "chars": 637,
-   "headings": []
-  },
-  {
-   "slug": "02-qian-zhong-yang-chuan",
-   "title": "錢仲陽傳",
-   "chars": 1668,
-   "headings": []
-  },
-  {
-   "slug": "03-zheng-wen",
-   "title": "正文",
-   "chars": 30760,
-   "headings": [
-    "卷中記嘗所治病二十三證",
-    "卷下諸方",
-    "附方"
-   ]
-  }
- ]
+  "title": "小儿药证直诀",
+  "author": "钱乙 撰，阎孝忠 编集",
+  "dynasty": "北宋",
+  "category": "临证各科类",
+  "summary": "儿科奠基之作，上卷论小儿脉证，中卷记钱乙治验二十三证，下卷载方，六味地黄丸、泻白散等出此书。",
+  "coverLabel": "小儿药证直诀",
+  "featured": false,
+  "wikisource": "小兒藥證真訣",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "小兒藥證真訣/序",
+      "url": "https://zh.wikisource.org/wiki/%E5%B0%8F%E5%85%92%E8%97%A5%E8%AD%89%E7%9C%9F%E8%A8%A3/%E5%BA%8F",
+      "revid": 2650895
+    },
+    {
+      "title": "小兒藥證真訣/錢仲陽傳",
+      "url": "https://zh.wikisource.org/wiki/%E5%B0%8F%E5%85%92%E8%97%A5%E8%AD%89%E7%9C%9F%E8%A8%A3/%E9%8C%A2%E4%BB%B2%E9%99%BD%E5%82%B3",
+      "revid": 2650903
+    },
+    {
+      "title": "小兒藥證真訣",
+      "url": "https://zh.wikisource.org/wiki/%E5%B0%8F%E5%85%92%E8%97%A5%E8%AD%89%E7%9C%9F%E8%A8%A3",
+      "revid": 2651253
+    }
+  ],
+  "chars": 33065,
+  "chapters": [
+    {
+      "slug": "01-xu",
+      "title": "序",
+      "chars": 637,
+      "headings": []
+    },
+    {
+      "slug": "02-qian-zhong-yang-chuan",
+      "title": "錢仲陽傳",
+      "chars": 1668,
+      "headings": []
+    },
+    {
+      "slug": "03-zheng-wen",
+      "title": "正文",
+      "chars": 30760,
+      "headings": [
+        "卷中記嘗所治病二十三證",
+        "卷下諸方",
+        "附方"
+      ]
+    }
+  ]
 }

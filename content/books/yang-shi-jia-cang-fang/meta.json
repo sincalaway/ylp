@@ -1,0 +1,206 @@
+{
+  "title": "杨氏家藏方",
+  "author": "杨倓",
+  "dynasty": "南宋",
+  "category": "方书类",
+  "summary": "杨倓辑录家藏经验方一千余首，分四十九门，凡二十卷。",
+  "coverLabel": "杨氏家藏方",
+  "featured": false,
+  "wikisource": "楊氏家藏方",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "楊氏家藏方",
+      "url": "https://zh.wikisource.org/wiki/%E6%A5%8A%E6%B0%8F%E5%AE%B6%E8%97%8F%E6%96%B9",
+      "revid": 2372576
+    }
+  ],
+  "chars": 120210,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 398,
+      "headings": []
+    },
+    {
+      "slug": "02-juan-di-yi",
+      "title": "卷第一",
+      "chars": 6215,
+      "headings": [
+        "诸风上"
+      ]
+    },
+    {
+      "slug": "03-juan-di-er",
+      "title": "卷第二",
+      "chars": 6728,
+      "headings": [
+        "诸风下"
+      ]
+    },
+    {
+      "slug": "04-juan-di-san",
+      "title": "卷第三",
+      "chars": 5433,
+      "headings": [
+        "伤寒方一十一道",
+        "中暑方一十三道",
+        "疟疾方一十四道",
+        "积热方一十六道"
+      ]
+    },
+    {
+      "slug": "05-juan-di-si",
+      "title": "卷第四",
+      "chars": 5483,
+      "headings": [
+        "风湿方八道",
+        "脚气方三十六道",
+        "秘涩方一十道"
+      ]
+    },
+    {
+      "slug": "06-juan-di-wu",
+      "title": "卷第五",
+      "chars": 7048,
+      "headings": [
+        "一切气方二十五道",
+        "积聚方一十二道",
+        "心腹痛方二十二道"
+      ]
+    },
+    {
+      "slug": "07-juan-di-liu",
+      "title": "卷第六",
+      "chars": 6972,
+      "headings": [
+        "脾胃方六十一道"
+      ]
+    },
+    {
+      "slug": "08-juan-di-qi",
+      "title": "卷第七",
+      "chars": 4596,
+      "headings": [
+        "泄泻方二十道",
+        "痢疾方一十九道",
+        "泄泻方五道"
+      ]
+    },
+    {
+      "slug": "09-juan-di-ba",
+      "title": "卷第八",
+      "chars": 6030,
+      "headings": [
+        "痰饮方一十八道",
+        "咳嗽方三十七道"
+      ]
+    },
+    {
+      "slug": "10-juan-di-jiu",
+      "title": "卷第九",
+      "chars": 6564,
+      "headings": [
+        "补益方三十六道",
+        "痼冷方一十道"
+      ]
+    },
+    {
+      "slug": "11-juan-di-shi",
+      "title": "卷第十",
+      "chars": 7340,
+      "headings": [
+        "虚劳方一十二道",
+        "心气方一十道",
+        "消渴方六道",
+        "水气蛊胀方一十五道",
+        "小肠疝气方二十四道"
+      ]
+    },
+    {
+      "slug": "12-juan-di-shi-yi",
+      "title": "卷第十一",
+      "chars": 5398,
+      "headings": [
+        "眼目方二十八道",
+        "咽喉方一十一道",
+        "口齿方二十一道"
+      ]
+    },
+    {
+      "slug": "13-juan-di-shi-er",
+      "title": "卷第十二",
+      "chars": 7291,
+      "headings": [
+        "疮肿方七十二道"
+      ]
+    },
+    {
+      "slug": "14-juan-di-shi-san",
+      "title": "卷第十三",
+      "chars": 5300,
+      "headings": [
+        "肠风痔漏方五十九道"
+      ]
+    },
+    {
+      "slug": "15-juan-di-shi-si",
+      "title": "卷第十四",
+      "chars": 4959,
+      "headings": [
+        "伤折方四十一道",
+        "丹药方八道"
+      ]
+    },
+    {
+      "slug": "16-juan-di-shi-wu",
+      "title": "卷第十五",
+      "chars": 4855,
+      "headings": [
+        "妇人方上三十六道"
+      ]
+    },
+    {
+      "slug": "17-juan-di-shi-liu",
+      "title": "卷第十六",
+      "chars": 5319,
+      "headings": [
+        "妇人方下五十四道"
+      ]
+    },
+    {
+      "slug": "18-juan-di-shi-qi",
+      "title": "卷第十七",
+      "chars": 5801,
+      "headings": [
+        "小儿上"
+      ]
+    },
+    {
+      "slug": "19-juan-di-shi-ba",
+      "title": "卷第十八",
+      "chars": 6408,
+      "headings": [
+        "小儿中"
+      ]
+    },
+    {
+      "slug": "20-juan-di-shi-jiu",
+      "title": "卷第十九",
+      "chars": 5799,
+      "headings": [
+        "小儿下"
+      ]
+    },
+    {
+      "slug": "21-juan-di-er-shi",
+      "title": "卷第二十",
+      "chars": 6273,
+      "headings": [
+        "杂方五十八道",
+        "汤方一十七道"
+      ]
+    }
+  ]
+}

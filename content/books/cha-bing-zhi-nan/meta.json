@@ -1,0 +1,34 @@
+{
+  "title": "察病指南",
+  "author": "施发",
+  "dynasty": "南宋",
+  "category": "诊法类",
+  "summary": "施发论述诊脉、察色、听声诸诊法，绘有脉影图，为现存较早的诊断学专书。",
+  "coverLabel": "察病指南",
+  "featured": false,
+  "wikisource": "察病指南",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "察病指南",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%9F%E7%97%85%E6%8C%87%E5%8D%97",
+      "revid": 2186467
+    }
+  ],
+  "chars": 18623,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 18623,
+      "headings": [
+        "序一",
+        "序二",
+        "序三",
+        "卷上",
+        "卷中",
+        "卷下"
+      ]
+    }
+  ]
+}

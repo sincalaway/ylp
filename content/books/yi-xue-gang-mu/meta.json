@@ -1,0 +1,516 @@
+{
+  "title": "医学纲目",
+  "author": "楼英",
+  "dynasty": "明",
+  "category": "临证各科类",
+  "summary": "楼英以阴阳脏腑分病为纲，汇集《内经》以下历代医论方药，凡四十卷，为明代大型综合医书。",
+  "coverLabel": "医学纲目",
+  "featured": false,
+  "wikisource": "醫學綱目",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "醫學綱目",
+      "url": "https://zh.wikisource.org/wiki/%E9%86%AB%E5%AD%B8%E7%B6%B1%E7%9B%AE",
+      "revid": 2187088
+    },
+    {
+      "title": "醫學綱目/1",
+      "url": "https://zh.wikisource.org/wiki/%E9%86%AB%E5%AD%B8%E7%B6%B1%E7%9B%AE/1",
+      "revid": 2490686
+    },
+    {
+      "title": "醫學綱目/21",
+      "url": "https://zh.wikisource.org/wiki/%E9%86%AB%E5%AD%B8%E7%B6%B1%E7%9B%AE/21",
+      "revid": 2490550
+    }
+  ],
+  "chars": 1154556,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 2666,
+      "headings": [
+        "曹序",
+        "自序",
+        "序例",
+        "邵跋"
+      ]
+    },
+    {
+      "slug": "02-juan-zhi-yi-yin-yang-zang",
+      "title": "卷之一·阴阳脏腑部",
+      "chars": 23364,
+      "headings": [
+        "阴阳",
+        "五脏"
+      ]
+    },
+    {
+      "slug": "03-juan-zhi-er-yin-yang-zang",
+      "title": "卷之二·阴阳脏腑部",
+      "chars": 27519,
+      "headings": [
+        "诊法通论",
+        "诊病传变（诊病将死期入诊生死条）",
+        "诊病愈剧",
+        "诊生死",
+        "诸脉诊病杂法",
+        "诊一岁病证相同"
+      ]
+    },
+    {
+      "slug": "04-juan-zhi-san-yin-yang-zang",
+      "title": "卷之三·阴阳脏腑部",
+      "chars": 14076,
+      "headings": [
+        "治法通论",
+        "倒仓法",
+        "药性不同",
+        "制方大法",
+        "随症用药"
+      ]
+    },
+    {
+      "slug": "05-juan-zhi-si-yin-yang-zang",
+      "title": "卷之四·阴阳脏腑部",
+      "chars": 30284,
+      "headings": [
+        "治虚实法",
+        "治上下法",
+        "诊五脏虚实",
+        "诊五邪相干"
+      ]
+    },
+    {
+      "slug": "06-juan-zhi-wu-yin-yang-zang",
+      "title": "卷之五·阴阳脏腑部",
+      "chars": 22633,
+      "headings": [
+        "治寒热法",
+        "治发热",
+        "劳瘵骨蒸热",
+        "传尸劳热",
+        "产后发热"
+      ]
+    },
+    {
+      "slug": "07-juan-zhi-liu-yin-yang-zang",
+      "title": "卷之六·阴阳脏腑部",
+      "chars": 23251,
+      "headings": [
+        "治恶寒",
+        "治往来寒热",
+        "产后往来寒热",
+        "外热内寒外寒内热",
+        "上热下寒上寒下热",
+        "疟寒热",
+        "久疟",
+        "疟胀",
+        "产后疟"
+      ]
+    },
+    {
+      "slug": "08-juan-zhi-qi-yin-yang-zang",
+      "title": "卷之七·阴阳脏腑部",
+      "chars": 25467,
+      "headings": [
+        "刺灸通论（刺虚实刺寒热入治寒热法）",
+        "刺虚实"
+      ]
+    },
+    {
+      "slug": "09-juan-zhi-ba-yin-yang-zang",
+      "title": "卷之八·阴阳脏腑部",
+      "chars": 22719,
+      "headings": [
+        "穴法上",
+        "穴法下"
+      ]
+    },
+    {
+      "slug": "10-juan-zhi-jiu-yin-yang-zang",
+      "title": "卷之九·阴阳脏腑部",
+      "chars": 21529,
+      "headings": [
+        "调摄宜禁",
+        "用药宜禁",
+        "刺禁",
+        "灸禁"
+      ]
+    },
+    {
+      "slug": "11-juan-zhi-shi-gan-dan-bu",
+      "title": "卷之十·肝胆部",
+      "chars": 25613,
+      "headings": [
+        "诸风",
+        "中风",
+        "卒中之初",
+        "中分浅深",
+        "中浅半身偏痛舌能言",
+        "中深半身不收舌难言",
+        "产后中风",
+        "口噤",
+        "口眼斜",
+        "痒"
+      ]
+    },
+    {
+      "slug": "12-juan-zhi-shi-yi-gan-dan",
+      "title": "卷之十一·肝胆部",
+      "chars": 22671,
+      "headings": [
+        "眩",
+        "口噤，角弓反张",
+        "破伤风"
+      ]
+    },
+    {
+      "slug": "13-juan-zhi-shi-er-gan-dan",
+      "title": "卷之十二·肝胆部",
+      "chars": 24690,
+      "headings": [
+        "诸痹"
+      ]
+    },
+    {
+      "slug": "14-juan-zhi-shi-san-gan-dan",
+      "title": "卷之十三·肝胆部",
+      "chars": 31979,
+      "headings": [
+        "惊悸怔忡",
+        "怒",
+        "善太息",
+        "目疾门"
+      ]
+    },
+    {
+      "slug": "15-juan-zhi-shi-si-gan-dan",
+      "title": "卷之十四·肝胆部",
+      "chars": 38961,
+      "headings": [
+        "胁痛",
+        "诸疝",
+        "闭癃遗溺",
+        "前阴诸疾",
+        "筋"
+      ]
+    },
+    {
+      "slug": "16-juan-zhi-shi-wu-gan-dan",
+      "title": "卷之十五·肝胆部",
+      "chars": 27663,
+      "headings": [
+        "头风痛",
+        "多卧、不得卧",
+        "咽喉"
+      ]
+    },
+    {
+      "slug": "17-juan-zhi-shi-liu-xin-xiao",
+      "title": "卷之十六·心小肠部",
+      "chars": 27338,
+      "headings": [
+        "心痛",
+        "胸痛胸满",
+        "胸痹短气缓急",
+        "烦躁",
+        "谵妄",
+        "健忘",
+        "诸痛门",
+        "诸逆冲上",
+        "噫"
+      ]
+    },
+    {
+      "slug": "18-juan-zhi-shi-qi-xin-xiao",
+      "title": "卷之十七·心小肠部",
+      "chars": 47484,
+      "headings": [
+        "诸见血门",
+        "诸痿",
+        "舌",
+        "汗",
+        "卒中暴厥"
+      ]
+    },
+    {
+      "slug": "19-juan-zhi-shi-ba-xin-xiao",
+      "title": "卷之十八·心小肠部",
+      "chars": 36126,
+      "headings": [
+        "痈疽"
+      ]
+    },
+    {
+      "slug": "20-juan-zhi-shi-jiu-xin-xiao",
+      "title": "卷之十九·心小肠部",
+      "chars": 26316,
+      "headings": [
+        "痈疽所发部分名状不同"
+      ]
+    },
+    {
+      "slug": "21-juan-zhi-er-shi-xin-xiao",
+      "title": "卷之二十·心小肠部",
+      "chars": 31545,
+      "headings": [
+        "丹痤疹",
+        "扑伤损",
+        "通治诸般恶虫咬"
+      ]
+    },
+    {
+      "slug": "22-juan-zhi-er-shi-yi-pi",
+      "title": "卷之二十一·脾胃门",
+      "chars": 39723,
+      "headings": [
+        "内伤饮食",
+        "痞",
+        "消瘅门",
+        "黄胆"
+      ]
+    },
+    {
+      "slug": "23-juan-zhi-er-shi-er-pi",
+      "title": "卷之二十二·脾胃部",
+      "chars": 37116,
+      "headings": [
+        "腹痛",
+        "呕吐膈气总论",
+        "哕"
+      ]
+    },
+    {
+      "slug": "24-juan-zhi-er-shi-san-pi",
+      "title": "卷之二十三·脾胃部",
+      "chars": 36718,
+      "headings": [
+        "泄泻滞下",
+        "泄泻",
+        "飧泄",
+        "遗尿",
+        "滞下",
+        "大便不通"
+      ]
+    },
+    {
+      "slug": "25-juan-zhi-er-shi-si-pi",
+      "title": "卷之二十四·脾胃部",
+      "chars": 29871,
+      "headings": [
+        "水胀通论",
+        "小腹胀"
+      ]
+    },
+    {
+      "slug": "26-juan-zhi-er-shi-wu-pi",
+      "title": "卷之二十五·脾胃部",
+      "chars": 41006,
+      "headings": [
+        "积块瘕",
+        "面",
+        "狂癫",
+        "狂",
+        "欲独闭户牖而处",
+        "口",
+        "四肢",
+        "肉",
+        "身重",
+        "蛊毒",
+        "蛊下血见血",
+        "奇病"
+      ]
+    },
+    {
+      "slug": "27-juan-zhi-er-shi-liu-fei",
+      "title": "卷之二十六·肺大肠部",
+      "chars": 19378,
+      "headings": [
+        "咳嗽"
+      ]
+    },
+    {
+      "slug": "28-juan-zhi-er-shi-qi-fei",
+      "title": "卷之二十七·肺大肠部",
+      "chars": 32662,
+      "headings": [
+        "喘",
+        "善悲",
+        "鼻塞",
+        "肩背痛",
+        "皮肤",
+        "喑",
+        "脱肛",
+        "痔"
+      ]
+    },
+    {
+      "slug": "29-juan-zhi-er-shi-ba-shen",
+      "title": "卷之二十八·肾膀胱部",
+      "chars": 28586,
+      "headings": [
+        "腰痛",
+        "厥"
+      ]
+    },
+    {
+      "slug": "30-juan-zhi-er-shi-jiu-shen",
+      "title": "卷之二十九·肾膀胱部",
+      "chars": 21421,
+      "headings": [
+        "耳聋",
+        "骨",
+        "牙齿痛",
+        "发黄白",
+        "二阴",
+        "欠嚏",
+        "身体拘急",
+        "梦遗",
+        "恐"
+      ]
+    },
+    {
+      "slug": "31-juan-zhi-san-shi-shang-han",
+      "title": "卷之三十·伤寒部",
+      "chars": 29468,
+      "headings": [
+        "伤寒通论",
+        "续伤寒通论",
+        "太阳病"
+      ]
+    },
+    {
+      "slug": "32-juan-zhi-san-shi-yi-shang",
+      "title": "卷之三十一·伤寒部",
+      "chars": 44885,
+      "headings": [
+        "阳明病",
+        "少阳病",
+        "太阴病",
+        "少阴病",
+        "厥阴病"
+      ]
+    },
+    {
+      "slug": "33-juan-zhi-san-shi-er-shang",
+      "title": "卷之三十二·伤寒部",
+      "chars": 28712,
+      "headings": [
+        "合病并病汗下吐后等病"
+      ]
+    },
+    {
+      "slug": "34-juan-zhi-san-shi-san-shang",
+      "title": "卷之三十三·伤寒部",
+      "chars": 23394,
+      "headings": [
+        "劳复门",
+        "四时伤寒不同",
+        "妇人伤寒",
+        "续增小儿伤寒",
+        "温病",
+        "伤寒拾遗"
+      ]
+    },
+    {
+      "slug": "35-juan-zhi-san-shi-si-fu",
+      "title": "卷之三十四·妇人部",
+      "chars": 26828,
+      "headings": [
+        "妇人治法通论",
+        "调经"
+      ]
+    },
+    {
+      "slug": "36-juan-zhi-san-shi-wu-fu",
+      "title": "卷之三十五·妇人部",
+      "chars": 26075,
+      "headings": [
+        "胎前症",
+        "产后症"
+      ]
+    },
+    {
+      "slug": "37-juan-zhi-san-shi-liu-xiao",
+      "title": "卷之三十六·小儿部",
+      "chars": 25182,
+      "headings": [
+        "小儿通治",
+        "生下胎疾",
+        "肝主风"
+      ]
+    },
+    {
+      "slug": "38-juan-zhi-san-shi-qi-xiao",
+      "title": "卷之三十七·小儿部",
+      "chars": 33612,
+      "headings": [
+        "心主热"
+      ]
+    },
+    {
+      "slug": "39-juan-zhi-san-shi-ba-xiao",
+      "title": "卷之三十八·小儿部",
+      "chars": 24977,
+      "headings": [
+        "脾主湿"
+      ]
+    },
+    {
+      "slug": "40-juan-zhi-san-shi-jiu-xiao",
+      "title": "卷之三十九·小儿部",
+      "chars": 14047,
+      "headings": [
+        "肺主燥",
+        "肾主虚寒",
+        "杂病",
+        "补遗方"
+      ]
+    },
+    {
+      "slug": "41-juan-zhi-si-shi-nei-jing",
+      "title": "卷之四十·《内经》运气类注",
+      "chars": 27721,
+      "headings": [
+        "五运六气总论"
+      ]
+    },
+    {
+      "slug": "42-nei-jing-yun-qi-lei-zhu",
+      "title": "《内经》运气类注序文",
+      "chars": 1985,
+      "headings": []
+    },
+    {
+      "slug": "43-yun-qi-zhan-hou-bu-yi",
+      "title": "运气占候补遗序",
+      "chars": 758,
+      "headings": []
+    },
+    {
+      "slug": "44-yun-qi-zhan-hou",
+      "title": "运气占候",
+      "chars": 6537,
+      "headings": [
+        "五运气至之占",
+        "五运太过之占",
+        "五运不及之占",
+        "复气应时占",
+        "五星应化占",
+        "五气动乱占",
+        "五气郁发占",
+        "地理高下左右占",
+        "六气正变占",
+        "在泉淫胜占",
+        "司天淫胜占",
+        "占六气之胜",
+        "占六气之复",
+        "释亢则害承乃制",
+        "释病机十九条"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "title": "正骨心法要旨",
+  "author": "吴谦 等",
+  "dynasty": "清",
+  "category": "临证各科类",
+  "summary": "《医宗金鉴》之一部，论正骨手法、器具与各部骨伤证治（原附图今缺）。",
+  "coverLabel": "正骨心法",
+  "featured": false,
+  "wikisource": "正骨心法要旨",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "正骨心法要旨",
+      "url": "https://zh.wikisource.org/wiki/%E6%AD%A3%E9%AA%A8%E5%BF%83%E6%B3%95%E8%A6%81%E6%97%A8",
+      "revid": 2490908
+    }
+  ],
+  "chars": 26503,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 26503,
+      "headings": [
+        "卷一",
+        "卷二",
+        "卷三",
+        "卷四"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "目经大成",
+  "author": "黄庭镜",
+  "dynasty": "清",
+  "category": "临证各科类",
+  "summary": "黄庭镜论眼科生理、病证八十一种与针拨内障等治法。",
+  "coverLabel": "目经大成",
+  "featured": false,
+  "wikisource": "目經大成",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "目經大成",
+      "url": "https://zh.wikisource.org/wiki/%E7%9B%AE%E7%B6%93%E5%A4%A7%E6%88%90",
+      "revid": 2187361
+    }
+  ],
+  "chars": 173077,
+  "chapters": [
+    {
+      "slug": "01-xu",
+      "title": "序",
+      "chars": 599,
+      "headings": []
+    },
+    {
+      "slug": "02-xiao-kan-mu-jing-da-cheng",
+      "title": "校刊目经大成序",
+      "chars": 550,
+      "headings": [
+        "魏序"
+      ]
+    },
+    {
+      "slug": "03-li-xu",
+      "title": "李序",
+      "chars": 498,
+      "headings": []
+    },
+    {
+      "slug": "04-xiong-xu",
+      "title": "兄序",
+      "chars": 691,
+      "headings": []
+    },
+    {
+      "slug": "05-zi-xu",
+      "title": "自序",
+      "chars": 595,
+      "headings": []
+    },
+    {
+      "slug": "06-juan-shou",
+      "title": "卷首",
+      "chars": 1087,
+      "headings": [
+        "脏腑表里三阳三阴轮廓贯通",
+        "五运之图",
+        "六气之图",
+        "五轮主属形图",
+        "五轮定位形图",
+        "八廓定位形图",
+        "八廓分属形图",
+        "开导前面针穴图",
+        "开导背面针穴图",
+        "太极阴阳动静致病图",
+        "针割钩烙图式",
+        "针割钩烙用法"
+      ]
+    },
+    {
+      "slug": "07-juan-zhi-yi",
+      "title": "卷之一",
+      "chars": 44089,
+      "headings": [
+        "卷之二"
+      ]
+    },
+    {
+      "slug": "08-juan-zhi-er",
+      "title": "卷之二",
+      "chars": 55229,
+      "headings": [
+        "卷之三"
+      ]
+    },
+    {
+      "slug": "09-juan-zhi-san",
+      "title": "卷之三",
+      "chars": 69386,
+      "headings": [
+        "甲午中秋后一日书事"
+      ]
+    },
+    {
+      "slug": "10-tong-ba",
+      "title": "童跋",
+      "chars": 353,
+      "headings": []
+    }
+  ]
+}

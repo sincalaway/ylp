@@ -1,0 +1,31 @@
+{
+  "title": "正体类要",
+  "author": "薛己",
+  "dynasty": "明",
+  "category": "临证各科类",
+  "summary": "薛己论跌仆损伤的内治与外治，附治验与方药。",
+  "coverLabel": "正体类要",
+  "featured": false,
+  "wikisource": "正體類要",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "正體類要",
+      "url": "https://zh.wikisource.org/wiki/%E6%AD%A3%E9%AB%94%E9%A1%9E%E8%A6%81",
+      "revid": 2490857
+    }
+  ],
+  "chars": 21102,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 21102,
+      "headings": [
+        "序",
+        "上卷",
+        "下卷"
+      ]
+    }
+  ]
+}

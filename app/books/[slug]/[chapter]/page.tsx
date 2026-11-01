@@ -2,7 +2,7 @@ import Link from 'next/link'
 import GithubSlugger from 'github-slugger'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
-import { getBookChapter, getBookChapters, getBooks } from '@/lib/content'
+import { getBookChapter, getBookChapters } from '@/lib/content'
 import { MarkdownReader, ReadingTracker } from '@/components/reading-tools'
 
 type Params = { slug: string; chapter: string }
@@ -28,4 +28,6 @@ export default async function ChapterPage({ params }: { params: Promise<Params> 
   {source&&<p className="source-line">原文来源：维基文库 <a className="text-link" href={source.url} target="_blank" rel="noopener noreferrer">{source.title}</a>{source.revid?`（修订版本 ${source.revid}）`:''}，公有领域（PD-old）。</p>}
   <div style={{display:'flex',gap:18,marginTop:18,fontSize:12}}><Link className="text-link" href={`/books/${book.slug}`}>← 返回《{book.title}》目录</Link><Link className="text-link" href="/books">医典阁</Link></div></div>
 }
-export function generateStaticParams(){return getBooks().filter((b)=>b.kind==='folder').flatMap((book)=>getBookChapters(book.slug).map((c)=>({slug:book.slug,chapter:c.slug})))}
+// 200 部全本、数千个章节：构建时不预渲染，首次访问时按需生成并缓存一天（ISR），保持构建体积与时长可控。
+export const revalidate = 86400
+export function generateStaticParams(): Params[] { return [] }

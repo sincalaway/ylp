@@ -1,0 +1,49 @@
+{
+  "title": "内经知要",
+  "author": "李中梓",
+  "dynasty": "明",
+  "category": "医经类",
+  "summary": "李中梓节取《内经》要文，分道生、阴阳、色诊、脉诊、藏象、经络、治则、病能八类简要注释，为历来学习《内经》的入门读本。",
+  "coverLabel": "内经知要",
+  "featured": false,
+  "wikisource": "內經知要",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "內經知要",
+      "url": "https://zh.wikisource.org/wiki/%E5%85%A7%E7%B6%93%E7%9F%A5%E8%A6%81",
+      "revid": 1753024
+    }
+  ],
+  "chars": 67632,
+  "chapters": [
+    {
+      "slug": "01-xu",
+      "title": "序",
+      "chars": 832,
+      "headings": []
+    },
+    {
+      "slug": "02-juan-shang",
+      "title": "卷上",
+      "chars": 28920,
+      "headings": [
+        "一、道生",
+        "二、阴阳",
+        "三、色诊",
+        "四、脉诊",
+        "五、藏象"
+      ]
+    },
+    {
+      "slug": "03-juan-xia",
+      "title": "卷下",
+      "chars": 37880,
+      "headings": [
+        "一、经络",
+        "二、治则",
+        "三、病能"
+      ]
+    }
+  ]
+}

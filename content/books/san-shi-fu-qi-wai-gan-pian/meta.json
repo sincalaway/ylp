@@ -1,0 +1,29 @@
+{
+  "title": "三时伏气外感篇",
+  "author": "叶桂",
+  "dynasty": "清",
+  "category": "温病类",
+  "summary": "叶天士论春温、风温、暑、湿、秋燥等四时外感与伏气为病的证治。",
+  "coverLabel": "三时伏气",
+  "featured": false,
+  "wikisource": "三時伏氣外感篇",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "三時伏氣外感篇",
+      "url": "https://zh.wikisource.org/wiki/%E4%B8%89%E6%99%82%E4%BC%8F%E6%B0%A3%E5%A4%96%E6%84%9F%E7%AF%87",
+      "revid": 2603937
+    }
+  ],
+  "chars": 4644,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 4644,
+      "headings": [
+        "三时伏气外感篇"
+      ]
+    }
+  ]
+}

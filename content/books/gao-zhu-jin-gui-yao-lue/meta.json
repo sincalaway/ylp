@@ -1,0 +1,153 @@
+{
+  "title": "高注金匮要略",
+  "author": "高学山",
+  "dynasty": "清",
+  "category": "伤寒金匮类",
+  "summary": "高学山逐篇注解《金匮要略》二十余篇，析其病机与方义。",
+  "coverLabel": "高注金匮",
+  "featured": false,
+  "wikisource": "金匱要略 (高學山)",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "金匱要略 (高學山)",
+      "url": "https://zh.wikisource.org/wiki/%E9%87%91%E5%8C%B1%E8%A6%81%E7%95%A5_%28%E9%AB%98%E5%AD%B8%E5%B1%B1%29",
+      "revid": 2186488
+    }
+  ],
+  "chars": 180403,
+  "chapters": [
+    {
+      "slug": "01-zang-fu-jing-luo-xian-hou",
+      "title": "脏腑经络先后病脉证治第一",
+      "chars": 9719,
+      "headings": []
+    },
+    {
+      "slug": "02-shi-bing-mai-zheng-di-er",
+      "title": "湿病脉证第二",
+      "chars": 11057,
+      "headings": []
+    },
+    {
+      "slug": "03-bai-he-hu-huo-yin-yang",
+      "title": "百合狐惑阴阳毒病证治第三",
+      "chars": 5650,
+      "headings": []
+    },
+    {
+      "slug": "04-nve-bing-mai-zheng-bing-zhi",
+      "title": "疟病脉证并治第四",
+      "chars": 6157,
+      "headings": []
+    },
+    {
+      "slug": "05-zhong-feng-li-jie-bing-mai",
+      "title": "中风历节病脉证治第五",
+      "chars": 6421,
+      "headings": []
+    },
+    {
+      "slug": "06-xue-bi-xu-lao-bing-mai",
+      "title": "血痹虚劳病脉证治第六",
+      "chars": 14220,
+      "headings": []
+    },
+    {
+      "slug": "07-fei-wei-fei-yong-ke-sou",
+      "title": "肺痿肺痈咳嗽上气病脉证治第七",
+      "chars": 9222,
+      "headings": []
+    },
+    {
+      "slug": "08-ben-tun-qi-bing-mai-zheng",
+      "title": "奔豚气病脉证治第八",
+      "chars": 2119,
+      "headings": []
+    },
+    {
+      "slug": "09-xiong-bi-xin-tong-duan-qi",
+      "title": "胸痹心痛短气病脉证治第九",
+      "chars": 4822,
+      "headings": []
+    },
+    {
+      "slug": "10-fu-man-han-shan-su-shi",
+      "title": "腹满寒疝宿食病脉证治第十",
+      "chars": 11488,
+      "headings": []
+    },
+    {
+      "slug": "11-wu-zang-feng-han-ji-ju",
+      "title": "五脏风寒积聚病脉证治第十一",
+      "chars": 9321,
+      "headings": []
+    },
+    {
+      "slug": "12-tan-yin-ke-sou-bing-mai",
+      "title": "痰饮咳嗽病脉证治第十二",
+      "chars": 13337,
+      "headings": []
+    },
+    {
+      "slug": "13-xiao-ke-xiao-bian-bu-li",
+      "title": "消渴小便不利淋病脉证治第十三",
+      "chars": 6239,
+      "headings": []
+    },
+    {
+      "slug": "14-shui-qi-bing-mai-zheng-zhi",
+      "title": "水气病脉证治第十四",
+      "chars": 17223,
+      "headings": []
+    },
+    {
+      "slug": "15-huang-dan-bing-mai-zheng-zhi",
+      "title": "黄胆病脉证治第十五",
+      "chars": 7561,
+      "headings": []
+    },
+    {
+      "slug": "16-jing-ji-tu-nv-xia-xue",
+      "title": "惊悸吐衄下血胸满瘀血病脉证治第十六",
+      "chars": 7574,
+      "headings": []
+    },
+    {
+      "slug": "17-ou-tu-hui-xia-li-bing",
+      "title": "呕吐哕下利病脉证治第十七",
+      "chars": 10991,
+      "headings": []
+    },
+    {
+      "slug": "18-chuang-yong-chang-yong-jin-yin",
+      "title": "疮痈肠痈浸淫病脉证治第十八",
+      "chars": 3401,
+      "headings": []
+    },
+    {
+      "slug": "19-fu-jue-shou-zhi-bi-zhong",
+      "title": "趺蹶手指臂肿转筋阴狐疝蛔虫病脉证治第十九",
+      "chars": 1940,
+      "headings": []
+    },
+    {
+      "slug": "20-fu-ren-ren-shen-bing-mai",
+      "title": "妇人妊娠病脉证治第二十",
+      "chars": 7584,
+      "headings": []
+    },
+    {
+      "slug": "21-fu-ren-chan-hou-bing-mai",
+      "title": "妇人产后病脉证治第二十一",
+      "chars": 4622,
+      "headings": []
+    },
+    {
+      "slug": "22-fu-ren-za-bing-mai-zheng",
+      "title": "妇人杂病脉证并治第二十二",
+      "chars": 9735,
+      "headings": []
+    }
+  ]
+}

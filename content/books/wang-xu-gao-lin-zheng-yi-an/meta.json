@@ -1,0 +1,81 @@
+{
+  "title": "王旭高临证医案",
+  "author": "王泰林",
+  "dynasty": "清",
+  "category": "医案类",
+  "summary": "王旭高的临证医案，按病证分类，论治细致。",
+  "coverLabel": "王旭高医案",
+  "featured": false,
+  "wikisource": "王旭高臨證醫案",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "王旭高臨證醫案",
+      "url": "https://zh.wikisource.org/wiki/%E7%8E%8B%E6%97%AD%E9%AB%98%E8%87%A8%E8%AD%89%E9%86%AB%E6%A1%88",
+      "revid": 2490705
+    }
+  ],
+  "chars": 100847,
+  "chapters": [
+    {
+      "slug": "01-xu",
+      "title": "序",
+      "chars": 664,
+      "headings": []
+    },
+    {
+      "slug": "02-juan-zhi-yi",
+      "title": "卷之一",
+      "chars": 27330,
+      "headings": [
+        "温邪门",
+        "暑邪门",
+        "伏暑门",
+        "疟疾门",
+        "痢疾门",
+        "黄胆门"
+      ]
+    },
+    {
+      "slug": "03-juan-zhi-er",
+      "title": "卷之二",
+      "chars": 25866,
+      "headings": [
+        "中风门",
+        "肝风痰火门",
+        "虚劳门",
+        "吐血门",
+        "臌胀水肿门"
+      ]
+    },
+    {
+      "slug": "04-juan-zhi-san",
+      "title": "卷之三",
+      "chars": 23687,
+      "headings": [
+        "积聚门（附虫积）",
+        "脘腹痛门",
+        "噎膈反胃门",
+        "三消门",
+        "痰饮门",
+        "痰喘门"
+      ]
+    },
+    {
+      "slug": "05-juan-zhi-si",
+      "title": "卷之四",
+      "chars": 23300,
+      "headings": [
+        "咳嗽门",
+        "疝气门",
+        "遗精淋浊门",
+        "痉厥门",
+        "杂病门",
+        "妇人门",
+        "产后门",
+        "幼科门",
+        "外疡门"
+      ]
+    }
+  ]
+}

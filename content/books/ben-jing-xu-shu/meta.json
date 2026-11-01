@@ -1,0 +1,114 @@
+{
+  "title": "本经续疏",
+  "author": "邹澍",
+  "dynasty": "清",
+  "category": "本草类",
+  "summary": "邹澍续《本经疏证》之作，以《伤寒论》《金匮要略》用药实例疏证《神农本草经》药性。",
+  "coverLabel": "本经续疏",
+  "featured": false,
+  "wikisource": "本經續疏",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "本經續疏",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E7%B6%93%E7%BA%8C%E7%96%8F",
+      "revid": 1507122
+    },
+    {
+      "title": "本經續疏/第一卷",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E7%B6%93%E7%BA%8C%E7%96%8F/%E7%AC%AC%E4%B8%80%E5%8D%B7",
+      "revid": 1532870
+    },
+    {
+      "title": "本經續疏/第二卷",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E7%B6%93%E7%BA%8C%E7%96%8F/%E7%AC%AC%E4%BA%8C%E5%8D%B7",
+      "revid": 1532875
+    },
+    {
+      "title": "本經續疏/第三卷",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E7%B6%93%E7%BA%8C%E7%96%8F/%E7%AC%AC%E4%B8%89%E5%8D%B7",
+      "revid": 1532874
+    },
+    {
+      "title": "本經續疏/第四卷",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E7%B6%93%E7%BA%8C%E7%96%8F/%E7%AC%AC%E5%9B%9B%E5%8D%B7",
+      "revid": 1532873
+    },
+    {
+      "title": "本經續疏/第五卷",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E7%B6%93%E7%BA%8C%E7%96%8F/%E7%AC%AC%E4%BA%94%E5%8D%B7",
+      "revid": 1523400
+    },
+    {
+      "title": "本經續疏/第六卷",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E7%B6%93%E7%BA%8C%E7%96%8F/%E7%AC%AC%E5%85%AD%E5%8D%B7",
+      "revid": 1513307
+    }
+  ],
+  "chars": 100094,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 597,
+      "headings": [
+        "序"
+      ]
+    },
+    {
+      "slug": "02-di-yi-juan",
+      "title": "第一卷",
+      "chars": 17132,
+      "headings": [
+        "石鍾乳",
+        "黃精",
+        "菖蒲",
+        "菟絲子",
+        "䒜𧀬",
+        "茺蔚子",
+        "車前子",
+        "木香",
+        "遠志",
+        "龍膽",
+        "石斛",
+        "巴𦺩天",
+        "赤箭",
+        "卷柏",
+        "藍實",
+        "絡石",
+        "蒺藜子",
+        "肉蓯蓉"
+      ]
+    },
+    {
+      "slug": "03-di-er-juan",
+      "title": "第二卷",
+      "chars": 16754,
+      "headings": []
+    },
+    {
+      "slug": "04-di-san-juan",
+      "title": "第三卷",
+      "chars": 14333,
+      "headings": []
+    },
+    {
+      "slug": "05-di-si-juan",
+      "title": "第四卷",
+      "chars": 21109,
+      "headings": []
+    },
+    {
+      "slug": "06-di-wu-juan",
+      "title": "第五卷",
+      "chars": 18733,
+      "headings": []
+    },
+    {
+      "slug": "07-di-liu-juan",
+      "title": "第六卷",
+      "chars": 11436,
+      "headings": []
+    }
+  ]
+}

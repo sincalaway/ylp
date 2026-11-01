@@ -1,0 +1,36 @@
+{
+  "title": "疫疹一得",
+  "author": "余霖",
+  "dynasty": "清",
+  "category": "温病类",
+  "summary": "余霖论疫疹的病因、辨证与治法，创清瘟败毒饮，为温疫学重要专著。",
+  "coverLabel": "疫疹一得",
+  "featured": false,
+  "wikisource": "疫疹一得",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "疫疹一得",
+      "url": "https://zh.wikisource.org/wiki/%E7%96%AB%E7%96%B9%E4%B8%80%E5%BE%97",
+      "revid": 2490893
+    }
+  ],
+  "chars": 28257,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 28257,
+      "headings": [
+        "序",
+        "序",
+        "序",
+        "序",
+        "自序",
+        "卷上",
+        "卷下",
+        "附：验案"
+      ]
+    }
+  ]
+}

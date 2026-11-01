@@ -1,0 +1,31 @@
+{
+  "title": "难经经释",
+  "author": "徐大椿",
+  "dynasty": "清",
+  "category": "医经类",
+  "summary": "徐大椿以《内经》之理诠释《难经》八十一难，辨其与经旨之异同，见解精当。",
+  "coverLabel": "难经经释",
+  "featured": false,
+  "wikisource": "難經經釋",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "難經經釋",
+      "url": "https://zh.wikisource.org/wiki/%E9%9B%A3%E7%B6%93%E7%B6%93%E9%87%8B",
+      "revid": 1753330
+    }
+  ],
+  "chars": 37226,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 37226,
+      "headings": [
+        "叙",
+        "卷上",
+        "卷下"
+      ]
+    }
+  ]
+}

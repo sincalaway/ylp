@@ -1,0 +1,106 @@
+{
+  "title": "针灸逢源",
+  "author": "李学川",
+  "dynasty": "清",
+  "category": "针灸类",
+  "summary": "李学川汇辑《内经》针灸经文、历代歌赋与经穴考证，并列证治。",
+  "coverLabel": "针灸逢源",
+  "featured": false,
+  "wikisource": "鍼灸逢源",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "鍼灸逢源",
+      "url": "https://zh.wikisource.org/wiki/%E9%8D%BC%E7%81%B8%E9%80%A2%E6%BA%90",
+      "revid": 1315857
+    }
+  ],
+  "chars": 198656,
+  "chapters": [
+    {
+      "slug": "01-xu",
+      "title": "序",
+      "chars": 670,
+      "headings": [
+        "针灸逢源",
+        "序"
+      ]
+    },
+    {
+      "slug": "02-xu-ke-ling-su-xu",
+      "title": "续刻灵素序",
+      "chars": 328,
+      "headings": []
+    },
+    {
+      "slug": "03-fan-li",
+      "title": "凡例",
+      "chars": 425,
+      "headings": []
+    },
+    {
+      "slug": "04-juan-yi",
+      "title": "卷一",
+      "chars": 41593,
+      "headings": [
+        "灵枢经文"
+      ]
+    },
+    {
+      "slug": "05-xu-ke",
+      "title": "续刻",
+      "chars": 4287,
+      "headings": [
+        "灵枢经文(补遗)"
+      ]
+    },
+    {
+      "slug": "06-juan-er",
+      "title": "卷二",
+      "chars": 30168,
+      "headings": [
+        "素问经文"
+      ]
+    },
+    {
+      "slug": "07-xu-ke-er",
+      "title": "续刻（二）",
+      "chars": 14477,
+      "headings": [
+        "续刻"
+      ]
+    },
+    {
+      "slug": "08-juan-san",
+      "title": "卷三",
+      "chars": 30787,
+      "headings": [
+        "群书汇粹"
+      ]
+    },
+    {
+      "slug": "09-juan-si",
+      "title": "卷四",
+      "chars": 29278,
+      "headings": [
+        "经穴考正"
+      ]
+    },
+    {
+      "slug": "10-juan-wu",
+      "title": "卷五",
+      "chars": 23715,
+      "headings": [
+        "证治参详"
+      ]
+    },
+    {
+      "slug": "11-juan-liu",
+      "title": "卷六",
+      "chars": 22928,
+      "headings": [
+        "论治补遗"
+      ]
+    }
+  ]
+}

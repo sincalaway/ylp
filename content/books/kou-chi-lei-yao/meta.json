@@ -1,0 +1,41 @@
+{
+  "title": "口齿类要",
+  "author": "薛己",
+  "dynasty": "明",
+  "category": "临证各科类",
+  "summary": "薛己论口舌、齿、唇、喉诸病的证治，附验案与方剂。",
+  "coverLabel": "口齿类要",
+  "featured": false,
+  "wikisource": "口齒類要",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "口齒類要",
+      "url": "https://zh.wikisource.org/wiki/%E5%8F%A3%E9%BD%92%E9%A1%9E%E8%A6%81",
+      "revid": 2186459
+    }
+  ],
+  "chars": 13659,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 13659,
+      "headings": [
+        "繭唇一",
+        "口瘡二",
+        "齒痛三",
+        "舌症四",
+        "喉痹諸症五",
+        "喉痛六",
+        "諸骨稻穀發鯁七",
+        "治諸鯁咒法八",
+        "誤吞水蛭九",
+        "諸蟲入耳十",
+        "蛇入七竅及蟲咬傷十一",
+        "男女體氣十二",
+        "附方並註"
+      ]
+    }
+  ]
+}

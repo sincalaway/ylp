@@ -1,0 +1,31 @@
+{
+  "title": "重楼玉钥",
+  "author": "郑梅涧",
+  "dynasty": "清",
+  "category": "临证各科类",
+  "summary": "郑梅涧论咽喉口齿诸病与针灸治法，首创养阴清肺汤治白喉。",
+  "coverLabel": "重楼玉钥",
+  "featured": false,
+  "wikisource": "重樓玉鑰",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "重樓玉鑰",
+      "url": "https://zh.wikisource.org/wiki/%E9%87%8D%E6%A8%93%E7%8E%89%E9%91%B0",
+      "revid": 2490642
+    }
+  ],
+  "chars": 32955,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 32955,
+      "headings": [
+        "原叙",
+        "卷上",
+        "卷下"
+      ]
+    }
+  ]
+}

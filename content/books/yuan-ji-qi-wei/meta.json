@@ -1,0 +1,33 @@
+{
+  "title": "原机启微",
+  "author": "倪维德",
+  "dynasty": "元",
+  "category": "临证各科类",
+  "summary": "倪维德论眼病的病因与治法，分十八类，附方剂。",
+  "coverLabel": "原机启微",
+  "featured": false,
+  "wikisource": "原機啟微",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "原機啟微",
+      "url": "https://zh.wikisource.org/wiki/%E5%8E%9F%E6%A9%9F%E5%95%9F%E5%BE%AE",
+      "revid": 2490891
+    }
+  ],
+  "chars": 37359,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 37359,
+      "headings": [
+        "序",
+        "卷之上",
+        "卷之下",
+        "附录",
+        "附方"
+      ]
+    }
+  ]
+}

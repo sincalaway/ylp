@@ -1,0 +1,31 @@
+{
+  "title": "温热逢源",
+  "author": "柳宝诒",
+  "dynasty": "清",
+  "category": "温病类",
+  "summary": "柳宝诒详论伏气温病，辨析《内经》《伤寒论》有关温病条文及诸家学说。",
+  "coverLabel": "温热逢源",
+  "featured": false,
+  "wikisource": "溫熱逢源",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "溫熱逢源",
+      "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E7%86%B1%E9%80%A2%E6%BA%90",
+      "revid": 2186709
+    }
+  ],
+  "chars": 44284,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 44284,
+      "headings": [
+        "卷上",
+        "卷中",
+        "卷下"
+      ]
+    }
+  ]
+}

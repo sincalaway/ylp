@@ -1,0 +1,70 @@
+{
+  "title": "孙文垣医案",
+  "author": "孙一奎",
+  "dynasty": "明",
+  "category": "医案类",
+  "summary": "孙一奎在三吴、新都、宜兴等地的临证医案，凡五卷。",
+  "coverLabel": "孙文垣医案",
+  "featured": false,
+  "wikisource": "孫文垣醫案",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "孫文垣醫案",
+      "url": "https://zh.wikisource.org/wiki/%E5%AD%AB%E6%96%87%E5%9E%A3%E9%86%AB%E6%A1%88",
+      "revid": 2183350
+    },
+    {
+      "title": "孫文垣醫案/三吴治验",
+      "url": "https://zh.wikisource.org/wiki/%E5%AD%AB%E6%96%87%E5%9E%A3%E9%86%AB%E6%A1%88/%E4%B8%89%E5%90%B4%E6%B2%BB%E9%AA%8C",
+      "revid": 2183347
+    },
+    {
+      "title": "孫文垣醫案/新都治验",
+      "url": "https://zh.wikisource.org/wiki/%E5%AD%AB%E6%96%87%E5%9E%A3%E9%86%AB%E6%A1%88/%E6%96%B0%E9%83%BD%E6%B2%BB%E9%AA%8C",
+      "revid": 2490917
+    },
+    {
+      "title": "孫文垣醫案/宜兴治验",
+      "url": "https://zh.wikisource.org/wiki/%E5%AD%AB%E6%96%87%E5%9E%A3%E9%86%AB%E6%A1%88/%E5%AE%9C%E5%85%B4%E6%B2%BB%E9%AA%8C",
+      "revid": 2183349
+    }
+  ],
+  "chars": 128317,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 1026,
+      "headings": [
+        "孙序"
+      ]
+    },
+    {
+      "slug": "02-juan-yi",
+      "title": "卷一",
+      "chars": 51076,
+      "headings": [
+        "卷一\\三吴治验",
+        "卷二\\三吴治验"
+      ]
+    },
+    {
+      "slug": "03-juan-san",
+      "title": "卷三",
+      "chars": 61991,
+      "headings": [
+        "卷三\\新都治验",
+        "卷四\\新都治验"
+      ]
+    },
+    {
+      "slug": "04-juan-wu",
+      "title": "卷五",
+      "chars": 14224,
+      "headings": [
+        "卷五\\宜兴治验"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "title": "成方切用",
+  "author": "吴仪洛",
+  "dynasty": "清",
+  "category": "方书类",
+  "summary": "吴仪洛选录古今成方一千余首，分二十四门，阐述方义与加减运用。",
+  "coverLabel": "成方切用",
+  "featured": false,
+  "wikisource": "成方切用",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "成方切用",
+      "url": "https://zh.wikisource.org/wiki/%E6%88%90%E6%96%B9%E5%88%87%E7%94%A8",
+      "revid": 1315633
+    }
+  ],
+  "chars": 153860,
+  "chapters": [
+    {
+      "slug": "01-xu",
+      "title": "序",
+      "chars": 730,
+      "headings": [
+        "成方切用",
+        "序"
+      ]
+    },
+    {
+      "slug": "02-fan-li",
+      "title": "凡例",
+      "chars": 757,
+      "headings": []
+    },
+    {
+      "slug": "03-juan-shou",
+      "title": "卷首",
+      "chars": 18163,
+      "headings": [
+        "方制总义",
+        "方制总义"
+      ]
+    },
+    {
+      "slug": "04-juan-yi-shang",
+      "title": "卷一上",
+      "chars": 5082,
+      "headings": [
+        "治气门"
+      ]
+    },
+    {
+      "slug": "05-juan-yi-xia",
+      "title": "卷一下",
+      "chars": 7700,
+      "headings": [
+        "理血门"
+      ]
+    },
+    {
+      "slug": "06-juan-er-shang",
+      "title": "卷二上",
+      "chars": 10428,
+      "headings": [
+        "补养门"
+      ]
+    },
+    {
+      "slug": "07-juan-er-xia",
+      "title": "卷二下",
+      "chars": 2809,
+      "headings": [
+        "涩固门"
+      ]
+    },
+    {
+      "slug": "08-juan-san-shang",
+      "title": "卷三上",
+      "chars": 7526,
+      "headings": [
+        "表散门"
+      ]
+    },
+    {
+      "slug": "09-juan-san-xia",
+      "title": "卷三下",
+      "chars": 2471,
+      "headings": [
+        "涌吐门",
+        "涌吐门"
+      ]
+    },
+    {
+      "slug": "10-juan-si-shang",
+      "title": "卷四上",
+      "chars": 5841,
+      "headings": [
+        "攻下门",
+        "攻下门"
+      ]
+    },
+    {
+      "slug": "11-juan-si-xia",
+      "title": "卷四下",
+      "chars": 3264,
+      "headings": [
+        "消导门",
+        "消导门"
+      ]
+    },
+    {
+      "slug": "12-juan-wu-shang",
+      "title": "卷五上",
+      "chars": 7753,
+      "headings": [
+        "和解门",
+        "和解门"
+      ]
+    },
+    {
+      "slug": "13-juan-wu-xia",
+      "title": "卷五下",
+      "chars": 3029,
+      "headings": [
+        "表里门",
+        "表里门"
+      ]
+    },
+    {
+      "slug": "14-juan-liu-shang",
+      "title": "卷六上",
+      "chars": 10460,
+      "headings": [
+        "祛风门",
+        "祛风门"
+      ]
+    },
+    {
+      "slug": "15-juan-liu-xia",
+      "title": "卷六下",
+      "chars": 10572,
+      "headings": [
+        "祛寒门",
+        "祛寒门"
+      ]
+    },
+    {
+      "slug": "16-juan-qi-shang",
+      "title": "卷七上",
+      "chars": 3201,
+      "headings": [
+        "消暑门",
+        "消暑门"
+      ]
+    },
+    {
+      "slug": "17-juan-qi-xia",
+      "title": "卷七下",
+      "chars": 6772,
+      "headings": [
+        "燥湿门",
+        "燥湿门"
+      ]
+    },
+    {
+      "slug": "18-juan-ba-shang",
+      "title": "卷八上",
+      "chars": 5062,
+      "headings": [
+        "润燥门",
+        "润燥门"
+      ]
+    },
+    {
+      "slug": "19-juan-ba-xia",
+      "title": "卷八下",
+      "chars": 11715,
+      "headings": [
+        "泻火门",
+        "泻火门"
+      ]
+    },
+    {
+      "slug": "20-juan-jiu-shang",
+      "title": "卷九上",
+      "chars": 5742,
+      "headings": [
+        "除痰门",
+        "除痰门"
+      ]
+    },
+    {
+      "slug": "21-juan-jiu-xia",
+      "title": "卷九下",
+      "chars": 1214,
+      "headings": [
+        "杀虫门",
+        "杀虫门"
+      ]
+    },
+    {
+      "slug": "22-juan-shi-shang",
+      "title": "卷十上",
+      "chars": 3486,
+      "headings": [
+        "经带门",
+        "经带门"
+      ]
+    },
+    {
+      "slug": "23-juan-shi-xia",
+      "title": "卷十下",
+      "chars": 5042,
+      "headings": [
+        "胎产门",
+        "胎产门"
+      ]
+    },
+    {
+      "slug": "24-juan-shi-yi-shang",
+      "title": "卷十一上",
+      "chars": 5789,
+      "headings": [
+        "婴孩门",
+        "婴孩门"
+      ]
+    },
+    {
+      "slug": "25-juan-shi-yi-xia",
+      "title": "卷十一下",
+      "chars": 3375,
+      "headings": [
+        "痈疡门",
+        "痈疡门"
+      ]
+    },
+    {
+      "slug": "26-juan-shi-er-shang",
+      "title": "卷十二上",
+      "chars": 2884,
+      "headings": [
+        "眼目门",
+        "眼目门"
+      ]
+    },
+    {
+      "slug": "27-juan-shi-er-xia",
+      "title": "卷十二下",
+      "chars": 2993,
+      "headings": [
+        "救急门",
+        "救急门"
+      ]
+    }
+  ]
+}

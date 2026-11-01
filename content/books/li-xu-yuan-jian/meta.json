@@ -1,0 +1,36 @@
+{
+  "title": "理虚元鉴",
+  "author": "汪绮石",
+  "dynasty": "明",
+  "category": "临证各科类",
+  "summary": "汪绮石专论虚劳，提出治虚三本（肺、脾、肾）与知防等说。",
+  "coverLabel": "理虚元鉴",
+  "featured": false,
+  "wikisource": "理虛元鑒",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "理虛元鑒",
+      "url": "https://zh.wikisource.org/wiki/%E7%90%86%E8%99%9B%E5%85%83%E9%91%92",
+      "revid": 2187323
+    }
+  ],
+  "chars": 18275,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 18275,
+      "headings": [
+        "陈序",
+        "华序",
+        "柯序",
+        "原序",
+        "卷上",
+        "卷下",
+        "柯跋",
+        "陈跋"
+      ]
+    }
+  ]
+}

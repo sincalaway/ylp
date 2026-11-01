@@ -1,0 +1,65 @@
+{
+  "title": "种福堂公选良方",
+  "author": "叶桂 原著，华岫云 编",
+  "dynasty": "清",
+  "category": "方书类",
+  "summary": "华岫云辑叶天士温热论、医案及公选良方而成，以方剂为主。",
+  "coverLabel": "种福堂方",
+  "featured": false,
+  "wikisource": "種福堂公選良方",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "種福堂公選良方",
+      "url": "https://zh.wikisource.org/wiki/%E7%A8%AE%E7%A6%8F%E5%A0%82%E5%85%AC%E9%81%B8%E8%89%AF%E6%96%B9",
+      "revid": 1315909
+    }
+  ],
+  "chars": 58918,
+  "chapters": [
+    {
+      "slug": "01-juan-yi",
+      "title": "卷一",
+      "chars": 14274,
+      "headings": [
+        "种福堂公选良方",
+        "序",
+        "卷一"
+      ]
+    },
+    {
+      "slug": "02-juan-er-gong-xuan-liang-fang",
+      "title": "卷二·公选良方",
+      "chars": 13744,
+      "headings": [
+        "内外科"
+      ]
+    },
+    {
+      "slug": "03-juan-san",
+      "title": "卷三",
+      "chars": 14226,
+      "headings": [
+        "·公选良方"
+      ]
+    },
+    {
+      "slug": "04-juan-si",
+      "title": "卷四",
+      "chars": 8226,
+      "headings": [
+        "·公选良方"
+      ]
+    },
+    {
+      "slug": "05-juan-si-gong-xuan-liang-fang",
+      "title": "卷四·公选良方",
+      "chars": 8448,
+      "headings": [
+        "儿科",
+        "妇科",
+        "附录"
+      ]
+    }
+  ]
+}

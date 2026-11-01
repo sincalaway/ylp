@@ -1,0 +1,42 @@
+{
+  "title": "褚氏遗书",
+  "author": "褚澄",
+  "dynasty": "南齐",
+  "category": "医论类",
+  "summary": "旧题南齐褚澄撰，论受形、本气、平脉、津润、分体、精血等十篇。",
+  "coverLabel": "褚氏遗书",
+  "featured": false,
+  "wikisource": "褚氏遺書",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "褚氏遺書",
+      "url": "https://zh.wikisource.org/wiki/%E8%A4%9A%E6%B0%8F%E9%81%BA%E6%9B%B8",
+      "revid": 2113680
+    }
+  ],
+  "chars": 5149,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 5149,
+      "headings": [
+        "序",
+        "受形",
+        "本氣",
+        "平脈",
+        "津潤",
+        "分體",
+        "精血",
+        "除疾",
+        "審微",
+        "辯書",
+        "問子",
+        "跋",
+        "後序",
+        "跋褚氏遺書後"
+      ]
+    }
+  ]
+}

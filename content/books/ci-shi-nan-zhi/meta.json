@@ -1,0 +1,59 @@
+{
+  "title": "此事难知",
+  "author": "王好古",
+  "dynasty": "元",
+  "category": "医论类",
+  "summary": "王好古辑述其师李杲的医论，尤详于伤寒六经证治。",
+  "coverLabel": "此事难知",
+  "featured": false,
+  "wikisource": "此事難知",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "此事難知/原序",
+      "url": "https://zh.wikisource.org/wiki/%E6%AD%A4%E4%BA%8B%E9%9B%A3%E7%9F%A5/%E5%8E%9F%E5%BA%8F",
+      "revid": 1741948
+    },
+    {
+      "title": "此事難知/卷一",
+      "url": "https://zh.wikisource.org/wiki/%E6%AD%A4%E4%BA%8B%E9%9B%A3%E7%9F%A5/%E5%8D%B7%E4%B8%80",
+      "revid": 2187063
+    },
+    {
+      "title": "此事難知/卷二",
+      "url": "https://zh.wikisource.org/wiki/%E6%AD%A4%E4%BA%8B%E9%9B%A3%E7%9F%A5/%E5%8D%B7%E4%BA%8C",
+      "revid": 2187064
+    }
+  ],
+  "chars": 31621,
+  "chapters": [
+    {
+      "slug": "01-yuan-xu",
+      "title": "原序",
+      "chars": 236,
+      "headings": []
+    },
+    {
+      "slug": "02-juan-yi",
+      "title": "卷一",
+      "chars": 16336,
+      "headings": [
+        "醫之可法",
+        "經脈終始",
+        "日用",
+        "人肖天地",
+        "傷寒之源",
+        "氣血之體",
+        "太陽六傳"
+      ]
+    },
+    {
+      "slug": "03-juan-er",
+      "title": "卷二",
+      "chars": 15049,
+      "headings": [
+        "前後虛實圖"
+      ]
+    }
+  ]
+}

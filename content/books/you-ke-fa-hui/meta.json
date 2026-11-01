@@ -1,0 +1,99 @@
+{
+  "title": "幼科发挥",
+  "author": "万全",
+  "dynasty": "明",
+  "category": "临证各科类",
+  "summary": "万全以五脏为纲论述小儿病证，重视调理脾胃，附验案。",
+  "coverLabel": "幼科发挥",
+  "featured": false,
+  "wikisource": "幼科發揮",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "幼科發揮",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BC%E7%A7%91%E7%99%BC%E6%8F%AE",
+      "revid": 2490915
+    }
+  ],
+  "chars": 63999,
+  "chapters": [
+    {
+      "slug": "01-xu-wan-shi-you-ke-yuan",
+      "title": "叙万氏幼科源流",
+      "chars": 438,
+      "headings": []
+    },
+    {
+      "slug": "02-xu",
+      "title": "序",
+      "chars": 436,
+      "headings": []
+    },
+    {
+      "slug": "03-juan-zhi-yi",
+      "title": "卷之一",
+      "chars": 14021,
+      "headings": [
+        "形气发微论",
+        "原病论",
+        "入门审候歌",
+        "小儿正诀指南赋",
+        "胎疾",
+        "脐风",
+        "变蒸",
+        "变蒸兼证",
+        "幼疾",
+        "五脏诸证",
+        "肝经主病",
+        "肝经兼证",
+        "肝所生病",
+        "急慢惊风",
+        "急惊风有三因"
+      ]
+    },
+    {
+      "slug": "04-juan-zhi-er",
+      "title": "卷之二",
+      "chars": 14784,
+      "headings": [
+        "急惊风证",
+        "急惊风变证",
+        "慢惊有三因",
+        "惊风后余证",
+        "心经主病",
+        "心经兼证",
+        "心所生病"
+      ]
+    },
+    {
+      "slug": "05-juan-zhi-san",
+      "title": "卷之三",
+      "chars": 16931,
+      "headings": [
+        "脾经主病",
+        "脾经兼证",
+        "脾所生病"
+      ]
+    },
+    {
+      "slug": "06-juan-zhi-si",
+      "title": "卷之四",
+      "chars": 17389,
+      "headings": [
+        "疟",
+        "疳",
+        "疸",
+        "调理脾胃",
+        "肺脏主病",
+        "肺脏兼证",
+        "肺所生病",
+        "肾脏主病",
+        "肾脏兼证",
+        "肾所生病",
+        "五脏虚实补泻之法",
+        "因五邪之气所生病",
+        "附∶汤方"
+      ]
+    }
+  ]
+}

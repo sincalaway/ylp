@@ -1,0 +1,33 @@
+{
+  "title": "温热暑疫全书",
+  "author": "周扬俊",
+  "dynasty": "清",
+  "category": "温病类",
+  "summary": "周扬俊分温病、热病、暑病、疫病四卷，辑录诸家论述并加阐发。",
+  "coverLabel": "温热暑疫",
+  "featured": false,
+  "wikisource": "溫熱暑疫全書",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "溫熱暑疫全書",
+      "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E7%86%B1%E6%9A%91%E7%96%AB%E5%85%A8%E6%9B%B8",
+      "revid": 2490868
+    }
+  ],
+  "chars": 48176,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 48176,
+      "headings": [
+        "自序",
+        "卷一·溫病方論",
+        "卷二·熱病方論",
+        "卷三·暑病方論",
+        "卷四·疫病方論"
+      ]
+    }
+  ]
+}

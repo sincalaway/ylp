@@ -17,6 +17,12 @@ All texts are {{PD-old}} on Wikisource. Body text keeps the characters as they a
 removed, links unwrapped, ctext-style <目录>/<篇名> dumps turned into headings, and hard-wrapped
 transcription lines joined back into paragraphs.
 
+四庫全書本 pages ({{SKQS header}}): each source line stays its own paragraph (unpunctuated text is never joined),
+{{SK notes|…}} becomes an inline （…） note (a bare 臣 stays plain), {{SK anchor|X}} becomes a heading (its closing
+repeat is dropped), {{SKchar|n}}/{{SKchar2|n}} map through scripts/skchar.json / skchar2.json (copied from
+Wikisource's Module:SKchar / Module:SKchar2; □ when the module has no character), {{YL|…}} keeps its first
+argument, <子部,醫家類,…> and bare 欽定四庫全書 lines are removed, and /全覽 read-all subpages are skipped.
+
 Manifest book fields:
     slug, page (main Wikisource page), meta {title, author, dynasty, category, summary, coverLabel, featured}
     items      optional explicit list: "Page", "Page#Section" or {"page":..., "section":..., "title":...}
@@ -24,6 +30,7 @@ Manifest book fields:
     filter     optional regex a linked subpage title must match
     exclude    optional regex of subpage titles to skip
     split      optional chars threshold above which a page is split at its top-level headings
+    mainTitle  chapter title for the main page's own text (default 全文; 四庫全書本 books use 提要)
 """
 import hashlib, html, json, os, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request
 from pathlib import Path
@@ -152,12 +159,46 @@ def expand_templates(s, transclude=None, _depth=0):
         i = k if depth == 0 else len(s)
     return ''.join(out)
 
+_SKCHAR = None
+
+def skchar(code, table='skchar.json'):
+    """四庫全書 {{SKchar|n}} / {{SKchar2|n}}: the character from Wikisource's Module:SKchar(2) table
+    (scripts/skchar.json, skchar2.json); □ when the module has no displayable character for that code."""
+    global _SKCHAR
+    if _SKCHAR is None: _SKCHAR = {}
+    if table not in _SKCHAR:
+        f = Path(__file__).resolve().parent / table
+        _SKCHAR[table] = json.loads(f.read_text(encoding='utf-8')) if f.exists() else {}
+    return _SKCHAR[table].get(str(code).strip()) or '□'
+
+SKA = '\x01SKA '  # marks an {{SK anchor}} line until to_lines turns it into a heading
+DROPPED = {}  # template name -> count of dropped templates that carried CJK text (import diagnostics)
+
 def _template(inner, transclude, depth):
     args = _split_args(inner)
     name = args[0].strip()
     rest = [expand_templates(a, transclude, depth) for a in args[1:]]
     pos = [p.strip() for p in _positional(rest)]
     low = name.lower()
+    # 四庫全書 (SKQS) editions
+    if name == 'SK notes':
+        t = '，'.join(p for p in pos if p)
+        if not t: return ''
+        return t if t == '臣' else f'（{t}）'
+    if name == 'SK anchor':
+        return f'\n{SKA}{pos[0]}\n' if pos and pos[0] else ''
+    if name in ('SKchar', 'SKchar2'):
+        return skchar(pos[0] if pos else '', 'skchar.json' if name == 'SKchar' else 'skchar2.json')
+    if low in ('year link',):
+        return pos[0] if pos else ''
+    if low in ('quote', 'cbox'):  # block quotation / boxed sub-title: keep the text as its own paragraph
+        return '\n' + pos[0] + '\n' if pos and pos[0] else ''
+    if name in ('+', 'Sub', 'DL'):
+        return '　'.join(p for p in pos if p)
+    if name in ('參', '++', 'zh-em'):  # 參: text|editorial gloss; ++: larger type; zh-em: emphasis dots
+        return pos[0] if pos else ''
+    if name == '批':  # marginal comment
+        return f'（{pos[0]}）' if pos and pos[0] else ''
     if name.startswith(':') and transclude and depth < 2:
         return '\n' + expand_templates(strip_header(transclude(name[1:].strip())), transclude, depth + 1) + '\n'
     if name in ANNOT or low in ANNOT:
@@ -169,6 +210,8 @@ def _template(inner, transclude, depth):
     if name == '?': return '□'
     if low in FIRST_ARG or name in FIRST_ARG:
         return pos[0] if pos else ''
+    if any(re.search(r'[\u3400-\u9fff]', p) for p in pos):
+        DROPPED[name] = DROPPED.get(name, 0) + 1
     return ''
 
 def strip_header(text):
@@ -226,6 +269,7 @@ def heading_text(t):
 
 def to_lines(wikitext, transclude=None, main_book=None, label_re=None):
     """Return a list of markdown lines (headings as '## x', paragraphs as raw lines)."""
+    siku = is_siku(wikitext)
     text = strip_header(wikitext)
     if main_book:
         # main page: drop table-of-contents lines that link to the book's own subpages
@@ -237,6 +281,8 @@ def to_lines(wikitext, transclude=None, main_book=None, label_re=None):
         text = '\n'.join(keep)
     text = clean(text, transclude)
     raw = [l.rstrip() for l in text.split('\n')]
+    if siku:
+        return siku_lines(raw)
     # ctext/zysj dump without tags: a short label line repeated before every entry
     counts = {}
     for l in raw:
@@ -296,6 +342,45 @@ def to_lines(wikitext, transclude=None, main_book=None, label_re=None):
         line = re.sub(r'^([>+\-|])', r'\\\1', line)
         lines.append(line)
     return join_lines(lines)
+
+def is_siku(wikitext):
+    return bool(re.search(r'\{\{\s*(?:SKQS header|SK anchor)', wikitext or ''))
+
+SIKU_DROP = re.compile(r'^(?:<子部[,，][^>]*>|欽定四庫全書(?:\s+子部[一二三四五六七八九十]+)?|\S{1,20}\s{2,}醫家類)$')
+
+def siku_lines(raw):
+    """四庫全書本 pages: one unpunctuated paragraph per source line (never joined), {{SK anchor}} lines
+    become headings, the closing repeat of the first anchor and the 欽定四庫全書 / <子部,醫家類,…> lines are
+    dropped."""
+    def norm(x): return re.sub(r'\s', '', x).replace('巻', '卷').replace('衞', '衛')
+    out, first, book = [], None, None
+    for raw_line in raw:
+        line = raw_line.strip()
+        if not line or re.fullmatch(r'[{}|]+', line): continue
+        if SIKU_DROP.match(line):
+            m = re.match(r'^(\S{1,20})\s{2,}醫家類$', line)
+            if m and not book: book = m.group(1)
+            continue
+        if line.startswith(SKA.strip()):
+            title = heading_text(line[len(SKA.strip()):].strip())
+            if not title: continue
+            if first is None: first = title
+            elif norm(title) == norm(first): continue
+            out += ['', '## ' + title, '']
+            continue
+        line = line.replace('\\', '\\\\')
+        line = re.sub(r'^(\d+)\.', r'\1\\.', line)
+        line = re.sub(r'^([>+\-|*#])', r'\\\1', line)
+        out += ['', line]
+    # a bare closing title line (e.g. 「傷寒論注釋卷二」 or the book title) at the end of the page
+    ends = {norm(x) for x in (first, book) if x}
+    while out and out[-1] and not out[-1].startswith('#') and (norm(out[-1]) in ends or (
+            book and norm(out[-1]).startswith(norm(book)) and len(norm(out[-1])) <= len(norm(book)) + 6
+            and re.search(r'[卷巻]', out[-1][len(book):]))):
+        out = out[:-1]
+        while out and not out[-1]: out = out[:-1]
+    md = re.sub(r'\n{3,}', '\n\n', '\n'.join(out)).strip()
+    return md
 
 def join_lines(lines):
     """Join hard-wrapped transcription lines back into paragraphs.
@@ -448,7 +533,8 @@ def import_book(spec):
     if items is None:
         flt = re.compile(spec['filter']) if spec.get('filter') else None
         exc = re.compile(spec['exclude']) if spec.get('exclude') else None
-        subs = [l for l in links if (not flt or flt.search(l)) and not (exc and exc.search(l))]
+        subs = [l for l in links if (not flt or flt.search(l)) and not (exc and exc.search(l))
+                and not re.search(r'/全覽\d*$', l)]  # 四庫全書本 read-all pages duplicate the 卷 subpages
         items = [{'page': s} for s in subs]
         include_main = spec.get('main', 'auto')
         if include_main is True or include_main == 'auto':
@@ -529,7 +615,7 @@ def import_book(spec):
         'chars': total,
         'chapters': meta_chapters,
     })
-    (folder / 'meta.json').write_text(json.dumps(meta, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+    (folder / 'meta.json').write_text(json.dumps(meta, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f'wrote {slug}: {len(meta_chapters)} chapters, {total} chars')
     return meta
 

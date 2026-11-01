@@ -1,0 +1,140 @@
+{
+  "title": "医贯",
+  "author": "赵献可",
+  "dynasty": "明",
+  "category": "医论类",
+  "summary": "赵献可倡命门学说，以六味丸、八味丸为治病要方，为温补学派代表作。",
+  "coverLabel": "医贯",
+  "featured": false,
+  "wikisource": "醫貫",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "醫貫",
+      "url": "https://zh.wikisource.org/wiki/%E9%86%AB%E8%B2%AB",
+      "revid": 2187139
+    },
+    {
+      "title": "醫貫/卷一",
+      "url": "https://zh.wikisource.org/wiki/%E9%86%AB%E8%B2%AB/%E5%8D%B7%E4%B8%80",
+      "revid": 2095483
+    },
+    {
+      "title": "醫貫/卷二",
+      "url": "https://zh.wikisource.org/wiki/%E9%86%AB%E8%B2%AB/%E5%8D%B7%E4%BA%8C",
+      "revid": 2095484
+    },
+    {
+      "title": "醫貫/卷三",
+      "url": "https://zh.wikisource.org/wiki/%E9%86%AB%E8%B2%AB/%E5%8D%B7%E4%B8%89",
+      "revid": 2187140
+    },
+    {
+      "title": "醫貫/卷四",
+      "url": "https://zh.wikisource.org/wiki/%E9%86%AB%E8%B2%AB/%E5%8D%B7%E5%9B%9B",
+      "revid": 2187141
+    },
+    {
+      "title": "醫貫/卷五",
+      "url": "https://zh.wikisource.org/wiki/%E9%86%AB%E8%B2%AB/%E5%8D%B7%E4%BA%94",
+      "revid": 2187142
+    },
+    {
+      "title": "醫貫/卷六",
+      "url": "https://zh.wikisource.org/wiki/%E9%86%AB%E8%B2%AB/%E5%8D%B7%E5%85%AD",
+      "revid": 2490560
+    }
+  ],
+  "chars": 77378,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 864,
+      "headings": [
+        "医巫闾子医贯序"
+      ]
+    },
+    {
+      "slug": "02-juan-yi",
+      "title": "卷一",
+      "chars": 11073,
+      "headings": [
+        "内經十二官論",
+        "形景圖說",
+        "阴阳論",
+        "五行論"
+      ]
+    },
+    {
+      "slug": "03-juan-er",
+      "title": "卷二",
+      "chars": 12468,
+      "headings": [
+        "中风論",
+        "論口眼喎斜",
+        "厥",
+        "傷寒論",
+        "溫病論",
+        "論阳毒阴毒",
+        "郁病論"
+      ]
+    },
+    {
+      "slug": "04-juan-san",
+      "title": "卷三",
+      "chars": 9321,
+      "headings": [
+        "血症論"
+      ]
+    },
+    {
+      "slug": "05-juan-si",
+      "title": "卷四",
+      "chars": 13133,
+      "headings": [
+        "八味丸方",
+        "水火論",
+        "滋降火論",
+        "相火龍雷論",
+        "陰虛發熱論",
+        "痰論",
+        "咳嗽論",
+        "吐血論",
+        "喘論",
+        "喉咽痛論",
+        "眼目論"
+      ]
+    },
+    {
+      "slug": "06-juan-wu",
+      "title": "卷五",
+      "chars": 13946,
+      "headings": [
+        "齿论",
+        "口疮论",
+        "耳论",
+        "耳疮论",
+        "消渴论",
+        "气虚中满论",
+        "噎膈论",
+        "泻利并大便不通论",
+        "小便不通并不禁论",
+        "梦遗并滑精论"
+      ]
+    },
+    {
+      "slug": "07-juan-liu",
+      "title": "卷六",
+      "chars": 16573,
+      "headings": [
+        "补中益气汤论",
+        "伤饮食论",
+        "中暑伤暑论",
+        "湿论",
+        "疟论",
+        "痢疾论"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "title": "三指禅",
+  "author": "周学霆",
+  "dynasty": "清",
+  "category": "诊法类",
+  "summary": "周学霆以缓脉为平脉之准，对举二十七种病脉，结合病证论脉理。",
+  "coverLabel": "三指禅",
+  "featured": false,
+  "wikisource": "三指禪",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "三指禪",
+      "url": "https://zh.wikisource.org/wiki/%E4%B8%89%E6%8C%87%E7%A6%AA",
+      "revid": 2588478
+    }
+  ],
+  "chars": 56155,
+  "chapters": [
+    {
+      "slug": "01-quan-wen",
+      "title": "全文",
+      "chars": 56155,
+      "headings": [
+        "凡例八則",
+        "卷一",
+        "卷二",
+        "卷三",
+        "賦"
+      ]
+    }
+  ]
+}

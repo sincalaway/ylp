@@ -1,0 +1,177 @@
+{
+  "title": "证治汇补",
+  "author": "李用粹",
+  "dynasty": "清",
+  "category": "临证各科类",
+  "summary": "李用粹汇集前人论述，按提纲、内因、外体、上窍、胸膈、腹胁、腰膝、下窍八门论述内科杂病证治。",
+  "coverLabel": "证治汇补",
+  "featured": false,
+  "wikisource": "證治匯補",
+  "license": "PD-old（公有领域）",
+  "sources": [
+    {
+      "title": "證治匯補",
+      "url": "https://zh.wikisource.org/wiki/%E8%AD%89%E6%B2%BB%E5%8C%AF%E8%A3%9C",
+      "revid": 2490597
+    }
+  ],
+  "chars": 178240,
+  "chapters": [
+    {
+      "slug": "01-xu-xu",
+      "title": "徐序",
+      "chars": 579,
+      "headings": []
+    },
+    {
+      "slug": "02-zi-xu",
+      "title": "自序",
+      "chars": 896,
+      "headings": []
+    },
+    {
+      "slug": "03-fan-li",
+      "title": "凡例",
+      "chars": 747,
+      "headings": []
+    },
+    {
+      "slug": "04-juan-zhi-yi-ti-gang-men",
+      "title": "卷之一\\提纲门",
+      "chars": 23717,
+      "headings": [
+        "中风",
+        "似中风",
+        "伤风",
+        "中寒",
+        "暑症",
+        "湿症",
+        "燥症",
+        "火症"
+      ]
+    },
+    {
+      "slug": "05-juan-zhi-er-nei-yin-men",
+      "title": "卷之二\\内因门",
+      "chars": 35811,
+      "headings": [
+        "气症",
+        "血症",
+        "痰症",
+        "饮症",
+        "伤食",
+        "伤酒",
+        "郁症",
+        "脾胃",
+        "劳倦",
+        "虚损",
+        "痨瘵",
+        "虫病"
+      ]
+    },
+    {
+      "slug": "06-juan-zhi-san-wai-ti-men",
+      "title": "卷之三\\外体门",
+      "chars": 27707,
+      "headings": [
+        "发热",
+        "恶寒",
+        "汗病",
+        "疟疾",
+        "斑疹",
+        "黄病",
+        "水肿",
+        "破伤风",
+        "疠风",
+        "痹症",
+        "痛风",
+        "麻木",
+        "病"
+      ]
+    },
+    {
+      "slug": "07-juan-zhi-si-shang-qiao-men",
+      "title": "卷之四\\上窍门",
+      "chars": 16346,
+      "headings": [
+        "眩晕",
+        "头痛",
+        "面病",
+        "头风",
+        "目疾",
+        "耳病",
+        "鼻病",
+        "口病",
+        "齿病",
+        "咽喉"
+      ]
+    },
+    {
+      "slug": "08-juan-zhi-wu-xiong-ge-men",
+      "title": "卷之五\\胸膈门",
+      "chars": 25636,
+      "headings": [
+        "咳嗽",
+        "喘病",
+        "哮病",
+        "吐血",
+        "呃逆",
+        "呕吐",
+        "痞满",
+        "噎膈",
+        "反胃",
+        "吞酸",
+        "嘈杂",
+        "恶心",
+        "消渴",
+        "癫狂",
+        "痫病",
+        "惊悸怔仲",
+        "健忘"
+      ]
+    },
+    {
+      "slug": "09-juan-zhi-liu-fu-xie-men",
+      "title": "卷之六\\腹胁门",
+      "chars": 15067,
+      "headings": [
+        "心痛",
+        "腹痛",
+        "霍乱",
+        "积聚",
+        "胀满",
+        "胁痛",
+        "腰痛"
+      ]
+    },
+    {
+      "slug": "10-juan-zhi-qi-yao-xi-men",
+      "title": "卷之七\\腰膝门",
+      "chars": 12966,
+      "headings": [
+        "痿",
+        "疝气",
+        "脚氣",
+        "厥症"
+      ]
+    },
+    {
+      "slug": "11-juan-zhi-ba-xia-qiao-men",
+      "title": "卷之八\\下窍门",
+      "chars": 18768,
+      "headings": [
+        "泄泻",
+        "痢疾",
+        "便血",
+        "溺血",
+        "便浊",
+        "遗精",
+        "癃闭",
+        "遗溺",
+        "淋病",
+        "秘结",
+        "脱肛"
+      ]
+    }
+  ]
+}
