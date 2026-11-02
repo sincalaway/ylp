@@ -138,6 +138,7 @@ export function getGangmuEntryHref(name: string): string | null {
 export type ChapterHit = { book: Book; chapter: BookChapter; heading?: string }
 // traditional -> simplified folding for search (content/books/_t2s.json is written by scripts/import-wikisource.py)
 let t2s: Record<string, string> | null = null
+export function foldQuery(text: string) { return fold(text.trim()) }
 function fold(text: string) {
   if (!t2s) { try { t2s = JSON.parse(fs.readFileSync(path.join(booksDir, '_t2s.json'), 'utf8')) as Record<string, string> } catch { t2s = {} } }
   const map = t2s; let out = ''

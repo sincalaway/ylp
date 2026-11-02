@@ -9,6 +9,7 @@
 - Next.js 16 App Router、React 19、TypeScript、Tailwind CSS
 - shadcn/ui 风格基础组件、lucide-react 图标、react-markdown / remark-gfm 阅读器、gray-matter YAML front matter
 - 首页、本草堂（分类/搜索/详情）、医典阁（书籍/Markdown 阅读/PDF 预览/本地进度）、岐黄论、文化志、关于我们、站内搜索及密码保护后台
+- 古籍正文全文检索：`pnpm build` 会先运行 `scripts/build-pagefind.mjs`，用 Pagefind 把 `content/books` 全部正文建成静态索引（`public/pagefind/<分片>/`，按书分片以控制内存，构建峰值约 1 GB），搜索页在浏览器端合并分片检索，无需服务器。单独重建索引：`pnpm index:search`。后台上传新书后需重新构建才会进入正文索引。
 - SEO 元数据、Open Graph 基本信息、JSON-LD、动态 sitemap 与 robots.txt
 
 ## 本地运行
