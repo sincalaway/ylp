@@ -130,6 +130,8 @@ docker compose up --build -d
 
 ## 云服务器部署（推荐）
 
+完整分步指南见 [`docs/DEPLOY.md`](docs/DEPLOY.md)。
+
 项目默认提供 Ubuntu 云服务器 + Docker Compose + Nginx 反向代理方案。请先将域名 A 记录指向服务器公网 IP，并在云平台安全组放行 TCP 80、443；不要将应用的 3000 端口直接暴露到公网，Compose 已将它绑定到本机回环地址。
 
 在 Ubuntu 22.04/24.04 服务器安装 Docker、Compose 插件和 Nginx 后，克隆项目并配置环境变量：
